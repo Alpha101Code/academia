@@ -13,7 +13,10 @@ window.A.registerChapters([
     blurb: "Log laws and single logarithms, change of base (including the reciprocal trick), solving log and exponential equations with validity checks, and the two exam graph families with their asymptotes. Outcomes 6.1–6.3."
   },
   { n: 7, title: "Straight-line graphs" },
-  { n: 8, title: "Coordinate geometry of the circle" },
+  {
+    n: 8, title: "Coordinate geometry of the circle",
+    blurb: "Both circle equation forms, line-circle intersection via the discriminant, tangents by the perpendicular radius (no calculus), building circles from conditions, and two-circle problems. New topic in this syllabus. Outcomes 8.1–8.4."
+  },
   { n: 9, title: "Circular measure" },
   { n: 10, title: "Trigonometry" },
   { n: 11, title: "Permutations and combinations" },

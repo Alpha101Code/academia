@@ -140,7 +140,10 @@ hosted app private (or strip verbatim questions) if it ever goes public.
     schemes (incl. the x=1/5 rejection in w25-p13 and both kept roots in w25-p12 q5b);
     8-section lesson; 2 new widgets (log/exp graph families with asymptotes, e↔ln inverse
     mirror); plot engine extended to ln/exp curves with domain breaks and vertical asymptotes.
-  - Next: chapter 8 (Coordinate geometry of the circle), then 9, 11, 12, 13.
+  - **Chapter 8 done (2026-08-30):** 6 questions / 36 marks (the new-to-syllabus circle topic
+    has fewer past questions; all four outcomes 8.1–8.4 covered incl. the two-circles common
+    chord question). 7-section lesson; circle-line discriminant widget; plot engine draws circles.
+  - Next: chapter 9 (Circular measure — diagram-heavy), then 11, 12, 13.
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 

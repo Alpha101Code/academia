@@ -104,6 +104,17 @@ window.A.plot = (function () {
 
     /* curves */
     (spec.curves || []).forEach((c, i) => {
+      const cls = "curve c" + (i % 4) + (c.dashed ? " dashed" : "") + (c.cls ? " " + c.cls : "");
+      if (c.circle) {                      // [cx, cy, r] — parametric
+        const [ccx, ccy, r] = c.circle;
+        let d = "";
+        for (let k = 0; k <= 120; k++) {
+          const t = 2 * Math.PI * k / 120;
+          d += (k ? "L" : "M") + sx(ccx + r * Math.cos(t)).toFixed(2) + "," + sy(ccy + r * Math.sin(t)).toFixed(2);
+        }
+        s += `<path class="${cls}" d="${d}Z" clip-path="url(#${id})"/>`;
+        return;
+      }
       const n = 420;
       let d = "", pen = false;
       for (let k = 0; k <= n; k++) {
@@ -113,7 +124,6 @@ window.A.plot = (function () {
         d += (pen ? "L" : "M") + sx(x).toFixed(2) + "," + sy(y).toFixed(2);
         pen = true;
       }
-      const cls = "curve c" + (i % 4) + (c.dashed ? " dashed" : "") + (c.cls ? " " + c.cls : "");
       s += `<path class="${cls}" d="${d}" clip-path="url(#${id})"/>`;
     });
 

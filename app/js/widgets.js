@@ -314,6 +314,60 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: circle vs line (tangent / chord / miss) =============== */
+  function circleLine(host) {
+    const st = { cx: 2, cy: 1, r: 3, m: 1, c: -4 };
+    host.innerHTML = `
+      <div class="w-title">Explore: when does a line meet a circle?</div>
+      <div class="w-sub">Move the circle and the line. Watch the discriminant decide: chord (2 points), tangent (1), or miss (0) — and compare the centre-to-line distance with the radius.</div>
+      <div class="w-controls">
+        ${slider("cx", -5, 5, 1, st.cx, "centre a =")}
+        ${slider("cy", -5, 5, 1, st.cy, "centre b =")}
+        ${slider("r", 1, 6, 0.5, st.r, "radius r =")}
+        ${slider("m", -3, 3, 0.5, st.m, "line m =")}
+        ${slider("c", -8, 8, 0.5, st.c, "line c =")}
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      const { cx, cy, r, m, c } = st;
+      /* substitute y=mx+c into (x-cx)^2+(y-cy)^2=r^2 */
+      const A = 1 + m * m;
+      const B = 2 * (m * (c - cy) - cx);
+      const C = cx * cx + (c - cy) * (c - cy) - r * r;
+      const disc = B * B - 4 * A * C;
+      const pts = [];
+      if (disc >= 0) {
+        for (const sgn of disc === 0 ? [0] : [1, -1]) {
+          const x = (-B + sgn * Math.sqrt(disc)) / (2 * A);
+          pts.push([x, m * x + c, ""]);
+        }
+      }
+      const dist = Math.abs(m * cx - cy + c) / Math.sqrt(m * m + 1);
+      const status = disc > 1e-9 ? "CHORD — two intersection points"
+        : disc > -1e-9 ? "TANGENT — one repeated point"
+        : "MISS — no intersection";
+      const cmp = dist < r - 1e-9 ? "&lt; r" : dist > r + 1e-9 ? "&gt; r" : "= r";
+      const g = cx * cx + cy * cy - r * r;
+      host.querySelector("[data-plot]").innerHTML = A_.plot({
+        x: [-9, 9], y: [-8, 9], xTicks: 2, yTicks: 2,
+        curves: [{ circle: [cx, cy, r] }, { poly: [m, c], cls: "c1" }],
+        points: [[cx, cy, "(" + fmt(cx) + "," + fmt(cy) + ")"], ...pts]
+      }, { height: 320 });
+      host.querySelector("[data-read]").innerHTML =
+        `<b>(x ${cx < 0 ? "+ " + fmt(-cx) : "− " + fmt(cx)})² + (y ${cy < 0 ? "+ " + fmt(-cy) : "− " + fmt(cy)})² = ${fmt(r * r)}</b><br>
+         expanded: x² + y² ${fmt2(-2 * cx)}x ${fmt2(-2 * cy)}y ${fmt2(g)} = 0<br>
+         substitute y = ${fmt(m)}x ${c < 0 ? "− " + fmt(-c) : "+ " + fmt(c)}:<br>
+         ${fmt(A)}x² ${fmt2(B)}x ${fmt2(C)} = 0,&ensp;disc = <b>${fmt(disc)}</b><br>
+         centre→line distance = ${fmt(Math.round(dist * 100) / 100)} ${cmp}<br>
+         <b>${status}</b>`;
+    }
+    const A_ = A;
+    function fmt2(v) { return (v < 0 ? "− " : "+ ") + fmt(Math.abs(Math.round(v * 100) / 100)); }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -331,7 +385,7 @@ window.A.widgets = (function () {
   }
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
-    "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror };
+    "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {
