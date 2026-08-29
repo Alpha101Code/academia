@@ -1,0 +1,1782 @@
+===== PAGE 1 =====
+Syllabus
+Cambridge O Level
+Additional Mathematics 4037
+Use this syllabus for exams in 2025, 2026 and 2027.
+Exams are available in the June and November series.
+Version 1
+Please check the syllabus page at www.cambridgeinternational.org/4037 
+to see if this syllabus is available in your administrative zone.
+For the purposes of screen readers, any mention in this document of Cambridge IGCSE 
+refers to Cambridge International General Certificate of Secondary Education.
+
+===== PAGE 2 =====
+Why choose Cambridge International?
+Cambridge International prepares school students for life, helping them develop an informed curiosity and a 
+lasting passion for learning. We are part of Cambridge University Press & Assessment, which is a department 
+of the University of Cambridge.
+Our Cambridge Pathway gives students a clear path for educational success from age 5 to 19. Schools can 
+shape the curriculum around how they want students to learn – with a wide range of subjects and flexible ways 
+to offer them. It helps students discover new abilities and a wider world, and gives them the skills they need for 
+life, so they can achieve at school, university and work.
+Our programmes and qualifications set the global standard for international education. They are created by 
+subject experts, rooted in academic rigour and reflect the latest educational research. They provide a strong 
+platform for learners to progress from one stage to the next, and are well supported by teaching and learning 
+resources.
+Our mission is to provide educational benefit through provision of international programmes and qualifications 
+for school education and to be the world leader in this field. Together with schools, we develop Cambridge 
+learners who are confident, responsible, reflective, innovative and engaged – equipped for success in the 
+modern world.
+Every year, nearly a million Cambridge students from 10 000 schools in 160 countries prepare for their future 
+with the Cambridge Pathway. 
+School feedback: ‘We think the Cambridge curriculum is superb preparation for university.’
+Feedback from: Christoph Guttentag, Dean of Undergraduate Admissions, Duke University, USA
+Quality management
+Cambridge International is committed to providing exceptional quality. In line with this commitment, our 
+quality management system for the provision of international qualifications and education programmes 
+for students aged 5 to 19 is independently certified as meeting the internationally recognised standard, 
+ISO 9001:2015. Learn more at www.cambridgeinternational.org/ISO9001
+© Cambridge University Press & Assessment September 2022
+Cambridge Assessment International Education is part of Cambridge University Press & Assessment. Cambridge University Press & 
+Assessment is a department of the University of Cambridge.
+Cambridge University Press & Assessment retains the copyright on all its publications. Registered centres are permitted to copy 
+material from this booklet for their own internal use. However, we cannot give permission to centres to photocopy any material that is 
+acknowledged to a third party even for internal use within a centre.
+
+===== PAGE 3 =====
+Important: Changes to this syllabus
+For information about changes to this syllabus for 2025, 2026 and 2027, go to page 30.
+Contents
+Why choose Cambridge International?......................................................................... 2
+1  Why choose this syllabus? ......................................................................................... 4
+2  Syllabus overview ....................................................................................................... 7
+Aims	
+7
+Content overview	
+8
+Assessment overview	
+9
+Assessment objectives	
+10
+3  Subject content ..........................................................................................................11
+Syllabus content	
+11
+4  Details of the assessment ....................................................................................... 21
+Paper 1	
+21
+Paper 2 	
+21
+List of formulas	
+22
+Mathematical conventions	
+23
+Command words	
+25
+5  What else you need to know .................................................................................... 26
+Before you start	
+26
+Making entries	
+27
+Accessibility and equality	
+27
+After the exam	
+28
+How students and teachers can use the grades	
+28
+Grade descriptions	
+29
+Changes to this syllabus for 2025, 2026 and 2027	
+30
+
+===== PAGE 4 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.
+4
+www.cambridgeinternational.org/olevel
+Back to contents page
+1  Why choose this syllabus? 
+Key benefits	
+Cambridge O Level is typically for 14 to 16 year olds and is an 
+internationally recognised qualification. It has been designed 
+especially for an international market and is sensitive to the 
+needs of different countries. Cambridge O Level is designed 
+for learners whose first language may not be English, and this 
+is acknowledged throughout the examination process.
+Our programmes balance a thorough knowledge and 
+understanding of a subject and help to develop the skills 
+learners need for their next steps in education or employment. 
+Cambridge O Level Additional Mathematics enriches 
+learners’ understanding of connections within mathematics, 
+refining their reasoning and analytical skills. This course 
+reinforces learners’ competency, confidence, and fluency 
+in their use of techniques with and without a calculator, strengthening mathematical understanding and 
+communication skills. It requires a fluent and confident ability to solve problems in abstract mathematics.
+Cambridge O Level Additional Mathematics encourages learners to further develop their mathematical ability in 
+problem solving, to provide strong progression for advanced study of mathematics or highly numerate subjects. 
+It is designed to stretch the more able candidates and provides a smooth transition to Cambridge International 
+AS & A Level Mathematics.
+Our approach in Cambridge O Level Additional Mathematics encourages learners to be:
+confident, in using mathematical language and more complex concepts to ask questions, explore ideas and 
+communicate
+responsible, by taking ownership of their learning to prepare for independent mathematical learning, 
+and applying their mathematical knowledge and skills so that they can reason, problem solve and work 
+collaboratively
+reflective, by making connections within mathematics and across other subjects, and in evaluating methods 
+and presenting logical arguments to justify solutions 
+innovative, by applying their knowledge and understanding to solve unfamiliar problems creatively, flexibly and 
+efficiently, selecting from a range of mathematical techniques
+engaged, by the beauty, patterns and structure of mathematics, they are curious to learn about the relevance 
+of its many applications in society and the economy.
+School feedback: ‘Cambridge O Level has helped me develop thinking and analytical skills 
+which will go a long way in helping me with advanced studies.’
+Feedback from: Kamal Khan Virk, former student at Beaconhouse Garden Town Secondary School, Pakistan, who 
+went on to study Actuarial Science at the London School of Economics
+Cambridge
+learner
+
+===== PAGE 5 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Why choose this syllabus? 
+5
+www.cambridgeinternational.org/olevel
+Back to contents page
+International recognition and acceptance
+Our expertise in curriculum, teaching and learning, and assessment is the basis for the recognition of our 
+programmes and qualifications around the world. The combination of knowledge and skills in Cambridge 
+O Level Additional Mathematics gives learners a solid foundation for further study. Candidates who achieve 
+grades A* to C are well prepared to follow a wide range of courses including Cambridge International AS & A 
+Level Mathematics.
+Cambridge O Levels are accepted and valued by leading universities and employers around the world as 
+evidence of academic achievement. Many universities require a combination of Cambridge International AS & A 
+Levels and Cambridge O Levels or equivalent to meet their entry requirements.
+Learn more at www.cambridgeinternational.org/recognition
+
+===== PAGE 6 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Why choose this syllabus? 
+6
+www.cambridgeinternational.org/olevel
+Back to contents page
+Supporting teachers
+We provide a wide range of resources, detailed guidance, innovative training and professional development 
+so that you can give your students the best possible preparation for Cambridge O Level. To find out which 
+resources are available for each syllabus go to our School Support Hub. 
+The School Support Hub is our secure online site for Cambridge teachers where you can find the resources 
+you need to deliver our programmes. You can also keep up to date with your subject and the global Cambridge 
+community through our online discussion forums.  
+Find out more at www.cambridgeinternational.org/support
+Support for Cambridge O Level
+Planning and 
+preparation
+	•
+Schemes of work
+	•
+Specimen papers
+	•
+Syllabuses
+	•
+Teacher guides
+Teaching and 
+assessment
+	•
+Endorsed resources
+	•
+Online forums
+	•
+Support for 
+coursework
+Learning and revision
+	•
+Example candidate 
+responses
+	•
+Past papers and 
+mark schemes
+	•
+Specimen paper 
+answers
+Results
+	•
+Candidate Results 
+Service
+	•
+Principal examiner 
+reports for teachers
+Sign up for email notifications about changes to syllabuses, including new and revised products and services at 
+www.cambridgeinternational.org/syllabusupdates
+Professional development
+We support teachers through:
+	•
+Introductory Training – face-to-face or online
+	•
+Extension Training – face-to-face or online
+	•
+Enrichment Professional Development – face-to-face or online
+Find out more at www.cambridgeinternational.org/events
+	•
+Cambridge Professional Development Qualifications
+Find out more at www.cambridgeinternational.org/profdev
+Supporting exams officers
+We provide comprehensive support and guidance for all Cambridge exams officers. 
+Find out more at: www.cambridgeinternational.org/eoguide
+
+===== PAGE 7 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.
+7
+www.cambridgeinternational.org/olevel
+Back to contents page
+2  Syllabus overview 
+Aims
+The aims describe the purposes of a course based on this syllabus. 
+The aims are to enable students to:
+	•
+engage in mathematics in a way that builds on their existing mathematical knowledge and enhances their 
+enjoyment of the subject 
+	•
+develop their instinct for mathematical enquiry and use it flexibly to suit the requirements of a situation
+	•
+reinforce and extend mathematical skills and apply them to complex problems 
+	•
+use creativity and resilience to analyse and solve problems  
+	•
+reinforce their competency, confidence, and fluency in their use of techniques with and without a calculator, 
+strengthening mathematical understanding and communication skills
+	•
+justify their reasoning using structured arguments
+	•
+extend their ability to reason logically, make inferences and draw conclusions
+	•
+enrich their understanding of interdependence of, and connections between, different areas of mathematics 
+	•
+acquire a solid foundation for advanced study of mathematics or highly numerate subjects.
+Cambridge Assessment International Education is an education organisation and politically
+neutral. The contents of this syllabus, examination papers and associated materials do not endorse 
+any political view. We endeavour to treat all aspects of the exam process neutrally.
+
+===== PAGE 8 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+8
+www.cambridgeinternational.org/olevel
+Back to contents page
+Content overview
+All candidates study the following topics:
+1	
+Functions
+2	
+Quadratic functions
+3	
+Factors of polynomials
+4	
+Equations, inequalities and graphs
+5	
+Simultaneous equations
+6	
+Logarithmic and exponential functions
+7	
+Straight-line graphs
+8	
+Coordinate geometry of the circle
+9	
+Circular measure
+10	 Trigonometry
+11	 Permutations and combinations
+12	 Series
+13	 Vectors in two dimensions
+14	 Calculus
+The subject content is organised by topic and is not presented in a teaching order. This content structure 
+allows flexibility for teachers to plan delivery in a way that is appropriate for their learners. Learners are 
+expected to use techniques listed in the content and apply them to solve problems with or without a calculator, 
+as appropriate.
+This O Level syllabus shares content with other mathematics syllabuses. For further support see 
+the School Support Hub for IGCSE Additional Mathematics. Textbooks endorsed to support IGCSE 
+Additional Mathematics are suitable for use with this syllabus.
+
+===== PAGE 9 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+9
+www.cambridgeinternational.org/olevel
+Back to contents page
+Assessment overview
+All candidates take two components. Candidates will be eligible for grades A* to E.
+Candidates should have a scientific calculator for Paper 2. Please see the Cambridge Handbook at 
+www.cambridgeinternational.org/eoguide for guidance on use of calculators in the examinations. 
+Calculators are not allowed for Paper 1.
+All candidates take:
+and:
+Paper 1	
+2 hours
+Non-calculator	
+50%
+80 marks
+Structured and unstructured questions 
+Use of a calculator is not allowed
+Externally assessed
+Paper 2	
+2 hours
+Calculator	
+50%
+80 marks
+Structured and unstructured questions 
+A scientific calculator is required
+Externally assessed
+Information on availability is in the Before you start section. 
+
+===== PAGE 10 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+10
+www.cambridgeinternational.org/olevel
+Back to contents page
+Assessment objectives
+The assessment objectives (AOs) are:
+AO1 Knowledge and understanding of mathematical techniques
+Candidates should be able to:
+	•
+recall and apply mathematical knowledge and techniques 
+	•
+carry out routine procedures in mathematical and abstract situations
+	•
+understand and use mathematical notation and terminology 
+	•
+perform calculations with and without a calculator
+	•
+organise, process, present and understand information in written form, tables, graphs and diagrams
+	•
+work to degrees of accuracy appropriate to the context 
+	•
+recognise and use spatial relationships in two and three dimensions.
+AO2 Analyse, interpret and communicate mathematically 
+Candidates should be able to:
+	•
+analyse a problem and identify a suitable strategy to solve it, including using a combination of processes 
+where appropriate
+	•
+make connections between different areas of mathematics 
+	•
+recognise patterns in a variety of situations and make and justify generalisations
+	•
+make logical inferences and draw conclusions from mathematical data or results  
+	•
+communicate methods and results in a clear and logical form 
+	•
+interpret information in different forms and change from one form of representation to another.
+Weighting for assessment objectives
+The approximate weightings allocated to each of the assessment objectives (AOs) are summarised below.
+Assessment objectives as a percentage of the qualification
+Assessment objective
+Weighting in O Level %
+AO1 Knowledge and understanding of mathematical techniques
+45–55
+AO2 Analyse, interpret and communicate mathematically
+45–55
+Total
+100
+Assessment objectives as a percentage of each component
+Assessment objective
+Weighting in components %
+Paper 1
+Paper 2
+AO1 Knowledge and understanding of mathematical techniques
+45–55
+45–55
+AO2 Analyse, interpret and communicate mathematically
+45–55
+45–55
+Total
+100
+100
+
+===== PAGE 11 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.
+11
+www.cambridgeinternational.org/olevel
+Back to contents page
+3  Subject content 
+This syllabus gives you the flexibility to design a course that will interest, challenge and engage your learners. 
+Where appropriate you are responsible for selecting resources and examples to support your learners’ 
+study. These should be appropriate for the learners’ age, cultural background and learning context as well as 
+complying with your school policies and local legal requirements.
+Knowledge of the content of Cambridge O Level Mathematics (or an equivalent syllabus) is assumed. 
+Cambridge O Level material which is not included in the subject content, such as surds and indices, will not be 
+tested directly but it may be required in response to questions on other topics.
+Proofs of results will not be required unless specifically mentioned in the syllabus.
+Candidates will be expected to be familiar with the scientific notation for the expression of compound units, 
+e.g. 5 m s–1 for 5 metres per second.
+A List of formulas is provided on page 2 of the examination papers for candidates to refer to during the 
+examinations. Please note that not all required formulas are given; the ‘Notes and examples’ column of the 
+subject content will indicate where a formula is given in the examination papers and when a formula is not 
+given i.e. knowledge of a formula is required.
+Formulas for:
+	•
+curved surface area of a cone
+	•
+surface area of a sphere
+	•
+volume of a pyramid or a cone
+	•
+volume of a sphere
+	•
+sine rule
+	•
+cosine rule
+	•
+area of a non-right-angled triangle (no diagram is given in the List of formulas)
+are also given in the List of formulas to assist candidates in the examinations.
+Syllabus content
+1	
+Functions
+Candidates should be able to:
+1.1	
+Understand the terms: function, domain, 
+range (image set), one–one function, 
+many–one function, inverse function and 
+composition of functions.
+Notes/Examples
+Includes explaining in words why a given function is 
+a function.
+1.2	
+Find the domain and range of functions.
+Includes inverse functions and composite functions.
+The domain of f may need to be restricted for 
+f –1 and/or gf to exist.
+Domain gf ⊆ Domain f
+Range gf ⊆ Range g 
+
+===== PAGE 12 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+12
+www.cambridgeinternational.org/olevel
+Back to contents page
+1	
+Functions (continued)
+1.3	
+Recognise and use function notation.
+Examples include:
+	•
+f(x) = 2ex
+	•
+f : x ↦ lg x, for x > 0
+	•
+f –1(x)
+	•
+fg(x) [= f(g(x))]
+	•
+f 2(x) [= f(f(x))]
+The notation f 2(x) will not be used with trigonometric 
+functions.
+1.4	
+Understand the relationship between 
+y = f(x) and y = |f(x)|, where f(x) may be linear, 
+quadratic, cubic or trigonometric.
+If f(x) is trigonometric it will be one of the following:
+	•
+y = a sin bx + c 
+	•
+y = a cos bx + c 
+	•
+y = a tan bx + c
+where a is a positive integer, b is a simple fraction 
+or integer, and c is an integer. Fractions will have a 
+denominator of 2, 3, 4, 6 or 8 only.
+1.5	
+Explain in words why a given function does 
+not have an inverse.
+1.6	
+Find the inverse of a one–one function.
+Correct notation must be used. For example:
+	•
+f(x) = e2x
+	•
+f –1(x) = 2
+1  ln x
+1.7	
+Form and use composite functions.
+Understand that order of functions is important, i.e. 
+fg may not be the same as gf .
+1.8	
+Use sketch graphs to show the relationship 
+between a function and its inverse.
+Understand that each function is the reflection of the 
+other in the line y = x. 
+2	
+Quadratic functions
+Candidates should be able to:
+Notes/Examples
+2.1	
+Find the maximum or minimum value of the 
+quadratic function f : x ↦ ax2 + bx + c by 
+completing the square or by differentiation.
+2.2	
+Use the maximum or minimum value of f(x) to 
+sketch the graph of y = f(x) or determine the 
+range for a given domain.
+Candidates should use correct notation to write a 
+domain or range.
+2.3	
+Know the conditions for f(x) = 0 to have:
+(i)	 two real roots
+(ii)	 two equal roots
+(iii)	 no real roots 
+	
+and the related conditions for a given line to:
+(i)	 intersect a given curve
+(ii)	 be a tangent to a given curve
+(iii)	 not intersect a given curve.
+Understand how the discriminant relates to the roots 
+of the equation.
+
+===== PAGE 13 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+13
+www.cambridgeinternational.org/olevel
+Back to contents page
+2	
+Quadratic functions (continued)
+2.4	
+Solve quadratic equations for real roots.
+Formula is given in the List of formulas. 
+Students are expected to be able to use 
+factorisation, the quadratic formula and completing 
+the square.
+On the calculator paper, correct answers are 
+acceptable without working. 
+2.5	
+Find the solution set for quadratic inequalities 
+either graphically or algebraically.
+Solutions should be written in the correct form. For 
+example: 
+	•
+–3 < x < 4
+	•
+x < 1 or x > 6
+3	
+Factors of polynomials
+Candidates should be able to:
+Notes/Examples
+3.1	
+Know and use the remainder and factor 
+theorems.
+3.2	
+Find factors of polynomials.
+For a cubic polynomial, students are first expected 
+to obtain a product of a linear factor and a quadratic 
+factor, for example by observation or by algebraic 
+long division. 
+3.3	
+Solve cubic equations.
+4	
+Equations, inequalities and graphs
+Candidates should be able to:
+Notes/Examples
+4.1	
+Solve equations of the type
+•	
+|ax + b| = c (c ⩾ 0) 
+•	
+|ax + b| = cx + d
+•	
+|ax + b| = |cx + d|
+•	
+|ax2 + bx + c| = d
+	
+using algebraic or graphical methods. 
+For graphical solutions, an accurate graph is 
+expected.
+For algebraic methods, any valid method is 
+acceptable. 
+4.2	
+Solve graphically or algebraically inequalities 
+of the type 
+•	
+k|ax + b| > c (c ⩾ 0)
+•	
+k|ax + b| ⩽ c (c > 0) 
+•	
+k|ax + b| ⩽ |cx + d|
+	
+where k > 0
+•	
+|ax + b| ⩽ cx + d
+•	
+|ax2 + bx + c| > d
+•	
+|ax2 + bx + c| ⩽ d 
+For graphical solutions, an accurate graph is 
+expected.
+For algebraic methods, any valid method is 
+acceptable. 
+
+===== PAGE 14 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+14
+www.cambridgeinternational.org/olevel
+Back to contents page
+4	
+Equations, inequalities and graphs (continued)
+4.3	
+Use substitution to form and solve a quadratic 
+equation in order to solve a related equation.
+For example:
+	•
+x
+x
+12
+0
+3
+4
+3
+2
++
+-
+=
+	
+2(1n 5x)2 + 1n 5x – 6 = 0
+	•
+3ex = 12 – 5e–x
+Candidates are expected to identify the appropriate 
+substitution.
+4.4	
+Sketch the graphs of cubic polynomials and 
+their moduli, when given as a product of three 
+linear factors.
+The points of intersection of the graph with the 
+coordinate axes should be clearly labelled.
+4.5	
+Solve graphically cubic inequalities of the form
+•	
+f(x) ⩾ d
+•	
+f(x) > d
+•	
+f(x) ⩽ d  
+•	
+f(x) < d
+	
+where f(x) is a product of three linear factors 
+and d is a constant.
+5	
+Simultaneous equations
+Candidates should be able to:
+Notes/Examples
+5.1	
+Solve simultaneous equations in two 
+unknowns by elimination or substitution.
+For example:
+	•
+y – x + 3 = 0 and x2 – 3xy + y2 + 19 = 0 
+	•
+xy2 = 4 and xy = 3 
+	•
+y
+x
+x
+y
+2
++
+ = 4 and y = x – 2 
+6	
+Logarithmic and exponential functions
+Candidates should be able to:
+Notes/Examples
+6.1	
+Know and use simple properties and graphs 
+of the logarithmic and exponential functions, 
+including ln x and ex.
+Logarithms may be given to any base.
+Understand that f(x) = ex and g(x) = 1n x are each 
+the inverse of the other. 
+Understand the asymptotic nature of the graphs 
+of logarithmic and exponential functions. State the 
+equations of any asymptotes.
+Graphs are limited to y = kenx + a and
+y = k ln(ax + b) where n, k, a and b are integers.
+Series expansions are not required.
+
+===== PAGE 15 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+15
+www.cambridgeinternational.org/olevel
+Back to contents page
+6	
+Logarithmic and exponential functions (continued)
+6.2	
+Know and use the laws of logarithms, 
+including change of base of logarithms.
+For example:
+	•
+Write 3 + 21g p – 1g q as a single base 10 
+logarithm.
+	•
+Write log e
+1
+5
+ as a natural logarithm.
+6.3	
+Solve equations of the form ax = b.
+7	
+Straight-line graphs
+Candidates should be able to:
+Notes/Examples
+7.1	
+Use the equation of a straight line.
+7.2	
+Know and use the condition for two lines to 
+be parallel or perpendicular.
+7.3	
+Solve problems involving midpoint and length 
+of a line, including finding and using the 
+equation of a perpendicular bisector.
+7.4	
+Transform given relationships to and from 
+straight-line form, including determining 
+unknown constants by calculating the gradient 
+or intercept of the transformed graph.
+For example:
+	•
+To straight-line form
+	
+y = Axn
+	
+y = Abx 
+	•
+From straight-line form to an equation of the form .
+y2 = Ax3 + B
+	
+e2y = Ax2 + B
+	
+y3 = A1n x + B
+8	
+Coordinate geometry of the circle
+Candidates should be able to:
+Notes/Examples
+8.1	
+Know and use the equation of a circle with 
+radius r and centre (a, b).
+Identify the centre and radius of a circle using a circle 
+equation in any form.
+For example: 
+	•
+(x – a)2 + (y – b)2 = r2 
+	•
+x2 + y2 + 2gx + 2fy + c = 0 
+Formula is given in the List of formulas.
+8.2	
+Solve problems involving the intersection of a 
+circle and a straight line.
+Includes finding points of intersection. 
+Includes determining whether a straight line: 
+	•
+is a tangent 
+	•
+is a chord
+	•
+does not intersect the circle.
+
+===== PAGE 16 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+16
+www.cambridgeinternational.org/olevel
+Back to contents page
+8	
+Coordinate geometry of the circle (continued)
+8.3	
+Solve problems involving tangents to a circle.
+Includes finding equations of tangents.
+No use of calculus is expected.
+8.4	
+Solve problems involving the intersection of 
+two circles.
+Includes finding points of intersection, finding the 
+equation of a common chord or determining whether 
+two circles: 
+	•
+intersect 
+	•
+touch 
+	•
+do not intersect.
+9	
+Circular measure
+Candidates should be able to:
+Notes/Examples
+9.1	
+Solve problems involving the arc length and 
+sector area of a circle, including knowledge 
+and use of radian measure.
+Use of radian measure is expected in the solution of 
+problems which may involve compound shapes.
+Formulas are not given.
+10	
+Trigonometry
+Candidates should be able to:
+Notes/Examples
+10.1	 Know and use the six trigonometric functions 
+of angles of any magnitude.
+sine, cosine, tangent, secant, cosecant, cotangent
+10.2	 Understand and use the amplitude and 
+period of a trigonometric function, including 
+the relationship between graphs of related 
+trigonometric functions.
+For example: y = sin x and y = 3sin 2x
+The period may be in either degrees or radians.
+10.3	 Draw and use the graphs of
+	
+y = a sin bx + c 
+	
+y = a cos bx + c 
+	
+y = a tan bx + c
+	
+where a is a positive integer, b is a simple 
+fraction or integer, and c is an integer.
+Graphs will be drawn over a given domain which 
+may be in either degrees or radians.
+For a graph of y = a tan bx + c, the x-coordinate of 
+any asymptote should be clearly labelled.
+Fractions will have a denominator of 2, 3, 4, 6 or 8 
+only.
+10.4	 Use the relationships:
+•	
+sin2 A + cos2 A = 1
+•	
+sec2 A = 1 + tan2 A 
+•	
+cosec2 A = 1 + cot2 A 
+Trigonometric identities are given in the List of 
+formulas.
+
+===== PAGE 17 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+17
+www.cambridgeinternational.org/olevel
+Back to contents page
+10	
+Trigonometry (continued)
+10.5	 Solve, for a given domain, trigonometric 
+equations involving the six trigonometric 
+functions.
+Includes the use of the relationships in 10.4.
+For example: 
+	•
+4 cot θ = tan θ 
+	•
+2 sec2 θ + tan θ – 3 = 0 
+	•
+5 sin 3
+i + 2 cos 3
+i = 0 
+	•
+3 cosec 2
+12
+r
+i -
+d
+n = 4 
+10.6	 Prove trigonometric relationships involving the 
+six trigonometric functions.
+Includes the use of the relationships in 10.4.
+For example:
+	•
+sin x tan x + cos x = sec x 
+	•
+cos
+sin
+sin
+cos
+1
+1
+i
+i
+i
+i
++
++
++
+ = 2 cosec θ
+11	
+Permutations and combinations
+Candidates should be able to:
+Notes/Examples
+11.1	
+Recognise the difference between 
+permutations and combinations and know 
+when each should be used.
+11.2	 Know and use the notation n! and 
+the expressions for permutations and 
+combinations of n items taken r at a time.
+Includes 0! = 1.
+11.3	
+Solve problems on arrangement and selection 
+using permutations or combinations.
+Problems will be either in an everyday context or 
+based on an algebraic problem.
+Problems involving:
+	•
+repetition of objects 
+	•
+objects arranged in a circle 
+	•
+both permutations and combinations, 
+are not included.
+
+===== PAGE 18 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+18
+www.cambridgeinternational.org/olevel
+Back to contents page
+12	
+Series
+Candidates should be able to:
+Notes/Examples
+12.1	
+Use the binomial theorem for expansion of 
+(a + b)n for positive integer n.
+Includes simplification of coefficients. 
+Formula is given in the List of formulas.
+12.2	 Use the general term
+	
+n
+r
+J
+L
+KK
+N
+P
+OOan–rbr, 0 ⩽ r ⩽ n .
+For example:
+Find the term independent of x in the expansion of 
+x
+x
+2
+1
+10
++
+d
+n .
+Knowledge of the greatest term and properties of 
+the coefficients is not required.
+12.3	 Recognise arithmetic and geometric 
+progressions and understand the difference 
+between them.
+12.4	 Use the formulas for the nth term and for the 
+sum of the first n terms to solve problems 
+involving arithmetic or geometric progressions.
+Problems may be in context.
+Formulas are given in the List of formulas.
+12.5	 Use the condition for the convergence of a 
+geometric progression, and the formula for 
+the sum to infinity of a convergent geometric 
+progression.
+Includes explaining why a particular geometric 
+progression has or does not have a sum to infinity.
+Formula is given in the List of formulas.
+13	
+Vectors in two dimensions
+Candidates should be able to:
+Notes/Examples
+13.1	 Understand and use vector notation.
+Vectors will be given in any form including:
+a
+b
+J
+L
+KK
+N
+P
+OO, AB , p, ai – bj
+Candidates are expected to use correct vector 
+notation.
+13.2	 Know and use position vectors and unit 
+vectors.
+For example:
+The unit vector in the same direction as a is a
+a .
+13.3	 Find the magnitude of a vector; add and 
+subtract vectors and multiply vectors by 
+scalars.
+Includes: 
+	•
+equating like vectors
+	•
+solving problems using vector geometry, with a 
+diagram given in more complex cases.  
+13.4	 Compose and resolve velocities.
+Determine a resultant vector by adding two or more 
+vectors together.
+Includes the use of a velocity vector to determine 
+position and solve problems in context such as 
+particles colliding. 
+
+===== PAGE 19 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+19
+www.cambridgeinternational.org/olevel
+Back to contents page
+14	
+Calculus
+No formulas will be given in the List of formulas for the Calculus section.
+Candidates should be able to:
+Notes/Examples
+14.1	
+Understand the idea of a derived function.
+Only an informal understanding of the idea of a limit 
+is expected, and the technique of differentiation from 
+first principles is not required.
+14.2	 Use the notations
+	
+f′(x), f″(x), d
+d
+x
+y, 
+d
+d
+d
+d
+d
+d
+x
+y
+x
+x
+y
+2
+2
+=
+J
+L
+KK
+N
+P
+OO
+R
+T
+S
+SS
+V
+X
+W
+WW
+	
+δx, δx → 0, x
+y
+d
+d
+ .
+14.3	 Know and use the derivatives of the standard 
+functions xn (for any rational n), sin x, cos x, 
+tan x, ex, ln x.
+Includes constant multiples, sums and composite 
+functions (use of chain rule).  
+For example, differentiate 
+x
+3
+4
+2
+3
+1
++
+`
+j .
+For trigonometric functions angles will always be in 
+radians.
+14.4	 Differentiate products and quotients of 
+functions.
+14.5	 Use differentiation to find gradients, tangents 
+and normals.
+14.6	 Use differentiation to find stationary points.
+Points of inflexion are not included.
+14.7	 Apply differentiation to connected rates of 
+change, small increments and approximations.
+14.8	 Apply differentiation to practical problems 
+involving maxima and minima.
+14.9	 Use the first and second derivative tests to 
+discriminate between maxima and minima.
+Points of inflexion are not included. 
+Full justification of conclusions is expected.
+An explanation of how to distinguish between a 
+maximum point and a minimum point may be 
+required.
+Unless specified otherwise, any valid method is 
+allowed. 
+14.10	 Understand integration as the reverse process 
+of differentiation.
+Solutions for indefinite integrals should include an 
+arbitrary constant.
+14.11	 Integrate sums of terms in powers of x, 
+	
+including x
+1 and ax
+b
+1
++
+. 
+Solutions for indefinite integrals should include an 
+arbitrary constant.
+
+===== PAGE 20 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Subject content 
+20
+www.cambridgeinternational.org/olevel
+Back to contents page
+14	
+Calculus (continued)
+14.12	 Integrate functions of the form: 
+•	
+(ax + b)n for any rational n 
+•	
+sin (ax + b)
+•	
+cos (ax + b)
+•	
+sec2 (ax + b)
+•	
+eax+b
+Includes the case where n = –1.
+For trigonometric functions angles will always be in 
+radians.
+Solutions for indefinite integrals should include an 
+arbitrary constant.
+14.13	 Evaluate definite integrals and apply 
+integration to the evaluation of plane areas.
+Plane areas include:
+	•
+between a line and a curve
+	•
+between two curves
+	•
+a sum of two areas.
+14.14	 Apply differentiation and integration 
+to kinematics problems that involve 
+displacement, velocity and acceleration of a 
+particle moving in a straight line with variable 
+or constant acceleration.
+For example:
+Given the velocity of a particle is v = 3t2 – 30t + 72 
+find its acceleration when t = 2.
+14.15	 Make use of the relationships in 14.14 to draw 
+and use the following graphs:
+•	
+displacement–time
+•	
+distance–time 
+•	
+velocity–time 
+•	
+speed–time
+•	
+acceleration–time.
+For example: 
+A particle moves in a straight line. Its displacement s, 
+from a fixed point at time, t, is given by s = 3t3 – 10t2 
++ 4t + 8 for 0 ⩽ t ⩽ 3. Sketch its displacement–time 
+graph, its speed–time graph, its acceleration–time 
+graph.
+
+===== PAGE 21 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.
+21
+www.cambridgeinternational.org/olevel
+Back to contents page
+4  Details of the assessment 
+All candidates take two written papers.
+Grades A* to E will be available for candidates who achieve the required standards. Candidates who do not 
+achieve the minimum mark for grade E will be unclassified.
+Candidates must show all necessary working.
+Paper 1
+Written paper, 2 hours, 80 marks
+Use of a calculator is not allowed.
+Candidates answer all questions.
+Structured and unstructured questions.
+This paper consists of questions based on any part of the content.
+This is a compulsory component for all candidates.
+This written paper is an externally set assessment, marked by Cambridge.
+Paper 2 
+Written paper, 2 hours, 80 marks
+A scientific calculator is required.
+Candidates answer all questions. 
+Structured and unstructured questions.
+This paper consists of questions based on any part of the content. 
+This is a compulsory component for all candidates.
+This written paper is an externally set assessment, marked by Cambridge.
+
+===== PAGE 22 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Details of the assessment 
+22
+www.cambridgeinternational.org/olevel
+Back to contents page
+List of formulas
+Equation of a circle with centre (a, b) and radius r.	
+(x – a)2 + (y – b)2 = r2
+Curved surface area, A, of cone of radius r, sloping edge l.	
+A = πrl
+Surface area, A, of sphere of radius r.	
+A = 4πr2
+Volume, V, of pyramid or cone, base area A, height h.	
+V = 3
+1 Ah
+Volume, V, of sphere of radius r.	
+V = 3
+4 πr3
+Quadratic Equation	
+For the equation ax2 + bx + c = 0,
+	
+	
+	
+	
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial Theorem	
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+	
+	
+	
+	
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series
+	
+u
+a
+n
+d
+S
+n a
+l
+n
+a
+n
+d
+1
+2
+1
+2
+1
+2
+1
+n
+n
+−
+−
+=
++
+=
++
+=
++
+^
+^
+^
+h
+h
+h
+#
+-
+Geometric series
+	
+u
+ar
+S
+r
+a
+r
+r
+S
+r
+a
+r
+1
+1
+1
+1
+1
+n
+n
+n
+n
+1
+1
+!
+−
+−
+−
+=
+=
+=
+3
+−
+^
+^
+^
+h
+h
+h
+Identities	 	
+	
+sin2 A + cos2 A = 1
+	
+	
+	
+	
+sec2 A = 1 + tan2 A
+	
+	
+	
+	
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC	
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+	
+	
+	
+	
+a2 = b2 + c2 – 2bc cos A
+	
+	
+	
+	
+∆ = 2
+1  ab sin C
+
+===== PAGE 23 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Details of the assessment 
+23
+www.cambridgeinternational.org/olevel
+Back to contents page
+Mathematical conventions
+Mathematics is a universal language where there are some similarities and differences around the world. 
+The guidance below outlines the conventions that are used in Cambridge examinations, and we encourage 
+candidates to follow these conventions.
+Working with graphs
+	•
+A plot of a graph should have points clearly marked, for example as small crosses (×), and must: 
+–	
+be drawn on a grid or graph paper
+–	
+cover the range of values that has been requested. Candidates should calculate the coordinates of 
+points and connect them appropriately (where a table of values is not provided, the candidate must 
+decide on points required to draw the graph accurately so that it has the most important features listed 
+in sketching a graph)
+–	
+have each point plotted to an accuracy of within half of the smallest square on the grid. 
+	•
+A sketch of a graph does not have to be accurate or to scale, nor does it need to be on graph or squared 
+paper, but it must:
+–	
+be drawn freehand
+–	
+show the most important features, e.g. x-intercepts, y-intercepts, stationary points, symmetry, and 
+asymptotes, with coordinates of relevant values marked on the axes, where required  
+–	
+have labelled axes, e.g. with x and y
+–	
+interact with the axes appropriately, e.g. by intersecting or by tending towards
+–	
+fall within the correct quadrants
+–	
+show the correct long-term behaviour if no domain has been specified.
+	•
+Graphs should extend as far as possible across any given grid, within any constraints of the domain.
+	•
+Where graphs of functions are:
+–	
+linear, they should be ruled
+–	
+non-linear, the points should be joined with a smooth curve
+–	
+the modulus of a non-linear function, it should have cusps.
+	•
+Values should be read off a graph to an accuracy of within half of the smallest square on the grid. 
+Communicating mathematically
+	•
+If candidates are asked to show their working, or show that a given result is true, they cannot gain full 
+marks without clearly communicating and fully justifying their method.
+	•
+A numerical answer should not be given as a combination of fractions and decimals, e.g. .0 2
+1 is not 
+acceptable. 
+	•
+When asked to ‘simplify’, the candidate must simplify fully.
+	•
+When asked to ‘factorise’, the candidate must factorise fully.
+
+===== PAGE 24 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Details of the assessment 
+24
+www.cambridgeinternational.org/olevel
+Back to contents page
+Accuracy
+	•
+Answers are expected to be given in their simplest form unless the question states otherwise.
+	•
+Where a question asks for ‘exact values’ the answer may need to be given in terms of π, e, natural 
+logarithms, surds or a combination of these, depending on the question.
+	•
+Where answers are not exact values: 
+–	
+angles in degrees should be given to at least one decimal place
+–	
+all other values should be given to at least three significant figures
+	
+unless a different accuracy is defined in the question. 
+	•
+Answers that are exact to four or five significant figures should not be rounded unless the question states 
+otherwise.
+	•
+In order to obtain an answer correct to an appropriate degree of accuracy, a higher degree of accuracy will 
+often be needed within the working.
+	•
+If a question asks to prove or show a given answer to a specified degree of accuracy, candidates must 
+show full working, intermediate answers and the final answer to at least one degree of accuracy more than 
+that asked for. 
+
+===== PAGE 25 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  Details of the assessment 
+25
+www.cambridgeinternational.org/olevel
+Back to contents page
+Command words
+Command words and their meanings help candidates know what is expected from them in the exams. The 
+table below includes command words used in the assessment for this syllabus. The use of the command word 
+will relate to the subject context. 
+Command word
+What it means
+Calculate
+work out from given facts, figures or information
+Describe
+state the points of a topic / give characteristics and main features
+Determine
+establish with certainty
+Explain
+set out purposes or reasons / make the relationships between things clear / say why 
+and/or how and support with relevant evidence
+Give
+produce an answer from a given source or recall/memory
+Plot
+mark point(s) on a graph
+Show (that)
+provide structured evidence that leads to a given result
+Sketch
+make a simple freehand drawing showing the key features
+State
+express in clear terms
+Verify
+confirm a given statement/result is true
+Work out
+calculate from given facts, figures or information with or without the use of a calculator
+Write
+give an answer in a specific form
+Write down
+give an answer without significant working
+
+===== PAGE 26 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.
+26
+www.cambridgeinternational.org/olevel
+Back to contents page
+5  What else you need to know 
+This section is an overview of other information you need to know about this syllabus. It will help to share the 
+administrative information with your exams officer so they know when you will need their support. Find more 
+information about our administrative processes at www.cambridgeinternational.org/eoguide
+Before you start
+Previous study
+We recommend that learners starting this course should have studied a mathematics curriculum such as the 
+Cambridge Lower Secondary programme or equivalent national educational framework. Knowledge of the 
+subject content of Cambridge O Level/IGCSE™ Mathematics is assumed. This includes the use of indices and 
+surds.
+Guided learning hours
+We design Cambridge O Level syllabuses to require about 130 guided learning hours for each subject. This is 
+for guidance only. The number of hours a learner needs to achieve the qualification may vary according to each 
+school and the learners’ previous experience of the subject.
+Availability and timetables 
+All Cambridge schools are allocated to one of six administrative zones. Each zone has a specific timetable. 
+This syllabus is not available in all administrative zones. 
+Cambridge O Levels are available to centres in administrative zones 3, 4 and 5. 
+You can enter candidates in the June and November exam series. You can view the timetable for your 
+administrative zone at www.cambridgeinternational.org/timetables 
+Check you are using the syllabus for the year the candidate is taking the exam.
+Private candidates can enter for this syllabus. For more information, please refer to the Cambridge Guide to 
+Making Entries. 
+Combining with other syllabuses
+Candidates can take this syllabus alongside other Cambridge International syllabuses in a single exam series. 
+The only exceptions are:
+	•
+Cambridge IGCSE Additional Mathematics (0606)
+	•
+syllabuses with the same title at the same level.
+Cambridge O Level, Cambridge IGCSE™ and Cambridge IGCSE (9–1) syllabuses are at the same level.
+
+===== PAGE 27 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  What else you need to know 
+27
+www.cambridgeinternational.org/olevel
+Back to contents page
+Making entries
+Exams officers are responsible for submitting entries to Cambridge International. We encourage them to work 
+closely with you to make sure they enter the right number of candidates for the right combination of syllabus 
+components. Entry option codes and instructions for submitting entries are in the Cambridge Guide to Making 
+Entries. Your exams officer has a copy of this guide.
+Exam administration
+To keep our exams secure, we produce question papers for different areas of the world, known as 
+administrative zones. We allocate all Cambridge schools to an administrative zone determined by their location. 
+Each zone has a specific timetable. Some of our syllabuses offer candidates different assessment options. An 
+entry option code is used to identify the components the candidate will take relevant to the administrative zone 
+and the available assessment options.
+Support for exams officers
+We know how important exams officers are to the successful running of exams. We provide them with the 
+support they need to make your entries on time. Your exams officer will find this support, and guidance for all 
+other phases of the Cambridge Exams Cycle, at www.cambridgeinternational.org/eoguide
+Retakes 
+Candidates can retake the whole qualification as many times as they want to. Information on retake entries is at 
+www.cambridgeinternational.org/retakes
+Language
+This syllabus and the related assessment materials are available in English only.
+Accessibility and equality
+Syllabus and assessment design 
+Cambridge International works to avoid direct or indirect discrimination. We develop and design syllabuses and 
+assessment materials to maximise inclusivity for candidates of all national, cultural or social backgrounds and 
+candidates with protected characteristics; these protected characteristics include special educational needs 
+and disability, religion and belief, and characteristics related to gender and identity. In addition, the language 
+and layout used are designed to make our materials as accessible as possible. This gives all candidates the 
+fairest possible opportunity to demonstrate their knowledge, skills and understanding and helps to minimise the 
+requirement to make reasonable adjustments during the assessment process.
+Access arrangements 
+Access arrangements (including modified papers) are the principal way in which Cambridge International 
+complies with our duty, as guided by the UK Equality Act (2010), to make ‘reasonable adjustments’ for 
+candidates with special educational needs (SEN), disability, illness or injury. Where a candidate would otherwise 
+be at a substantial disadvantage in comparison to a candidate with no SEN, disability, illness or injury, we 
+may be able to agree pre-examination access arrangements. These arrangements help a candidate by 
+minimising accessibility barriers and maximising their opportunity to demonstrate their knowledge, skills and 
+understanding in an assessment. 
+
+===== PAGE 28 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  What else you need to know 
+28
+www.cambridgeinternational.org/olevel
+Back to contents page
+Important: 
+	•
+Requested access arrangements should be based on evidence of the candidate’s barrier to assessment 
+and should also reflect their normal way of working at school; this is in line with the Cambridge Handbook 
+www.cambridgeinternational.org/eoguide 
+	•
+For Cambridge International to approve an access arrangement, we will need to agree that it constitutes 
+a reasonable adjustment, involves reasonable cost and timeframe and does not affect the security and 
+integrity of the assessment. 
+	•
+Availability of access arrangements should be checked by centres at the start of the course. Details of our 
+standard access arrangements and modified question papers are available in the Cambridge Handbook 
+www.cambridgeinternational.org/eoguide 
+	•
+Please contact us at the start of the course to find out if we are able to approve an arrangement that is not 
+included in the list of standard access arrangements. 
+	•
+Candidates who cannot access parts of the assessment may be able to receive an award based on the 
+parts they have completed. 
+After the exam
+Grading and reporting
+Grades A*, A, B, C, D or E indicate the standard a candidate achieved at Cambridge O Level. 
+A* is the highest and E is the lowest. ‘Ungraded’ means that the candidate’s performance did not meet the 
+standard required for grade E. ‘Ungraded’ is reported on the statement of results but not on the certificate. 
+In specific circumstances your candidates may see one of the following letters on their statement of results:
+	•
+Q (PENDING)
+	•
+X (NO RESULT).
+These letters do not appear on the certificate.
+On the statement of results and certificates, Cambridge O Level is shown as GENERAL CERTIFICATE OF 
+EDUCATION (GCE O LEVEL).
+How students and teachers can use the grades
+Assessment at Cambridge O Level has two purposes:
+1	
+to measure learning and achievement
+	
+The assessment confirms achievement and performance in relation to the knowledge, understanding and 
+skills specified in the syllabus, to the levels described in the grade descriptions.
+2	
+to show likely future success
+	
+The outcomes help predict which students are well prepared for a particular course or career and/or which 
+students are more likely to be successful. 
+	
+The outcomes help students choose the most suitable course or career.
+
+===== PAGE 29 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  What else you need to know 
+29
+www.cambridgeinternational.org/olevel
+Back to contents page
+Grade descriptions
+Grade descriptions are provided to give an indication of the standards of achievement candidates awarded 
+particular grades are likely to show. Weakness in one aspect of the examination may be balanced by a better 
+performance in some other aspect. 
+Grade descriptions for Cambridge O Level Additional Mathematics will be published after the first assessment 
+of the syllabus in 2025.
+
+===== PAGE 30 =====
+Cambridge O Level Additional Mathematics 4037 syllabus for 2025, 2026 and 2027.  What else you need to know 
+30
+www.cambridgeinternational.org/olevel
+Back to contents page
+Changes to this syllabus for 2025, 2026 and 2027
+The syllabus has been reviewed and revised for first examination in 2025.
+You must read the whole syllabus before planning your teaching programme.
+Changes to syllabus content
+	•
+The wording of learning outcomes has been updated and notes and 
+examples included, to clarify the depth of teaching. 
+	•
+The subject content has been refreshed and updated. Significant 
+changes to content have been summarised below. 
+–	
+The Indices and surds topic has been removed from the subject 
+content (this is now assumed knowledge).
+–	
+A new topic on Coordinate geometry of the circle has been 
+added to the subject content.
+	•
+Other content has been added, removed or clarified within topics; 
+you are advised to read the subject content in the syllabus carefully 
+for details.
+	•
+The teaching time has not changed.
+	•
+The List of formulas provided in the examinations has been 
+updated.
+	•
+The Command words have been updated.
+	•
+A section on mathematical conventions has been provided.
+	•
+The wording of the learner attributes has been updated to improve 
+clarity.
+	•
+The aims have been updated and clarified.
+Changes to assessment 
+(including changes to 
+specimen papers)
+	•
+The wording of the assessment objectives (AOs) has been updated. 
+There are no changes to the knowledge and skills being assessed 
+for each AO.
+	•
+A non-calculator assessment has been introduced to build 
+candidates’ confidence in working mathematically without a 
+calculator.
+–	
+Paper 1 is now a non-calculator paper, calculators are not 
+allowed in the exam.
+–	
+Calculators are still allowed in Paper 2.
+	•
+The questions in the examinations are the same standard as in the 
+existing assessment.
+	•
+Mark schemes have been updated to award more marks 
+for working where appropriate, in line with other Cambridge 
+Mathematics qualifications.
+	•
+The specimen assessment materials have been updated to reflect 
+the changes to the assessment.
+In addition to reading the syllabus, you should refer to the updated specimen assessment materials. The 
+specimen papers will help your students become familiar with exam requirements and command words in 
+questions. The specimen mark schemes show how students should answer questions to meet the assessment 
+objectives.
+Any textbooks endorsed to support the syllabus for examination from 2025 are suitable for use 
+with this syllabus.   
+
+===== PAGE 31 =====
+We are committed to making our documents accessible in accordance with the WCAG 2.1 Standard. We are always looking to improve 
+the accessibility of our documents. If you find any problems or you think we are not meeting accessibility requirements, contact us at 
+info@cambridgeinternational.org with the subject heading: Digital accessibility. If you need this document in a different format, contact 
+us and supply your name, email address and requirements and we will respond within 15 working days.
+Cambridge Assessment International Education, The Triangle Building, Shaftesbury Road, Cambridge, CB2 8EA, United Kingdom
+t : +44 (0)1223 553554 	
+email : info@cambridgeinternational.org	
+www.cambridgeinternational.org
+© Cambridge University Press & Assessment September 2022

@@ -1,0 +1,124 @@
+{
+  "subject": "add-math-4037",
+  "syllabus_code": "4037",
+  "generated": "2026-08-29",
+  "sessions": {
+    "s24": {
+      "label": "May/June 2024",
+      "year": 2024,
+      "order": 1,
+      "variants": {
+        "11": {
+          "ms": "papers/2024-mayjune/4037_s24_ms_11.pdf",
+          "qp": "papers/2024-mayjune/4037_s24_qp_11.pdf"
+        },
+        "12": {
+          "ms": "papers/2024-mayjune/4037_s24_ms_12.pdf",
+          "qp": "papers/2024-mayjune/4037_s24_qp_12.pdf"
+        },
+        "21": {
+          "ms": "papers/2024-mayjune/4037_s24_ms_21.pdf",
+          "qp": "papers/2024-mayjune/4037_s24_qp_21.pdf"
+        },
+        "22": {
+          "ms": "papers/2024-mayjune/4037_s24_ms_22.pdf",
+          "qp": "papers/2024-mayjune/4037_s24_qp_22.pdf"
+        }
+      },
+      "other": {}
+    },
+    "w24": {
+      "label": "Oct/Nov 2024",
+      "year": 2024,
+      "order": 2,
+      "variants": {
+        "13": {
+          "ms": "papers/2024-octnov/4037_w24_ms_13.pdf",
+          "qp": "papers/2024-octnov/4037_w24_qp_13.pdf"
+        },
+        "22": {
+          "ms": "papers/2024-octnov/4037_w24_ms_22.pdf",
+          "qp": "papers/2024-octnov/4037_w24_qp_22.pdf"
+        },
+        "23": {
+          "ms": "papers/2024-octnov/4037_w24_ms_23.pdf",
+          "qp": "papers/2024-octnov/4037_w24_qp_23.pdf"
+        },
+        "12": {
+          "qp": "papers/2024-octnov/4037_w24_qp_12.pdf"
+        }
+      },
+      "other": {}
+    },
+    "s25": {
+      "label": "May/June 2025",
+      "year": 2025,
+      "order": 1,
+      "variants": {
+        "11": {
+          "ms": "papers/2025-mayjune/4037_s25_ms_11.pdf",
+          "qp": "papers/2025-mayjune/4037_s25_qp_11.pdf"
+        },
+        "12": {
+          "ms": "papers/2025-mayjune/4037_s25_ms_12.pdf",
+          "qp": "papers/2025-mayjune/4037_s25_qp_12.pdf"
+        },
+        "21": {
+          "ms": "papers/2025-mayjune/4037_s25_ms_21.pdf",
+          "qp": "papers/2025-mayjune/4037_s25_qp_21.pdf"
+        },
+        "22": {
+          "qp": "papers/2025-mayjune/4037_s25_qp_22.pdf"
+        }
+      },
+      "other": {}
+    },
+    "w25": {
+      "label": "Oct/Nov 2025",
+      "year": 2025,
+      "order": 2,
+      "variants": {
+        "12": {
+          "ms": "papers/2025-octnov/4037_w25_ms_12.pdf",
+          "qp": "papers/2025-octnov/4037_w25_qp_12.pdf"
+        },
+        "13": {
+          "ms": "papers/2025-octnov/4037_w25_ms_13.pdf",
+          "qp": "papers/2025-octnov/4037_w25_qp_13.pdf"
+        },
+        "22": {
+          "ms": "papers/2025-octnov/4037_w25_ms_22.pdf",
+          "qp": "papers/2025-octnov/4037_w25_qp_22.pdf"
+        },
+        "23": {
+          "ms": "papers/2025-octnov/4037_w25_ms_23.pdf",
+          "qp": "papers/2025-octnov/4037_w25_qp_23.pdf"
+        }
+      },
+      "other": {}
+    },
+    "s26": {
+      "label": "May/June 2026",
+      "year": 2026,
+      "order": 1,
+      "variants": {
+        "11": {
+          "ms": "papers/2026-mayjune/4037_s26_ms_11.pdf",
+          "qp": "papers/2026-mayjune/4037_s26_qp_11.pdf"
+        },
+        "12": {
+          "ms": "papers/2026-mayjune/4037_s26_ms_12.pdf",
+          "qp": "papers/2026-mayjune/4037_s26_qp_12.pdf"
+        },
+        "21": {
+          "ms": "papers/2026-mayjune/4037_s26_ms_21.pdf",
+          "qp": "papers/2026-mayjune/4037_s26_qp_21.pdf"
+        },
+        "22": {
+          "ms": "papers/2026-mayjune/4037_s26_ms_22.pdf"
+        }
+      },
+      "other": {}
+    }
+  }
+}
