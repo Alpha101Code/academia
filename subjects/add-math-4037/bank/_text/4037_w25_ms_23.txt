@@ -1,0 +1,1831 @@
+===== PAGE 1 =====
+ 
+                                                                    
+  
+ 
+ 
+This document consists of 15 printed pages. 
+ 
+© Cambridge University Press & Assessment 2025 
+ 
+[Turn over
+ 
+Cambridge O Level 
+ 
+ADDITIONAL MATHEMATICS 
+4037/23 
+Paper 2  
+October/November 2025 
+MARK SCHEME 
+Maximum Mark: 80 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which would have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the October/November 2025 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level components, and some Cambridge O Level 
+components. 
+ 
+ 
+ 
+
+===== PAGE 2 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 2 of 15 
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They 
+should be applied alongside the specific content of the mark scheme or generic level descriptions for a question. 
+Each question paper and mark scheme will also comply with these marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+• 
+the specific content of the mark scheme or the generic level descriptors for the question 
+• 
+the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+• 
+the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+• 
+marks are awarded for correct/valid answers, as defined in the mark scheme. However, credit is given for 
+valid answers which go beyond the scope of the syllabus and mark scheme, referring to your Team 
+Leader as appropriate 
+• 
+marks are awarded when candidates clearly demonstrate what they know and can do 
+• 
+marks are not deducted for errors 
+• 
+marks are not deducted for omissions 
+• 
+answers should only be judged on the quality of spelling, punctuation and grammar when these features 
+are specifically assessed by the question as indicated by the mark scheme. The meaning, however, 
+should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in 
+the application of generic level descriptors. 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question 
+(however; the use of the full mark range may be limited according to the quality of the candidate responses 
+seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be 
+awarded with grade thresholds or grade descriptors in mind. 
+ 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 3 of 15 
+ 
+Mathematics-Specific Marking Principles 
+1 
+Unless a particular method has been specified in the question, full marks may be awarded for any correct 
+method. However, if a calculation is required then no marks will be awarded for a scale drawing. 
+2 
+Unless specified in the question, non-integer answers may be given as fractions, decimals or in standard 
+form. Ignore superfluous zeros, provided that the degree of accuracy is not affected. 
+3 
+Allow alternative conventions for notation if used consistently throughout the paper, e.g. commas being 
+used as decimal points. 
+4 
+Unless otherwise indicated, marks once gained cannot subsequently be lost, e.g. wrong working 
+following a correct form of answer is ignored (isw). 
+5 
+Where a candidate has misread a number or sign in the question and used that value consistently 
+throughout, provided that number does not alter the difficulty or the method required, award all marks 
+earned and deduct just 1 A or B mark for the misread. 
+6 
+Recovery within working is allowed, e.g. a notation error in the working where the following line of 
+working makes the candidate’s intent clear. 
+ 
+ 
+ 
+ 
+
+===== PAGE 4 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 4 of 15 
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one 
+another. Examiners are trained during the standardisation process on how and when to use annotations. The 
+purpose of annotations is to inform the standardisation and monitoring processes and guide the supervising 
+examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies 
+of scripts. Note that there may not be a direct correlation between the number of annotations on a script and the 
+mark awarded. Similarly, the use of an annotation may not be an indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation 
+Meaning 
+More information required 
+ 
+Accuracy mark awarded zero 
+ 
+Accuracy mark awarded one 
+ 
+Accuracy mark awarded two 
+ 
+Accuracy mark awarded three 
+ 
+Independent mark awarded zero 
+ 
+Independent mark awarded one 
+ 
+Independent mark awarded two 
+ 
+Independent mark awarded three 
+ 
+Benefit of the doubt 
+ 
+Communication mark 
+Incorrect 
+ 
+Follow through 
+Highlighter 
+Highlight a key point in the working 
+ 
+Ignore subsequent work 
+ 
+Method mark awarded zero 
+ 
+Method mark awarded one 
+ 
+Method mark awarded two 
+ 
+Method mark awarded three 
+
+===== PAGE 5 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 5 of 15 
+ 
+Annotation 
+Meaning 
+ 
+Misread 
+ 
+Omission 
+Off-page comment 
+Allows comments to be entered at the bottom of the RM marking window and then 
+displayed when the associated question item is navigated to. 
+On-page comment 
+Allows comments to be entered in speech bubbles on the candidate response. 
+ 
+Premature rounding/approximation  
+ 
+Special case 
+ 
+Indicates that work/page has been seen 
+ 
+Transcription error 
+Correct 
+ 
+Correct answer from incorrect working 
+ 
+ 
+ 
+
+===== PAGE 6 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 6 of 15 
+ 
+MARK SCHEME NOTES 
+ 
+The following notes are intended to aid interpretation of mark schemes in general, but individual mark schemes 
+may include marks awarded for specific reasons outside the scope of these notes. 
+ 
+ 
+Types of mark 
+ 
+M 
+Method marks, awarded for a valid method applied to the problem. 
+ 
+A 
+Accuracy mark, awarded for a correct answer or intermediate step correctly obtained. For accuracy 
+marks to be given, the associated Method mark must be earned or implied. 
+ 
+B 
+Mark for a correct result or statement independent of Method marks. 
+ 
+When a part of a question has two or more ‘method’ steps, the M marks are in principle independent unless the 
+scheme specifically says otherwise; and similarly where there are several B marks allocated. The notation ‘dep’ 
+is used to indicate that a particular M or B mark is dependent on an earlier mark in the scheme. 
+ 
+Abbreviations 
+ 
+awrt 
+answers which round to 
+cao 
+correct answer only 
+dep 
+dependent 
+FT 
+follow through after error 
+isw 
+ignore subsequent working 
+nfww not from wrong working 
+oe 
+or equivalent 
+rot 
+rounded or truncated 
+SC 
+Special Case 
+soi 
+seen or implied 
+ 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+1 
+27a − 63 − 3b + 9 = 0 oe 
+B1  
+ 
+−8a − 28 + 2b + 9 = −35 oe 
+B1  
+ 
+Eliminates one unknown and solves for a or b  
+M1 FT their equations provided both 
+equations are linear with terms in a 
+and b 
+ 
+a = 2, b = 0 nfww 
+A2 A1 for each 
+
+===== PAGE 7 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 7 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+2(a)(i) 
+B1 • 
+Correct inverse function drawn 
+with correct shape over correct 
+domain and range 
+• 
+2nd intersection at roughly 
+(4, 4)  
+2(a)(ii) 
+Reflection in y = x oe 
+B1  
+2(b)(i) 
+Complete method including change of subject and swop of 
+variables at some point 
+M2 M1 for ln
+2
+=
+−
+y
+x
+  
+or ln
+2
+=
+−
+x
+y
+ soi 
+ 
+( )
+(
+)
+2
+1
+g
+ 
+ ln
+ 2
+−
+
+
+
+
+=
++
+x
+x
+ 
+A1 Final answer 
+2(b)(ii) 
+g−1(x) ⩾2 
+B1  
+2(b)(iii) 
+1
+e x or 
+e
+x
+ or 
+1
+e
+−
+x 
+B2 Final answer 
+B1 for 
+2
+1
+2 2
+e
++ −
+x
+ soi oe 
+3(a)(i) 
+2
+1
+25
+2
+4
+
+
+−
+−
+
+
+
+
+x
+ oe isw 
+B2 
+B1 for 
+2
+1
+2
+
+
+−
+
+
+
+
+x
+or for 
+(
+)
+2
+25
+4
++
+−
+x
+a
+  
+OR 
+B1 for 
+1
+25
+, 
+2
+4
+= −
+= −
+a
+b
+ stated 
+3(a)(ii) 
+(
+)
+,
+−their a theirb oe 
+B2 STRICT FT from part (i) 
+ 
+B1 STRICT FT  
+for x-coordinate = –their a  
+or for y-coordinate = their b 
+
+===== PAGE 8 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 8 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+3(b) 
+Correct graph  
+ 
+-4
+-2
+2
+4
+2
+4
+6
+8
+10
+12
+14
+x
+y
+0
+B3 B2 for correct shape with cusps and 
+intercepts at (–2, 0), (3, 0) and (0, 6) 
+and maximum in 1st quadrant 
+ 
+or  B1 for correct shape with cusps 
+on x-axis and incorrect intercepts 
+or B1 for correct shape with no 
+cusps (e.g. having minima) and 
+intercepts at (–2, 0), 
+(3, 0) and at (0, 6)  
+3(c) 
+their −2.7 < x < −1,  2 < x < their 3.7 
+B2 STRICT FTB2 dep on a graph 
+with correct intercepts earning at 
+least B1 in part (b)  
+and their curve crossing y = 4 in 
+four places 
+ 
+STRICT FTB1 for either  
+‘their −2.7 < x < −1’  
+or ‘ 2 < x < their 3.7’  
+ 
+OR 
+ 
+B1 FT for their 4 critical values 
+providing at least B1 awarded for 
+part (b) soi 
+4(a)(i) 
+5
+2
+1e
+5
+−
+x
+(+ c) 
+2 B1 for 
+5
+2
+−
+x
+ke
+  
+where k is a non-zero constant 
+4(a)(ii) 
+1ln(4
+3 )
+3
+−
+−x (+ c) 
+2 B1 for 
+1 ln 4
+3
+3
+−
+−x  
+or 
+(
+)
+4 3
+−
+kln
+x  
+where k is a non-zero constant 
+4(b) 
+1
+2tan 2
+
+
+
+
+
+
+x 
+M2 M1 for
+1
+tan 2
+
+
+
+
+
+
+k
+x 
+where k is a non-zero constant 
+ 
+Fully justified completion to given answer  
+e.g. 
+π
+π
+2tan
+2tan
+4
+6
+−
+ =
+3
+2 1
+3
+
+
+−
+
+
+
+
+
+
+ 
+A1 
+Or  2(tan
+tan
+)
+4
+6
+
+
+−
+ =
+3
+2 1
+3
+
+
+−
+
+
+
+
+
+
+ 
+5(a) 
+60 480  Final answer 
+B1  
+
+===== PAGE 9 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 9 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+5(b) 
+20 160  Final answer 
+ 
+2 M1 for 
+8
+5
+3
+or 3 8 7
+6 5 4
+
+
+P
+or 
+9
+6
+1
+3P oe 
+5(c) 
+16 800  Final answer 
+ 
+3 M1 for starts 7 then 5 or 6 or 8 or   
+9: 3360 
+M1 for starts 8, 9: 13 440  
+ 
+OR 
+ 
+M2 their(b) – 3360  
+or  
+M1 for starts 7 then 1 or 2 or 3 or 4: 
+3360 
+6 
+2
+3
+4
+2
+8
+1
++
+=
++
++
+x
+x
+x
+oe 
+M1 Eliminates one unknown 
+ 
+
+
+2
+2
+5
+3
+0
++
+−
+=
+x
+x
+or 
+
+
+2
+– 2
+–5
+3 
+0
++
+=
+x
+x
+ 
+A1 Writes in solvable form 
+ 
+(2x − 1)(x + 3) or (−2x + 1)(x + 3) oe 
+M1 Uses quadratic formula or factorises 
+their 3-term quadratic  
+ 
+1 11
+,
+2
+2
+
+
+
+
+
+
+ (−3, −5) oe 
+A1  
+ 
+Equation of their perpendicular bisector: 
+1
+1
+5
+4
+3
+4
+
+
+−
+= −
++
+
+
+
+
+y
+x
+ or 
+1
+1
+3
+6
+= −
+−
+y
+x
+ oe 
+M3 FT their midpoint and perpendicular 
+gradient from correct use of 
+their(0.5, 5.5) and  
+their (−3, −5) 
+M1 FT for midpoint: (−1.25, 0.25) 
+or 
+(
+)
+0.5
+( 3)
+5.5
+( 5)
+,
+2
+2
++
+−
++
+−
+their
+their
+their
+their
+M1 FT for perpendicular gradient:  
+(
+)
+(
+)
+1
+1
+5
+5.5
+3
+3
+0.5
+ oe  or  
+⊥
+−
+=
+−
+−
+−
+−
+−
+m
+their
+their
+their
+their
+ 
+ 
+OR 
+ 
+M1 FT for equating lengths 
+(
+)
+(
+)
+(
+)
+(
+)
+2
+2
+2
+2
+3
+5
+– 0.5
+– 5.5
++
++
++
+=
++
+x
+y
+x
+y
+M1 FT for expanding soi 
+2
+2
+2
+2
+6
+10
+34
+11
+30.5
++
++
++
++
+=
++
+−
+−
++
+x
+y
+x
+y
+x
+y
+x
+y
+ 
+
+===== PAGE 10 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 10 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+6 
+2x + 6y + 1 = 0 final answer 
+A2 A1 for correct equation in a 
+different form isw  
+e.g. 
+1
+1
+5
+4
+3
+4
+
+
+−
+= −
++
+
+
+
+
+y
+x
+  
+or 
+1
+1
+3
+6
+= −
+−
+y
+x
+  
+or 
+0.25
+7
+1.25
+21
+−
+= −
++
+y
+x
+  
+or 
+1
+3
+0
+2
++
++
+=
+x
+y
+  
+or 2x + 6y = –1 oe 
+ 
+OR  
+ 
+A1 FT their perpendicular bisector 
+for a final answer in the form 
+ 𝑎𝑥+ 𝑏𝑦+ 𝑐= 0 
+Dep on previous M1 M1 and an 
+attempt to find the perpendicular 
+bisector  
+7 
+
+
+2
+0
+(
+3
+)
+1 
+tan 3
+tan3
+ 
++
++
+−
+=
+x
+x
+ 
+M1 Uses 
+2
+2
+sec 3
+1
+tan 3
+= +
+x
+x 
+ 
+2
+tan 3
+tan3
+2
++
+−
+x
+x
+ [= 0] 
+A1 Writes in solvable form 
+ 
+(tan 3x + 2)(tan 3x − 1) [= 0] 
+tan 3x = −2, tan 3x = 1  
+M1 Factorises or solves their 3-term 
+quadratic in tan 3x 
+ 
+Correct triple angle: 
+3x = 116.6 or 296.6 or 45 or 225 
+A1  
+ 
+[x =]  
+ 
+15,  
+ 
+75,  
+ 
+38.9 or 38.85[5…] 
+ 
+98.9 or 98.85[5…] 
+and no extras in range 0
+120 
+x
+
+ 
+A2 A1 for any two correct angles, 
+ignoring extras in range 
+
+===== PAGE 11 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 11 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+8(a) 
+π
+3
+ 
+2 M1 for angle AOB: 2π
+3
+  
+or angle AQO: π
+6
+  
+or angle OAB: π
+6
+ 
+or e.g. cos (AOB) = 
+1
+2
+−
+  
+or 
+1
+sin
+ 
+2
+
+=
+
+
+
+
+AOB
+ 
+3
+2
+ 
+or AQ or BQ = 2 3 
+ 
+If 0 scored, SC1 for answer of 1.047 
+rads 
+
+===== PAGE 12 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 12 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+8(b) 
+2π
+2 3
+3
+−
+or 6 3
+2
+3
+− oe nfww 
+6 B5 correct calculation that 
+simplifies to give shaded area e.g. 
+(
+)
+4
+3
+2
+3 3
+3
+
+
+
+−
+−
+−
+
+
+
+
+ 
+OR 
+B1 for sector AOB: 
+2
+1
+2π
+2
+2
+3
+
+
+ oe 
+B1 for AOB or AOQ or BOQ: 
+2
+1
+2π
+2
+sin
+2
+3
+
+
+  
+or 1
+2 2 3sin
+ 
+2
+6
+
+
+oe  
+B1 for sector AQB: 
+(
+)
+2
+1
+π
+2 3
+2
+3
+
+
+ 
+oe 
+B1 for AQB: (
+)
+2
+1
+π
+2 3
+sin 
+2
+3
+ oe 
+OR 
+B2 FT their exact angles for a 
+correct calculation for any two of 
+these areas 
+OR  
+B2 for sector AOB: 4.188;  
+AOB or AOQ or BOQ: 1.732; 
+sector AQB: 6.282; 
+AQB: 5.195[5]  
+from using 1.047 rads 
+OR  
+B1FT their exact angles for a 
+correct calculation for any one of 
+these areas 
+OR 
+B1 for one of these areas using 
+1.047 rads 
+9(a) 
+Points plotted at 
+ 
+lnx 
+–0.5 
+1.5 
+2.5 
+3.5 
+soi 
+lny  
+0.5 
+1.5 
+2 
+2.5 
+ 
+and single, ruled, straight line of best fit drawn 
+B2 B1 for at least 3 correctly plotted 
+points 
+
+===== PAGE 13 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 13 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+9(b)  
+Uses linear points to find 
+b = awrt 0.50 soi 
+2 M1 for b = 2.5
+0.5
+3.5
+0.5
+−
++
+  
+or 
+2.5
+2
+3.5
+2.5
+−
+=
+−
+b
+ oe  
+OR 
+M1 for 0.5 = –0.5b + c oe  
+and 2.5 = 3.5b + c oe  
+and correctly eliminates c. 
+ 
+If 0 scored, SC1 for b = awrt 0.50 
+from use of given exponential 
+equation 
+ 
+Uses linear points to find 
+0.7 to 0.8
+e
+=
+A
+or 2.01 to 2.23 isw soi  
+2 M1 for ln A = 0.75  
+ 
+If 0 scored, SC1 for A = 2.12 or 
+2.117[00…] or e0.75 from use of 
+given exponential equation 
+10(a) 
+Differentiates 
+2
+2
+100 :
++
+t
+  
+(
+)
+1
+2
+2
+1 2
+100
+4 oe
+2
+−
++
+
+t
+t
+ 
+ 
+or differentiates 
+1
+2
+2
+(2
+100)
+−
++
+t
+:  
+(
+)
+3
+2
+2
+1
+2
+100
+4
+2
+−
+
+
+−
++
+
+
+
+
+
+t
+t 
+B2 
+B1 for (
+)
+( )
+1
+2
+2
+1 2
+100
+f
+2
+−
++
+
+t
+t  
+ 
+OR for 
+(
+)
+( )
+3
+2
+2
+1
+2
+100
+f
+2
+−
+
+
+−
++
+
+
+
+
+
+t
+t 
+ 
+where f(t) is a function of t 
+ 
+Correct structure of the quotient rule:  
+ 
+(
+)(
+) (
+)
+(
+)
+(
+)
+1
+2
+2
+2
+2
+2
+1
+2
+100
+10
+10
+100
+2
+100
+4
+2
+2
+100
+−
+
+
++
+−
++
++
+
+
+
+
+
++
+t
+t
+t
+t
+t
+ 
+ 
+OR  
+ 
+Correct structure of product rule applied to  
+(
+)
+1
+2
+2
+10
+100 (2
+100)
+−
++
++
+t
+t
+ : 
+ 
+(10t + 100)
+(
+)
+3
+2
+2
+1 2
+100
+4
+2
+−
+
+
+−
++
+
+
+
+
+
+
+
+t
+t + 10
+1
+2
+2
+(2
+100)
+−
++
+t
+  
+M1 FT their
+(
+)
+2
+d
+2
+100
+d
++
+t
+x
+ 
+or their
+(
+)
+1
+2
+2
+d
+2
+100
+d
+−
+
+
++
+
+
+
+
+
+
+t
+x
+as 
+appropriate 
+
+===== PAGE 14 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 14 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+10(a) 
+Correct d
+d
+s
+t
+: 
+ 
+(
+)(
+) (
+)
+(
+)
+(
+)
+1
+2
+2
+2
+2
+2
+1
+2
+100
+10
+10
+100
+2
+100
+4
+2
+  
+2
+100
+−
+
+
++
+−
++
++
+
+
+
+
+
+
+
++
+t
+t
+t
+t
+t
+oe , 
+isw 
+OR 
+ 
+(10t + 100)
+(
+)
+3
+2
+2
+1 2
+100
+4
+2
+−
+
+
+−
++
+
+
+
+
+
+
+
+t
+t 
+ 
++ 10
+2
+0.5
+(2
+100)−
++
+t
+ oe , isw 
+A1  
+ 
+Equates their d
+d
+s
+t
+to 0  
+M1 Dep on previous M1 
+ 
+t = 5 nfww 
+A1 Dep on all previous marks  
+and sight of e.g. 
+(
+)
+(
+)
+
+2
+10 2
+100
+2 10
+100
+0
++
+−
++
+=
+t
+t
+t
+ 
+or 1000 – 200t [= 0] 
+or 
+(
+)
+2
+1
+2
+100
+10
+100
+5
++
+=
++
+t
+t
+t
+ 
+10(b)(i) 
+(
+)
+2
+150
+10
+−
+oe, isw  
+or 4.49 or 4.494 to 4.495 
+B2 Final answer 
+B1 for t = 0, s = 10  
+and t = 5, s = 150  or  5 6  
+or 12.24[74] soi 
+10(b)(ii) 
+2
+10
+100
+2
+100
++
++
+t
+t
+ = their 10 
+M1 FT their 10 providing it is positive 
+and greater than their 5  
+ 
+(
+)
+2
+2
+2
+(10
+100)
+(10)
+2
+100
++
+=
++
+t
+t
+  
+M1 FT their10 
+Dep on previous M1 
+ 
+T = 20 
+A1 
+ 
+
+===== PAGE 15 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 15 of 15 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+11 
+Radius: 5 soi 
+B1 Implied by 
+2
+25
+=
+r
+  
+or 25 used as 
+2
+r in their 2nd circle 
+equation  
+ 
+Centre: (
+)
+4 2,4 2 soi oe 
+B2 B1 for (5.66, 5.66) or better 
+OR 
+B1 for distance between centres is 8 
+soi 
+ 
+2
+2
+8
+8
+2
+2
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+
+
+x
+y
+= 25 oe 
+ 
+or  
+(
+)
+(
+)
+(
+)
+2
+2
+2
+2 4 2
+2 4 2
+2 4 2
+25
+0
++
+−
+−
++
+−
+=
+x
+y
+x
+y
+ oe 
+M1 FT their(
+)
+4 2,4 2 in form (k, k) 
+where k is a non-zero constant  
+e.g. 
+2
+2
+8
+8
+2
+2
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+
+
+x
+their
+y
+their
+= 
+25 
+or 
+2
+2
+2
+– 2
+–
+2
+– 25 
+0
+oe
+(
+)
++
++
+=
+x
+y
+theirx
+theiry
+their
+ 
+ 
+2
+2
++
+x
+y − 8 2 x − 8 2 y + 39 = 0 
+A1 Must be exact 
+ 
+ 

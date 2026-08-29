@@ -1,0 +1,1920 @@
+===== PAGE 1 =====
+ 
+                                                                    
+  
+ 
+ 
+This document consists of 14 printed pages. 
+ 
+© Cambridge University Press & Assessment 2025 
+ 
+[Turn over
+ 
+Cambridge O Level 
+ 
+ADDITIONAL MATHEMATICS 
+4037/12 
+Paper 1  
+October/November 2025 
+MARK SCHEME 
+Maximum Mark: 80 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which would have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the October/November 2025 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level components, and some Cambridge O Level 
+components. 
+ 
+ 
+ 
+
+===== PAGE 2 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 2 of 14 
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They 
+should be applied alongside the specific content of the mark scheme or generic level descriptions for a question. 
+Each question paper and mark scheme will also comply with these marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+• 
+the specific content of the mark scheme or the generic level descriptors for the question 
+• 
+the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+• 
+the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+• 
+marks are awarded for correct/valid answers, as defined in the mark scheme. However, credit is given for 
+valid answers which go beyond the scope of the syllabus and mark scheme, referring to your Team 
+Leader as appropriate 
+• 
+marks are awarded when candidates clearly demonstrate what they know and can do 
+• 
+marks are not deducted for errors 
+• 
+marks are not deducted for omissions 
+• 
+answers should only be judged on the quality of spelling, punctuation and grammar when these features 
+are specifically assessed by the question as indicated by the mark scheme. The meaning, however, 
+should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in 
+the application of generic level descriptors. 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question 
+(however; the use of the full mark range may be limited according to the quality of the candidate responses 
+seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be 
+awarded with grade thresholds or grade descriptors in mind. 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 3 of 14 
+ 
+Mathematics-Specific Marking Principles 
+1 
+Unless a particular method has been specified in the question, full marks may be awarded for any correct 
+method. However, if a calculation is required then no marks will be awarded for a scale drawing. 
+2 
+Unless specified in the question, non-integer answers may be given as fractions, decimals or in standard 
+form. Ignore superfluous zeros, provided that the degree of accuracy is not affected. 
+3 
+Allow alternative conventions for notation if used consistently throughout the paper, e.g. commas being 
+used as decimal points. 
+4 
+Unless otherwise indicated, marks once gained cannot subsequently be lost, e.g. wrong working 
+following a correct form of answer is ignored (isw). 
+5 
+Where a candidate has misread a number or sign in the question and used that value consistently 
+throughout, provided that number does not alter the difficulty or the method required, award all marks 
+earned and deduct just 1 A or B mark for the misread. 
+6 
+Recovery within working is allowed, e.g. a notation error in the working where the following line of 
+working makes the candidate’s intent clear. 
+ 
+ 
+ 
+ 
+
+===== PAGE 4 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 4 of 14 
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one 
+another. Examiners are trained during the standardisation process on how and when to use annotations. The 
+purpose of annotations is to inform the standardisation and monitoring processes and guide the supervising 
+examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies 
+of scripts. Note that there may not be a direct correlation between the number of annotations on a script and the 
+mark awarded. Similarly, the use of an annotation may not be an indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation 
+Meaning 
+More information required 
+Accuracy mark awarded zero 
+Accuracy mark awarded one 
+Accuracy mark awarded two 
+Accuracy mark awarded three 
+Independent mark awarded zero 
+Independent mark awarded one 
+Independent mark awarded two 
+ 
+Independent mark awarded three 
+Benefit of the doubt 
+Communication mark 
+Incorrect 
+Follow through 
+Highlighter 
+Highlight a key point in the working 
+ 
+Ignore subsequent work 
+ 
+Method mark awarded zero 
+Method mark awarded one 
+Method mark awarded two 
+
+===== PAGE 5 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 5 of 14 
+ 
+Annotation 
+Meaning 
+ 
+Method mark awarded three 
+Misread 
+Omission 
+Off-page comment 
+Allows comments to be entered at the bottom of the RM marking window and then 
+displayed when the associated question item is navigated to. 
+On-page comment 
+Allows comments to be entered in speech bubbles on the candidate response. 
+Premature rounding/approximation  
+Special case 
+Indicates that work/page has been seen 
+Transcription error 
+Correct 
+Correct answer from incorrect working 
+ 
+ 
+ 
+
+===== PAGE 6 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 6 of 14 
+ 
+MARK SCHEME NOTES 
+ 
+The following notes are intended to aid interpretation of mark schemes in general, but individual mark schemes 
+may include marks awarded for specific reasons outside the scope of these notes. 
+ 
+ 
+Types of mark 
+ 
+M 
+Method marks, awarded for a valid method applied to the problem. 
+ 
+A 
+Accuracy mark, awarded for a correct answer or intermediate step correctly obtained. For accuracy 
+marks to be given, the associated Method mark must be earned or implied. 
+ 
+B 
+Mark for a correct result or statement independent of Method marks. 
+ 
+When a part of a question has two or more ‘method’ steps, the M marks are in principle independent unless the 
+scheme specifically says otherwise; and similarly where there are several B marks allocated. The notation ‘dep’ 
+is used to indicate that a particular M or B mark is dependent on an earlier mark in the scheme. 
+ 
+Abbreviations 
+ 
+awrt 
+answers which round to 
+cao 
+correct answer only 
+dep 
+dependent 
+FT 
+follow through after error 
+isw 
+ignore subsequent working 
+nfww not from wrong working 
+oe 
+or equivalent 
+rot 
+rounded or truncated 
+SC 
+Special Case 
+soi 
+seen or implied 
+ 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+1(a) 
+ 
+3 B1 for the correct shape with a 
+distinct minimum in 4th quadrant 
+and a distinct maximum in the first 
+quadrant. No turning over at end 
+points, suggesting further stationary 
+points. 
+  
+B1 for 1, 2.5 and 5 on the x-axis or 
+stated. Independent mark for 
+critical values seen correctly 
+marked on the x-axis or stated with 
+no contradiction and no other 
+critical x-values 
+ 
+B1 for 25 marked correctly on the 
+y-axis or stated with no 
+contradiction. 
+Independent mark. 
+
+===== PAGE 7 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 7 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+1(b) 
+1
+2.5
+x
+
+ 
+B1 Mark final answer 
+ 
+5
+x
+ 
+B1 Mark final answer 
+2(a) 
+(
+)
+(
+)
+p
+2
+ 16
+4
+26
+0
+−
+=
+−
++
+−
++
+=
+a
+b
+  
+B1  
+ 
+(
+)
+(
+)
+p
+1
+ 
+2
+13
+6
+−
+=
+−+
+−
++
+=
+a
+b
+ 
+B1  
+ 
+7,  
+14
+=
+=
+a
+b
+ 
+2 M1 to solve their equations to 
+obtain at least one value, must be 
+using (
+)
+p
+2
+−
+or (
+)
+p
+1
+−
+ 
+2(b) 
+(
+)(
+)
+2
+2
+2
+3
+7
+0
++
++
++
+=
+x
+x
+x
+soi 
+2 M1 for attempt to factorise or use 
+of long division on their ( )
+p x 
+ 
+Correct use of discriminant on their quadratic 
+factor  
+or correct attempt to solve their quadratic 
+factor equated to zero with valid conclusion 
+B1 FT on their quadratic factor. 
+Quadratic factor must have a 
+negative discriminant and have a 
+correct value if evaluated 
+3(a) 
+9
++
+=
+a
+ar
+ or (
+)
+2
+1
+9
+1
+−
+=
+−
+a
+r
+r
+  or (
+)
+2
+1
+9
+1
+−
+=
+−
+a r
+r
+ 
+B1  
+ 
+25
+1
+=
+−
+a
+r
+ 
+B1  
+ 
+2
+16
+25
+=
+r
+ 
+B1 Dep B mark on both previous B 
+marks 
+ 
+4
+5
+= 
+r
+  or   0.8
+
+ 
+B1 Dep B1 mark on all previous B 
+marks 
+3(b) 
+5, 45
+=
+a
+ 
+2 B1 for each 
+4(a) 
+2
+5
+1
+2
+4
+8
+
+
++
+−
+
+
+
+
+x
+ 
+2 
+B1 for 
+2
+5
+2
+4
+
+
++
+
+
+
+
+x
+ 
+B1 for 
+1
+8
+−
+ 
+4(b) 
+5
+1
+, 
+4
+8
+
+
+−
+−
+
+
+
+
+ 
+2 B1FT on their – a  
+B1FT on their b 
+B0 if calculus used as question says 
+‘Hence’ 
+4(c)(i) 
+5
+4
+−
+ or 
+5
+4
+= −
+p
+or 
+5
+4
+−
+x
+ 
+B1 FT on their – a from part (a).   
+Allow if from calculus 
+
+===== PAGE 8 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 8 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+4(c)(ii) 
+ 
+5 B1 for 
+( )
+f
+=
+y
+x drawn as a one-one 
+function in the first, second and 
+third quadrants or first and second 
+quadrants. 
+Must have correct curvature  
+Dep B1 for 
+( )
+1
+f −
+=
+y
+x as a 
+reflection of their 
+( )
+f
+=
+y
+x in the 
+line 
+=
+y
+x .  Maybe implied by 
+intercepts, but must have the 
+correct curvature 
+B1 for  
+( )
+f
+=
+y
+x clearly passing 
+through 
+1
+= −
+x
+correctly soi. Allow 
+if domain is unrestricted but must 
+have correct quadratic shape or 
+curvature  
+B1 for 
+( )
+f
+=
+y
+x passing through 
+3
+=
+y
+ only on the y-axis soi. Allow 
+if domain is unrestricted but must 
+have correct quadratic shape or 
+curvature 
+B1 for – 1 and 3 marked correctly 
+for 
+( )
+1
+f −
+=
+y
+x allow for 
+unrestricted range. 
+Must have correct curvature. 
+5(a) 
+5
+4
+lg
+1000
+
+
+
+
+
+
+a
+b
+ or 
+5
+3
+4
+lg
+10
+
+
+
+
+
+
+a
+b
+ or 
+(
+)
+3
+5
+4
+lg 10−
+−
+a b
+or 
+(
+)
+5
+4
+lg 0.001
+−
+a b
+ or 
+5
+4
+3
+lg
+10
+−
+
+
+
+
+
+
+a b
+ or 
+equivalent correct single logarithm to base 10. 
+3 B2 for 
+(
+)
+5
+4
+lg
+1000
+
+
+a
+b
+ 
+or B2 for 
+5
+4
+lg
+1000
+
+
+
+
+
+
+
+a
+b
+ 
+B1 for 3
+lg1000
+=
+ or 
+3
+lg10 soi 
+B1 for use of the power rule at least 
+once  
+
+===== PAGE 9 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 9 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+5(b) 
+(
+)
+(
+)
+5
+5
+1
+log
+1
+0
+log
+1
++
+−
+=
++
+x
+x
+ oe 
+B1 For change of base seen in the 
+equation, allow for 
+(
+)
+(
+)
+5
+5
+5
+log 5
+log
+1
+0
+log
+1
++
+−
+=
++
+x
+x
+ 
+ 
+(
+)
+(
+)
+2
+5
+log
+1
+1
++
+=
+x
+leading to 
+(
+)
+
+5
+log
+1
+1
++
+= 
+x
+ 
+M1 For correct simplification to a 2-
+term quadratic and at least one 
+solution, may be implied by a 
+substitution 
+ 
+4
+=
+x
+ 
+A1 SC B1 if ‘spotted’ from a correct 
+equation 
+ 
+4
+5
+= −
+x
+ 
+A1 A0 if rejected or crossed out 
+ 
+Alternative method 1 
+  
+ 
+1
+1
+1
+log
+5
+0
+log
+5
++
++
+−
+=
+x
+x
+ oe 
+(B1) For change of base seen in the 
+equation, allow for 
+(
+)
+1
+1
+1
+log
+1
+log
+5
+0
+log
+5
++
++
++
++
+−
+=
+x
+x
+x
+x
+ 
+ 
+(
+)
+2
+1
+log
+5
+1
++
+=
+x
+ 
+
+1
+log
+5
+1
++
+= 
+x
+ 
+(M1) For correct simplification to a 2-
+term quadratic and at least one 
+solution, may be implied by a 
+substitution. 
+ 
+4
+=
+x
+ 
+(A1)  
+ 
+4
+5
+= −
+x
+ 
+(A1) A0 if rejected or crossed out 
+ 
+Alternative method 2 
+  
+ 
+(
+)
+(
+)
+lg
+1
+lg5
+0
+lg5
+lg
+1
++
+−
+=
++
+x
+x
+  oe 
+(B1) For change of base seen in the 
+equation, allow for 
+(
+)
+(
+)
+lg10
+lg
+1
+0
+lg
+1
++
+−
+=
++
+x
+x
+ 
+ 
+(
+)
+(
+)
+(
+)
+2
+2
+lg
+1
+lg5
++
+=
+x
+leading to 
+(
+)
+
+lg
+1
+lg5
++
+= 
+x
+ 
+(M1) For correct simplification to a 2-
+term quadratic and at least one 
+solution, may be implied by a 
+substitution 
+ 
+4
+=
+x
+ 
+(A1) SC B1 if ‘spotted’ from a correct 
+equation 
+ 
+4
+5
+= −
+x
+ 
+(A1) A0 if rejected or crossed out 
+
+===== PAGE 10 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 10 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+6 
+2
+2
+10
+5
++
+−
+=
+x
+x
+ 
+leading to 
+2
+2
+15
+0
++
+−
+=
+x
+x
+ 
+with a valid attempt to solve to obtain 2 values 
+for x 
+M1  
+ 
+5 ,  
+3
+2
+=
+−
+x
+ 
+A1 For both 
+Mark final answer for this equation, 
+A0 if – 3 is rejected 
+ 
+2
+2
+10
+5
++
+−
+= −
+x
+x
+ 
+leading to 
+2
+2
+5
+0
++
+−
+=
+x
+x
+ 
+M1 Must be a correct 3-term quadratic 
+equated to zero 
+ 
+1
+41
+4
+−
+=
+x
+ oe 
+2 Dep M1 for a valid method of 
+solution to obtain 2 values for x. 
+Mark final answer for this equation, 
+A0 if negative root is rejected 
+Denominator of final answer must 
+be positive 
+7(a) 
+Grad 
+6
+8
+=
+AB
+ oe 
+Grad 
+2
+14
+= −
+AC
+ oe 
+Grad  
+8
+6
+= −
+BC
+ oe 
+2 B1 for 2 correct unsimplified 
+7(b) 
+Centre (
+)
+5, 3 
+B1 FT on their diameter, allow for 
+(
+)
+2, 7 or (
+)
+9, 6 
+ 
+Radius2 = 50   oe soi 
+2 M1 for use of their centre and 
+coordinates of either A, B or C to 
+find the square of the radius or the 
+radius. Centre must not be A, B or 
+C. 
+or  
+Finding the length between any 2 
+points A, B or C and halving it. 
+ 
+(
+)
+(
+)
+2
+2
+5
+3
+50
+−
++
+−
+=
+x
+y
+ oe 
+A1 Allow (
+)
+2
+5 2
+for radius2 
+
+===== PAGE 11 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 11 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+8 
+ 
+4 B1 for correct shape in first three 
+quadrants tending towards a 
+vertical asymptote in the second 
+and third quadrants. 
+ 
+Dep B1 for curve passing through x 
+=  0.5
+−
+ oe on the x-axis , or stated 
+and no other points on the x-axis 
+ 
+Dep B1 for curve passing through y 
+= 5ln3 oe on the y-axis , or stated 
+and no other points on the y-axis 
+B1 for 
+3
+4
+= −
+x
+oe shown on graph 
+or stated as the equation of the 
+asymptote. May be implied by a 
+dotted or straight vertical line 
+through 
+3
+4
+= −
+x
+. This is not a 
+dependent mark. 
+
+===== PAGE 12 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 12 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+9(a) 
+( )
+(
+)
+(
+)
+1
+2
+f
+2
+5
+ 
+−
+
+= −
++
++
+x
+x
+c 
+2 M1 for (
+)
+1
+2
+2
+5
+−
++
+k
+x
+ 
+Allow unsimplified for A1 
+ 
+( )
+(
+)
+1
+2
+f
+2
+5
+1
+−
+
+= −
++
++
+x
+x
+ soi 
+2 Dep M1 for use of 
+( )
+2
+f
+3
+
+=
+x
+ and 
+2
+=
+x
+ in their 
+( )
+f x in the form 
+(
+)
+1
+2
+2
+5
+−
++
++
+k
+x
+c .  Allow term in 
+(
+)
+1
+2
+2
+5
+−
++
+x
+ unsimplified.  Need to 
+see attempt at substitution. 
+ 
+( )
+(
+)
+(
+)
+1
+2
+f
+2
+5
+ 
+=
+−
++
++
+x
+x
+x
+d 
+2 M1 for 
+(
+)
+1
+2
+2
+5
++
+p
+x
+ 
+ 
+( )
+(
+)
+1
+2
+f
+2
+5
+ +3
+=
+−
++
+x
+x
+x
+ soi 
+2 Dep M1 for use of 
+2
+=
+x
+ and 
+2
+=
+y
+ 
+in their ( )
+f x in the form 
+(
+)
+1
+2
+2
+5
++
++
++
+rx
+p
+x
+d .  Allow term 
+in (
+)
+1
+2
+2
+5
++
+x
+ unsimplified. Need to 
+see an attempt at substitution. 
+ 
+When 
+( )
+f
+0
+
+=
+x
+, 
+2
+= −
+x
+ 
+2 M1 for solution of their 
+( )
+f
+0
+
+=
+x
+, 
+must be in the form 
+(
+)
+1
+2
+2
+5
+−
++
++
+p
+x
+q to obtain a value 
+for x. 
+ 
+0
+=
+y
+ 
+A1  
+9(b) 
+(
+)
+f
+2
+1
+−
+= [so positive] a min point 
+or correct use of first derivative test 
+considering x values greater than 
+5
+2
+−
+ 
+B1 Need to see evidence of substitution 
+for either test. 
+B0 if 
+2
+= −
+x
+ obtained incorrectly in 
+part (a) 
+10 
+(
+)
+(
+)
+2
+2
+sin
+cos
+sin
+cos
+2
+
+
+
+
++
++
+−
+=
+ 
+2 M1 for expansion of both terms 
+with an attempt to simplify either 
+using the correct identity or 
+eliminating terms in 2sin cos
+
+ 
+ 
+2 d
+2
+
+
+=
+
+ 
+M1 Dep M1 
+ 
+3π
+2
+π
+2
+2 d
+3π
+π
+=
+−
+
+ 
+= 2π 
+2 Dep M1 for correct use of limits 
+
+===== PAGE 13 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 13 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+11 
+(
+)(
+)
+(
+)
+(
+)
+(
+)
+4
+1 !
+2 !
+4 !5!
+5 !7!
+−
++
++
+=
+−
+−
+n
+n
+n
+n
+n
+ 
+leading to  
+7 6
+2
+=
++
+n
+ 
+2 B1 for 7 6
+
+ or 42 seen as a result 
+of simplification of the numerical 
+factorials 
+ 
+B1 for 
+2
++
+n
+seen as a result of 
+simplification of the algebraic 
+factorials 
+ 
+40
+=
+n
+ 
+B1  
+12(a) 
+(
+)
+(
+)
+2
+2
+2
+2 2 e
+e
+d
+d
+2
+−
+−
+=
+−
+x
+x
+x
+x
+y
+x
+x
+   
+or  
+(
+)
+(
+)
+2
+2
+1
+2
+d
+2 e
+2
+e
+2
+d
+−
+−
+=
+−
+−
+−
+x
+x
+y
+x
+x
+x
+x
+ 
+3 B1 for 
+2
+2 ex
+x
+ 
+M1 for differentiation of a quotient 
+or equivalent correct product 
+A1 all other terms correct 
+ 
+1
+4
+−
+ 
+A1 Must be from correct working 
+12(b) 
+For use of  d
+d
+d
+d
+d
+d
+
+=
+y
+x
+y
+x
+t
+t
+ 
+M1 FT on 
+1
+0.5
+1
+4
+
+
+
+−
+
+
+
+
+their
+ 
+ 
+2
+−  
+A1 Must be from correct working in 
+part (a) 
+
+===== PAGE 14 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 14 of 14 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+13 
+2
+sin
+3
+
+−
+=
+x  
+B1  
+ 
+2
+2
+cos
+3
+sin
+
+
+
+
+= 
+
+
+
+y
+ soi 
+B1  
+ 
+Use of 
+2
+2
+sin
+cos
+1
+
+
++
+= to obtain 
+2
+2
+2
+1
+3
+3
+2
+3
+
+
+−
+
+
+−
+
+
+
+
+
+
+
+
+= 
+
+−
+
+
+
+
+
+
+
+
+
+
+
+
+x
+y
+x
+ 
+B1 Dep on both previous B marks 
+ 
+(
+)
+2
+3
+3
+1
+2
+
+
+
+
+
+
+=
+−
+
+
+
+
+
+
+−
+
+
+
+
+y
+x
+  oe 
+B1 Dep on all previous B marks 
+No fractions within fractions 
+ 
+Alternative method 1 
+  
+ 
+3
+cosec
+2
+=
+−x  
+(B1)  
+ 
+2
+cot
+3
+= y 
+(B1)  
+ 
+Use of 
+2
+2
+cot
+1
+cosec
+
+
++ =
+ to obtain 
+(
+)
+2
+9
+1
+3
+2
++ =
+−
+y
+x
+ 
+(B1) Dep on both previous B marks 
+ 
+(
+)
+2
+9
+3
+1
+2
+
+
+
+
+=
+−
+
+
+−
+
+
+y
+x
+  oe 
+(B1) Dep on all previous B marks 
+No fractions within fractions 
+ 
+Alternative method 2 
+  
+ 
+(
+)
+2
+3 cosec
+1
+
+=
+−
+y
+ or 
+2
+cosec
+1
+3
+
+=
+−
+y
+soi 
+(B1)  
+ 
+2
+2
+1
+cosec
+sin
+
+
+=
+ soi 
+(B1)  
+ 
+2
+sin
+3
+
+−
+=
+x 
+(B1)  
+ 
+(
+)
+2
+9
+3
+1
+2
+
+
+
+
+=
+−
+
+
+−
+
+
+y
+x
+  oe 
+(B1) Dep on all previous B marks 
+No fractions within fractions 
+ 

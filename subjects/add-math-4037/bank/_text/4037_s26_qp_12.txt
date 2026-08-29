@@ -1,0 +1,926 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+ADDITIONAL MATHEMATICS 
+4037/12
+Paper 1 Non-calculator 
+May/June 2026
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen. Do not use correction fluid or tape.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+Calculators must not be used in this paper.
+ 
+●
+You must show all necessary working clearly.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 8 1 0 1 6 6 1 1 7 3 *
+DC (LO) 370085
+© Cambridge University Press & Assessment 2026
+,	,
+* 0000800000001 *
+¬P. 4mHuOªE^{6W
+¬KxtV§q\s¤¦>ga>
+¥5UuUEUeu¥EEueU
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 2 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+2
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+-
+-
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 -   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÎĊ®Ġ´íÈõÏĪÅĊßù¸þ×
+ĬËöó×ģõČãþõÿÎ¸ėęÆĂ
+ĥĥĕÕµµąµĕµµąÅÕĥµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 3 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+3
+Calculators must not be used in this paper.
+1 
+(a) On the axes, sketch the graph of   
+cos
+y
+x
+4
+2
+=
+-   for   
+°
+°
+x
+360
+360
+–
+G
+G
+. 
+[2]
+8
+– 8
+0
+– 360°
+360°
+y
+x
+ 
+(b) Write down the amplitude of   cosx
+4
+2
+- . 
+[1]
+ 
+(c) Write down the period of   cosx
+4
+2
+- . 
+[1]
+ 
+(d) Write down the set of values of the constant k for which the equation   cosx
+k
+4
+2
+-
+=
+   has at 
+least two solutions. 
+[1]
+* 0000800000003 *
+,	,
+ĬÐĊ®Ġ´íÈõÏĪÅĊßû¸þ×
+ĬËõôÏĥùüÖüČÊĊÀÃę¶Ă
+ĥĥĥĕõÕĥÕąÅĥąÅµąõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 4 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+4
+2 
+Points A and B have coordinates A(–2, 3) and B(8, –3).
+ 
+(a) The perpendicular bisector of AB passes through the point C(0, c).
+ 
+ 
+Find the value of c. 
+[3]
+ 
+(b) The point D has coordinates (2, –1).
+ 
+ 
+The lengths of AD and BD are such that   BD
+n AD
+2
+=
+   where n is an integer.
+ 
+ 
+Find the value of n. 
+[4]
+* 0000800000004 *
+,	,
+ĬÎĊ®Ġ´íÈõÏĪÅĊÝù¸Ā×
+ĬËõñÏğċíáöăÁìĤġĉ¾Ă
+ĥÕµĕµÕĥõĥĥĕąąµåõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 5 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+5
+3 
+The polynomial p is given by   ( )
+p x
+x
+x
+x
+6
+5
+2
+3
+2
+=
+-
+-
++ .
+ 
+(a) Find the remainder when ( )
+p x is divided by x
+2
++ . 
+[1]
+ 
+(b) Write ( )
+p x as a product of linear factors. 
+ [4]
+ 
+(c) Hence solve the equation   u
+u
+u
+6
+5
+2
+0
+6
+4
+2
+-
+-
++
+=
+ . 
+[2]
+* 0000800000005 *
+,	,
+ĬÐĊ®Ġ´íÈõÏĪÅĊÝû¸Ā×
+ĬËöò×ĩćýØĄîĈðĜµĉ®Ă
+ĥÕÅÕõµąĕõĕÅąąÕÅµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 6 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+6
+4 
+An arithmetic progression has first term u
+400
+1 =
+ and common difference d
+2
+–
+=
+.
+ 
+(a) Find the 81st term and the 100th term. 
+[2]
+ 
+(b) Find the sum of all the terms from the 81st to the 100th,   u
+u
+u
+81
+82
+100
+f
++
++
++
+ . 
+[3]
+* 0000800000006 *
+,	,
+ĬÒĊ®Ġ´íÈõÏĪÅĊàûµþ×
+ĬËõòÜģğćÐćÿíĐĤØá¾Ă
+ĥąĥÕõĕąµµõĥąÅÕĥõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 7 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+7
+5 
+Find, in exact form, the equation of the tangent to the curve   
+(
+)
+ln
+y
+x
+2
+4 5
+=
+-
+`
+j   at the point  
+where x
+3
+= . 
+[4]
+* 0000800000007 *
+,	,
+ĬÔĊ®Ġ´íÈõÏĪÅĊàùµþ×
+ĬËöñÔĥģ÷éñò¼ÌĜĄá®Ă
+ĥąĕĕµõĥÕåąµąÅµąµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 8 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+8
+6 
+In this question lengths are in centimetres.
+α rad
+A
+C
+O
+B
+r
+ 
+The diagram shows a circle with centre O and radius r.
+ 
+Points A, B and C are on the circumference of the circle.
+ 
+Angle AOB
+a
+=
+ radians.
+ 
+(a) The perimeter of the shaded sector is equal to the length of the major arc, ACB.
+ 
+ 
+Find the exact value of a. 
+[4]
+ 
+(b) The area of the shaded sector is 
+r
+(
+)
+18
+1
+2 -
+.
+ 
+ 
+Find the exact value of r.
+ 
+ 
+Simplify your answer. 
+[4]
+* 0000800000008 *
+,		,
+ĬÒĊ®Ġ´íÈõÏĪÅĊÞûµĀ×
+ĬËöôÔğđòÎïù³Ī¸â±ÆĂ
+ĥµÅĕõõĥõÅåÅąąµåµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 9 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+9
+7 
+Show that   cosec
+sin
+x
+x
+-
+   can be written as   tan
+cos
+x
+x . 
+[3]
+* 0000800000009 *
+,	
+,
+ĬÔĊ®Ġ´íÈõÏĪÅĊÞùµĀ×
+ĬËõóÜĩčĂëĉĈö®Àö±¶Ă
+ĥµµÕµĕąĕÕÕĕąąÕÅõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 10 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+10
+8 
+Variables x and y are related by the equation   y
+x
+x
+2
+5
+1
+=
+-
++ .
+ 
+Using calculus, find the approximate change in   x   when   y   increases from 4 by the small 
+amount h. 
+[5]
+* 0000800000010 *
+,	,
+ĬÒĊ®Ġ´íÈõÏĪÅĊßû·þ×
+ĬË÷ôÙĝęĨÔøòęĆ¶Æĉ®Ă
+ĥĥåÕõõÅõĥĕÅÅąĕåµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 11 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+11
+9 
+(a) Write   
+(
+)
+log e
+ln x
+1
+1
+x
+-
+-
+   as a single logarithm to base e. 
+[2]
+ 
+(b) Solve the equation   
+(
+)
+log
+log
+x
+x
+2
+2
+1
+9
+10
+5
+5
+=
++
+-
+ . 
+[5]
+* 0000800000011 *
+,	,
+ĬÔĊ®Ġ´íÈõÏĪÅĊßù·þ×
+ĬËøóÑīĕĘåĂÿÐÒ¾Ēĉ¾Ă
+ĥĥÕĕµĕåĕõĥĕÅąõÅõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 12 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+12
+10 It is given that a geometric progression has the following terms.
+ 
+ 
+2nd term 
+x
+11
+1
+-
+ 
+ 
+3rd term 
+x
+5
++
+ 
+ 
+4th term 
+x
+1
+-
+ 
+(a) Given that x
+0
+2
+, find the common ratio and first term of the progression. 
+[6]
+ 
+(b) The sum to infinity of this progression is k
+3 where k is an integer.
+ 
+ 
+Find the value of k. 
+[2]
+* 0000800000012 *
+,	,
+ĬÒĊ®Ġ´íÈõÏĪÅĊÝû·Ā×
+ĬËøòÑġħđÒĀĈ×ôĢ´ę¶Ă
+ĥÕąĕõĕåµĕÅĥÅÅõĥõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 13 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+13
+11 The position vectors of points A and B relative to an origin O are
+OA
+4
+2
+–
+= e
+o  and OB
+4
+6
+–
+= e
+o.
+ 
+The point C lies on AB and is such that AC : CB = 3 : 1.
+ 
+The point D lies on OA such that   O
+OA
+D
+m
+=
+   and   
+.
+CD
+5
+5 5
+–
+= e
+o.
+ 
+(a) Find OD. 
+[5]
+ 
+(b) Hence find the value of m. 
+[1]
+* 0000800000013 *
+,	,
+ĬÔĊ®Ġ´íÈõÏĪÅĊÝù·Ā×
+ĬË÷ñÙħīġçúùĒèĚĨęÆĂ
+ĥÕõÕµõÅÕąµµÅÅĕąµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 14 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+14
+12
+y
+0
+1.5
+6
+P
+Q
+L
+y
+x
+4
+1
+10
+=
++
+x
+ 
+The diagram shows part of the curve   y
+x
+4
+1
+10
+=
++   and the line L.
+ 
+L passes through the points (0, 6) and (1.5, 0).
+ 
+The curve and L intersect at the points P and Q.
+ 
+Find the exact area of the shaded region. 
+[11]
+* 0000800000014 *
+,	,
+ĬÎĊ®Ġ´íÈõÏĪÅĊÞú¶Ă×
+ĬËøóÜĩĘęÕðî­ČÃĤé¾Ă
+ĥõõĕõĕąõĥåµąąÕåõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 15 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+15
+Continuation of working space for Question 12.
+Question 13 is on the back page.
+* 0000800000015 *
+,	,
+ĬÐĊ®Ġ´íÈõÏĪÅĊÞü¶Ă×
+ĬË÷ôÔğĜĩäĊăüÐ»¸é®Ă
+ĥõąÕµõĥĕõÕĥąąµÅµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874
+
+===== PAGE 16 =====
+4037/12/M/J/26
+© Cambridge University Press & Assessment 2026
+16
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (Cambridge University Press & Assessment) to trace copyright holders, but if any items requiring clearance 
+have unwittingly been included, the publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in our Copyright 
+Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download at www.cambridgeinternational.org after the live 
+examination series.
+Cambridge International Education is the name of our awarding body and a part of Cambridge University Press & Assessment, which is a department of the 
+University of Cambridge.
+13 Show that, for all values of n
+3
+H ,   
+n
+C
+C
+n
+n
+2
+3
+3
+2
+-
+=
++
+. 
+[4]
+* 0000800000016 *
+,	,
+ĬÎĊ®Ġ´íÈõÏĪÅĊàú¶Ą×
+ĬË÷ñÔĥĪĠ×ĈČóîėĖ¹ÆĂ
+ĥÅÕÕõõĥµĕõĕąÅµĥµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+4037/12 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-668E7D1874

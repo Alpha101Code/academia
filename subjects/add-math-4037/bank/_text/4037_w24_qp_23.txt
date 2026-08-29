@@ -1,0 +1,831 @@
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge O Level
+* 4 6 4 9 5 6 4 9 4 8 *
+ADDITIONAL MATHEMATICS 
+4037/23
+Paper 2 
+October/November 2024
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a calculator where appropriate.
+ 
+●
+You must show all necessary working clearly; no marks will be given for unsupported answers from a 
+calculator.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (EV) 347750
+© UCLES 2024
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE]y6W
+¬TqY uW~z:`ry
+¥¥EuU¥UEuEUeEU
+
+===== PAGE 2 =====
+2
+4037/23/O/N/24
+© UCLES 2024
+Mathematical Formulae
+1. ALGEBRA
+Quadratic Equation
+ 
+For the equation ax
+bx
+c
+0
+2 +
++
+=
+,
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial Theorem
+(
+)
+a
+b
+a
+a
+b
+a
+b
+a
+b
+n
+n
+n
+r
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
+f
+f
++
+=
++
++
++
++
++
++
+-
+-
+-
+e
+e
+e
+o
+o
+o
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+e o
+Arithmetic series 
+(
+)
+u
+a
+n
+d
+1
+n =
++
+-
+ 
+(
+)
+{
+(
+) }
+S
+n a
+l
+n
+a
+n
+d
+2
+1
+2
+1
+2
+1
+n =
++
+=
++
+-
+Geometric series 
+u
+ar
+n
+n
+1
+=
+-
+ 
+(
+) (
+)
+S
+r
+a
+r
+r
+1
+1
+1
+n
+n
+!
+=
+-
+-
+ 
+(
+)
+S
+r
+a
+r
+1
+1
+1
+=
+-
+3
+2. TRIGONOMETRY
+Identities
+sin
+cos
+A
+A
+1
+2
+2
++
+=
+sec
+tan
+A
+A
+1
+2
+2
+=
++
+ec
+cos
+cot
+A
+A
+1
+2
+2
+=
++
+Formulae for ∆ABC
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+cos
+a
+b
+c
+bc
+A
+2
+2
+2
+2
+=
++
+-
+sin
+bc
+A
+2
+1
+T =
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàû¸þ×
+ĬĀÒòÜĬñðàóôĕĂÖ·ÊñĂ
+ĥµÕĕµµåµõµÅÅÅĕÅÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+1
+0
+–1
+–1
+1
+2
+3
+–2
+–2
+1
+2
+3
+4
+y
+x
+ 
+The diagram shows the graph of 
+(
+)(
+)(
+)
+y
+x
+x
+x
+1
+1
+2
+=
++
+-
+-
+. Use the graph to solve the inequality 
+(
+)(
+)(
+)
+x
+x
+x
+1
+1
+2
+1
+1
++
+-
+-
+. 
+[3]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàù¸þ×
+ĬĀÑñÔĞíĀÙąýÔÖÞģÊāĂ
+ĥµåÕõÕÅÕĥÅĕÅÅõåĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/23/O/N/24
+© UCLES 2024
+2 
+The function f is defined by   ( )
+f x
+x
+x
+1
+4
+2
+=
+-
+-
+   for all real values of x.
+ 
+(a) Write ( )
+f x in the form   
+(
+)
+a
+x
+b 2
+-
++
+,   where a and b are constants. 
+[2]
+ 
+(b) Find the range of f. 
+[1]
+ 
+The function g is defined by   ( )
+g x
+x
+x
+1
+4
+2
+=
+-
+-
+   for x
+k
+H
+, where k is a constant.
+ 
+(c) State the least possible value of k such that g has an inverse. 
+[1]
+ 
+(d) Using your value of k, find 
+( )
+g
+x
+1
+-
+, stating its domain and range. 
+[5]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞû¸Ā×
+ĬĀÑôÔĨÿĉÞċĆÛøĂÁÚùĂ
+ĥąõÕµÕÅõąĥĥÅąõąĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+3 
+(a) Show that   (
+)(
+)
+tan
+sec
+tan
+sec
+tan
+2
+2
+3
+1
+2
+i
+i
+i
+i
+i+
+-
+=
+- . 
+[2]
+ 
+(b) Hence solve the equation   (
+)(
+)
+tan
+sec
+tan
+sec
+2
+2
+1
+i
+i
+i
+i
++
+-
+= for °
+°
+0
+180
+G
+G
+i
+. 
+[4]
+ 
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞù¸Ā×
+ĬĀÒóÜĢăùÛíûĎäúĕÚĉĂ
+ĥąąĕõµåĕĕĕµÅąĕĥÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/23/O/N/24
+© UCLES 2024
+4 
+The diagram shows a design for a logo. The logo is a sector of a circle, radius r cm, with angle 
+a radians.
+r cm
+a
+ 
+The area of the logo is 9 cm2.
+ 
+(a) Show that the perimeter, P cm, of the logo is given by 
+P
+r
+r
+2
+18
+=
++
+.
+ 
+[3]
+ 
+(b) Given that r can vary, find the stationary value of P and determine its nature. 
+[5]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßùµþ×
+ĬĀÑó×ĬīóÓúĊħÄĂøòùĂ
+ĥÕåĕõĕåµÕõĕÅÅĕÅĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+5 
+The tangent to the curve   y
+x
+x
+1
+=
++   at the point where x
+3
+= meets the line   y
+x
+16
+=
+-
+   at the 
+point A. Find the coordinates of A. 
+[8]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßûµþ×
+ĬĀÒôÏĞħăæĀ÷âĘúäòĉĂ
+ĥÕÕÕµõÅÕÅąÅÅÅõåÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/23/O/N/24
+© UCLES 2024
+6 
+(a) Find   
+x
+x
+3
+2
+1
+d
++
+y
+. 
+[2]
+ 
+(b) Find, in terms of a,   
+a
+e
+x
+d
+(
+)
+.
+x
+1
+2
+0 5
+-
+y
+. 
+[3]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝùµĀ×
+ĬĀÒñÏĨĕĆÑĂðé¶ÖĂĢñĂ
+ĥĥąÕõõÅõååµÅąõąÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+7 
+(a) In the expansion of   x
+x2 8
++
+`
+j   in ascending powers of x, the 3rd and 6th terms are equal.
+ 
+ 
+Find the value of x. 
+[3]
+ 
+(b) In the expansion of   x
+x
+2 n
++
+b
+l   in decreasing powers of x, the 6th term is a constant.
+ 
+ 
+(i) Find the value of the positive integer n. 
+[2]
+ 
+ 
+(ii) Find the value of the 6th term. 
+[2]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝûµĀ×
+ĬĀÑò×ĢęöèøāĠĢÞÖĢāĂ
+ĥĥõĕµĕåĕµÕĥÅąĕĥĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/23/O/N/24
+© UCLES 2024
+8 
+(a) Solve the equation   sin x
+4
+2
+1
+=
+    for 
+r
+x
+0
+4
+G
+G
+, giving your answers in terms of r. 
+[2]
+ 
+(b) 
+y
+x
+O
+y = sin 4x
+y
+2
+1
+=
+ 
+ 
+The diagram shows parts of the graphs of   
+sin
+y
+x
+4
+=
+   and   y
+2
+1
+=
+ .
+ 
+ 
+Find the exact area of the shaded region enclosed by the curve and the line. 
+[5]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàù·þ×
+ĬĀÓñÖĦčĔÏĉ÷ăÚØĦÚĉĂ
+ĥµĥĕõõĥõąĕµąąÕąÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+9 
+DO NOT USE A CALCULATOR IN THIS QUESTION.
+ 
+Write   
+2
+10
+16
+11 10
+1
++
++
++    in the form p
+q 10
++
+ , where p and q are integers. 
+[4]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàû·þ×
+ĬĀÔòÎĤđĤêïĊÆþà²ÚùĂ
+ĥµĕÕµĕąĕĕĥĥąąµĥĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/23/O/N/24
+© UCLES 2024
+10 (a) Suzma is training for a marathon. In the first week she runs 10 km. Then each week she runs a 
+distance that is 10% greater than the week before.
+ 
+ 
+The total distance that Suzma has run by the end of n whole weeks is more than 200 km. Find the 
+smallest possible value of n. 
+[4]
+ 
+(b) A geometric progression has 1st term a and common ratio r, where a
+0
+!
+ and r
+1
+! . The 1st, 
+2nd and 3rd terms of the geometric progression are the 1st, 3rd and 7th terms of an arithmetic 
+progression. Find the value of r. 
+[4]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞù·Ā×
+ĬĀÔóÎĪģĥÍñā½àĄĔÊāĂ
+ĥąÅÕõĕąµõÅĕąÅµÅĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/23/O/N/24
+© UCLES 2024
+[Turn over
+11 (a) There are 3 girls and 2 boys standing in a straight line. Find the number of possible orders in each 
+of the following cases.
+ 
+ 
+(i) No girls are next to each other. 
+[2]
+ 
+ 
+(ii) The 2 boys are not next to each other. 
+[2]
+ 
+(b) 12 people, including Anjie and Bubay, are divided into 3 groups of 4 people. Anjie and Bubay 
+must not be in the same group.
+ 
+ 
+Find the number of ways in which the 3 groups can be selected. 
+[2]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞû·Ā×
+ĬĀÓôÖĠğĕìćðČüüÈÊñĂ
+ĥąµĕµõĥÕĥµÅąÅÕåÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/23/O/N/24
+© UCLES 2024
+12 A particle moves in a straight line. Its velocity, v ms 1
+- , at time t seconds is given by
+cos
+sin
+v
+t
+t
+=
+-
+.
+ 
+(a) Find the acceleration, a ms
+2
+- , when 
+r
+t
+3
+=
+ . 
+[2]
+ 
+The displacement of the particle from a fixed point O at time t is s metres. The particle passes through 
+O when t
+0
+=
+.
+ 
+(b) Find the displacement at the time when the particle first changes direction after passing through O.
+ 
+[6]
+ 
+(c) Find an expression for a in terms of s. 
+[1]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝü¶Ă×
+ĬĀÔò×ĢĔĝÚāûçØáÄúùĂ
+ĥåµÕõĕåõąåÅÅąĕąĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/23/O/N/24
+© UCLES 2024
+BLANK PAGE
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝú¶Ă×
+ĬĀÓñÏĨĐčß÷ĆĢĄÙĘúĉĂ
+ĥåÅĕµõÅĕĕÕĕÅąõĥÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/23/O/N/24
+© UCLES 2024
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßü¶Ą×
+ĬĀÓôÏĞĞĜÜùýĩâõ¶ĪñĂ
+ĥĕĕĕõõÅµõõĥÅÅõÅÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

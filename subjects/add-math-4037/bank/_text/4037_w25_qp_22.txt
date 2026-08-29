@@ -1,0 +1,775 @@
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge O Level
+ADDITIONAL MATHEMATICS 
+4037/22
+Paper 2 
+October/November 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a scientific calculator where appropriate.
+ 
+●
+You must show all necessary working clearly.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+ 
+●
+For r, use either your calculator value or 3.142.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 0 5 5 1 2 4 4 7 2 1 *
+DC (CE) 360443
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE]y5W
+¬§prT¤riyq.k||¦
+¥Uueu¥5EueuU
+DFD
+
+===== PAGE 2 =====
+2
+4037/22/O/N/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+-
+-
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 -   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàû·þ×
+ĬħîñÑĨĒĘÒĈćÑēĩÌÄĞĂ
+ĥÕąÕµõĥĕÕÕĥÅÅµÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 3 =====
+3
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+1 
+The line   y
+x
+4
+3
+=
+-   meets the curve   y
+x
+x
+3
+5
+2 2
+=
++
+-
+   at the points A and B.
+ 
+(a)  Find the coordinates of A and B. 
+[4]
+ 
+(b) The perpendicular bisector of the line AB cuts the coordinate axes at the points P and Q.
+ 
+ 
+Given that O is the origin, find the area of the triangle POQ.  
+[5]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàù·þ×
+ĬħíòÙĢĎĨçòúĘÇđĐÄĎĂ
+ĥÕõĕõĕąõÅåµÅÅÕåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 4 =====
+4
+4037/22/O/N/25
+© UCLES 2025
+2
+A
+D
+B
+C
+O
+ 
+The diagram shows the shaded region ABCD.
+ 
+The lines AC and BD each have a length of 12 cm.
+ 
+The lines AC and BD bisect each other at the point O.
+ 
+The lines AD and BC are parallel and each have a length of 4 cm.
+ 
+The arcs AB and DC are part of a circle centre O.
+ 
+(a) Find the obtuse angle AOB. 
+ 
+ 
+Give your answer in radians. 
+[3]
+ 
+Use your answer to part (a) to find
+ 
+(b) (i) the perimeter of the shaded region 
+[2]
+ 
+ 
+(ii) the area of the shaded region. 
+[3]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞû·Ā×
+ĬħíóÙĬĠġÔðñďĥ­®ÔĦĂ
+ĥĥåĕµĕąÕåąÅÅąÕąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 5 =====
+5
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+3 
+Find the exact value of the term independent of x in the expansion of   
+x
+x
+2
+3
+1
+4
+2
+10
+2 2
++
+-
+e
+`
+o
+j .  
+[6]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞù·Ā×
+ĬħîôÑĞĤđåĊĀÚ±ÅĪÔĖĂ
+ĥĥÕÕõõĥµµõĕÅąµĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 6 =====
+6
+4037/22/O/N/25
+© UCLES 2025
+4 
+Variables x and y are such that when ey is plotted against x3, a straight-line graph is obtained.
+ 
+This line passes through the points (1, 13.5) and (7.5, 0.5).
+ 
+(a)  Find y in terms of x. 
+[4]
+ 
+(b)  Find the values of x for which your equation is valid. 
+[2]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßù¶þ×
+ĬħíôÎĨČěÝýíãÑ­ċüĦĂ
+ĥµõÕõÕĥĕõĕµÅÅµÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 7 =====
+7
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+5 
+A 6-character password is to be formed from the following characters.
+Letters
+b
+f
+g
+k
+m
+Numbers
+3
+5
+7
+9
+Symbols
+*
+!
+@
+ 
+Each character can be used at most once in any 6-character password.
+ 
+(a) Find the number of 6-character passwords that can be formed if there are no further restrictions.
+ 
+[1]
+ 
+(b) Find the number of 6-character passwords that can be formed if the password starts and ends with 
+a symbol. 
+[2]
+ 
+(c) Find the number of 6-character passwords that can be formed if the password:
+• 
+starts with either a symbol and then a number, or a number and then a symbol and
+• 
+ends with 2 letters. 
+[2]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßû¶þ×
+ĬħîóÖĢĈīÜûĄĦąÅÏüĖĂ
+ĥµąĕµµąõĥĥĥÅÅÕåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 8 =====
+8
+4037/22/O/N/25
+© UCLES 2025
+6 
+In this question lengths are in centimetres and time, t, is in seconds.
+ 
+A particle P is moving in a straight line with a speed of 26 in the direction of the vector 
+5
+12
+-
+e
+o.
+ 
+(a) Find the velocity vector of P. 
+ 
+[2]
+ 
+ 
+When t
+0
+=
+, P passes through a point A which has position vector  3
+6
+e o.
+ 
+(b) Write down the position vector of P at time t. 
+[2]
+ 
+ 
+At the same time that P passes through A, a particle Q passes through a point B.
+ 
+ 
+The position vector of Q at time t is given by   
+t
+t
+8
+5
+2
+25
+-
+-
+e
+o. 
+ 
+ 
+The distance between P and Q at time t is d.
+ 
+(c) Show that   d
+mt
+nt
+r
+2
+2
+=
++
++ ,  where m, n and r are integers to be found. 
+[3]
+ 
+(d) Hence show that P and Q do not collide. 
+[1]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝù¶Ā×
+ĬħîòÖĬöĞßõċĝçĩíĬĞĂ
+ĥąÕĕõµąÕąÅĕÅąÕąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 9 =====
+9
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+7 
+(a) Given that   
+cos
+y
+x
+x
+2
+=
+,   find x
+y
+d
+d .  
+[2]
+ 
+(b) Hence find   
+sin
+x
+x x
+2 d
+y
+. 
+[4]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝû¶Ā×
+ĬħíñÎĞúĎÚăöìóđéĬĎĂ
+ĥąåÕµÕĥµĕµÅÅąµĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 10 =====
+10
+4037/22/O/N/25
+© UCLES 2025
+8 
+An arithmetic progression has first term t and common difference 1.5.
+ 
+The 4th, 8th and 20th terms of this arithmetic progression form the 1st, 2nd and 3rd terms of a geometric 
+progression.
+ 
+(a) Find the value of t. 
+[5]
+ 
+(b) Find the common ratio of the geometric progression. 
+[2]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàù¸þ×
+ĬħïòÏĪîüáîĄÇËīęÔĖĂ
+ĥÕµÕõµåÕåõĕąąõąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 11 =====
+11
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+9 
+It is given that   ( )
+(
+)
+f
+ln
+x
+x
+2
+5
+=
++
+  for x
+a
+2
+, where a is a constant.
+ 
+(a) Write down the least possible value of a. 
+[1]
+ 
+(b) Using your value of a, write down the range of f. 
+[1]
+ 
+It is also given that   ( )x
+x
+1
+g
+2
+=
++  for x
+R
+!
+.
+ 
+(c) Using your value of a, solve the equation   
+( )x
+4
+fg
+=
+.
+ 
+ 
+Give your answers in exact form. 
+[3]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàû¸þ×
+Ĭħðñ×ĠòČØČíĂďē½ÔĦĂ
+ĥÕÅĕµÕÅµµąÅąąĕĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 12 =====
+12
+4037/22/O/N/25
+© UCLES 2025
+10
+y
+x
+O
+y = 2 + 5e x
+y = 4 – 3e 2x
+ 
+ 
+The diagram shows parts of the graphs of   y
+2
+5ex
+=
++
+  and  y
+4
+3e x
+2
+=
+-
+.
+ 
+Find the area of the shaded region.
+ 
+Give your answer in the form  
+ln
+a
+b
+3
++
+, where a and b are exact constants. 
+[10]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞù¸Ā×
+Ĭħðô×ĦĄýãĆöĉ­¯ğÄĎĂ
+ĥĥĕĕõÕÅĕÕåµąÅĕÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 13 =====
+13
+4037/22/O/N/25
+© UCLES 2025
+[Turn over
+Additional working space for Question 10.
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞû¸Ā×
+ĬħïóÏĤĀíÖôċÀĩÇ»ÄĞĂ
+ĥĥĥÕµµåõÅÕĥąÅõåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 14 =====
+14
+4037/22/O/N/25
+© UCLES 2025
+11 (a)  Solve the equation   tan
+tan
+x
+x
+2
+4
+2
+0
+2
+-
+=
+   for °
+°
+x
+0
+180
+G
+G
+. 
+[4]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝüµĂ×
+ĬħðñÎĞóąèöĀģÅĎ¯ôĦĂ
+ĥÅĥĕõÕĥÕåÅĥÅąµąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 15 =====
+15
+4037/22/O/N/25
+© UCLES 2025
+ 
+(b) Solve the equation   
+(
+. )
+cosec y
+1 2
+4
++
+=
+,   where y is in radians and 
+y
+5
+2
+1
+1
+-
+. 
+[6]
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝúµĂ×
+ĬħïòÖĬïõÑĄñæđĦīôĖĂ
+ĥÅĕÕµµąµµµµÅąÕĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 16 =====
+16
+4037/22/O/N/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßüµĄ×
+ĬħïóÖĢýôæþúÝ³ÊÉĤĞĂ
+ĥõÅÕõµąĕÕĕÅÅÅÕÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

@@ -1,0 +1,886 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+* 5 6 1 6 3 1 6 1 6 6 *
+ADDITIONAL MATHEMATICS 
+4037/23
+Paper 2 
+October/November 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a scientific calculator where appropriate.
+ 
+●
+You must show all necessary working clearly.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+ 
+●
+For r, use either your calculator value or 3.142.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (CE) 360444
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE^|5W
+¬§qzP£zO}qfGl
+¥5E55eUEU
+DFD
+
+===== PAGE 2 =====
+2
+4037/23/O/N/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+-
+-
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 -   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú·þ×
+ĬħóùÍħîûèðóĢÉÐ÷ĔĖĂ
+ĥĥÕĕõÕĥõµÅąÅąÕåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 3 =====
+3
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+1 
+It is given that    ( )x
+ax
+x
+bx
+7
+9
+p
+3
+2
+=
+-
+-
++ ,    where a and b are constants.
+ 
+x
+3
+- is a factor of ( )x
+p
+.
+ 
+When ( )x
+p
+ is divided by   x
+2
++   the remainder is  
+35
+-
+.
+ 
+Find the values of a and b. 
+[5]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßü·þ×
+ĬħôúÕġòċÑĊþçčèãĔĦĂ
+ĥĥåÕµµąĕåµÕÅąµÅĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 4 =====
+4
+4037/23/O/N/25
+© UCLES 2025
+2 
+(a) (i)
+x
+y
+– 4
+– 4
+4
+8
+– 8
+– 8
+0
+4
+8
+y = f(x)
+ 
+ 
+ The diagram shows the graph of 
+( )
+y
+x
+f
+=
+.
+ 
+ 
+ On the same diagram sketch the graph of 
+( )
+y
+x
+f
+1
+=
+-
+. 
+[1]
+ 
+ 
+(ii) Describe the relationship between the graph of ( )x
+f
+ and the graph of 
+( )x
+f
+1
+-
+. 
+[1]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝú·Ā×
+ĬħôûÕīĄþæĈąà¯ČāĄĎĂ
+ĥÕõÕõµąµÅĕåÅÅµĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 5 =====
+5
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) A function g is defined by    ( )x
+g
+e x
+2
+=
+-   for x
+2
+H
+ .
+ 
+ 
+(i) Find an expression for 
+( )x
+g 1
+-
+. 
+[3]
+ 
+ 
+(ii) Write down the range of g 1
+- . 
+[1]
+ 
+ 
+(iii) A function h is defined by    ( )x
+x
+1
+2
+h
+2
+=
++     for x
+0
+2
+.
+ 
+ 
+ Find an expression for 
+( )x
+gh
+ in its simplest form. 
+[2]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü·Ā×
+ĬħóüÍĝĀîÓòüĩīôÕĄĞĂ
+ĥÕąĕµÕĥÕÕĥõÅÅÕąÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 6 =====
+6
+4037/23/O/N/25
+© UCLES 2025
+3 
+(a) (i) Write   x
+x
+6
+2 - -   in the form (
+)
+x
+a
+b
+2
++
++ where a and b are constants. 
+[2]
+ 
+ 
+(ii) Hence write down the coordinates of the stationary point on the curve   y
+x
+x
+6
+2
+=
+- - . 
+[2]
+ 
+(b) On the axes, draw the graph of   y
+x
+x
+6
+2
+=
+- -
+   for 
+x
+4
+4
+G
+G
+-
+. 
+[3]
+y
+x
+– 4
+– 2
+0
+2
+4
+– 8
+– 6
+– 4
+– 2
+2
+4
+6
+8
+10
+12
+14
+ 
+(c) Use your graph to solve the inequality   x
+x
+6
+4
+2
+1
+- -
+. 
+[2]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàü¶þ×
+ĬħôüÒħĨøÛõĉĔċČ¸ìĎĂ
+ĥąåĕµõĥõĕąÕÅąÕåĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 7 =====
+7
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+4 
+(a) Integrate the following with respect to x.
+ 
+ 
+(i) e x
+5
+2
+- 
+[2]
+ 
+ 
+(ii) 
+x
+4
+3
+1
+-
+   where x
+3
+4
+1
+ 
+[2]
+ 
+(b) Show that   
+sec
+x
+x
+2
+1
+2 1
+3
+3
+d
+2
+r
+r
+3
+2
+=
+-
+b
+e
+l
+o
+y
+. 
+[3]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàú¶þ×
+ĬħóûÚġĬĈÞăøÕÏôĤìĞĂ
+ĥąÕÕõĕąĕąõąÅąµÅÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 8 =====
+8
+4037/23/O/N/25
+© UCLES 2025
+5 
+Six different digits are chosen from the nine digits 1, 2, 3, 4, 5, 6, 7, 8, 9.
+ 
+These digits are used to form a 6-digit number.
+ 
+Find how many 6-digit numbers can be formed in the following cases.
+ 
+(a) There are no restrictions. 
+[1]
+ 
+(b) The number is greater than 700 000. 
+[2]
+ 
+(c) The number is greater than 750 000. 
+[3]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞü¶Ā×
+ĬħóúÚīĚāÙýïÎíÐÂ¼ĖĂ
+ĥµąÕµĕąµĥÕõÅÅµĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 9 =====
+9
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+6 
+The line   y
+x
+3
+4
+=
++   meets the curve   y
+x
+x
+2
+8
+1
+2
+=
++
++   at two points A and B.
+ 
+Find the equation of the perpendicular bisector of AB, giving your answer in the form ax
+by
+c
+0
++
++
+=
+, 
+where a, b and c are integers. 
+[9]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞú¶Ā×
+ĬħôùÒĝĖñàûĂěéèĖ¼ĦĂ
+ĥµõĕõõĥÕõååÅÅÕąĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 10 =====
+10
+4037/23/O/N/25
+© UCLES 2025
+7 
+Solve the equation    sec
+tan
+x
+x
+3
+3
+3
+0
+2
++
+-
+=
+   for °
+°
+x
+0
+120
+G
+G
+. 
+[6]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßü¸þ×
+ĬħòúÓĩĒė×ĆøøđÎæĄĞĂ
+ĥĥĥĕµĕåµÅĥõąÅĕĥÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 11 =====
+11
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+8 
+In this question the units are metres.
+2 3
+B
+P
+A
+Q
+O
+2
+ 
+The diagram shows a circle, centre O and radius 2.
+ 
+The chord AB has length  2 3.
+ 
+The point Q lies on the circle such that AQ = BQ.
+ 
+The arc APB is part of a circle, centre Q.
+ 
+(a) Find the exact value of angle AQB in radians. 
+[2]
+ 
+(b) Hence find the area of the shaded region. Give your answer in terms of r. 
+[6]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßú¸þ×
+ĬħñùÛğĎħâôĉ±ÅæòĄĎĂ
+ĥĥĕÕõõÅÕÕĕåąÅõąĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 12 =====
+12
+4037/23/O/N/25
+© UCLES 2025
+9 
+Two variables, x and y, are related by an equation of the form y
+Axb
+=
+, where A and b are constants.
+ 
+The following pairs of values of x and y are given.
+x
+0.61
+4.48
+12.18
+33.1
+y
+1.65
+4.47
+7.39
+12.17
+ 
+(a) On the axes below, use these values to draw the straight-line graph of lny against lnx. 
+[2]
+ln y
+ln x
+– 1
+0
+2
+1
+4
+3
+– 1
+1
+2
+3
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝü¸Ā×
+ĬħñüÛĥĠĢÕîĂºħĊÔĔĦĂ
+ĥÕÅÕµõÅõµµÕąąõåĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 13 =====
+13
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) Use your graph to find the values of A and b. 
+[4]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝú¸Ā×
+ĬħòûÓģĤĒäČïï³òĈĔĖĂ
+ĥÕµĕõĕåĕåÅąąąĕÅÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 14 =====
+14
+4037/23/O/N/25
+© UCLES 2025
+10 In this question the units are metres and seconds.
+ 
+A particle moves along a straight line through a point A.
+ 
+Its displacement, s, from A at time t is given by   s
+t
+t
+2
+100
+10
+100
+2
+=
++
++
+ .
+ 
+The diagram shows the displacement–time graph for the first 30 seconds of the motion.
+s 
+t
+30
+O
+ 
+(a) Find the value of t when s is a maximum. 
+[6]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞùµĂ×
+ĬħñùÒĝďĪÒþüÔďëĄäĎĂ
+ĥõµÕµõĥµÅÕąÅÅÕĥĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 15 =====
+15
+4037/23/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) The particle passes through its starting point again at time t
+T
+=
+.
+ 
+ 
+(i) Find the total distance travelled by the particle during the first T seconds of its motion. 
+[2]
+ 
+ 
+(ii) Use algebra to find T. 
+[3]
+Question 11 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞûµĂ×
+ĬħòúÚīēĚçüąĕËÓØäĞĂ
+ĥõÅĕõĕąÕÕåÕÅÅµąÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== PAGE 16 =====
+16
+4037/23/O/N/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+11 A circle has equation    x
+y
+25
+0
+2
+2
++
+-
+=
+.
+ 
+A second circle has the same radius as the first circle, and the coordinates of its centre are both positive.
+ 
+The two circles intersect at the points A and B.
+ 
+The line AB has length 6 and is parallel to the line   y
+x
+= - .
+ 
+Find the equation of the second circle in the form x
+y
+ax
+by
+c
+0
+2
+2
++
++
++
++
+=
+, where a, b and c are 
+constants. 
+[5]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàùµĄ×
+ĬħòûÚġġďÔöþĎĩïö´ĖĂ
+ĥÅĕĕµĕąõµąåÅąµåÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

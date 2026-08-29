@@ -1,0 +1,828 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+ADDITIONAL MATHEMATICS 
+4037/11
+Paper 1 Non-calculator 
+May/June 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+Calculators must not be used in this paper.
+ 
+●
+You must show all necessary working clearly.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (SL) 355472
+© UCLES 2025
+* 0 6 3 8 3 6 7 0 8 7 *
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE^|6W
+¬rV\upkmMFw
+¥555EUeEuEEU
+
+===== PAGE 2 =====
+2
+4037/11/M/J/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+−
+−
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 −   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú¸þ×
+ĬĂęñ×ĪĪğãČĊÈÅçö³ïĂ
+ĥÅåĕõÕąµµÅõÅÅµåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+Calculators must not be used in this paper.
+1 
+(a) Given that   
+,
+PQ
+PR
+RQ
+and
+find
+3
+7
+4
+2
+8
+= -
+= -
+e
+e
+o
+o
+. 
+[2]
+ 
+(b) The vectors a, b and c are such that   
+,
+a
+i
+j
+6
+a
+=
++
+   b
+i
+j
+4
+b
+=
++
+   and  
+(
+)
+c
+i
+j
+2
+5
+20
+a
+b
+=
++
++
+, 
+where a and b are scalars.
+ 
+ 
+Given that c
+3
+2
+a
+b
+=
+-
+,   find the values of a and b. 
+[3]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßü¸þ×
+ĬĂĚòÏĠĦďÖî÷āđÏâ³ÿĂ
+ĥÅÕÕµµĥÕåµåÅÅÕÅĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/11/M/J/25
+© UCLES 2025
+2 
+Solve the inequality   (
+)(
+)
+x
+x
+x
+3
+5
+8
+9
+3
+H
+-
++
+-
+. 
+[4]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝú¸Ā×
+ĬĂĚóÏĦĘĚáôðĊ³óĄã÷Ă
+ĥõąÕõµĥõÅĕÕÅąÕĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+3 
+Point A has coordinates ( ,
+)
+3
+1
+- .
+ 
+A circle has equation   x
+y
+4
+3
+5
+2
+2
+-
++
++
+=
+`
+`
+j
+j
+.
+ 
+(a) Show that A lies on the circumference of the circle. 
+[1]
+ 
+(b) Given that AB is a diameter of the circle, find the coordinates of B. 
+[2]
+ 
+(c) Find the equation of the tangent to the circle at A.  
+[3]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü¸Ā×
+ĬĂęô×ĤĜĪØĆā¿ħċØãćĂ
+ĥõõĕµÕąĕÕĥąÅąµąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/11/M/J/25
+© UCLES 2025
+4 
+(a) Solve the equation   x
+x
+2
+3
+1
+6
+1
+-
+=
+. 
+[4]
+ 
+(b) Solve the simultaneous equations
+(
+)
+.
+lg x
+y
+x
+xy
+y
+2
+0
+4
+1
+2
++
+=
++
++
+=
+ 
+ 
+[5]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàüµþ×
+ĬĂĚôÜĪôĤÐāô¶ćóµċ÷Ă
+ĥåÕĕµõąµĕąåÅÅµåĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+5 
+(a) Solve the equation   
+x
+5 2
+1
+8
+23
+-
++
+=
+. 
+[3]
+ 
+(b) On the axes, sketch the graph of    
+sin
+for
+y
+x
+x
+5
+2
+0
+360
+°
+°
+G
+G
+=
+-
+. 
+[2]
+y
+x
+0
+ 180°
+ 360°
+8
+– 8
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàúµþ×
+ĬĂęóÔĠðĔé÷ýóÓċġċćĂ
+ĥååÕõĕĥÕąõõÅÅÕÅÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/11/M/J/25
+© UCLES 2025
+6 
+A curve has equation    y
+x
+x
+1
+1
+2
+2
+4
+=
++
+-
+f
+p .
+ 
+(a) Show that x
+y
+d
+d can be written as   
+x
+Ax x
+1
+1
+2
+5
+2
+3
++
+-
+`
+`
+j
+j
+ ,   where A is a positive integer to be found. 
+[5]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞüµĀ×
+ĬĂęòÔĦþĕÎùĆüñçÃěïĂ
+ĥĕõÕµĕĥõĥÕąÅąÕĥÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) (i) Show that the curve has stationary points where 
+,
+and
+x
+x
+x
+1
+0
+1
+=-
+=
+= . 
+[1]
+ 
+ 
+(ii) Use the first derivative test to determine which two stationary points have the same nature 
+and state whether they are maximum or minimum points.  
+[2]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞúµĀ×
+ĬĂĚñÜĤĂĥëÿû­åÏėěÿĂ
+ĥĕąĕõõąĕõåÕÅąµąĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/11/M/J/25
+© UCLES 2025
+7 
+Solutions to this question by accurate drawing will not be accepted.
+ 
+Find the x-coordinates of the points where the curve   
+(
+)
+y
+x
+x
+2
+9
+5
+42
+2
+=
+-
++
++
+`
+j
+   cuts the x-axis. 
+[6]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßü·þ×
+ĬĂĜòÙĨĆăÔòýÒčåçãćĂ
+ĥÅĕĕµĕÅõÅĥąąąõĥÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+8 
+(a) Write down the set of values of x for which   
+(
+)
+log
+x
+12
+4
+5
+-
+   exists. 
+[1]
+ 
+(b) Solve the equation   
+(
+)
+log
+log
+x
+12
+4
+125
+6
+1
+x
+5
+-
+=
++ . 
+[6]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßú·þ×
+ĬĂěñÑĢĊóåĈôėÉÍóã÷Ă
+ĥÅĥÕõõåĕÕĕÕąąĕąĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/11/M/J/25
+© UCLES 2025
+9
+y
+x
+A
+O
+y
+x
+4
+1
+=
++
+ 
+The point A with x-coordinate 2 lies on the curve   y
+x
+4
+1
+=
++ .
+ 
+The diagram shows part of this curve and the tangent to the curve at A.
+ 
+Find the area of the shaded region enclosed by the curve, the tangent and the x-axis. 
+[10]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝü·Ā×
+ĬĂěôÑĬüöÒĊûĐīñÑ³ÿĂ
+ĥõµÕµõåµµµåąÅĕåĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+Continuation of working space for Question 9.
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝú·Ā×
+ĬĂĜóÙĞøĆçðĆÙ¯ĉą³ïĂ
+ĥõÅĕõĕÅÕåÅõąÅõÅÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/11/M/J/25
+© UCLES 2025
+10 (a) Given that 
+r
+0
+2
+1
+G i
+ , show that   
+cosec
+sin
+tan
+1
+1
+1
+2
+2
+i
+i
+i
+-
++
++
+   can be written as seci. 
+[4]
+ 
+(b) Given that   secx
+a
+=
+,   where r
+r
+x
+2
+3
+2
+1
+G
+,   find sinx in terms of a. 
+[3]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞù¶Ă×
+ĬĂěñÜĤċîÕúāöēÔāă÷Ă
+ĥÕÅÕµõąõÅÕõÅąµĥĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/11/M/J/25
+© UCLES 2025
+[Turn over
+11  An arithmetic progression has common difference d.
+ 
+The 3rd term of this progression is 10.
+ 
+(a) Write down expressions for the 1st term and the 2nd term of this progression.
+ 
+ 
+Give your answers in terms of d only. 
+[2]
+ 
+(b) When each of the first 3 terms is squared, the sum of these squares is 140 .
+ 
+ 
+There are two possible values for d.
+ 
+ 
+Using your answer to part (a), find the sum of the first 200 terms of the progression with the 
+smaller value of d. 
+[7]
+Question 12 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞû¶Ă×
+ĬĂĜòÔĦćþäĀð³ÇìÕăćĂ
+ĥÕµĕõĕĥĕÕååÅąÕąÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/11/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+12 In this question n
+6
+H
+ .
+ 
+Use an algebraic method to show that   C
+C
+n
+n
+5
+1
+5
+-
+-
+   can be written as 
+C
+n
+1
+4
+-
+. 
+[4]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàù¶Ą×
+ĬĂĜóÔĠõċ×Ă÷¼ĥĈ÷ēïĂ
+ĥĥĥĕµĕĥµµąÕÅÅÕåÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

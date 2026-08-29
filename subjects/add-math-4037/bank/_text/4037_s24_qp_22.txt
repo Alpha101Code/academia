@@ -1,0 +1,758 @@
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge O Level
+* 3 0 4 0 9 0 7 2 9 4 *
+ADDITIONAL MATHEMATICS 
+4037/22
+Paper 2 
+May/June 2024
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a calculator where appropriate.
+ 
+●
+You must show all necessary working clearly; no marks will be given for unsupported answers from a 
+calculator.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (SL) 342311
+© UCLES 2024
+
+===== PAGE 2 =====
+2
+4037/22/M/J/24
+© UCLES 2024
+Mathematical Formulae
+1. ALGEBRA
+Quadratic Equation
+For the equation ax
+bx
+c
+0
+2 +
++
+=
+,
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial Theorem
+(
+)
+a
+b
+a
+a
+b
+a
+b
+a
+b
+n
+n
+n
+r
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
+f
+f
++
+=
++
++
++
++
++
++
+-
+-
+-
+e
+e
+e
+o
+o
+o
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+e o
+Arithmetic series 
+(
+)
+u
+a
+n
+d
+1
+n =
++
+-
+(
+)
+{
+(
+) }
+S
+n a
+l
+n
+a
+n
+d
+2
+1
+2
+1
+2
+1
+n =
++
+=
++
+-
+Geometric series 
+u
+ar
+n
+n
+1
+=
+-
+(
+) (
+)
+S
+r
+a
+r
+r
+1
+1
+1
+n
+n
+!
+=
+-
+-
+(
+)
+S
+r
+a
+r
+1
+1
+1
+=
+-
+3
+2. TRIGONOMETRY
+Identities
+sin
+cos
+A
+A
+1
+2
+2
++
+=
+sec
+tan
+A
+A
+1
+2
+2
+=
++
+ec
+cos
+cot
+A
+A
+1
+2
+2
+=
++
+Formulae for ∆ABC
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+cos
+a
+b
+c
+bc
+A
+2
+2
+2
+2
+=
++
+-
+sin
+bc
+A
+2
+1
+T =
+
+===== PAGE 3 =====
+3
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+1 
+(a) On the axes, sketch the graph of   
+(
+)(
+)(
+)
+y
+x
+x
+x
+2
+5
+3 1
+=
+-
++
+-
+,   stating the intercepts with the 
+coordinate axes. 
+[3]
+O
+y
+x
+ 
+(b) Hence
+ 
+ 
+(i) solve the inequality  (
+)(
+)(
+)
+x
+x
+x
+2
+5
+3 1
+0
+G
+-
++
+-
+ 
+[2]
+ 
+ 
+(ii) on the axes below, sketch the graph of     
+(
+)(
+)(
+)
+y
+x
+x
+x
+2
+5
+3 1
+=
+-
++
+-
+. 
+[1]
+O
+y
+x
+
+===== PAGE 4 =====
+4
+4037/22/M/J/24
+© UCLES 2024
+2 
+(a) Evaluate    
+cos x x
+4 d
+r
+r
+3
+2y
+. You must show all your working. 
+[4]
+ 
+(b) Find     
+x
+x
+x
+4
+3
+1
+1 d
+3
+-
++
+e
+o
+y
+. 
+[3]
+
+===== PAGE 5 =====
+5
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+3 
+(a) Determine whether the equation   (
+)(
+)
+x
+x
+x
+x
+5
+3
+4
+1 3
+2
+1
+-
++
++
+=
++   has two distinct real roots, two equal 
+roots or no real roots. 
+[4]
+ 
+(b) Solve the equation     
+x
+x
+12
+4
+3
+3
+-
+=
+. 
+[4]
+
+===== PAGE 6 =====
+6
+4037/22/M/J/24
+© UCLES 2024
+4 
+The polynomial p is such that ( )x
+x
+x
+x
+6
+12
+5
+p
+3
+2
+=
++
+-
++ .
+ 
+(a) Find the remainder when ( )x
+p
+ is divided by x
+2
+- . 
+[1]
+ 
+(b) (i) Show that x
+2
+1
+- is a factor of ( )x
+p
+. 
+[1]
+ 
+ 
+ 
+(ii) Hence write ( )x
+p
+ as a product of linear factors. 
+[3]
+ 
+ 
+(iii) Hence solve the equation   sin
+sin
+sin
+6
+12
+5
+0
+3
+2i
+i
+i+
+-
++
+=
+   for  °
+°
+0
+90
+G
+G
+i
+. 
+[2]
+
+===== PAGE 7 =====
+7
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+5 
+A curve has equation  y
+5e
+e
+x
+2
+1
+=
++
+-
+.  The tangent to the curve at the point where  x
+1
+= cuts the x-axis 
+at the point P.
+ 
+Find the equation of the tangent in the form y
+mx
+c
+=
++ , where m and c are exact values, and hence find 
+the x-coordinate of P. 
+[6]
+
+===== PAGE 8 =====
+8
+4037/22/M/J/24
+© UCLES 2024
+6 
+(a) Show that    sin
+cot
+cosec
+x
+x
+x
+3 b
+l    can be written as   sin
+tan
+x
+x
+2
+. 
+[3]
+ 
+(b) Solve the equation   
+tan
+tan
+cos x
+x
+x
+2
+1
+0
+2
+-
+=
+   for  
+r
+r
+x
+1
+1
+-
+. 
+[5]
+
+===== PAGE 9 =====
+9
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+7 
+Find the number of different ways the 9 letters of the word POLYMATHS can be arranged when
+ 
+(a) the O and A are not next to each other 
+[2]
+ 
+(b) the letters MATHS are together in this order. 
+[2] 
+
+===== PAGE 10 =====
+10
+4037/22/M/J/24
+© UCLES 2024
+8 
+An experiment was carried out and values of y for certain values of x were recorded. The table shows 
+the values recorded.
+x
+15
+30
+45
+60
+75
+y
+10
+13
+22
+35
+50
+ 
+The relationship between y and x is modelled by   y
+Aekx
+=
+,   where A and k are constants.
+ 
+ 
+(a) Draw a straight line graph for lny against x. 
+[2]
+ln y
+x
+0
+15
+30
+45
+60
+75
+1
+2
+3
+4
+
+===== PAGE 11 =====
+11
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) Find the equation of the line in part (a) and hence find the values of A and k. Give each value 
+correct to 1 significant figure. 
+[5]
+ 
+(c) Find the value of x for which y
+17
+=
+. 
+[2] 
+
+===== PAGE 12 =====
+12
+4037/22/M/J/24
+© UCLES 2024
+9
+y
+x
+O
+y
+x
+x
+32
+4
+48
+2
+=
+-
+-
+B(5, 12)
+D
+C
+A
+ 
+The diagram shows part of the curve   y
+x
+x
+32
+4
+48
+2
+=
+-
+-
+   and the line AB.
+ 
+The curve and the line AB meet the x-axis at A and meet again at the point B(5, 12).
+ 
+The line CD extended is parallel to the y-axis and passes through the maximum point of the curve.
+ 
+Find the area of the shaded region. 
+[9]
+
+===== PAGE 13 =====
+13
+4037/22/M/J/24
+© UCLES 2024
+[Turn over
+Continuation of working space for Question 9.
+
+===== PAGE 14 =====
+14
+4037/22/M/J/24
+© UCLES 2024
+10 The functions f and fg are defined by
+( )x
+f
+ex
+3
+2
+=
++ for  x
+0
+1
+ 
+( )x
+fg
+e x
+2
+=
+ 
+for  x
+2
+3
+2
+.
+ 
+(a) Explain why f
+1
+- exists. 
+[1]
+ 
+(b) Find an expression for 
+( )x
+f
+1
+-
+ and state the domain and range of f
+1
+- . 
+[5]
+ 
+(c) Hence find and simplify an expression for ( )x
+g
+. 
+[2]
+
+===== PAGE 15 =====
+15
+4037/22/M/J/24
+© UCLES 2024
+11 In the binomial expansion of 
+x
+2
+2
+n
++
+b
+l , the first three terms in increasing powers of x are 
+b
+abx
+abx
+8
+9
+2
++
++
+. Find the values of the constants n, a and b. 
+[8]
+
+===== PAGE 16 =====
+16
+4037/22/M/J/24
+© UCLES 2024
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE

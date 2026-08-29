@@ -126,11 +126,14 @@ hosted app private (or strip verbatim questions) if it ever goes public.
 
 ## 6. Phases
 
-- **P0 — done (this session):** repo structure, filing system + sorter + inventory tooling,
+- **P0 — done (2026-08-29):** repo structure, filing system + sorter + inventory tooling,
   syllabus filed and text-extracted, 37 papers classified into the bank layout, plan.
-- **P1 — next:** app shell (dashboard + chapter screens + progress engine) with
-  **Chapter 4 complete**: Learn lesson (4.1–4.5 with interactive visuals) + every ch.4
-  question from the 19 QPs in the bank, with tips/solutions/mark schemes.
+- **P1 — done (2026-08-29):** app shell (dashboard, practice, learn, timers, localStorage
+  progress with export/import, light/dark) + **Chapter 4 complete**: all 21 ch.4 questions
+  mined from the 19 QPs (98 marks), each verified against the official mark scheme, with
+  tips/worked solutions/mark schemes; full Learn lesson (4.1–4.5) with 4 interactive
+  widgets (modulus explorer, |ax+b|=cx+d solver, |quadratic|=d root counter, cubic
+  sketcher with inequality shading). Open `app/index.html` — works from disk or any static host.
 - **P2:** remaining red-dot chapters in order (6, 8, 9, 11, 12, 13) — same treatment;
   new papers keep flowing into the same pipeline.
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.

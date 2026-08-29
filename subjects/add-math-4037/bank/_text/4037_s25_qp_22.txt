@@ -1,0 +1,793 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+DC (SL) 355894
+© UCLES 2025
+* 8 8 2 3 9 0 5 8 7 5 *
+ADDITIONAL MATHEMATICS 
+4037/22
+Paper 2 
+May/June 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a scientific calculator where appropriate.
+ 
+●
+You must show all necessary working clearly.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+ 
+●
+For r, use either your calculator value or 3.142.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE]{6W
+¬zNtcp¤/
+¥EUuU5EUE5eUU
+
+===== PAGE 2 =====
+2
+4037/22/M/J/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+−
+−
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 −   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàù¸þ×
+ĬĈēùÏīđĖÜöĊĞÜÅ°áČĂ
+ĥĕÅĕµµÅÕõÕąÅÅõÅĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+1 
+Solve the inequality   
+x
+5
+2
+3
+H
++
+.  
+[4]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàû¸þ×
+ĬĈĔú×ĝčĦÝĄ÷ëĀ­ĬáüĂ
+ĥĕµÕõÕåµĥåÕÅÅĕåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/22/M/J/25
+© UCLES 2025
+2 
+In this question, all lengths are in metres and time is in seconds. 
+ 
+A particle P moves in a straight line such that its displacement s from a fixed point O at time t is given 
+by    
+(
+) (
+) for
+s
+t
+t
+t
+4
+0
+1
+2
+H
+=
+-
+-
+.
+ 
+(a) On the axes, sketch the displacement–time graph of P, stating the intercepts with the axes. 
+[2]
+s
+t
+O
+ 
+(b) Find an expression for the velocity, v, of P. 
+ 
+ 
+Give your answer in a factorised form. 
+[2]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞù¸Ā×
+ĬĈĔû×ħğģÚþðäÞđÊ±ĄĂ
+ĥåĥÕµÕåĕąąåÅąĕąÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(c) On the axes, sketch the velocity–time graph of P, stating the intercepts with the axes. 
+[2]
+v
+t
+O
+ 
+(d) Find an expression for the acceleration, a, of P.  
+[1]
+ 
+(e) On the axes, sketch the acceleration–time graph of P, stating the intercepts with the axes. 
+[3]
+a
+t
+O
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞû¸Ā×
+ĬĈēüÏġģēßüāĥúĩĎ±ôĂ
+ĥåĕĕõµÅõĕõõÅąõĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/22/M/J/25
+© UCLES 2025
+3 
+Functions f and g are such that
+ 
+ 
+ 
+( )
+f x
+for
+x
+x
+x
+x
+4
+3
+0
+2
+2
+=
++
++
+for x
+2
+2
+=
+-
+( )
+g x
+ 
+ 
+             .
+ 
+Solve the equation   
+( )
+fg x
+1
+= .  
+[4]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßûµþ×
+ĬĈĔüÔīċęçïôĐĚđïęĄĂ
+ĥõµĕõĕÅÕÕĕÕÅÅõÅÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+4 
+(a)  Given that   
+sin
+cos
+y
+x
+x
+4
+2
+2
+=
+,   find the value of x
+y
+d
+d when 
+r
+x
+6
+=
+.  
+[4]
+ 
+(b)  A curve has equation   
+sin
+cos
+y
+x
+x
+4
+2
+2
+=
+. 
+ 
+ 
+The normal to the curve at the point where 
+r
+x
+6
+=
+ meets the x-axis at the point P.
+ 
+ 
+Find the exact coordinates of P. 
+[5]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßùµþ×
+ĬĈēûÜĝćĩÒĉýÙ¾ĩëęôĂ
+ĥõÅÕµõåµÅĥąÅÅĕåĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/22/M/J/25
+© UCLES 2025
+5 
+(a) A 4-digit number is to be formed using the digits   0,   2,   4,   5,   6   and   8.
+ 
+ 
+The 4-digit number must not start with 0.
+ 
+ 
+Any digit may be used at most once in the 4-digit number.
+ 
+ 
+(i) Find how many 4-digit numbers can be formed. 
+[1]
+ 
+ 
+(ii) Find how many even 4-digit numbers can be formed. 
+[2]
+ 
+ 
+(iii) Find how many 4-digit numbers that are divisible by 5 can be formed. 
+[2]
+ 
+(b) Solve the equation    (
+)
+(
+)
+C
+C
+n
+n
+1
+33
+10
+n
+n
+1
+12
+10
+#
+#
++
+=
+-
++
+. 
+[3]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝûµĀ×
+ĬĈēúÜħõĠåćĆÒĠÅĉĉČĂ
+ĥÅĕÕõõåĕåÅõÅąĕąĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+6 
+The volume, V, of a sphere is increasing at the constant rate of rcm s
+2
+3
+1
+- .
+ 
+Find the rate of change of the surface area, S, of this sphere when the volume of the sphere is 
+rcm
+36
+3.
+ 
+[6]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝùµĀ×
+ĬĈĔùÔġùĐÔñûė¼­ÍĉüĂ
+ĥÅĥĕµĕÅõµµåÅąõĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/22/M/J/25
+© UCLES 2025
+7 
+The first three terms of an arithmetic progression can be written as
+ 
+ 
+,
+,
+ln
+ln
+ln
+x
+x
+x
+2
+5
+2
+3
+2
+7
+`
+`
+`
+j
+j
+j.
+ 
+(a)  Given that x
+1
+2 , find the least number of terms for the sum of this progression to be greater than 
+ln x
+43
+24
+`
+j. 
+[6]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàû·þ×
+ĬĈĒúÑĥíúëĀýüĄÇĝ±ôĂ
+ĥĕõĕõõąĕąõõąąµąĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b)  Given that the 25th term of this progression is equal to 408, find the exact value of x. 
+[3]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàù·þ×
+ĬĈđùÙģñĊÎúô­Ø¯¹±ĄĂ
+ĥĕąÕµĕĥõĕąåąąÕĥÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/22/M/J/25
+© UCLES 2025
+8
+y
+x
+B
+A
+O
+y
+x
+x
+15
+5
+2
+=
+-
+ 
+The diagram shows part of the curve   y
+x
+15
+5
+2
+=
+-
+x
+.
+ 
+The curve meets the x-axis at the point A.
+ 
+The curve has a maximum at the point B.
+ 
+Find the area of the shaded region enclosed by the line AB and the curve. 
+ 
+Give your answer in exact form. 
+[11]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞû·Ā×
+ĬĈđüÙĩăÿéøû¶öēěáüĂ
+ĥåÕÕõĕĥÕõåÕąÅÕÅÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+Continuation of working space for Question 8.
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞù·Ā×
+ĬĈĒûÑğÿïÐĂĆóâī¿áČĂ
+ĥååĕµõąµĥÕąąÅµåĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/22/M/J/25
+© UCLES 2025
+9 
+(a) Solve the equation   
+°
+°
+sec
+cosec
+for
+x
+x
+x
+3
+3
+3
+3
+120
+120
+G
+G
+=
+-
+. 
+[5]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝú¶Ă×
+ĬĈđùÔġôćÞĈāÐþ²ËđĄĂ
+ĥąåÕõĕÅĕąÅąÅąõąÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/22/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Solve the equation   
+r
+r
+r
+cos
+sin
+sin
+y
+y
+y
+2
+3
+3
+3
++
++
+=
++
+b
+b
+b
+l
+l
+l   for 
+r
+y
+0
+2
+1
+G
+. 
+[5]
+Question 10 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü¶Ă×
+ĬĈĒúÜħð÷ÛòðęÚÊďđôĂ
+ĥąÕĕµõåõĕµÕÅąĕĥĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/22/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+10 The first three terms, in descending powers of x, in the expansion of   
+x
+a
+x
+3
+1
+1
+n
+2
+2
+2
+-
++
+`
+e
+j
+o   can be 
+written as      
+x
+x
+bx
+729
+972
+12
+10
+8
++
++
+,   where a, b and n are constants.
+ 
+Find the values of a, b and n. 
+[9]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú¶Ą×
+ĬĈĒûÜĝþòàð÷ĒüĦ­āČĂ
+ĥµąĕõõåÕõĕåÅÅĕÅĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

@@ -1,0 +1,829 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+ADDITIONAL MATHEMATICS 
+4037/21
+Paper 2 
+May/June 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a scientific calculator where appropriate.
+ 
+●
+You must show all necessary working clearly.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+ 
+●
+For r, use either your calculator value or 3.142.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 9 7 7 3 5 2 5 8 8 0 *
+DC (DE) 355888
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE^y6W
+¬ªsP¥r\sneYG¡
+¥Uuu¥UeU5Eu¥U5U
+
+===== PAGE 2 =====
+2
+4037/21/M/J/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+−
+−
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 −   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßû¸þ×
+ĬÿĬôÍīġĘãþČÊġ­´ÙĄĂ
+ĥÕąÕµĕåµĕĕĥąąµąĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+1 
+A curve has equation   y
+x
+x
+2
+3
+2
+=
++
+- .
+ 
+(a) Use the method of completing the square to find the coordinates of the stationary point on the 
+curve. 
+[3]
+ 
+(b) On the axes, sketch the curve, stating the intercepts with the coordinate axes. 
+[2]
+O
+y
+x
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßù¸þ×
+ĬÿīóÕĝĝĨÖüõÿµÅĨÙôĂ
+ĥÕõĕõõÅÕąĥµąąÕĥÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/21/M/J/25
+© UCLES 2025
+2 
+In this question, k is a constant.
+ 
+It is given that   
+(
+)
+x
+k
+x
+k
+2
+3
+2
+0
+2 +
+-
++
+=
+  has roots that are real and distinct. 
+ 
+Find the set of possible values of k. 
+[5]
+3 
+A sports club has the following members.
+5 runners, 4 swimmers, 3 gymnasts
+ 
+(a) These members stand in a straight line.
+ 
+ 
+ 
+Find the number of ways that this can be done when all the runners stand together, all the swimmers 
+stand together and all the gymnasts stand together. 
+[2]
+ 
+(b) Four of these members are selected for an event.
+ 
+ 
+ 
+Find the number of ways that this can be done when at least one runner, at least one swimmer and 
+at least one gymnast must be selected.  
+[3]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝû¸Ā×
+ĬÿīòÕħďġáöîĈėĩÆÉČĂ
+ĥĥåĕµõÅõĥÅÅąÅÕÅÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+4 
+The coordinates of points A, B, C and D are as follows.
+(
+, )
+( ,
+)
+(
+,
+)
+(
+,
+)
+A
+B
+C
+D
+4 3
+6
+9
+15 10
+14
+1
+-
+-
+-
+ 
+The line L has equation   y
+x
+11
+75
+=
+-
+.
+ 
+The perpendicular bisector of the line AB meets L at the point E.
+ 
+Find the area of triangle CDE. 
+[7]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝù¸Ā×
+ĬÿĬñÍġēđØĄăÁÃđĒÉüĂ
+ĥĥÕÕõĕåĕõµĕąÅµåĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/21/M/J/25
+© UCLES 2025
+5 
+Given that   
+tan
+y
+x
+x
+2
+2
+=
+,    use calculus to find the approximate change in y as x increases from 
+r
+3 to r
+h
+3 + , where h is small. 
+[4] 
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàùµþ×
+ĬÿīñÒīûěÐćò¼ãĩóġČĂ
+ĥµõÕõµåµµÕµąąµąÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+6 
+(a) Using an appropriate quadratic factorisation, find the first three terms in the binomial expansion of 
+(
+)
+x
+x
+9
+12
+4
+2
+5
++
++
+,   in ascending powers of x.
+ 
+ 
+You must simplify your coefficients. 
+[4]
+ 
+(b) Find the term independent of x in the expansion of   x
+x
+6
+2
+4 12
++
+2
+f
+p . 
+[2]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàûµþ×
+ĬÿĬòÚĝ÷īéñÿí÷đçġüĂ
+ĥµąĕµÕÅÕååĥąąÕĥĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/21/M/J/25
+© UCLES 2025
+7 
+(a) The function f is defined by   ( )
+f x
+2
+3
+e x
+=
++
+-
+   for x
+R
+!
+. 
+ 
+On the axes, sketch the graph of 
+( )
+f
+y
+x
+=
+ and hence, on the same axes, sketch the graph 
+of 
+( )
+f
+y
+x
+1
+=
+-
+ .
+ 
+Show clearly 
+• 
+the positions of any points where your graphs meet the coordinate axes 
+• 
+the positions of any asymptotes. 
+[4]
+O
+y
+x
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞùµĀ×
+ĬÿĬóÚħąĞÎïĈöÕ­ąñĄĂ
+ĥąÕĕõÕÅõÅąĕąÅÕÅĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) The function g is defined by   ( )
+g x
+2
+2
+3
+ex
+=
+-
++   for x
+0
+H
+.
+ 
+ 
+Given that g 1
+- exists, find an expression for 
+( )
+g
+x
+1
+-
+ and state its domain.  
+[4]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞûµĀ×
+ĬÿīôÒġĉĎëĉù³āÅÑñôĂ
+ĥąåÕµµåĕÕõÅąÅµåÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/21/M/J/25
+© UCLES 2025
+8 
+(a) Solve the equation    (
+)
+cot
+cos
+x
+x
+2
+3
+0
+-
+=
+    for 
+r
+x
+0
+2
+1
+G
+.  
+[3]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßù·þ×
+ĬÿĩóÓĥýüÔøÿÐ¹¯ġÉüĂ
+ĥÕµÕõÕĥõĥµĕÅÅõÅĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Solve the equation   
+(
+)
+(
+)
+cosec
+sin
+2
+2
+1
+12
+2
+1
+5
+i
+i
++
+-
++
+=
+,   where i is in radians and 
+1
+2
+G
+G
+i
+-
+. 
+ 
+[6]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßû·þ×
+ĬÿĪôÛģāČåĂòęĝÇµÉČĂ
+ĥÕÅĕµµąĕõÅÅÅÅĕåÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/21/M/J/25
+© UCLES 2025
+9 
+In this question, all lengths are in centimetres and all angles are in radians.
+15
+15
+A and B
+B
+O
+O
+A
+5
+6r
+ 
+The diagram shows a sector AOB of a circle, centre O, radius 15. 
+ 
+Angle AOB = r
+5
+6 .
+ 
+The sector is made into a cone with points A and B touching, as shown.
+ 
+(a) Find the curved surface area of the cone. 
+[2]
+ 
+The top of the cone is a horizontal circle.
+ 
+(b) Find the circumference of the circular top. 
+[2]
+ 
+(c) Hence find the radius of the circular top and the perpendicular height of the cone. 
+[2]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝù·Ā×
+ĬÿĪñÛĩóýÒĀùĒ¿īėÙôĂ
+ĥĥĕĕõµąµĕĥµÅąĕąÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(d) Water is poured into the cone.
+ 
+ 
+When the depth of the water in the cone is h, the radius of the circular top of the water is r.
+ 
+ 
+(i) Find an expression for r in terms of h.  
+[1]
+ 
+ 
+(ii) The water is poured into the cone at a constant rate of 
+cm
+27
+3 per second.
+ 
+ 
+ Find the rate at which the depth of the water is rising when the depth of the water is 4. 
+[5]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝû·Ā×
+ĬÿĩòÓğïíçúĈ×ěēÃÙĄĂ
+ĥĥĥÕµÕĥÕąĕĥÅąõĥĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/21/M/J/25
+© UCLES 2025
+10 A particle P moves in a straight line.
+ 
+t seconds after passing a fixed point, O, the acceleration of P, ms
+a
+2
+- , is given by
+.
+e
+for
+for
+a
+t
+t
+a
+t
+2
+0
+4
+19
+5
+4
+10
+t
+2
+8
+2
+G
+G
+G
+G
+=
+-
+=
+-
+-
+ 
+When t
+3
+= , the velocity of P is 
+ms
+3
+1
+1
+-
+- and its displacement from O is 
+m
+4
+1
+-
+.
+ 
+(a) (i) Find the velocity of P when t
+4
+=
+. 
+[3]
+ 
+ 
+(ii) Find the displacement of P from O when t
+4
+=
+. 
+[3]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞü¶Ă×
+ĬÿĪôÒġĄąÕðăü·ÊÇĩČĂ
+ĥÅĥĕõµåõĥąĥąÅµÅÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/21/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Find the displacement of P from O when t
+10
+=
+. 
+[5]
+Question 11 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞú¶Ă×
+ĬÿĩóÚħĀõäĊî­ģ²ēĩüĂ
+ĥÅĕÕµÕÅĕõõµąÅÕåĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/21/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+11 A geometric progression has first term a and common ratio r, where r
+0
+2
+.
+ 
+The sum of the 2nd and 3rd terms of the progression is 168.
+ 
+The sum of the 4th and 5th terms of the progression is 94.5.
+ 
+ 
+(a) Find the 6th term of the progression. 
+[7]
+ 
+(b) Find the sum to infinity of the progression. 
+[1]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàü¶Ą×
+ĬÿĩòÚĝîô×Ĉõ¶ÁĎ±ùĄĂ
+ĥõÅÕõÕÅµĕÕÅąąÕąĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

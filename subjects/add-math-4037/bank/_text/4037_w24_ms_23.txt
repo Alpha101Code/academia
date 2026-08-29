@@ -1,0 +1,1360 @@
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 9 printed pages. 
+ 
+© Cambridge University Press & Assessment 2024 
+ 
+[Turn over
+ 
+Cambridge O Level 
+ 
+ADDITIONAL MATHEMATICS 
+4037/23 
+Paper 2  
+October/November 2024 
+MARK SCHEME 
+Maximum Mark: 80 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which would have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the October/November 2024 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level components, and some Cambridge O Level 
+components. 
+ 
+ 
+ 
+
+===== PAGE 2 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 2 of 9 
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They 
+should be applied alongside the specific content of the mark scheme or generic level descriptions for a question. 
+Each question paper and mark scheme will also comply with these marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+• 
+the specific content of the mark scheme or the generic level descriptors for the question 
+• 
+the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+• 
+the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+• 
+marks are awarded for correct/valid answers, as defined in the mark scheme. However, credit is given for 
+valid answers which go beyond the scope of the syllabus and mark scheme, referring to your Team 
+Leader as appropriate 
+• 
+marks are awarded when candidates clearly demonstrate what they know and can do 
+• 
+marks are not deducted for errors 
+• 
+marks are not deducted for omissions 
+• 
+answers should only be judged on the quality of spelling, punctuation and grammar when these features 
+are specifically assessed by the question as indicated by the mark scheme. The meaning, however, 
+should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in 
+the application of generic level descriptors. 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question 
+(however; the use of the full mark range may be limited according to the quality of the candidate responses 
+seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be 
+awarded with grade thresholds or grade descriptors in mind. 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 3 of 9 
+ 
+Mathematics-Specific Marking Principles 
+1 
+Unless a particular method has been specified in the question, full marks may be awarded for any correct 
+method. However, if a calculation is required then no marks will be awarded for a scale drawing. 
+2 
+Unless specified in the question, non-integer answers may be given as fractions, decimals or in standard 
+form. Ignore superfluous zeros, provided that the degree of accuracy is not affected. 
+3 
+Allow alternative conventions for notation if used consistently throughout the paper, e.g. commas being 
+used as decimal points. 
+4 
+Unless otherwise indicated, marks once gained cannot subsequently be lost, e.g. wrong working 
+following a correct form of answer is ignored (isw). 
+5 
+Where a candidate has misread a number or sign in the question and used that value consistently 
+throughout, provided that number does not alter the difficulty or the method required, award all marks 
+earned and deduct just 1 A or B mark for the misread. 
+6 
+Recovery within working is allowed, e.g. a notation error in the working where the following line of 
+working makes the candidate’s intent clear. 
+ 
+ 
+ 
+MARK SCHEME NOTES 
+ 
+The following notes are intended to aid interpretation of mark schemes in general, but individual mark schemes 
+may include marks awarded for specific reasons outside the scope of these notes. 
+ 
+ 
+Types of mark 
+ 
+M 
+Method marks, awarded for a valid method applied to the problem. 
+ 
+A 
+Accuracy mark, awarded for a correct answer or intermediate step correctly obtained. For accuracy 
+marks to be given, the associated Method mark must be earned or implied. 
+ 
+B 
+Mark for a correct result or statement independent of Method marks. 
+ 
+When a part of a question has two or more ‘method’ steps, the M marks are in principle independent unless the 
+scheme specifically says otherwise; and similarly where there are several B marks allocated. The notation ‘dep’ 
+is used to indicate that a particular M or B mark is dependent on an earlier mark in the scheme. 
+ 
+Abbreviations 
+ 
+awrt 
+answers which round to 
+cao 
+correct answer only 
+dep 
+dependent 
+FT 
+follow through after error 
+isw 
+ignore subsequent working 
+nfww not from wrong working 
+oe 
+or equivalent 
+rot 
+rounded or truncated 
+SC 
+Special Case 
+soi 
+seen or implied 
+ 
+ 
+
+===== PAGE 4 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 4 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+1 
+−0.8, 0.55, 2.25 
+B1  
+ 
+x < −0.8 
+0.55 < x < 2.25 
+B2 B1 for either inequality correct  
+2(a) 
+5 − (x + 2)2  
+B2 B1 for −(x + 2)2 or (x + 2)2  
+or a = 5 and b = 2 
+2(b) 
+f ⩽ 5 or f(x) ⩽ 5  
+B1 FT their 5  
+2(c) 
+−2 
+B1 FT − their 2  
+2(d) 
+Complete method to find inverse function: 
+Swaps the variables and rearranges  
+or rearranges and swaps the variables at some 
+point in their solution  
+M1 For M1 FT their part (a) provided it is in 
+the form 
+(
+)
+2
+a
+x
+b
+−
++
+  
+ 
+[g−1(x) =] – 2 +
+5
+x
+−
+  
+or  
+( )
+(
+)
+2
+1
+4
+4
+4 1
+1
+g
+2
+x
+x
+−
+−+
+−
+−
+
+
+=
+
+
+  
+or 
+( )
+(
+)
+(
+)(
+)
+2
+1
+4
+( 4)
+4
+1 1
+g
+2
+x
+x
+−
+−−
+−
+−
+−
+−
+−
+
+
+=
+
+
+−
+  
+oe, isw 
+A2 A1 for [g−1(x) =] – 2 
+5
+x
+−
+  
+or  [g−1(x) =] 
+(
+)
+( )
+2
+4
+4
+4 1
+1
+2 1
+x
+−
+−
+−
+=
+ or 
+[g−1(x) =] 
+(
+)
+(
+)(
+)
+(
+)
+2
+4
+4
+4
+1 1
+2
+1
+x
+−−
+
+−
+−
+−
+=
+−
+ 
+ 
+[Domain:] x ⩽ 5 
+B1 FT their part (b) provided it is in form  
+f(x) ⩽ a where a is a constant 
+ 
+[Range:] g–1 ⩾ their −2  
+B1 FT their value of k in part (c) 
+3(a) 
+4tan2 θ − sec2 θ  
+ 
+M1 
+e.g. 
+2
+2
+2
+sin
+1
+4
+ 
+cos
+cos
+
+
+
+−
+ 
+ 
+Justified completion to given answer e.g. 
+4tan2 θ − (1 + tan2 θ)  
+= 3tan2 θ − 1  
+ 
+or 3tan2 θ – (sec2 θ − tan2 θ)  
+= 3tan2 θ – 1 
+A1 
+e.g.
+2
+2
+2
+2
+2
+sin
+sin
+cos
+ 
+  4
+cos
+cos
+
+
+
+
+
++
+−
+ 
+= 4tan2 θ − tan2 θ – 1 
+= 3tan2 θ − 1  
+3(b) 
+tan θ = [±]
+2
+3 oe 
+M2 M1 for tan2 θ = 2 
+3 oe 
+ 
+[θ =] 39.2 or 39.23 to 39.232  
+ 
+[θ =] 140.8 or 140.76 to 140.77  
+and no extras in range 
+A2 A1 for either one correct, ignoring extras 
+
+===== PAGE 5 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 5 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+4(a) 
+Correct statement for area e.g. 
+2
+1
+2 r  = 9 or 1
+2 rs = 9  
+B1 
+ 
+ 
+Finds an equation that can be used to 
+eliminate  or s e.g. 
+2
+18
+r
+=
+  or 
+18
+r
+r
+=
+  or 
+18
+s
+r
+=
+ 
+M1  
+ 
+Correct substitution and completion to given 
+answer e.g.  
+2
+18
+18
+2
+2
+P
+r
+r
+r
+r
+r
+=
++ 
+=
++
+ 
+A1  
+4(b) 
+Correct derivative: 
+2
+18
+2
+r
+−
+ oe isw 
+B1  
+ 
+2
+18
+2
+r
+−
+ = 0 and solves for r 
+M1 FT their d
+d
+P
+r = 0 providing of the form  
+2 + 
+k
+n
+r
+ where n and k are non-zero 
+integers 
+ 
+r = 3 only soi 
+A1  
+ 
+P = 12 only soi 
+A1  
+ 
+[2nd derivative =] 
+3
+36
+r
+ oe 
+and 
+which is positive for r = 3 
+→minimum  
+or  
+as r > 0 [2nd derivative =] > 0 →minimum 
+or  
+[2nd derivative =] 
+3
+36
+3
+ oe →minimum 
+ 
+OR 
+correctly finds the values of the first 
+derivative at 3  h where h is small → 
+minimum 
+A1 dep on r = 3 and no other value 
+ 
+
+===== PAGE 6 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 6 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+5 
+[When x = 3] y = 2
+3 soi 
+B1  
+ 
+Correct derivative:  
+(
+)
+1
+2
+2
+1
+1
+1
+2
+x
+x
+x
+x
+−
+
++
+−
++
+  
+or 
+(
+)
+(
+)
+1
+1
+2
+1
+2
+2
+1
+1
+1
+   
+2
+x
+x
+x
+x
+−
+−
+−
+−
++
++
+
++
+ 
+M2 M1 for an attempt to differentiate using 
+the quotient rule oe 
+ 
+Gradient of tangent: 
+( )
+1
+2
+2
+1
+3
+4
+4
+2
+3
+−
+
+−
+ 
+M1 dep on attempt at a derivative which 
+includes (
+)
+1
+2
+1
+x
+−
++
+ 
+ 
+−5
+36 isw 
+A1 dep on having a correct derivative 
+ 
+5
+13
+36
+12
+y
+x
+= −
++
+ oe 
+or 
+y – 2
+3 = 
+5
+36
+
+
+−
+
+
+
+
+ (x − 3) oe soi 
+A1 FT their non-zero 2
+3 and  
+their non- zero −5
+36  
+ 
+A(15, –1)  
+B2 B2 dep on all previous marks awarded 
+B1 dep for x = 15 or y = −1 
+6(a) 
+(
+) (
+)
+1
+2
+2 3
+2
+ 
+3
+x
+c
++
++
+ oe  
+2 B1 for (
+)
+1
+2
+3
+2
+k
+x +
+ oe, soi where k is a 
+constant and k ≠ 0 
+6(b) 
+1 2
+e
+1
+2
+2
+a
+−
+−
++
+ oe, isw 
+3 B2 for 
+(
+)
+1 2
+1 e
+2
+x
+−
+−
+ oe  
+or B1 for ke(1 − 2x) or ke(1 – 2a) where k is a 
+constant, k ≠ 0  
+7(a) 
+x = 3 28
+56 oe, nfww, isw 
+3 B2 for  28x10 and 56x13  
+ 
+OR 
+ 
+[x8](28x2) and [x8](56x5)  
+ 
+or B1 for 28x10 or 56x13 OR 
+ 
+[x8](28x2) or [x8](56x5) 
+7(b)(i) 
+n = 10  
+2 B1 for the correct term in any form e.g. 
+5
+5
+5
+2
+n
+n
+C x
+x
+−
+
+
+
+
+ or for n − 5 = 5 oe, soi 
+7(b)(ii) 
+8064 
+2 B1 for 10C5 × 25 oe e.g. 252  32  
+
+===== PAGE 7 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 7 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+8(a) 
+[x =] 24
+, 5π
+24 and no extras in range 
+2 B1 for [x =] 24
+ or 5π
+24 ignoring extras  
+or for 4x = 
+6
+ and 5π
+6 soi 
+8(b) 
+Correct and complete plan soi e.g. 
+5
+24
+24
+1
+sin(4 )
+d
+2
+their
+their
+x
+x
+
+
+
+
+−
+
+
+
+
+
+  
+or  
+8
+24
+1
+2
+sin(4 )
+d
+2
+their
+x
+x
+
+
+
+
+−
+
+
+
+
+
+  
+M1 FT their limits in radians from part (a) 
+ 
+or 
+5π
+24
+π
+24
+sin4 d
+their
+their
+x x
+
+ – 1
+5π
+π
+2
+24
+24
+their
+their
+
+
+−
+
+
+
+  
+ 
+Integrates sin 4x: 
+1 cos4
+4
+x
+−
+ 
+B2 B1 for cos4
+k
+x where k < 0 or k = 1
+4  
+ 
+Substitutes exact limits in correct order:
+1
+5π
+1
+π
+cos4
+cos4
+4
+24
+4
+24
+
+
+
+
+
+
+−
+−−
+
+
+
+
+
+
+
+
+
+
+
+
+oe soi 
+M1 FT their exact limits and their 
+1 cos4
+4
+x
+−
+ 
+providing at least B1 awarded  
+ 
+  
+3
+4
+12
+
+−
+  or exact equivalent 
+A1  
+9 
+18
+12 10
+2
+10
++
++
+ 
+B1  
+ 
+(
+)
+18
+12
+10
+2
+10
+2
+10
+2
+10
+their
+their
++
+−
+
++
+−
+ 
+M1 
+FT 
+10
+2
+10
+a
+b
++
++
+ where a and b are integers 
+ 
+36 18 10 24 10 120
+6
+−
++
+−
+−
+ 
+A1  
+ 
+14 −10 nfww 
+A1 dep on all previous marks awarded 
+ 
+Alternative  
+  
+ 
+16
+11 10
+2
+10
+[ 1]
+2
+10
+2
+10
++
+−
+
++
++
+−
+ 
+(M1)  
+ 
+32 16 10
+22 20
+110
+[ 1]
+6
+−
++
+−
++
+−
+ 
+(A1)  
+ 
+
+
+78
+6 10   6
+6
+−
++
+−
+−
+ oe 
+(A1) e.g. 13
+10
+[ 1]
+−
++
+ 
+ 
+14 −10 nfww 
+(A1) dep on all previous marks awarded 
+
+===== PAGE 8 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 8 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+10(a) 
+1.1 *3
+n
+ 
+B2 where * is any inequality sign or = 
+ 
+B1 for 
+(
+)
+10 1.1
+1
+*200
+1.1 1
+n −
+−
+  
+or 
+(
+)
+10 1 1.1
+*200
+1 1.1
+n
+−
+−
+  
+or for r = 1.1 soi  
+ 
+nlog1.1 * log3 oe  
+or log1.1 3 [* n] 
+M1 FT 1.1 *
+3
+n
+their providing B1 has been 
+awarded for a correct sum to n terms and  
+(their 3) > 0  
+ 
+[n =]12 
+A1 dep on all previous marks awarded 
+10(b) 
+r = 2 only nfww 
+B4 
+ 
+B3 for a correct equation or equations 
+which can be solved directly for r  
+e.g. 
+
+(
+)
+(
+)
+1
+ 1
+2
+4
+a
+r
+a r r
+d
+−
+−
+=
+=
+  
+or 
+(
+)
+
+2
+1
+(
+1)
+2
+6
+a
+r
+a r
+d
+−
+−
+=
+=
+ 
+or [a](r2 − 3r + 2) [= 0] oe 
+or (
+)(
+)
+(
+)
+2
+1
+1
+6
+1
+r
+r
+r
++
+−
+=
+−
+  
+or r = 4
+2
+d
+d  
+or 
+
+2
+a
+d
+r
+a
++
+=
+ or 
+
+6 
+2
+a
+d
+r
+a
+d
++
+=
++
+ 
+      and a = 2d 
+ 
+or B2 for a correct equation or equations 
+which need to be rearranged to find r  
+e.g. 
+
+
+2
+2
+4
+ar
+a
+ar
+ar
+d
+−
+−
+=
+=
+ 
+or 
+
+2
+2
+6
+ar
+a
+ar
+a
+d
+−
+−
+=
+=
+ 
+or 
+
+
+2
+6
+2
+1
+1
+d
+d
+a
+r
+r
+=
+=
+−
+−
+  
+or (
+)
+1
+2 
+a r
+d
+−
+=
+ and 
+(
+)
+1
+4
+ar r
+d
+−
+=
+  
+or either 
+
+2
+a
+d
+r
+a
++
+=
+ or 
+
+6  
+2
+a
+d
+r
+a
+d
++
+=
++
+and 4d 2 – 2ad [= 0]  
+ 
+or B1 for ar = a + 2d oe 
+and B1 for ar2 = a + 6d oe 
+
+===== PAGE 9 =====
+4037/23 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+October/November 2024
+ 
+© Cambridge University Press & Assessment 2024 
+Page 9 of 9 
+ 
+Question 
+Answer 
+Marks 
+Partial marks 
+11(a)(i) 
+12 
+2 B1 for 3! × 2! or 2
+3
+2
+3
+P
+P
+
+ oe 
+11(a)(ii) 
+72 
+2 B1 for 5! − 4! × 2! oe  
+or 6 × 2! × 3! oe 
+11(b) 
+4200 
+2 B1 for 10
+7
+4
+3
+3
+4
+C
+C
+C
+
+
+
+
+
+ oe 
+or 10
+6
+3
+4
+3
+3
+C
+C
+C
+
+
+
+
+
+ oe 
+12(a) 
+Correct derivative: −sin t − cos t 
+M1  
+ 
+1
+3
+2
++
+−
+ oe or −1.37  
+or –1.366[02…] rot to 3 or more dp 
+A1 Mark final answer 
+12(b) 
+[v = 0 ] cos t − sin t = 0 
+t = 
+4
+ 
+B2 B1 for cos t − sin t = 0 
+ 
+Correct integral: sin t + cos t (+ c) 
+M1  
+ 
+0 = sin0 + cos0 + c 
+M1 FT their attempt to integrate  
+ 
+s = sin t + cos t −1 
+A1  
+ 
+2 − 1 oe, isw or 0.414[21…] 
+A1 dep on all previous marks awarded 
+ 
+Alternative  
+  
+ 
+[v = 0 ] cos t − sin t = 0  
+4
+t
+
+→=
+ 
+(B2) B1 for cos t − sin t = 0 
+ 
+Correct integral: sin t + cos t  
+(M1)  
+ 
+with limits t = 
+4
+ and t = 0 
+(A1) Must be in radians 
+ 
+Substitutes limits into correct integral 
+(M1) FT their t = 
+4
+ from attempt  
+at solving v = 0 
+ 
+2 − 1 oe, isw or 0.414[21…] 
+(A1) dep on all previous marks awarded 
+12(c) 
+1
+s
+−− oe isw 
+B1  
+ 
+ 

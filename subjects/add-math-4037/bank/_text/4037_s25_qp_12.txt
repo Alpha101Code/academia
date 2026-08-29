@@ -1,0 +1,838 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+* 1 2 2 9 9 8 5 9 2 1 *
+ADDITIONAL MATHEMATICS 
+4037/12
+Paper 1 Non-calculator 
+May/June 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+Calculators must not be used in this paper.
+ 
+●
+You must show all necessary working clearly.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (IP) 355887
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE_y5W
+¬ zS¨¡ngoqFb@i
+¥Eu5u¥U5EEE5¥UeU
+
+===== PAGE 2 =====
+2
+4037/12/M/J/25
+© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. 
+(x – a)2 + (y – b)2 = r 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+r
+A
+rl
+=
+Surface area, A, of sphere of radius r. 
+r
+A
+r
+4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+V
+Ah
+3
+1
+=
+Volume, V, of sphere of radius r. 
+r
+V
+r
+3
+4
+3
+=
+Quadratic equation 
+For the equation ax 2 + bx + c = 0,
+ 
+ 
+ 
+ 
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial theorem 
+(
+)
+…
+…
+a
+b
+a
+n a
+b
+n a
+b
+n
+r a
+b
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
++
+=
++
++
++
++
++
++
+-
+-
+-
+J
+L
+KK
+J
+L
+KK
+J
+L
+KK
+N
+P
+OO
+N
+P
+OO
+N
+P
+OO
+,
+ 
+ 
+ 
+ 
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+J
+L
+KK
+N
+P
+OO
+Arithmetic series 
+un = a + (n – 1)d
+ 
+ 
+ 
+ 
+Sn = 2
+1 n(a + l) = 2
+1 n{2a + (n – 1)d}
+Geometric series 
+un = arn – 1
+ 
+ 
+ 
+ 
+Sn = (
+)
+r
+a
+r
+1
+1
+n
+−
+−
+   (r ≠ 1)
+ 
+ 
+ 
+ 
+S∞ = 
+r
+a
+1 −   (|r| < 1)
+Identities  
+ 
+sin2 A + cos2 A = 1
+ 
+ 
+ 
+ 
+sec2 A = 1 + tan2 A
+ 
+ 
+ 
+ 
+cosec2 A = 1 + cot2 A
+Formulas for ∆ABC 
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+ 
+ 
+ 
+ 
+a2 = b2 + c2 – 2bc cos A
+ 
+ 
+ 
+ 
+∆ = 2
+1 ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞû·þ×
+ĬÿĞùÒĤĥĜÐĂćéĚúðđČĂ
+ĥĕĥĕõĕåµµõĕąÅõąĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+Calculators must not be used in this paper.
+1
+y
+x
+– 0.5
+0
+2
+3
+– 2
+ 
+The diagram shows the graph of 
+( )
+y
+x
+f
+=
+, where f is a cubic polynomial.
+ 
+Find expressions for the two possible functions ( )x
+f
+.
+ 
+Write each expression in fully factorised form. 
+[3]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞù·þ×
+ĬÿĝúÚĦĩĬéøúĠ¾ĂìđüĂ
+ĥĕĕÕµõÅÕåąÅąÅĕĥÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/12/M/J/25
+© UCLES 2025
+2 
+Solve the equation   x
+x
+1
+6
+3
+1
+3
+1
++
+=
+. 
+[4]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàû·Ā×
+ĬÿĝûÚĠěĝÎúñħĠÞĊāĄĂ
+ĥåÅÕõõÅõÅåµąąĕÅÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+3 
+A circle with centre C has the equation  x
+y
+x
+y
+10
+4
+24
+0
+2
+2
++
+-
+-
++
+=
+.
+ 
+(a) Show that the line   y
+x
+2
+3
+=
+-   is a tangent to this circle. 
+[3]
+ 
+(b) Given that this tangent touches the circle at the point P, find the coordinates of P. 
+[2]
+ 
+(c) Find the equation of the circle which has its centre at P and passes through the origin. 
+[3]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàù·Ā×
+ĬÿĞüÒĪėčëĀĀâ¼ÖÎāôĂ
+ĥåµĕµĕåĕÕÕĥąąõåĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/12/M/J/25
+© UCLES 2025
+4 
+(a) Find   
+sin d
+r
+0
+i i
+y
+. 
+[2]
+ 
+(b) Given that 
+r
+0
+2
+1
+1
+a
+, show that   cot
+tan
+sec
+a
+a
+a
++
+   can be written as sina. 
+[3]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝù¶þ×
+ĬÿĝüÍĤïėãċíÛÜÞ¯éĄĂ
+ĥõĕĕµµåµĕµÅąÅõąÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+5 
+The polynomial p is such that     ( )x
+x
+x
+ax
+b
+3
+7
+=
+-
++
++
+p
+3
+2
+,  where a and b are integers.
+ 
+It is given that  
+(
+)
+1
+21
+p -
+=
+l
+  and that x
+2
+- is a factor of ( )x
+p
+.
+ 
+(a) Find the values of a and b. 
+[4]
+ 
+(b) Hence write ( )x
+p
+ as a product of linear factors with integer coefficients. 
+[3]
+ 
+(c) Using your values of a and b, solve the equation   
+a
+b
+3
+7
+0
+e
+e
+e
+y
+y
+y
+6
+4
+2
+-
++
++
+=
+. 
+[3]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝû¶þ×
+ĬÿĞûÕĦóħÖíĄĎĀÖīéôĂ
+ĥõĥÕõÕÅÕąÅĕąÅĕĥĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/12/M/J/25
+© UCLES 2025
+6 
+When lny is plotted against x3, a straight line passing through the points (2, 5) and (-8, 25) is obtained.
+ 
+(a) Find y in terms of x. 
+[4]
+ 
+(b) Find the value of x when y
+e25
+=
+. 
+[2]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßù¶Ā×
+ĬÿĞúÕĠāĢáóċĕÞúÉ¹ČĂ
+ĥÅµÕµÕÅõĥĥĥąąĕÅĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+7 
+A geometric progression has a 4th term of   k
+27
+8 6
+   and a 6th term of   
+k
+243
+32 10
+,  where k is a constant.
+ 
+The common ratio of this geometric progression is positive.
+ 
+(a) Find the common ratio in terms of k and the value of the first term of this geometric progression.
+ 
+[4]
+ 
+(b) Given that this geometric progression has a sum to infinity of 3, find the possible values of k. [3]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßû¶Ā×
+ĬÿĝùÍĪýĒØąöÔúĂč¹üĂ
+ĥÅÅĕõµåĕõĕµąąõåÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/12/M/J/25
+© UCLES 2025
+8 
+It is given that   
+(
+)
+ln
+y
+x
+x
+3
+16
+2
+2
+=
++
++
+.
+ 
+(a) Find x
+y
+d
+d when x
+0
+=
+.
+ 
+ 
+Give your answer in the form lnp, where p is a constant. 
+[5]
+ 
+(b) Given that x increases from 0 to h, where h is small, write down the approximate change in y. [1]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞù¸þ×
+ĬÿğúÐĞĉøßüĄ¯ÂüÝāôĂ
+ĥĕÕĕµÕĥõÅÕĥÅąµÅĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+9 
+It is given that  ( )
+(
+)
+ln
+x
+x
+2
+3
+4
+f
+=
+-
+ ,   for x
+a
+2
+, and that f
+1
+- exists.
+ 
+(a) Find the least possible value of a. 
+[1]
+ 
+(b) For your value of a, find the range of f. 
+[1]
+ 
+(c) For your value of a, find an expression for 
+( )x
+f
+1
+-
+. 
+[2]
+ 
+(d) It is given that the equation ( )
+( )
+x
+x
+f
+f
+1
+=
+-
+ has two roots.
+ 
+ 
+For your value of a, sketch the graphs of  
+( )
+y
+x
+f
+=
+ and 
+( )x
+y
+f
+1
+=
+-
+ on the axes.
+ 
+ 
+Label each graph.
+ 
+ 
+State the intercepts of each graph with the axes.
+ 
+ 
+State the equations of any asymptotes. 
+[4]
+y
+x
+O
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞû¸þ×
+ĬÿĠùØĬąĈÚþíúĖĄùāĄĂ
+ĥĕåÕõµąĕÕåµÅąÕåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/12/M/J/25
+© UCLES 2025
+10
+rad
+i
+A
+B
+C
+E
+D
+F
+O
+r
+r
+ 
+The diagram shows the shape OABCDEF.
+ 
+AOF is a straight line.
+ 
+OAB and OEF are sectors of a circle with centre O and radius r.
+ 
+Angle BOA = angle EOF.
+ 
+OCD is a sector of a circle with centre O and radius r
+3
+4 .
+ 
+Angle COD is i radians.
+ 
+The point B lies on the line OC and the point E lies on the line OD.
+ 
+The line BE is parallel to the line AOF.
+ 
+(a) Find, in terms of r and i, the area of the shaded region BCDE. 
+[3]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàù¸Ā×
+ĬÿĠüØĢ÷āÝĄöñ¸àÛđüĂ
+ĥåõÕµµąµµąÅÅÅÕąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b)
+rad
+i
+A
+B
+C
+E
+D
+F
+O
+r
+r
+ 
+ 
+The diagram shows the shape from part (a) with region OABEF shaded.
+ 
+ 
+Find, in terms of r and i, the perimeter of the shaded region. 
+[5]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàû¸Ā×
+ĬÿğûÐĨûñÜöċ¸ĤØÿđČĂ
+ĥåąĕõÕĥÕåõĕÅÅµĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/12/M/J/25
+© UCLES 2025
+11
+A
+P
+Q
+B
+R
+O
+ 
+The diagram shows the triangle OAB, where   
+a
+OA =
+   and   
+b
+OB =
+.
+ 
+The point P lies on OA such that   O
+O
+P
+A
+4
+3
+=
+.
+ 
+The point Q lies on AB such that   AQ
+AB
+3
+1
+=
+.
+ 
+The straight line through P and Q meets the straight line through O and B at the point R.
+ 
+It is given that   
+b
+OR
+m
+=
+  and   PR
+PQ
+n
+=
+,   where m and n are constants.
+ 
+(a) Find OR in terms of a, b and n. 
+[6]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßüµĂ×
+ĬÿĠùÍĪĈĉêôĀěÀýċáĄĂ
+ĥąąÕµµåõÅĥĕąąõÅÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/12/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Hence find the values of m and n. 
+[3]
+Question 12 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßúµĂ×
+ĬÿğúÕĠČùÏĆñÎĜõÏáôĂ
+ĥąõĕõÕÅĕÕĕÅąąĕåĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/12/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+12 A curve is such that its gradient at the point (x, y) is given by   (
+)
+x
+5
+2
+3
+1
+-
+.
+ 
+The curve passes through the point 
+,2
+5
+32
+b
+l.
+ 
+Find the coordinates of the stationary point on the curve. 
+[6]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝüµĄ×
+ĬÿğûÕĦúðìČúÕºÙí±ČĂ
+ĥµåĕµÕÅµµµµąÅĕąĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

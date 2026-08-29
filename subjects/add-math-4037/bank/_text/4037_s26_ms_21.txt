@@ -1,0 +1,3183 @@
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 24 printed pages. 
+ 
+© Cambridge University Press & Assessment 2026 
+ 
+[Turn over
+ 
+Cambridge O Level 
+ 
+ADDITIONAL MATHEMATICS 
+4037/21 
+Paper 2  
+May/June 2026 
+MARK SCHEME 
+Maximum Mark: 80 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme contains the instructions and marking guidance that our examiners used to mark 
+candidate responses for this component.  
+ 
+Before they start marking, examiners complete a standardisation process. They review a range of candidate 
+responses and discuss the mark scheme in detail to agree which answers can and cannot be accepted. 
+Examiners award marks where it is clear that candidate responses have met the requirements of the mark 
+scheme. These requirements may vary between different components or different versions of the same 
+component, depending on the exact requirements of the question and the candidate responses seen during 
+the standardisation process.  
+ 
+Sometimes, our mark schemes may allow marks to be awarded to responses which contain elements that 
+are factually incorrect or for content not covered by the syllabus. We do this in response to the demands of a 
+specific question to support candidates and make sure that our assessments are fair. However, these 
+allowances should not be used as a guide for teaching and learning.  
+ 
+We cannot discuss the mark scheme with schools, and we recommend that schools read the mark scheme 
+together with the assessment material and the Principal Examiner Report for Teachers. 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 2 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 2 of 24 
+ 
+General marking principles 
+ 
+All examiners must apply these marking principles when marking candidate responses.  
+ 
+1 
+Examiners must award marks for each response in line with: 
+ 
+• 
+the specific content defined in the mark scheme  
+• 
+the specific skills defined in the mark scheme or in the level descriptions  
+• 
+the standard of response required as exemplified by the standardisation scripts. 
+2 
+Examiners must award whole marks (not half marks, or other fractions). 
+3 
+Examiners must award marks positively. This means that: 
+ 
+• 
+marks are not deducted for errors or omissions 
+• 
+marks are awarded for correct/valid answers as defined in the mark scheme and also for other valid answers which go beyond the scope of the 
+syllabus and mark scheme referring to your team leader as appropriate  
+• 
+the quality of spelling, punctuation and grammar are judged only when the mark scheme indicates that these features are specifically assessed in the 
+question. However, the meaning of all responses must be unambiguous. 
+4 
+Examiners must consistently apply the requirements of the mark scheme and any rules for what to do when candidates have not followed instructions 
+correctly. 
+5 
+Examiners must use the full range of marks defined in the mark scheme, unless limited by the quality of the candidate responses seen. 
+6 
+Examiners must award marks according to the mark scheme and must not award marks with grade thresholds or grade descriptions in mind. 
+ 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 3 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 3 of 24 
+ 
+Mathematics-Specific Marking Principles 
+1 
+Unless a particular method has been specified in the question, full marks may be awarded for any correct method. However, if a calculation is required 
+then no marks will be awarded for a scale drawing. 
+2 
+Unless specified in the question, non-integer answers may be given as fractions, decimals or in standard form. Ignore superfluous zeros, provided that the 
+degree of accuracy is not affected. 
+3 
+Allow alternative conventions for notation if used consistently throughout the paper, e.g. commas being used as decimal points. 
+4 
+Unless otherwise indicated, marks once gained cannot subsequently be lost, e.g. wrong working following a correct form of answer is ignored (isw). 
+5 
+Where a candidate has misread a number or sign in the question and used that value consistently throughout, provided that number does not alter the 
+difficulty or the method required, award all marks earned and deduct just 1 A or B mark for the misread. 
+6 
+Recovery within working is allowed, e.g. a notation error in the working where the following line of working makes the candidate’s intent clear. 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 4 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 4 of 24 
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the standardisation 
+process on how and when to use annotations. The purpose of annotations is to inform the standardisation and monitoring processes and guide the supervising 
+examiners when they are checking the work of examiners within their team. The meaning of annotations and how they are used is specific to each component and 
+is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may not be a direct 
+correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an indication of the quality of the 
+response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation 
+Meaning 
+ 
+More information required 
+ 
+Accuracy mark awarded zero 
+ 
+Accuracy mark awarded one 
+ 
+Accuracy mark awarded two 
+ 
+Accuracy mark awarded three 
+ 
+Independent mark awarded zero 
+ 
+Independent mark awarded one 
+ 
+Independent mark awarded two 
+ 
+Independent mark awarded three 
+ 
+Benefit of the doubt 
+ 
+Communication mark 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 5 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 5 of 24 
+ 
+Annotation 
+Meaning 
+Incorrect 
+ 
+Follow through 
+Highlighter 
+Highlight a key point in the working 
+ 
+Ignore subsequent work 
+ 
+Method mark awarded zero 
+ 
+Method mark awarded one 
+ 
+Method mark awarded two 
+ 
+Method mark awarded three 
+ 
+Misread 
+ 
+Omission 
+Off-page comment 
+Allows comments to be entered at the bottom of the RM marking window and then displayed when the associated question item is 
+navigated to. 
+On-page comment 
+Allows comments to be entered in speech bubbles on the candidate response. 
+ 
+Premature rounding/approximation  
+ 
+Special case 
+ 
+Indicates that work/page has been seen 
+ 
+Transcription error 
+Correct 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 6 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 6 of 24 
+ 
+Annotation 
+Meaning 
+ 
+Correct answer from incorrect working 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 7 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 7 of 24 
+ 
+MARK SCHEME NOTES 
+ 
+The following notes are intended to aid interpretation of mark schemes in general, but individual mark schemes may include marks awarded for specific reasons 
+outside the scope of these notes. 
+ 
+ 
+Types of mark 
+ 
+M 
+Method marks, awarded for a valid method applied to the problem. 
+ 
+A 
+Accuracy mark, awarded for a correct answer or intermediate step correctly obtained. For accuracy marks to be given, the associated Method mark must 
+be earned or implied. 
+ 
+B 
+Mark for a correct result or statement independent of Method marks. 
+ 
+When a part of a question has two or more ‘method’ steps, the M marks are in principle independent unless the scheme specifically says otherwise; and similarly 
+where there are several B marks allocated. The notation ‘dep’ is used to indicate that a particular M or B mark is dependent on an earlier mark in the scheme. 
+ 
+Abbreviations 
+ 
+awrt 
+answers which round to 
+cao 
+correct answer only 
+dep 
+dependent 
+FT 
+follow through after error 
+isw 
+ignore subsequent working 
+nfww not from wrong working 
+oe 
+or equivalent 
+rot 
+rounded or truncated 
+SC 
+Special Case 
+soi 
+seen or implied 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 8 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 8 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+1(a) 
+ 
+3 B1 for correct shape with max in the 
+2nd quadrant and min in the 3rd 
+quadrant 
+ 
+ 
+ 
+ 
+ 
+ 
+B1 for correct x intercepts: –3, –2.5, 
+0.5; must have attempted the graph of a 
+cubic 
+B1 for correct y intercept: −5; must 
+have attempted the graph of a cubic 
+• 
+B0 if minimum is on y-axis  
+• 
+‘Ends’ of curve must clearly extend 
+beyond x-axis i.e. curve must not stop at 
+1
+3, 
+2
+= −
+=
+x
+x
+  
+• 
+Accept feathering/ slight doubling back 
+but not heading off towards another 
+turning point 
+ 
+• 
+Condone marked to one side of graph, but 
+must be clear they are intercepts e.g. not 
+points marked in a table 
+• 
+Mark better if e.g. intercept at x = 0.5 
+labelled as (0, 0.5) and ‘0.5’ on axis  
+1(b) 
+5
+3
+2
+−
+−
+x
+ 
+B1  
+• 
+allow e.g. 
+5
+3
+2
+−
+
+−
+x
+ 
+ 
+• 
+For B1B1, condone any conjunction or 
+comma between two inequalities 
+e.g. 
+5
+3
+2
+−
+−
+x
+ ‘and’ 
+1
+2
+
+x
+ 
+ 
+1
+2
+
+x
+ 
+B1 If 0 scored, SC1 for 
+5
+3
+2
+−
+−
+x
+
+  
+and 
+1
+2
+x 
+ 
+2(a) 
+4 
+B1  
+ 
+2(b) 
+2880 
+B1  
+ 
+2(c) 
+120
+8 =
+x
+ 
+M1  
+• 
+Allow 
+120
+8 = −
+x
+  
+ 
+960 
+= 
+x
+and no other solutions in 
+1080
+1080
+−
+x
+
+ 
+2 A1 for each, ignoring extras  
+• 
+One correct answer implies M1 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 9 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 9 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+2(d) 
+Correct smooth curve with maximum at  
+(0, 6) and which has x-intercepts between 900 
+and 1080 and −900 and −1080 
+ 
+2 B1 for attempt at the correct shape with 
+a maximum at 
+6
+=
+y
+ and only one 
+turning point 
+OR  
+for attempt at the correct shape with a 
+maximum on the positive y-axis and 
+only one turning point 
+with x-intercepts between 900 and 
+1080 and −900 and −1080 
+• 
+Condone some poor curvature/flicking out 
+at ends/feathering 
+• 
+For B2 ‘ends’ must be at approximately 
+(±1080, 0 < y < −2) 
+• 
+Ignore curve outside of domain  
+−1080 ⩽ x ⩽ 1080 
+3(a) 
+(
+)
+5
+1.5
+2
++
+=
++
+a
+d
+a
+d oe soi 
+B1  
+• 
+a = 4d 
+ 
+(
+)
+10
+255
+2
+9
+2
+=
++
+a
+d oe soi 
+B1  
+• 
+51 = 2a + 9d 
+• 
+If summing individual terms must get as 
+far as simplifying to 255 = 10a + 45d  
+ 
+a = 12, d = 3 
+2 M1 for solving their simultaneous 
+equations in a and d as far as  =
+a
+… or 
+d =… providing at least B1 awarded 
+• 
+For M1 must have a correct elimination of 
+one unknown for their equations and find 
+a value for a or d, even if the subsequent 
+method has slips 
+• 
+If ‘255’ is consistently misread as 225, 
+give B1 B0 MR, B2 for 
+45
+17
+=
+d
+ oe  
+and 
+180
+17
+=
+a
+ oe  
+accept 
+2.647
+, 
+10.588
+=
+
+=
+
+d
+a
+ 
+to 3 or more sf 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 10 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 10 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+3(b) 
+(
+)
+(
+)
+24
+3
+1 *40 000
+2
++
+−
+n
+n
+ oe where * is any 
+inequality sign or = 
+M1 For use of their values of a and d in a 
+correct sum formula 
+(
+)
+(
+)
+2
+ 
+ 
+1
+2
+
++
+
+−
+n
+their a
+their d
+n
+*40 000 
+• 
+May be implied by clear comparison of 
+(
+)
+(
+)
+2
+ 
+ 
+1
+2
+
++
+
+−
+n
+their a
+their d
+n
+ with  
+40 000 in e.g. trial and improvement 
+• 
+FT MR of ‘225’: 
+(
+)
+180
+45
+2
+1
+*40 000
+2
+17
+17
+
+
+
++
+−
+
+
+
+
+n
+n
+ 
+ 
+2
+3
+21
+80 000*0
++
+−
+n
+n
+ oe 
+A1  
+• 
+Writes in solvable form 
+• 
+FT MR of ‘225’ – must be exact fractions: 
+2
+45
+315
+40 000*0
+34
+34
++
+−
+n
+x
+ oe 
+ 
+Solution of their quadratic equation 
+M1 Attempt to solve their quadratic in form 
+ax2 + bx + c = 0  by: 
+factorising – factorisation must result in 
+correct a and c for FT equation, or 
+scaled form of FT equation.  
+quadratic formula – discriminant of FT 
+equation must not be negative. Formula 
+must be correct but condone one sign 
+error in substitution.  
+completing the square – must get as far 
+as (𝑥+
+𝑏
+2)2 = −
+𝑐
+𝑎+
+𝑏2
+4 or equivalent, 
+condone one sign error.  
+• 
+Allow slips in reaching their quadratic 
+• 
+If calculator used and negative solution 
+also stated then it must be correct: 
+–166.836…. rot to 3 or more s.f.  
+ e.g. –167 or 166
+−
+ 
+• 
+FT MR of ‘225’ 
+
+
+170.38, 
+177.38
+= −
+x
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 11 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 11 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+3(b) 
+n = 160 nfww 
+A1 After M1 A0, SC1 for 
+160
+=
+n
+ from 
+trial and improvement provided BOTH 
+159
+=
+n
+ and 39591 AND 
+160
+=
+n
+ and 
+40080 shown 
+• 
+Award 4 marks for 
+2
+3
+21 *80 000 
++
+n
+n
+ 
+• 
+followed by correct answer providing 
+there is no incorrect working 
+• 
+n = 159 or 159.8… or n*160 imply M1A0 
+(where * is any inequality sign) 
+• 
+Condone n  160 
+• 
+FT MR of ‘225’: 
+171
+=
+n
+A1FT MR is 
+dependent on all previous marks 
+4(a) 
+2
+ln3 =
++
+y
+mx
+c soi 
+B1  
+• 
+Implied by e.g. 
+2
+ln3 =
++
+y
+theirmx
+theirc 
+or 
+(
+)
+2
+ln3
+12.24
+ 
+4.64
+−
+=
+−
+y
+their m x
+ 
+or 
+(
+)
+2
+ln3
+8.94
+ 
+6.84
+−
+=
+−
+y
+their m x
+ 
+ 
+m = –1.5 
+OR 
+Correct method which could be used to find m 
+e.g. 12.24
+8.94 
+4.64
+6.84
+−
+−
+oe  
+ 
+or 2.2m = −3.3 oe  
+M1  FT their c if found first 
+ 
+ 
+ 
+ 
+ 
+• 
+From solving 12.24 = 4.64m + c and 8.94 
+= 6.84m + c 
+ 
+Correct method which could be used to find c e.g.  
+ 12.24 = (their –1.5)4.64 + c 
+or 8.94 = (their –1.5)6.84 + c 
+M1  FT their m if found first 
+• 
+e.g. 
+(
+)
+2
+ln3
+12.24
+1.5
+4.64
+−
+= −
+−
+y
+x
+ 
+or 
+(
+)
+2
+ln3
+8.94
+1.5
+6.84
+−
+= −
+−
+y
+x
+ 
+or 
+(
+)
+12.24
+1.5
+4.64
+−
+= −
+−
+Y
+X
+ (condone 
+use of , )
+y x 
+• 
+Implies B1 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 12 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 12 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+4(a) 
+1.5
+= −
+m
+, 
+19.2
+=
+c
+ 
+A1  
+• 
+96 
+5
+=
+c
+ 
+• 
+Allow embedded e.g. 
+1.5
+19.2
+= −
++
+Y
+X
+ 
+ 
+(
+) 2
+19.2
+1.5
+3
+e
++
+−
+=
+their
+their
+x
+y
+ 
+M1 FT their m and c 
+• 
+3
+2
+19.2 1.5
+e
+−
+=
+x
+y
+ 
+ 
+2
+19.2
+1.5
+e
+e
+3
+−
+=
+x
+y
+oe cao  
+A1  
+• 
+e.g. 
+1
+3
+=
+y
+ 
+2
+96
+3
+5
+2
+e e
+−x 
+• 
+Allow 
+19.2
+3
+e
+, 
+2
+3
+= −
+=
+a
+k
+ 
+• 
+isw changing 1
+3 
+96
+5
+e
+ into 72 666 258.23 
+4(b) 
+99.6[22…] 
+B1  
+• 
+Allow 
+5.7 
+e
+3 
+4(c) 
+Correct method to find x using their equation  
+M1 FT their equation of the form 
+(
+) 2
+19.2
+1.5
+e
+e
+3
+−
+=
+their
+their
+x
+y
+  
+or  
+(
+)
+2
+19.2
+1.5
+1 e
+3
++
+−
+=
+their
+their
+x
+y
+ 
+• 
+If FT need to see the method not just 
+decimals e.g.
+(
+)
+19.2
+1
+30
+ln
+1.5
+e
+
+
+=
+
+
+−
+
+
+their
+x
+their
+ 
+• 
+Allow solving for x from 
+ 
+2
+ln30
+1.5 
+1 9.2
+=
+−
++
+their
+x
+their
+ 
+ 
+3.25 
+
+or ± 3.245[38…] 
+A1  
+• 
+± 3.2453867 
+• 
+One correct value rot 3 s.f. implies M1 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 13 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 13 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+5(a) 
+(
+)
+2
+2
+15tan 5
+1
+tan 5
++
+x
+x nfww isw 
+4 B3 for (
+) (
+)
+2
+2
+3 tan5
+5sec 5
+ 
+x
+x oe 
+or 
+(
+)
+2
+2
+tan 5
+1
+tan 5
++
+k
+x
+x 
+or 
+B2 for (
+) (
+)
+2
+2
+tan5
+5sec 5
+k
+x
+x oe 
+or (
+) (
+)
+2
+2
+3 tan5
+sec 5
+x
+k
+x oe 
+where k is a positive constant, k may be 
+1 
+or 
+B1 for 
+(
+)
+(
+)
+( )
+3
+2
+d tan5
+3 tan5
+f
+d
+=
+
+x
+x
+x
+x
+ 
+or 
+(
+)
+2
+d tan5
+5sec 5
+d
+=
+x
+x
+x
+ soi 
+• 
+May be less simplified for any or all 
+marks 
+ 
+ 
+ 
+ 
+ 
+• 
+f(x) could be a constant or 1 
+• 
+B1 soi by e.g. 
+ 
+(
+)
+(
+)
+2
+3
+2
+d tan5
+3 5sec 5
+d
+=
+x
+x
+x
+ 
+ 
+• 
+May use quotient rule for 
+3
+3
+sin 5
+cos 5
+=
+x
+y
+x
+ 
+B3 for 
+2
+4
+15sin 5
+cos 5
+x
+x
+ (must be simplified) 
+or 
+B2 for 
+2
+4
+sin 5
+cos 5
+k
+x
+x
+ where k is a positive 
+constant  
+(must be simplified) 
+or 
+B1 for 
+(
+)
+(
+)
+( )
+3
+2
+d cos5
+3 cos5
+f
+d
+=
+
+x
+x
+x
+x
+  
+or 
+(
+)
+(
+)
+( )
+3
+2
+d sin5
+3 sin5
+f
+d
+=
+
+x
+x
+x
+x
+ soi 
+f(x) could be a constant or 1 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 14 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 14 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+5(b) 
+2
+tan 5
+0 
+=
+x
+soi 
+B1 FT k
+2
+tan 5
+0
+=
+x
+ where k is a positive 
+constant providing their dy
+dx is of the 
+form 
+(
+) (
+)
+2
+2
+     
+tan5
+5sec 5
+k
+x
+x oe 
+or (
+) (
+)
+2
+2
+3 tan5
+sec 5
+x
+k
+x oe 
+• 
+No solutions from 
+2
+sec 5x = 0 or 
+2
+1 tan 5
++
+x = 0 for this mark 
+ 
+Any two of 
+5x = 0, π, 2 , 3π
+
+ soi 
+M1 FT k
+2
+tan 5
+0
+=
+x
+ where k is a positive 
+constant  
+• 
+Ignore any solutions from 
+2
+sec 5x = 0 or 
+2
+1 tan 5
++
+x = 0 for this mark 
+ 
+2
+3
+0, , 
+,
+5
+5
+5
+
+
+
+=
+x
+ oe isw 
+or 
+
+
+0, 0.628 3
+=
+
+x
+, 1.25[6…], 1.88[4…] 
+ 
+and no other solutions in 
+4
+0
+ 
+5
+
+
+x
+
+ 
+A3 FT k
+2
+tan 5
+0
+=
+x
+ where k is a positive 
+constant 
+ 
+A2FT for two correct solutions, 
+ignoring extras; FT k
+2
+tan 5
+0
+=
+x
+ where 
+k is a positive constant 
+or 
+A1 FT for one correct solution, 
+ignoring extras; FT k
+2
+tan 5
+0
+=
+x
+ where 
+k is a positive constant 
+• 
+Allow greater accuracy for decimals 
+• 
+For A2 or A1: Ignore any solutions from 
+2
+sec 5x = 0 or 
+2
+1 tan 5
++
+x = 0  
+• 
+For A3: There must be no solutions from 
+2
+ec 5
+s
+x = 0 or 
+2
+1 ta
+5
++
+n
+x = 0  
+• 
+Ignore extras outside 
+4
+0
+ 
+5
+
+
+x
+
+whether 
+correct or not 
+• 
+After B1, two correct solutions imply M1 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 15 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 15 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+6 
+3696 
+3 M2 for correct method to find all 
+possibilities e.g. 
+5  8  7  6  1 + 6  8  7  6  1 oe 
+5  8  7  6  2 + 1  8  7  6  1 oe 
+ 
+ 
+OR 
+ 
+M1 for 5  8  7  6  1 oe  
+or 6  8  7  6  1 oe 
+or 5  8  7  6  2 oe 
+or 1  8  7  6  1 oe 
+• 
+Allow other complete valid methods for 
+M2 
+e.g. 5 × 8P3 × 1 + 6 × 8P3 × 1  
+or 5 × 8P3 × 2 + 8P3 oe  
+or 11 × 8P3 
+or 10 × 8P3 + 8P3 
+or 11  8  7  6  1  
+or 1680 + 2016 or 3360 + 336 
+ 
+• 
+M1 for 1680 or 2016 or 3360 or 336 
+• 
+or 5 × 8P3 or 6 × 8P3 or 10 × 8P3 or 1 × 8P3 
+• 
+For M1 allow embedded as part of a sum 
+or difference but not a product 
+7 
+2
+64 576
+2160
+−
++
+x
+x oe, soi 
+and 
+2
+1
+1
+1
+ 
+2
+16
++
++
+x
+x
+soi 
+B3 B2 for 
+2
+64 576
+2160
+−
++
+x
+x oe, soi 
+ 
+OR 
+ 
+B1 for two correct terms in  
+2
+64 576
+2160
+−
++
+x
+x oe, soi 
+B1 for 
+2
+1
+1
+1
+2
+16
++
++
+x
+x
+ 
+• 
+Ignore extra terms 
+• 
+Allow less simplified e.g. 
+6
+5
+4
+2
+2
+18 2
+9 15 2
+−
+
++ 
+
+x
+x 
+• 
+or as part of full expansion 
+• 
+Allow as separate terms in a list e.g.  
+64, −576[x], 2160[x2] 
+or 
+
+6
+5
+4
+2
+2 ,1 8 2
+, 9 15 2 
+
+
+
+
+
+
+x
+x
+ 
+• 
+Accept e.g. 
+6C0×26×(−3x)0 + 6C1×25×(−3x) + 6C2×24 × 
+(−3x)2 
+• 
+2
+1
+1
+1
+2
+4
+
+
++
++ 
+
+
+
+x
+x
+is not sufficient for the B1 
+but accept 2
+2
+2
+1
+1
+4
+16
++
++
+x
+x
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 16 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 16 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+7 
+ 576
+ 2160
+ 64
+2
+16
+−
++
+their
+their
+their
+ 
+M2 FT their expansions for M2 or M1 
+ 
+ 
+M1 FT for any two correct terms in a 
+sum 
+ 
+ 
+• 
+If correct 64 – 288 + 135 
+OR  
+6
+5
+4
+2
+1
+2
+18
+2
+9 15
+2
+4
+16
+−
+
+
++ 
+
+
+ OR 
+576
+2160
+64
+ 
+2
+16
+−
++
+OR 
+6
+576
+2160
+2
+2
+16
+−
+
+
++
++
+
+
+
+
+ 
+• 
+May be unsimplified e.g. 
+26 + (6C1 × 25 × (
+)
+2
+3
+)
+4
+−
+
+ +  
+(6C2 × 24 × 9 × 1
+16 
+• 
+If FT values of correct magnitude with 
+incorrect signs, then method marks can be 
+awarded e.g. M2 can be given for  
+64 + 288 + 135 without calculations seen. 
+If FT any values of incorrect magnitude, 
+calculations must be seen. 
+• 
+For M1 FT accept  
+e.g. their64 – their288 + 1 
+• 
+If correct, implies previous B marks 
+ 
+– 89 
+A1  
+• 
+A correct value is likely to imply full 
+marks unless it is clearly from wrong 
+working; 
+look for – 89 and e.g. 64 – 288 + 135 first. 
+• 
+Allow recovery from slips/miscopies if 
+any are seen and solution is otherwise 
+sound 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 17 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 17 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+8(a) 
+2
+20
+=
++
+AP
+x
+x oe soi 
+or 
+18
+=
+−
+AP
+x oe soi 
+B1  
+• 
+Check next to diagram 
+• 
+Allow e.g. 
+2
+2
+(10
+)
+10
+=
++
+−
+AP
+x
+ 
+• 
+Allow e.g. y for AP or CP 
+• 
+If using perimeter ‘18’ must be seen 
+ 
+(
+)
+2
+10 10
+20
+38
++
++
++
++
+=
+x
+their
+x
+x
+ 
+or 
+(
+)
+(
+)
+2
+2
+2
+10
+1 8
+10
++
+−
+=
++
+their
+x
+x
+ 
+M1 their AP must come from valid method 
+using either Pythagoras’ or perimeter 
+• 
+If their AP from Pythagoras it may not be 
+fully simplified e.g. 
+2
+2
+(10
+)
+10
++
+−
+x
+ 
+• 
+Longer correct methods may be seen  
+For reference: CP = 15.7857[1…]  
+and AP = 171
+12.214
+14 =
+ 
+ 
+Correct solution of their equation in x 
+M1 dep previous M1; 
+FT 
+(
+)
+2
+10 10
+20
+38
++
++
++
++
+=
+x
+their
+x
+x
+ 
+or 
+(
+)
+(
+)
+2
+2
+2
+10
+1 8
+10
++
+−
+=
++
+their
+x
+x
+ 
+• 
+Condone one slip in expansion of  
+(
+2
+10
+)
++ x
+ or (
+2
+18
+)
+−
+their
+x
+ (i.e. 2 correct 
+terms) 
+• 
+If FT their equation in x must be in correct 
+form 
+• 
+If correct:   324
+36
+20
+−
+=
+→
+x
+x
+ 
+324
+56
+=
+x
+  
+ 
+x = 5.7857[1…] 
+A1  
+• 
+Accept 
+81
+14
+=
+x
+ oe or 5.7857 rot 3 s.f. 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 18 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 18 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+8(a) 
+10
+cos
+ 
+10
+=
++ theirx oe  
+M1 dep previous M1 
+• 
+Must be seen as this is a ‘Show that’ 
+question 
+• 
+Accept 
+(
+)
+2
+(
+)
+20
+sin
+10
+
++
+=
++
+theirx
+theirx
+theirx
+or 
+(
+)
+2
+(
+)
+20
+tan
+ 
+10
+
++
+=
+theirx
+theirx
+ or
+(
+)
+(
+)
+2
+2
+2
+10
+10
+ 
+ 
+ cos
+2 10 10
+ 
+
++
++
+−
+=
+
+
++
+their x
+their AP
+their x
+ 
+• 
+If FT substitution of their x must be seen 
+• 
+If correct  
+140
+cos
+221
+=
+, 
+171
+sin
+221
+=
+, 
+171
+tan
+140
+=
+ 
+ 
+ = 0.8847…= 0.885 (to 3 dp) 
+A1  
+• 
+Must see 4 dp or better first 
+8(b) 
+8.85 or 8.847[48…] 
+B1  
+ 
+8(c) 
+44.2 or 44.3 or 44.23[74…] 
+B1  
+• 
+Accept 44.25 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 19 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 19 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+9 
+(
+)
+sin
+0.5
+0.4
+−
+=
+ 
+B1  
+ 
+ 
+Any one of  
+ 
+ – 0.5 =  
+0.411[51…], 2.73[00…], –3.55[31…] soi 
+M1  
+• 
+Accept values stated to 2 sf  
+• 
+Candidates working in degrees do not earn 
+any method marks until they convert their 
+values to radians 
+ 
+[ =]  
+ 
+0.912  or  
+0.9115[1…] 
+3.23  
+or  
+3.230[0…] 
+–3.05  or  
+–3.053[1…] 
+ 
+and no other solutions in –3.5 ⩽  ⩽ 3.5  
+A3 A2 for two correct solutions, ignoring 
+extras 
+or  
+A1 for one correct solution, ignoring 
+extras 
+ 
+• 
+Ignore extras outside –3.5 ⩽  ⩽ 3.5 
+whether correct or not 
+• 
+0.9115168… 
+3.230075… 
+–3.053109… 
+• 
+One correct value implies M1 
+• 
+Mark at most accurate and ignore 
+subsequent rounding 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 20 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 20 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+10 
+(
+)
+2
+2
+2
+d
+1
+2 ln 3
+5
+6
+d
+3
+5
+
+
+=
++
++
+
+
+
++
+
+
+y
+x
+x
+x
+x
+x
+x
+ 
+oe, isw 
+3 B1 for 
+2
+1
+6
+3
+5
+
++
+x
+x
+ 
+M1 for correct structure of product rule 
+ 
+A1 FT correct use of product rule FT 
+their
+2
+1
+6
+3
+5
+
++
+x
+x
+, isw 
+• 
+For M1 must be a sum with u and v 
+correct but du and dv may both be 
+incorrect 
+ 
+x = –1 → y = ln 8 soi 
+B1  
+• 
+Accept 2.07944… rot to 3 or more sf 
+ 
+Substitutes x = –1 into their d
+d
+y
+x 
+M1 dep on an attempt at a derivative using 
+product rule 
+ 
+ 
+• 
+If correct, d
+6
+2ln8
+ 
+d
+8
+= −
+−
+y
+x
+ or –
+4.908883… rot to 2 or more sf implies M1 
+• 
+Condone slips in substitution, mark intent 
+• 
+M0 if correct value stated but no 
+evidence of correct derivative 
+ 
+Gradient of normal: 
+1
+1
+| =−
+−
+x
+dy
+their dx
+ 
+M1 FT  
+  
+• 
+If correct, (
+)
+1
+2ln8
+0.75
+−
+−
+−
+ or 
+4
+3 8ln8
++
+ 
+• 
+accept 0.203712… rot to 2 or more sf 
+• 
+If FT a decimal must see 
+1
+gradient of tangent
+−
+their
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 21 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 21 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+10 
+(
+)(
+)
+1
+ln8
+1
+2ln8
+0.75
+−
+−
+=
++
+−
+−
+y
+their
+x
+their
+ 
+M1 FT their y (their y  0) and 
+1
+1
+| =−
+−
+x
+dy
+their dx
+  
+ 
+  
+• 
+Any correct form e.g. if correct, 
+4
+4
+ln8
+3 8ln8
+3 8ln8
+=
++
++
++
++
+x
+y
+ , 
+y − 2.079 = 0.2037(x + 1), y = 0.204x + 
+2.28, 
+2.079
+0.2037
+1
+−
+=
++
+y
+x
+, 
+ln8
+1
+1
+2ln8
+0.75
+−
+=
++
++
+y
+x
+ 
+• 
+If using 
+,
+=
++
+y
+mx
+c award M1 for  
+(
+)
+1
+ 
+ 4.9
+−
+=
++
+−
+
+y
+x
+c
+their
+ and 
+(
+)(
+)
+1
+ ln 8
+1
+4.9
+−
+=
+−
++
+−
+
+their
+c
+their
+ 
+ 
+Uses y = 0 in their normal equation and 
+rearranges to x = … e.g. x = –11.21 
+and 
+uses x = 0 in their normal equation and rearranges 
+to y = … e.g. y = 2.283 
+ 
+M2 dep previous M1  
+ 
+M1 dep for each 
+• 
+Ignore any labelling as P and Q even if 
+incorrect 
+• 
+If correct, accept x = awrt –11.2  
+and y = awrt 2.28 
+• 
+If FT their normal in the form 
+=
++
+y
+mx
+c 
+accept y = their c. Otherwise substitution 
+and rearrangement must be seen.  
+• 
+Condone 
+11.2
+=
+x
+ 
+ 
+Area of triangle: 12.8 cao 
+A1  
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 22 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 22 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+11 
+At C , 
+3 1
+=
+−
+x
+ 
+B1  
+• 
+Check diagram 
+ 
+2
+12
+0
++
+−
+=
+x
+x
+ 
+B1  
+• 
+Equates and rearranges to solvable form 
+e.g. 
+2
+1
+1
+12
+1
+0
+1
+1
+
++
+−=
+
+
++
++
+
+
+x
+x
+(
+)
+(
+)
+2
+or  1
+1
+12
+0
++
+−
++
+−
+=
+x
+x
+ 
+May use substitution e.g.  
+2
+1
+12
+0
+= + 
+−−
+=
+u
+x
+u
+u
+ 
+• 
+May find a cubic 
+3
+2
+2
+11
+12
+0
++
+−
+−
+=
+x
+x
+x
+ 
+ 
+Solves or factorises their 3-term quadratic in x 
+ 
+M1 Attempt to solve their quadratic in form 
+ax2 + bx + c = 0  by:  
+factorising – factorisation must result in 
+correct a and c for FT equation, or 
+scaled form of FT equation.  
+quadratic formula – discriminant of FT 
+equation must not be negative. Formula 
+must be correct but condone one sign 
+error in substitution.  
+completing the square – must get as far 
+as (𝑥+
+𝑏
+2)2 = −
+𝑐
+𝑎+
+𝑏2
+4 or equivalent, 
+condone one sign error.  
+• 
+Or factorises their cubic equation in x 
+If cubic correct 
+
+
+3 
+4, 
+1
+=
+= −
+= −
+x
+x
+x
+ 
+For M1 FT, 
+3
+2
++
++
++
+x
+ax
+bx
+c 
+(
+)(
+)(
+)
+1
+=
++
++
++
+x
+x
+d
+x
+e 
+where 
+=
+de
+c 
+ 
+At B, 
+3
+=
+x
+ 
+A1  
+• 
+If correct x = 3 [x = –4]  
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 23 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 23 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+11 
+Correct plan soi e.g. 
+3
+0
+1
+3
+d
+1
+
+
++
+
+
++
+
+
+
+their
+x
+x
+  
+(
+)
+(
+)
+3
+2
+3 1
+12
+4
+d
+1
+−
+
+
+
+
+−
+−
+
+
++
+
+
+
+their
+their
+x
+x
+  
+or  
+(
+)
+3 1
+0
+1
+3
+d
+1
+−
+
++
+
+
++
+
+
+
+x
+x
+  
+(
+)
+(
+)
+3
+2
+3 1
+1
+12
+3
+4
+d
+1
+1
+−
+
+
+
+
+
+
+
+
+
+
++
++
+−
+−
+
+
+
+
+
+
++
+
+
++
+
+
+
+
+
+their
+their
+x
+x
+x
+ 
+M1  
+• 
+Must see their numerical limits for a plan  
+ 
+1
+3
+d
+1
+
+
+
++
+
+
++
+
+
+x
+x
+: 
+(
+)
+3
+ln 1
++
++
+x
+x 
+and  
+either 
+(
+)
+2
+12
+4
+d :
+1
+
+
+
+
+
+−
+
+
++
+
+
+x
+x
+ 
+12
+4
+1
++ +
+x
+x 
+or 
+(
+)
+2
+1
+12
+1
+d :
+1
+1
+
+
+
+
+−+
++
+
+
++
++
+
+
+x
+x
+x
+ 
+(
+)
+12
+ln 1
+1
+−+
++
+−+
+x
+x
+x 
+B3 
+B1 for sight of 
+1
+d
+1
+
+
+
+
++
+
+
+x
+x
+: 
+(
+)
+ln 1+ x 
+ 
+B1 for sight of 
+(
+)
+2
+12
+d
+1
+
+
+
+
+
+
++
+
+
+x
+x
+:  
+12
+1
+−+ x 
+ 
+• 
+Condone omission of brackets if 
+recovered 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E
+
+===== PAGE 24 =====
+4037/21 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 24 of 24 
+ 
+Question 
+Answer 
+Marks 
+Guidance 
+Notes 
+11 
+For correct use of limits at least once  
+e.g.  
+ 
+(
+)
+(
+)
+3
+0
+3
+ln 1
+9  ln4  0  ln1
+
++
++
+
+=
++
+−
++
+
+
+their
+x
+x
+ 
+ 
+or 
+(
+)
+3
+3 1
+12
+4
+1
+−
+
+
++
+=
+
+
++
+
+
+their
+their
+x
+x
+ 
+12
+12
+12
+4 3
+4
+4
+3
+
+
+
+
++
+−
+−
++
+
+
+
+
+
+
+
+
+ 
+M1 dep previous M1  
+ 
+• 
+Accept e.g.
+(
+)
+ 3 3
+ln 3 1
++
++
+ 
+• 
+M0 if only decimals seen, but isw 
+decimals after exact values seen 
+ 
+• 
+9 + ln4  
+ 
+ 
+ 
+ 
+• 
+19 – 8 3 
+ 
+Exact area shaded region :  
+ln4
+8 3
+10
++
+−
+ oe nfww  
+A1  
+• 
+Must be exact 
+• 
+Ignore decimal (for reference: 5.2427…) 
+if also stated 
+• 
+e.g. 
+24
+ln4
+10
+3
++
+−
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/21 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/21 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-19EC17009E

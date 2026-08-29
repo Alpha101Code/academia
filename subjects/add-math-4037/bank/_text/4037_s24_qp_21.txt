@@ -1,0 +1,739 @@
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge O Level
+* 4 9 3 6 0 5 9 3 5 6 *
+ADDITIONAL MATHEMATICS 
+4037/21
+Paper 2 
+May/June 2024
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a calculator where appropriate.
+ 
+●
+You must show all necessary working clearly; no marks will be given for unsupported answers from a 
+calculator.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (CE/SW) 342275
+© UCLES 2024
+
+===== PAGE 2 =====
+2
+4037/21/M/J/24
+© UCLES 2024
+Mathematical Formulae
+1. ALGEBRA
+Quadratic Equation
+For the equation ax
+bx
+c
+0
+2 +
++
+=
+,
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial Theorem
+(
+)
+a
+b
+a
+a
+b
+a
+b
+a
+b
+n
+n
+n
+r
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
+f
+f
++
+=
++
++
++
++
++
++
+-
+-
+-
+e
+e
+e
+o
+o
+o
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+e o
+Arithmetic series 
+(
+)
+u
+a
+n
+d
+1
+n =
++
+-
+(
+)
+{
+(
+) }
+S
+n a
+l
+n
+a
+n
+d
+2
+1
+2
+1
+2
+1
+n =
++
+=
++
+-
+Geometric series 
+u
+ar
+n
+n
+1
+=
+-
+(
+) (
+)
+S
+r
+a
+r
+r
+1
+1
+1
+n
+n
+!
+=
+-
+-
+(
+)
+S
+r
+a
+r
+1
+1
+1
+=
+-
+3
+2. TRIGONOMETRY
+Identities
+sin
+cos
+A
+A
+1
+2
+2
++
+=
+sec
+tan
+A
+A
+1
+2
+2
+=
++
+ec
+cos
+cot
+A
+A
+1
+2
+2
+=
++
+Formulae for ∆ABC
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+cos
+a
+b
+c
+bc
+A
+2
+2
+2
+2
+=
++
+-
+sin
+bc
+A
+2
+1
+T =
+
+===== PAGE 3 =====
+3
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+1 
+(a) On the axes, sketch the graph of   y
+x
+4
+6
+=
+-
+,   showing the points where the graph meets the 
+axes. 
+[2]
+y
+x
+O
+ 
+(b) Solve the equation   
+x
+x
+4
+6
+2
+-
+=
+. 
+[3]
+
+===== PAGE 4 =====
+4
+4037/21/M/J/24
+© UCLES 2024
+2 
+(a) Write    
+x
+x
+3
+4
+2 2
++
+-
+    in the form  
+(
+)
+a
+b x
+c 2
++
++
+,  where a, b and c are integers. 
+[3]
+ 
+(b) Hence write down the range of the function    ( )x
+x
+x
+3
+4
+2
+f
+2
+=
++
+-
+,    where  x
+R
+!
+. 
+[1]
+3 
+Use algebra to show that the equation   
+(
+)
+x x
+x
+5
+3
+5
+26
+-
+=
+-
+   has no real solutions. 
+[3]
+
+===== PAGE 5 =====
+5
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+4 
+DO NOT USE A CALCULATOR IN THIS QUESTION.
+ 
+(a) Find the exact distance between the two points where the curve   (
+)
+(
+)
+x
+y
+9
+1
+4
+3
+36
+2
+2
+-
++
+-
+=
+   
+ 
+ 
+cuts the y-axis. 
+[4]
+ 
+(b) Find the coordinates of the points where the curve with equation  
+x
+xy
+x y
+x
+2
+83
+20
+2
+3
++
+=
+-
+ 
+intersects the curve with equation   y
+x
+1
+=
+. Give each of your answers in the form a
+b c
++
+, where 
+a and b are rational and c is the smallest integer possible. 
+[6]
+
+===== PAGE 6 =====
+6
+4037/21/M/J/24
+© UCLES 2024
+5 
+There are 3 women, 2 men and 4 children in a choir.
+ 
+(a) The choir stands in a single straight line.
+ 
+ 
+(i) Find the number of possible arrangements if the first person and last person are both women.
+ 
+[2]
+ 
+ 
+(ii) Find the number of possible arrangements if all the children stand next to each other. 
+[2]
+ 
+(b) Four of the choir are selected to sing in a group.
+ 
+ 
+(i) Find the number of different selections if no man is chosen. 
+[2]
+ 
+ 
+(ii) Find the number of different selections if at least 2 women are chosen. 
+[2]
+
+===== PAGE 7 =====
+7
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+6  
+Variables x and y are such that    
+cos sin
+y
+x
+x
+2
+=
+.   Use differentiation to find the approximate change in 
+y as x increases from 3 to 
+h
+3+ , where h is small. 
+[5]
+7 
+It is given that   y
+mx
+x
+n
+2
+2
+=
++
++ ,  where m and n are non-zero constants. It is also given that 
+x
+y
+x
+y
+y
+3 d
+d
+d
+d
+2
+2
+2
+=
+-
+f
+e
+p
+o
+   for all values of x. Find the values of m and n. 
+[4]
+
+===== PAGE 8 =====
+8
+4037/21/M/J/24
+© UCLES 2024
+8 
+(a) In an arithmetic progression, the sum of the first 30 terms is 1065
+-
+.
+ 
+ 
+The sum of the next 20 terms is 
+2210
+-
+.
+ 
+ 
+Find the first term and the common difference. 
+[5]
+
+===== PAGE 9 =====
+9
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) A geometric progression is such that the first term is 4 and the sum of the first three terms is 7.
+ 
+ 
+Find the two possible values of the common ratio and find the sum to infinity for the convergent 
+progression. 
+[5]
+
+===== PAGE 10 =====
+10
+4037/21/M/J/24
+© UCLES 2024
+9 
+The functions f and g are defined by
+ 
+ 
+ 
+ 
+( )x
+x
+x
+4
+1
+3
+f
+2
+=
+- for x
+0
+1
+ 
+ 
+ 
+ 
+( )x
+x
+1
+g
+2
+=
+ 
+for x
+0
+1
+.
+ 
+(a) Explain why the function fg does not exist. 
+[1]
+ 
+(b) Given that the function gf does exist, find and simplify an expression for 
+( )x
+gf
+. 
+[2]
+ 
+(c) Show that 
+( )x
+f
+1
+-
+ can be written as 
+(
+)
+px
+x qx
+r
+3
+-
++
+ where p, q and r are integers. 
+[4]
+
+===== PAGE 11 =====
+11
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+10 (a) Show that    (
+)
+tan
+sec
+x
+x 2
++
+    can be written as    
+sin
+sin
+x
+x
+1
+1
+-
++
+. 
+[4]
+ 
+(b) Hence solve the equation   (
+)
+tan
+sec
+3
+3
+6
+2
+i
+i
++
+=
+   for   °
+°
+0
+180
+G
+G
+i
+. 
+[4]
+
+===== PAGE 12 =====
+12
+4037/21/M/J/24
+© UCLES 2024
+11 In this question all lengths are in centimetres.
+A
+D
+B
+x
+C
+ 
+The diagram shows a rectangle ABCD with BC
+x
+=
+.
+ 
+The area of the rectangle is 400 cm2.
+ 
+Two identical quarter-circles of radius x
+2, with centres A and C, are removed from the rectangle to 
+make the shaded shape.
+ 
+Given that x can vary, find the value of x that gives the minimum value of the perimeter of the shaded 
+shape and hence find this minimum value. 
+[7]
+
+===== PAGE 13 =====
+13
+4037/21/M/J/24
+© UCLES 2024
+[Turn over
+Continuation of working space for Question 11.
+
+===== PAGE 14 =====
+14
+4037/21/M/J/24
+© UCLES 2024
+12
+P
+O
+D
+A
+B
+C
+ 
+The diagram shows a triangle OBC.
+ 
+OA : OB  = 4 : 7  and   OD : OC =  4 : 7.
+OB
+b
+=
+  and  
+c
+OC =
+ 
+The point P is the point of intersection of AC and BD such that AP
+AC
+m
+=
+ and BP
+BD
+n
+=
+ where m 
+and n are scalars.
+ 
+(a) Find two expressions for OP, each in terms of b, c and a scalar, and hence show that P divides 
+both AC and DB in the ratio 4 : 7. 
+[7]
+
+===== PAGE 15 =====
+15
+4037/21/M/J/24
+© UCLES 2024
+ 
+(b) The point Q is such that   
+b
+c
+OQ
+7
+2
+7
+2
+=
++
+.
+ 
+ 
+Use a vector method to show that O, Q and P are collinear. Justify your answer. 
+[2]
+
+===== PAGE 16 =====
+16
+4037/21/M/J/24
+© UCLES 2024
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE

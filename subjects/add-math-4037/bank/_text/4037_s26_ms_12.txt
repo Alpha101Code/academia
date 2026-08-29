@@ -1,0 +1,2408 @@
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 19 printed pages. 
+ 
+© Cambridge University Press & Assessment 2026 
+ 
+[Turn over
+ 
+Cambridge O Level 
+ 
+ADDITIONAL MATHEMATICS 
+4037/12 
+Paper 1 Non-calculator 
+May/June 2026 
+MARK SCHEME 
+Maximum Mark: 80 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme contains the instructions and marking guidance that our examiners used to mark 
+candidate responses for this component.  
+ 
+Before they start marking, examiners complete a standardisation process. They review a range of candidate 
+responses and discuss the mark scheme in detail to agree which answers can and cannot be accepted. 
+Examiners award marks where it is clear that candidate responses have met the requirements of the mark 
+scheme. These requirements may vary between different components or different versions of the same 
+component, depending on the exact requirements of the question and the candidate responses seen during 
+the standardisation process.  
+ 
+Sometimes, our mark schemes may allow marks to be awarded to responses which contain elements that 
+are factually incorrect or for content not covered by the syllabus. We do this in response to the demands of a 
+specific question to support candidates and make sure that our assessments are fair. However, these 
+allowances should not be used as a guide for teaching and learning.  
+ 
+We cannot discuss the mark scheme with schools, and we recommend that schools read the mark scheme 
+together with the assessment material and the Principal Examiner Report for Teachers. 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 2 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 2 of 19 
+ 
+General marking principles 
+ 
+All examiners must apply these marking principles when marking candidate responses.  
+ 
+1 
+Examiners must award marks for each response in line with: 
+ 
+• 
+the specific content defined in the mark scheme  
+• 
+the specific skills defined in the mark scheme or in the level descriptions  
+• 
+the standard of response required as exemplified by the standardisation scripts. 
+2 
+Examiners must award whole marks (not half marks, or other fractions). 
+3 
+Examiners must award marks positively. This means that: 
+ 
+• 
+marks are not deducted for errors or omissions 
+• 
+marks are awarded for correct/valid answers as defined in the mark scheme and also for other valid answers which go beyond the scope of the 
+syllabus and mark scheme referring to your team leader as appropriate  
+• 
+the quality of spelling, punctuation and grammar are judged only when the mark scheme indicates that these features are specifically assessed in the 
+question. However, the meaning of all responses must be unambiguous. 
+4 
+Examiners must consistently apply the requirements of the mark scheme and any rules for what to do when candidates have not followed instructions 
+correctly. 
+5 
+Examiners must use the full range of marks defined in the mark scheme, unless limited by the quality of the candidate responses seen. 
+6 
+Examiners must award marks according to the mark scheme and must not award marks with grade thresholds or grade descriptions in mind. 
+ 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 3 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 3 of 19 
+ 
+Mathematics-Specific Marking Principles 
+1 
+Unless a particular method has been specified in the question, full marks may be awarded for any correct method. However, if a calculation is required 
+then no marks will be awarded for a scale drawing. 
+2 
+Unless specified in the question, non-integer answers may be given as fractions, decimals or in standard form. Ignore superfluous zeros, provided that the 
+degree of accuracy is not affected. 
+3 
+Allow alternative conventions for notation if used consistently throughout the paper, e.g. commas being used as decimal points. 
+4 
+Unless otherwise indicated, marks once gained cannot subsequently be lost, e.g. wrong working following a correct form of answer is ignored (isw). 
+5 
+Where a candidate has misread a number or sign in the question and used that value consistently throughout, provided that number does not alter the 
+difficulty or the method required, award all marks earned and deduct just 1 A or B mark for the misread. 
+6 
+Recovery within working is allowed, e.g. a notation error in the working where the following line of working makes the candidate’s intent clear. 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 4 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 4 of 19 
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the standardisation 
+process on how and when to use annotations. The purpose of annotations is to inform the standardisation and monitoring processes and guide the supervising 
+examiners when they are checking the work of examiners within their team. The meaning of annotations and how they are used is specific to each component and 
+is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may not be a direct 
+correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an indication of the quality of the 
+response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation 
+Meaning 
+ 
+More information required 
+Accuracy mark awarded zero 
+Accuracy mark awarded one 
+Accuracy mark awarded two 
+Accuracy mark awarded three 
+Independent mark awarded zero 
+Independent mark awarded one 
+Independent mark awarded two 
+ 
+Independent mark awarded three 
+Benefit of the doubt 
+Communication mark 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 5 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 5 of 19 
+ 
+Annotation 
+Meaning 
+Incorrect 
+Follow through 
+Highlighter 
+Highlight a key point in the working 
+Ignore subsequent work 
+ 
+Method mark awarded zero 
+Method mark awarded one 
+Method mark awarded two 
+ 
+Method mark awarded three 
+Misread 
+Omission 
+Off-page comment 
+Allows comments to be entered at the bottom of the RM marking window and then displayed when the associated question item is 
+navigated to. 
+On-page comment 
+Allows comments to be entered in speech bubbles on the candidate response. 
+Premature rounding/approximation  
+Special case 
+Indicates that work/page has been seen 
+Transcription error 
+Correct 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 6 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 6 of 19 
+ 
+Annotation 
+Meaning 
+Correct answer from incorrect working 
+ 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 7 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 7 of 19 
+ 
+MARK SCHEME NOTES 
+ 
+The following notes are intended to aid interpretation of mark schemes in general, but individual mark schemes may include marks awarded for specific reasons 
+outside the scope of these notes. 
+ 
+ 
+Types of mark 
+ 
+M 
+Method marks, awarded for a valid method applied to the problem. 
+ 
+A 
+Accuracy mark, awarded for a correct answer or intermediate step correctly obtained. For accuracy marks to be given, the associated Method mark must 
+be earned or implied. 
+ 
+B 
+Mark for a correct result or statement independent of Method marks. 
+ 
+When a part of a question has two or more ‘method’ steps, the M marks are in principle independent unless the scheme specifically says otherwise; and similarly 
+where there are several B marks allocated. The notation ‘dep’ is used to indicate that a particular M or B mark is dependent on an earlier mark in the scheme. 
+ 
+Abbreviations 
+ 
+awrt 
+answers which round to 
+cao 
+correct answer only 
+dep 
+dependent 
+FT 
+follow through after error 
+isw 
+ignore subsequent working 
+nfww not from wrong working 
+oe 
+or equivalent 
+rot 
+rounded or truncated 
+SC 
+Special Case 
+soi 
+seen or implied 
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 8 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 8 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+1(a) 
+B2 B1 for a graph with correct shape attempted, 
+with two full cycles  
+and 
+with correct amplitude or 
+passing through (–270, –2), (–90, –2)  
+(90, –2) (270, –2) 
+Mark intent 
+For full marks must have some 
+correct curvature at the end points 
+and be a continuous line 
+Maximum of 1 mark if not fully 
+correct 
+1(b) 
+4 
+B1  
+ 
+1(c) 
+360 
+B1  
+Allow 360 and/or 2  
+1(d) 
+–6 ⩽ k ⩽ 2 
+B1 If not correct FT their graph providing at least 
+B1 awarded in part 1(a)  
+Allow 
+6, 
+2
+k
+k
+−
+
+ 
+6
+k
+−
+
+ and 
+2
+k 
+ 
+2
+6
+k
+−
+
+ 
+but not 
+6
+k
+−
+
+ or
+2
+k 
+ 
+2(a) 
+5
+3 soi 
+B1 For gradient of the perpendicular bisector of AB 
+ 
+ 
+(3, 0) soi 
+B1 For the midpoint of AB 
+ 
+ 
+5
+c = −  
+B1 From 
+(
+)
+5
+0
+3
+3
+y
+x
+−
+=
+−
+ oe 
+Allow embedded in 
+5
+5
+3
+y
+x
+=
+−
+ or 
+implied by (
+)
+0, 
+5
+−
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 9 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 9 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+2(b) 
+32
+AD =
+ oe or AD2 = 32 soi 
+B1  
+ 
+ 
+40
+BD =
+ oe or BD2 = 40 soi 
+B1  
+ 
+ 
+ 
+ 
+ 
+2
+n
+their BD
+their AD
+=
+ oe 
+M1  
+ 
+ 
+n = 5 
+A1  
+ 
+3(a) 
+–40 
+B1  
+ 
+3(b) 
+(
+)(
+)
+2
+1 6
+7
+2
+x
+x
+x
++
+−
++
+ or  
+(
+)(
+)
+2
+2
+1 3
+2
+x
+x
+x
+−
++
+−
+ or 
+(
+)(
+)
+2
+3
+2
+2
+1
+x
+x
+x
+−
++
+−
+ 
+3 M1 for finding a correct linear factor  
+M1 Dep for a quadratic factor with any two 
+terms correct  
+ 
+A1 for a correct quadratic factor 
+Allow linear factors with fractional 
+terms 
+May use synthetic division to 
+obtain coefficients of quadratic 
+factor and hence the terms 
+Quadratic factor does not have to 
+be part of a product here 
+ 
+(x + 1)(3x – 2)(2x – 1) oe 
+A1  
+SC B4 if all factors spotted by T 
+and I and written as a product 
+SC B3 if all factors spotted and not 
+written as a product 
+SC B2 if 2 factors spotted by T and 
+I 
+3(c) 
+2
+3
+u = 
+ 
+1
+2
+u = 
+ oe, isw 
+2 B1FT for any two solutions using their factors 
+of the form (
+)
+px
+q
+−
+from part (b) where 
+0
+pq 
+ 
+Condone excess solutions from 
+2
+1
+0
+u + =
+ 
+4(a) 
+240 
+B1  
+ 
+ 
+202 
+B1  
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 10 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 10 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+4(b) 
+Either  
+
+
+20 240
+202
+2
++
+ oe 
+Or  
+100
+80
+S
+S
+−
+ 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+100
+80
+2 400
+99
+2
+2 400
+79
+2
+2
+2
++
+−
+−
++
+−
+ 
+or  
+(
+)
+(
+)
+100
+80
+400
+202
+400
+242
+2
+2
++
+−
++
+ 
+M2 M1 for 
+
+
+20
+240
+202
+2
+their
+their
+their
++
+  
+ 
+or 
+ 
+M1 for using correct values from part 4(a) for  
+ 
+100
+81
+S
+S
+−
+ 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+100
+81
+2 400
+99
+2
+2 400
+80
+2
+2
+2
++
+−
+−
++
+−
+ 
+or  
+(
+)
+(
+)
+100
+81
+400
+202
+400
+240
+2
+2
++
+−
++
+ 
+ 
+or 
+100
+79
+S
+S
+−
+ 
+ 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+100
+79
+2 400
+99
+2
+2 400
+78
+2
+2
+2
++
+−
+−
++
+−
+ 
+or 
+(
+)
+(
+)
+100
+79
+400
+202
+400
+244
+2
+2
++
+−
++
+ 
+their 20 restricted to 19 or 21  
+ 
+ 
+ 
+ 
+100
+80
+30100
+25680
+S
+S
+−
+=
+−
+ 
+ 
+ 
+ 
+100
+81
+30100
+25920
+S
+S
+−
+=
+−
+ 
+ 
+ 
+ 
+ 
+ 
+100
+79
+30100
+25438
+S
+S
+−
+=
+−
+ 
+ 
+ 
+May see allowable sums separately, 
+award M1 when subtraction is seen 
+even if errors are made in 
+subsequent working before 
+subtraction. 
+ 
+4420 
+A1  
+SC B3 for 4420 obtained from 
+listing and adding the individual 
+terms  
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 11 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 11 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+5 
+4
+5
+d
+5(2
+4)
+2
+10
+5
+oe or
+or
+d
+2
+4
+2
+(2
+4)
+y
+x
+x
+x
+x
+x
+−
+
+=
+−
+−
+−
+ 
+B1  
+ 
+ 
+d
+5
+d
+y
+x =
+  
+M1 For attempt to substitute 
+3
+x =
+into their attempt 
+at d
+d
+y
+x 
+ 
+ 
+(y = ) ln25 or ln32 or 5ln2  
+B1 For finding the value of y when 
+3
+x =
+ 
+ 
+ 
+ln32
+5(
+3)
+y
+x
+−
+=
+−
+ oe 
+A1  
+ 
+6(a) 
+2r + r 
+B1 Allow 
+(
+)
+2
+2π
+2π
+r
+r
+
++
+ 
+Must be in radians 
+Condone consistent use of for  
+oe. 
+ 
+r(2 – ) 
+B1 
+Allow 
+(
+)
+2π
+2π
+2π
+r
+
+
+
+−
+
+
+
+
+oe 
+Must be in radians 
+Condone consistent use of for  
+oe. 
+ 
+Forms equation that can be solved, with their 
+arc lengths in terms of  in radians and r  
+M1 Must have at least B1 and not involve areas 
+Condone consistent use of for  
+oe. 
+ 
+ =  –1  
+A1  
+Allow unsimplified but must be 
+numeric 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 12 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 12 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+6(b) 
+(
+)
+2
+2
+1
+π
+1
+18(π
+1)
+2 r
+−
+=
+−
+  
+M1 Allow for using or their numeric instead of 
+(
+)
+π
+1
+−
+  
+Must be in radians 
+Condone consistent use of for  
+oe. 
+ 
+2
+2
+36(π
+1)
+π
+1
+r
+−
+=
+−
+ or 
+(
+)
+2
+36 π
+1
+r =
++
+ oe 
+A1  
+ 
+ 
+2
+π
+1
+6
+π
+1
+r
+−
+=
+−
+ or 
+36(π
+1)(π + 1)
+π
+1
+r
+−
+=
+−
+or 
+36π
+36
+r =
++
+ 
+M1 Dep on previous M1, for use of their numeric  
+or clear intention to find the square root 
+correctly 
+ 
+ 
+6 π + 1
+r =
+ or (
+)
+1
+2
+6 π
+1
++
+ only 
+A1  
+ 
+7 
+1
+sin
+sin
+x
+x −
+  
+M1  
+Allow working from right to left. 
+ 
+2
+1
+sin
+sin
+x
+x
+−
+  
+A1  
+ 
+ 
+cos
+cos
+cos
+sin
+tan
+x
+x
+x
+x
+x
+
+=
+ 
+A1 fully justified final step 
+Need to see an extra step after 
+2
+cos
+sin
+x
+x before the given answer 
+ 
+For consistent omission of x 
+withhold the last A mark 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 13 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 13 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+8 
+EITHER 
+Solution 1 
+2
+d
+(
+2)(5)
+(5
+1)
+d
+(
+2)
+y
+x
+x
+x
+x
+−
+−
++
+=
+−
+  
+(2 M1 for correct structure of quotient rule with 
+correct numerator and u and v correct 
+Allow correct use of product rule. 
+For M1 du and dv may be incorrect 
+Allow if terms in the numerator are 
+reversed 
+Must have v2 in the denominator 
+ 
+ 
+x = –9  
+B1  
+ 
+ 
+d
+ d
+h
+x
+y
+their
+x
+
+=
+, oe 
+when x = –9 or their –9 but not for 
+4
+x =
+ 
+M1 Dep 
+ 
+ 
+δ
+11
+x
+h
+= −
+  
+A1)  
+ 
+ 
+OR 
+Solution 2 
+Use of d
+d
+x
+y  
+(B1  
+The value of x does not need to be 
+calculated using this method 
+ 
+2
+d
+(
+5)(2)
+(1
+2 )
+d
+(
+5)
+x
+y
+y
+y
+y
+−
+−
++
+=
+−
+ 
+2 M1 for correct structure of quotient rule with 
+correct numerator and u and v correct 
+du and dv may be incorrect 
+Allow if terms in the numerator are 
+reversed 
+Must have v2 in the denominator 
+ 
+d
+ d
+x
+x
+h
+their
+y
+
+=
+
+ when 
+4
+y =
+ oe 
+M1 Dep 
+ 
+ 
+δ
+11
+x
+h
+= −
+ 
+A1)  
+ 
+9(a) 
+ln
+1
+x
+x − or 
+e
+log
+1
+x
+x − 
+2 B1 for 
+1
+ln
+log e
+x
+x
+=
+ oe seen 
+Allow lnx written as
+e
+log x 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 14 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 14 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+9(b) 
+(
+)
+2
+5
+5
+2log 2
+log
+4
+x
+x
+=
+ or 
+(
+)
+2
+5
+log
+2x
+ 
+or 
+ 
+5
+1
+log 5
+=
+ soi 
+B1   
+ 
+ 
+2
+(2 )
+5(9
+10)
+x
+x
+=
+−
+ nfww oe 
+or 
+2
+5
+5
+log (2 )
+log 5(9
+10)
+x
+x
+=
+−
+ oe 
+M1  
+M0 XP for e.g. 
+2
+5
+5
+log (2 )
+1
+log (9
+10) then
+x
+x
+= +
+−
+ 
+5
+log (
+)2
+5
+2
+log
+x
+=
+5
+5
+log
+
+(9
+10) and
+x −
+2
+(2 )
+5(9
+10)
+x
+x
+=
+−
+ 
+ 
+Condone use of lg5(…)  
+ 
+Allow recovery of missing brackets 
+ 
+2
+4
+45
+50[ 0]
+x
+x
+−
++
+=
+ nfww  
+A1  
+ 
+ 
+(
+)(
+)
+4
+5
+10
+0
+x
+x
+−
+−
+=
+ 
+M1 For solution of their 3 term quadratic 
+Factorises or solves a 3-term 
+quadratic in form ax2 + bx + c = 0 
+by: 
+Factorising - factorisation must 
+result in correct a and c for FT 
+equation, or scaled form of FT 
+equation.  
+quadratic formula – discriminant of 
+FT equation must not be negative. 
+Formula must be correct but 
+condone one sign error in 
+substitution.  
+completing the square – must get as 
+far as (𝑥+
+𝑏
+2)2 = −
+𝑐
+𝑎+
+𝑏2
+4 or 
+equivalent, condone one sign error.  
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 15 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 15 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+9(b) 
+x = 5
+4 , x = 10 nfww and no other solutions 
+A1 A0 if either solution is rejected 
+ 
+10(a) 
+EITHER 
+Solution 1 
+5
+1
+11
+1
+5
+x
+x
+x
+x
++
+−
+=
+−
++
+ oe 
+(M1  
+ 
+ 
+2
+2
+10
+25 11
+12
+1
+x
+x
+x
+x
++
++
+=
+−
++ 
+M1 Dep for expansion, allow one error 
+ 
+ 
+
+
+2
+10
+22
+24
+0
+x
+x
+−
+−
+=
+ 
+A1  
+
+
+2
+5
+11
+12
+0
+x
+x
+−
+−
+=
+ 
+ 
+3
+x =
+ only nfww 
+2 M1 dep on both previous M marks for solution 
+of their quadratic equation 
+A1 for 
+3
+x =
+  
+(5
+4)(
+3)
+0
+x
+x
++
+−
+=
+ 
+ 
+ 
+1 oe
+4
+128
+r
+a
+=
+=
+ 
+A1) For both 
+ 
+ 
+OR 
+Solution 2 
+5
+1
+5
+11
+1
+1
+r
+r
+r
+r
++
+−−
+=
+−
+−
+ oe 
+(M2 M1 allow one sign error 
+ 
+ 
+(
+)(
+)
+(
+)(
+)
+5
+1
+1 5
+11
+1
+r
+r
+r
+r
++
+−
+= −−
+−
+ 
+M1 Dep for expansion, allow one error 
+ 
+ 
+2
+56
+10
+6
+0
+r
+r
++
+−
+= 
+A1  
+ 
+ 
+1
+4
+r =
+ oe 
+A1  
+ 
+ 
+128
+a =
+ 
+A1)  
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 16 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 16 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+10(b) 
+128
+1
+0.25
+−
+  
+M1 Dep on at least one M mark in part 10(a) FT 
+their numeric a and their numeric r or their 
+numeric x, providing |their r| < 1 
+ 
+ 
+ 512  
+A1  
+ 
+11(a) 
+EITHER 
+Solution 1 
+8
+8
+AB
+−
+
+
+= 
+
+
+
+
+ oe, soi 
+(B1  
+Allow component vectors 
+throughout 
+ 
+OC =
+
+2
+4
+−
+
+
+
+
+
+
+ 
+2 
+M1 for 
+4
+8
+3
+2
+8
+4
+OC
+their
+
+
+−
+
+
+
+
+=
++
+
+
+
+
+
+
+−
+
+
+
+
+
+
+
+ oe, soi or 
+4
+8
+1
+6
+8
+4
+OC
+their
+
+
+−
+−
+
+
+
+
+=
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+ oe, soi 
+OC
+OA
+AC
+=
++
+
+ 
+ 
+ 
+OC
+OB
+BC
+=
++
+
+ 
+ 
+3
+1.5
+OD
+
+
+= 
+
+−
+
+
+
+ 
+2) 
+M1FT for 
+5
+2
+5.5
+4
+OD
+their −
+
+
+
+
+=
++
+
+
+
+
+−
+
+
+
+
+
+ 
+Mark final answer, must be a vector 
+ 
+ 
+OR 
+Solution 2 
+8
+8
+AB
+−
+
+
+= 
+
+
+
+
+ oe, soi 
+(B1  
+Allow component vectors 
+throughout 
+ 
+1
+0.5
+AD
+−
+
+
+= 
+
+
+
+
+ 
+2 
+M1 for 
+8
+5
+3
+ 
+8
+5.5
+4
+AD
+their
+
+
+−
+
+
+
+
+=
++
+
+
+
+
+
+
+−
+
+
+
+
+
+
+
+ 
+AD
+AC
+CD
+=
++
+
+ 
+ 
+3
+1.5
+OD
+
+
+= 
+
+−
+
+
+
+ 
+2) 
+M1FT for 
+4
+1
+2
+0.5
+OD
+their −
+
+
+
+
+=
++
+
+
+
+
+−
+
+
+
+
+
+ 
+Mark final answer, must be a vector 
+OD
+OA
+AD
+=
++
+
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 17 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 17 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+11(a) 
+OR 
+Solution 3 
+4
+2
+0
+2
+4
+, 
+, 
+, 
+, 
+ 
+6
+4
+2
+0
+2
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+
+
+
+
+
+
+
+soi 
+(B1 Line segment split into 4 to obtain position 
+vectors or coordinates 
+Allow component vectors 
+throughout 
+ 
+OC =
+
+2
+4
+−
+
+
+
+
+
+
+ 
+2 M1 using their second position vector, allow as 
+coordinates 
+ 
+ 
+3
+1.5
+OD
+
+
+= 
+
+−
+
+
+
+ 
+2) 
+M1FT for 
+5
+2
+5.5
+4
+OD
+their −
+
+
+
+
+=
+−
+
+
+
+
+−
+
+
+
+
+
+ 
+Must be a vector for A1 
+Mark final answer, must be a vector 
+ 
+11(b) 
+ = 0.75 or 3
+4 
+B1 Must have full marks in part (a) 
+Please check full marks awarded in 
+part 11(a) 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 18 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 18 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+12 
+y = –4x + 6 oe 
+B1  
+ 
+ 
+Eliminates one unknown e.g.
+10
+4
+6
+4
+1
+x
+x
+= −
++
++
+  
+M1 
+ 
+FT 
+ 
+ 
+2
+0
+16
+20
+4
+x
+x
+= −
++
+− soi 
+A1  
+2
+0
+4
+5
+1
+x
+x
+=
+−
++ 
+ 
+0
+(4
+1)(
+1)
+x
+x
+=
+−
+−
+ 
+M1 Dep FT 
+ 
+ 
+x = 1
+4 , x = 1  
+A1  
+ 
+ 
+y = 5, y = 2 or 
+2
+2
+6
+x
+x
+
+
+−
++
+
+ soi 
+B1  
+ 
+ 
+Area of trapezium = 21
+8 
+B1 May come from integration using 
+1
+2
+1
+4
+2
+6
+x
+x
+
+
+−
++
+
+ 
+or from 1
+3
+(5
+2)
+2
+4
++
+
+ 
+ 
+ 
+(
+)
+10
+10
+ d
+ln 4
+1
+4
+1
+4
+x
+x
+x
+=
++
++
+
+ 
+ 
+2 M1 for kln(4x + 1) 
+A1 correct  
+Allow transcription error 
+ 
+10
+10
+ln5
+ln 2
+4
+4
+−
+ 
+M1 dep on all previous M marks for correct 
+substitution of their limits using the form 
+kln(4x + 1) 
+May be embedded in a subtraction 
+of areas 
+ 
+21
+8 – 5
+5
+ln5
+ln2
+2
+2
+
+
+−
+
+
+
+oe 
+A1 A0 if subtraction done the wrong way round. 
+21
+8
+5
+5
+ln
+2
+2
+−
+ or 21
+8
+5
+2
+ln
+2
+5
++
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE
+
+===== PAGE 19 =====
+4037/12 
+Cambridge O Level – Mark Scheme 
+PUBLISHED 
+May/June 2026
+ 
+© Cambridge University Press & Assessment 2026 
+Page 19 of 19 
+ 
+Question 
+Answer 
+Marks 
+Partial Marks 
+Guidance 
+13 
+(
+2)!
+!
+(
+1)!3!
+(
+3)!3!
+n
+n
+n
+n
++
+−
+−
+−
+ soi 
+M1 May be implied by simplification 
+Must be working from the left-hand 
+side to obtain the right-hand side. 
+Allow recovery 
+ 
+(
+2)(
+1)
+(
+1)(
+2)
+6
+6
+n
+n
+n
+n n
+n
++
++
+−
+−
+−
+ 
+A1 For dealing with the algebraic factorials 
+Allow 3! for 6 
+ 
+ 
+(
+)
+2
+2
+3
+2
+[
+3
+2]
+6
+n n
+n
+n
+n
++
++
+−
+−
++
+ 
+A1 For correct expansion, may be in cubic form 
+Allow 3! for 6 
+ 
+ 
+2
+6
+6
+n
+n
+n
+
+=
+ 
+A1  
+ 
+ 
+PapaCambridge ·  papacambridge.com
+4037/12 Mark Scheme June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+4037/12 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-D7C41FCDFE

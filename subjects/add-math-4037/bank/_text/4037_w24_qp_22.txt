@@ -1,0 +1,820 @@
+===== PAGE 1 =====
+This document has 16 pages.
+ 
+[Turn over
+Cambridge O Level
+ADDITIONAL MATHEMATICS 
+4037/22
+Paper 2 
+October/November 2024
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You should use a calculator where appropriate.
+ 
+●
+You must show all necessary working clearly; no marks will be given for unsupported answers from a 
+calculator.
+ 
+●
+Give non-exact numerical answers correct to 3 significant figures, or 1 decimal place for angles in 
+degrees, unless a different level of accuracy is specified in the question.
+INFORMATION
+ 
+●
+The total mark for this paper is 80.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 5 9 4 1 1 2 8 8 9 9 *
+DC (SL) 344964
+© UCLES 2024
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE]y5W
+¬er{TªoWy[|f3
+¥eEU5UeUU¥EEUeUU
+
+===== PAGE 2 =====
+2
+4037/22/O/N/24
+© UCLES 2024
+Mathematical Formulae
+1. ALGEBRA
+Quadratic Equation
+For the equation ax
+bx
+c
+0
+2 +
++
+=
+,
+x
+a
+b
+b
+ac
+2
+4
+2
+!
+= -
+-
+Binomial Theorem
+(
+)
+a
+b
+a
+a
+b
+a
+b
+a
+b
+n
+n
+n
+r
+b
+1
+2
+n
+n
+n
+n
+n
+r
+r
+n
+1
+2
+2
+f
+f
++
+=
++
++
++
++
++
++
+-
+-
+-
+e
+e
+e
+o
+o
+o
+where n is a positive integer and 
+(
+)! !
+!
+n
+r
+n
+r r
+n
+=
+-
+e o
+Arithmetic series 
+(
+)
+u
+a
+n
+d
+1
+n =
++
+-
+(
+)
+{
+(
+) }
+S
+n a
+l
+n
+a
+n
+d
+2
+1
+2
+1
+2
+1
+n =
++
+=
++
+-
+Geometric series 
+u
+ar
+n
+n
+1
+=
+-
+(
+) (
+)
+S
+r
+a
+r
+r
+1
+1
+1
+n
+n
+!
+=
+-
+-
+(
+)
+S
+r
+a
+r
+1
+1
+1
+=
+-
+3
+2. TRIGONOMETRY
+Identities
+sin
+cos
+A
+A
+1
+2
+2
++
+=
+sec
+tan
+A
+A
+1
+2
+2
+=
++
+ec
+cos
+cot
+A
+A
+1
+2
+2
+=
++
+Formulae for ∆ABC
+sin
+sin
+sin
+A
+a
+B
+b
+C
+c
+=
+=
+cos
+a
+b
+c
+bc
+A
+2
+2
+2
+2
+=
++
+-
+sin
+bc
+A
+2
+1
+T =
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàû·þ×
+ĬåôüÑĞûĨàĈó¸ºĂĖċĚĂ
+ĥõÕÕõµĥµĥÕµąÅĕÅĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+1 
+Solve the following simultaneous equations.
+x
+y
+2
+3
+=
+ 
+x
+y
+16
+27
+5
+4
+=
+ 
+[3]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàù·þ×
+ĬåóûÙĬ÷ĘÙòþñĞúÂċĪĂ
+ĥõåĕµÕąÕõåĥąÅõåÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+4037/22/O/N/24
+© UCLES 2024
+2 
+Variables x and y are related by the equation y
+x
+x
+1
+2
+=
++
+.
+ 
+(a) Find x
+y
+d
+d . 
+[3]
+ 
+(b) It is given that when y
+12
+=
+, x
+4
+=
+. Find the approximate change in x when y increases from 12 
+by the small amount 0.06. 
+[3]
+ 
+(c) Find the x-coordinate of the stationary point on the curve   y
+x
+x
+1
+2
+=
++
+. 
+[2]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞû·Ā×
+ĬåóúÙĢąđÞðąúÀÖĤěĒĂ
+ĥÅõĕõÕąõĕąĕąąõąÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+3 
+DO NOT USE A CALCULATOR IN THIS QUESTION. 
+ 
+The polynomial p is defined by   ( )x
+ax
+x
+x
+b
+3
+3
+p
+3
+2
+=
+-
+-
++ ,   where a and b are constants. 
+ 
+(a) Given that x
+2
+=
+ and x
+1
+=- are roots of the equation ( )x
+0
+p
+=
+, find a and b. 
+[3]
+ 
+(b) Solve the equation ( )x
+0
+p
+=
+. 
+[2]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞù·Ā×
+ĬåôùÑĨĉġÛĊü¯ĜÞ¸ěĢĂ
+ĥÅąÕµµĥĕąõÅąąĕĥĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+4037/22/O/N/24
+© UCLES 2024
+4 
+Use a graphical method to solve the inequality   
+x
+2
+8
+4
+2
+-
+. 
+[5]
+y
+x
+– 2
+0
+– 2
+2
+4
+6
+8
+– 4
+– 6
+– 8
+– 4
+– 6
+– 8
+2
+4
+6
+8
+10
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßù¶þ×
+ĬåóùÎĞġīÓýĉÆüÖÕ³ĒĂ
+ĥĕåÕµĕĥµÅĕĥąÅĕÅÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+5 
+Solve the following equations.
+ 
+(a) log
+log
+x
+x
+18
+2
+2
+16
++
+=
+ 
+[4]
+ 
+(b) 
+10
+3
+e
+e
+x
+x
+2
+1
+2
+1
+-
+=
++
+-
+-
+ 
+[4]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßû¶þ×
+ĬåôúÖĬĝěæûøăàÞā³ĢĂ
+ĥĕÕĕõõąÕÕĥµąÅõåĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+4037/22/O/N/24
+© UCLES 2024
+6 
+DO NOT USE A CALCULATOR IN THIS QUESTION.
+ 
+Write   (
+)(
+)
+5
+3
+6
+2
+2
+-
++
+-   in the form a
+b 3
++
+ , where a and b are constants. 
+[5]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝù¶Ā×
+ĬåôûÖĢďĎÑõïČþĂããĚĂ
+ĥåąĕµõąõµÅÅąąõąĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+7 
+A class of 10 students includes Abby and Ben.
+ 
+(a) A group of 5 students is to be selected from the class. Find the number of possible groups in the 
+following cases.
+ 
+ 
+(i) There are no restrictions. 
+[1]
+ 
+ 
+(ii) The group includes both Abby and Ben. 
+[2]
+ 
+ 
+(iii) The group includes either Abby or Ben, but not both. 
+[2] 
+ 
+(b) All 10 students are arranged in a line. How many arrangements are possible if there are exactly 
+three students between Abby and Ben? 
+[3]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝû¶Ā×
+ĬåóüÎĨēĞèăĂ½Úú÷ãĪĂ
+ĥåõÕõĕĥĕåµĕąąĕĥÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+4037/22/O/N/24
+© UCLES 2024
+8 
+Solve the equation   cot
+cosec
+2
+3
+2
+9
+2 i
+i
++
+=
+   for 90
+90
+°
+°
+G
+G
+i
+-
+. 
+[6]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàù¸þ×
+ĬåñûÏĤėČÏîøâĢĄÇěĢĂ
+ĥõĥÕµõåõĕõÅÅąÕąĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+9 
+In this question time is measured in seconds.
+ 
+(a) A particle is moving in a straight line with constant velocity of ms
+6
+1
+- . At time t
+0
+=
+, it passes 
+a fixed point A. At time t
+5
+=
+ it suddenly changes direction and moves with a different constant 
+velocity along the same straight line. It passes the point A again at time t
+15
+=
+. Sketch the 
+velocity−time graph for the motion. 
+[3]
+v
+t
+5
+10
+15
+6
+−6
+0
+ 
+(b) Another particle is moving in a straight line with constant acceleration. At time t
+0
+=
+ it passes 
+a fixed point B with velocity 
+ms
+8
+1
+-
+- . It passes the point B again at time t
+20
+=
+. Sketch the 
+velocity−time graph for the motion. 
+[3]
+v
+t
+5
+10
+15
+20
+0
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàû¸þ×
+Ĭåòü×ĦěüêČĉħ¶üēěĒĂ
+ĥõĕĕõĕÅĕąąĕÅąµĥÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+4037/22/O/N/24
+© UCLES 2024
+10 The diagram shows part of the curve   y
+x
+x
+4
+2
+=
+-
+   and the line y
+4
+=- . The curve and the line intersect 
+at the point A.
+y
+O
+x
+A
+y
+x
+x
+4
+2
+=
+-
+y
+4
+=-
+h
+ 
+(a) The maximum point on the curve is at a perpendicular distance h from the line y
+4
+=- .
+ 
+ 
+Find the value of h. 
+[4]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞù¸Ā×
+Ĭåòù×ĠĩíÍĆĂĠĘØ±ċĪĂ
+ĥÅÅĕµĕÅµĥåĥÅÅµÅÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(b) Find the exact x-coordinate of A. 
+[3]
+ 
+(c) Find the acute angle between the tangent to the curve at A and the line  y
+4
+=- . 
+[4]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞû¸Ā×
+ĬåñúÏĪĥýìôïéÄàĥċĚĂ
+ĥÅµÕõõåÕõÕµÅÅÕåĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+4037/22/O/N/24
+© UCLES 2024
+11 In this question i is a unit vector in the positive x-direction and j is a unit vector in the positive 
+y-direction. Time is in seconds and distances are in metres. 
+ 
+The diagram shows the initial positions and velocities of two particles, A and B, that move in the 
+x-y plane.
+y
+O
+Particle A
+Particle B
+x
+10 ms–1
+ms–1
+60°
+3
+5
+(
+, )
+2 3 9
+ 
+Particle A starts from the origin O at time t
+0
+=
+. It moves with constant speed 
+ms
+10
+1
+- in the direction 
+60° above the x-axis.
+ 
+(a) Find the exact values of the components of the velocity of particle A in the x-direction and the 
+y-direction. 
+[2]
+ 
+(b) Find, in terms of t, the position vector of particle A at time t. 
+[1]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝüµĂ×
+ĬåòüÎĨĚõÚöüĆĠõġ»ĒĂ
+ĥĥµĕµĕĥõĕÅµąąĕąÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+4037/22/O/N/24
+© UCLES 2024
+[Turn over
+ 
+Particle B starts from the point (
+, )
+2 3 9 at time t
+0
+=
+. It moves with constant speed 
+ms
+3
+5
+1
+- parallel to 
+the positive x-axis.
+ 
+(c) Find, in terms of t, the position vector of particle B at time t.  
+[2]
+ 
+(d) Hence show that the particles collide. 
+[4]
+Question 12 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝúµĂ×
+ĬåñûÖĢĖąßĄąÃ¼ýµ»ĢĂ
+ĥĥÅÕõõąĕąµĥąąõĥĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+4037/22/O/N/24
+© UCLES 2024
+12 A metal tank is in the shape of a cuboid with a square base of side x m and an open top. The tank has 
+a volume of m
+5
+3. Given that x can vary, and that the area of the metal used to make the tank is a 
+minimum, find the dimensions of the tank. 
+[6]
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßüµĄ×
+ĬåñúÖĬĨĄÜþþÌĚáėëĚĂ
+ĥÕĕÕµõąµĥĕĕąÅõÅĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
