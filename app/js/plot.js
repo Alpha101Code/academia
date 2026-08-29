@@ -13,6 +13,25 @@ window.A.plot = (function () {
     return y;
   }
 
+  /* evaluate one curve spec at x; returns NaN outside its domain */
+  function evalCurve(c, x) {
+    let y;
+    if (c.fn) {
+      const f = c.fn;
+      if (f.type === "log") {            // k·ln(ax+b) + (c0 || 0)
+        const inside = f.a * x + f.b;
+        if (inside <= 0) return NaN;
+        y = f.k * Math.log(inside) + (f.c0 || 0);
+      } else if (f.type === "exp") {     // k·e^(nx) + a
+        y = f.k * Math.exp(f.n * x) + (f.a || 0);
+      } else return NaN;
+    } else {
+      y = evalPoly(c.poly, x);
+    }
+    if (c.abs) y = Math.abs(y);
+    return y;
+  }
+
   function make(spec, opts) {
     opts = opts || {};
     const W = opts.width || 460, H = opts.height || 320;
@@ -74,15 +93,25 @@ window.A.plot = (function () {
       s += `<line class="${cls}" x1="${pad.l}" y1="${sy(y)}" x2="${W - pad.r}" y2="${sy(y)}" clip-path="url(#${id})"/>`;
     }
 
+    /* vertical reference lines (asymptotes) */
+    for (const vl of (spec.vlines || [])) {
+      const x = typeof vl === "object" ? vl.x : vl;
+      s += `<line class="hline" x1="${sx(x)}" y1="${pad.t}" x2="${sx(x)}" y2="${H - pad.b}"/>`;
+      if (typeof vl === "object" && vl.label) {
+        s += `<text class="ptlab" x="${sx(x) + 5}" y="${pad.t + 14}">${vl.label}</text>`;
+      }
+    }
+
     /* curves */
     (spec.curves || []).forEach((c, i) => {
       const n = 420;
-      let d = "";
+      let d = "", pen = false;
       for (let k = 0; k <= n; k++) {
         const x = x0 + (x1 - x0) * k / n;
-        let y = evalPoly(c.poly, x);
-        if (c.abs) y = Math.abs(y);
-        d += (k ? "L" : "M") + sx(x).toFixed(2) + "," + sy(y).toFixed(2);
+        const y = evalCurve(c, x);
+        if (!isFinite(y)) { pen = false; continue; }   // domain break
+        d += (pen ? "L" : "M") + sx(x).toFixed(2) + "," + sy(y).toFixed(2);
+        pen = true;
       }
       const cls = "curve c" + (i % 4) + (c.dashed ? " dashed" : "") + (c.cls ? " " + c.cls : "");
       s += `<path class="${cls}" d="${d}" clip-path="url(#${id})"/>`;

@@ -134,8 +134,13 @@ hosted app private (or strip verbatim questions) if it ever goes public.
   tips/worked solutions/mark schemes; full Learn lesson (4.1–4.5) with 4 interactive
   widgets (modulus explorer, |ax+b|=cx+d solver, |quadratic|=d root counter, cubic
   sketcher with inequality shading). Open `app/index.html` — works from disk or any static host.
-- **P2:** remaining red-dot chapters in order (6, 8, 9, 11, 12, 13) — same treatment;
+- **P2 — in progress:** remaining red-dot chapters in order — same treatment;
   new papers keep flowing into the same pipeline.
+  - **Chapter 6 done (2026-08-29):** 11 questions / 72 marks mined and verified vs mark
+    schemes (incl. the x=1/5 rejection in w25-p13 and both kept roots in w25-p12 q5b);
+    8-section lesson; 2 new widgets (log/exp graph families with asymptotes, e↔ln inverse
+    mirror); plot engine extended to ln/exp curves with domain breaks and vertical asymptotes.
+  - Next: chapter 8 (Coordinate geometry of the circle), then 9, 11, 12, 13.
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 

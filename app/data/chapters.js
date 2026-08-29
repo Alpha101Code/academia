@@ -8,7 +8,10 @@ window.A.registerChapters([
     blurb: "Modulus equations and inequalities, solving equations by quadratic substitution, sketching cubics (and their moduli) from factors, and solving cubic inequalities from graphs. Outcomes 4.1–4.5."
   },
   { n: 5, title: "Simultaneous equations" },
-  { n: 6, title: "Logarithmic and exponential functions" },
+  {
+    n: 6, title: "Logarithmic and exponential functions",
+    blurb: "Log laws and single logarithms, change of base (including the reciprocal trick), solving log and exponential equations with validity checks, and the two exam graph families with their asymptotes. Outcomes 6.1–6.3."
+  },
   { n: 7, title: "Straight-line graphs" },
   { n: 8, title: "Coordinate geometry of the circle" },
   { n: 9, title: "Circular measure" },

@@ -1,0 +1,394 @@
+{
+  "chapter": 6,
+  "title": "Logarithmic and exponential functions",
+  "syllabusOutcomes": {
+    "6.1": "Know and use properties and graphs of logarithmic and exponential functions, including ln x and e^x; asymptotes; graphs of y = ke^{nx} + a and y = k ln(ax+b)",
+    "6.2": "Know and use the laws of logarithms, including change of base",
+    "6.3": "Solve equations of the form a^x = b"
+  },
+  "groups": [
+    {"key": "laws", "label": "Log laws & single logarithms", "outcomes": ["6.2"]},
+    {"key": "eqns", "label": "Log & exponential equations", "outcomes": ["6.2", "6.3"]},
+    {"key": "graphs", "label": "Graphs of ln and exp", "outcomes": ["6.1"]},
+    {"key": "funcs", "label": "ln and e as inverse functions", "outcomes": ["6.1"]}
+  ],
+  "questions": [
+    {
+      "id": "s24-p12-q2",
+      "group": "laws",
+      "source": {"session": "May/June 2024", "paper": "4037/12", "question": "2"},
+      "calc": false,
+      "outcomes": ["6.2"],
+      "topics": ["change of base", "laws of logs"],
+      "marks": 3,
+      "targetMinutes": 5,
+      "difficulty": 2,
+      "statement": "<p>Given that \\(\\;\\log_3 r + 2\\log_9 s = 8\\), find the value of \\(rs\\).&emsp;<b>[3]</b></p>",
+      "tips": [
+        "Two different bases (3 and 9) — convert to ONE base first: \\(\\log_9 s = \\dfrac{\\log_3 s}{\\log_3 9} = \\dfrac{\\log_3 s}{2}\\).",
+        "So \\(2\\log_9 s = \\log_3 s\\): the equation collapses to \\(\\log_3 r + \\log_3 s = 8\\).",
+        "Adding logs multiplies the arguments: \\(\\log_3(rs) = 8 \\Rightarrow rs = 3^8\\)."
+      ],
+      "solution": [
+        "<p>Change base 9 to base 3: \\(\\log_9 s = \\dfrac{\\log_3 s}{\\log_3 9} = \\dfrac{\\log_3 s}{2}\\), so \\(2\\log_9 s = \\log_3 s\\).</p>",
+        "<p>Then \\(\\log_3 r + \\log_3 s = 8 \\Rightarrow \\log_3 (rs) = 8\\).</p>",
+        "<p>Therefore \\(rs = 3^8 = 6561\\).</p>"
+      ],
+      "answer": "\\(rs = 6561\\)",
+      "markScheme": [
+        "B1 — \\(2\\log_9 s = \\dfrac{2\\log_3 s}{\\log_3 9}\\) soi (change of base, any consistent base)",
+        "B2 — \\(\\log_3 rs = 8\\) oe",
+        "(final) \\(rs = 6561\\) isw"
+      ]
+    },
+    {
+      "id": "s24-p11-q3",
+      "group": "laws",
+      "source": {"session": "May/June 2024", "paper": "4037/11", "question": "3"},
+      "calc": false,
+      "outcomes": ["6.2"],
+      "topics": ["single logarithm", "change of base", "surd answers"],
+      "marks": 9,
+      "targetMinutes": 14,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Write \\(1 + \\lg(x^2-1) - 2\\lg(x-1)\\), where \\(x>1\\), as a single logarithm to base 10. Give your answer in its simplest form.", "marks": 4},
+        {"label": "(b)", "text": "Solve the equation \\(4\\log_5(x+1) = 9\\log_{(x+1)}5\\), giving your answers in the form \\(a+b\\sqrt{c}\\), where \\(a\\), \\(b\\) and \\(c\\) are constants.", "marks": 5}
+      ],
+      "statement": "<p><b>(a)</b> Write \\(\\;1 + \\lg(x^2-1) - 2\\lg(x-1)\\), where \\(x>1\\), as a single logarithm to base 10. Give your answer in its simplest form.&emsp;<b>[4]</b></p><p><b>(b)</b> Solve the equation \\(\\;4\\log_5(x+1) = 9\\log_{(x+1)}5\\), giving your answers in the form \\(a+b\\sqrt{c}\\).&emsp;<b>[5]</b></p>",
+      "tips": [
+        "(a) Convert the lone number first: \\(1 = \\lg 10\\). Convert the coefficient: \\(2\\lg(x-1) = \\lg(x-1)^2\\).",
+        "(a) Factorise inside: \\(x^2-1 = (x-1)(x+1)\\) — that is what makes the final fraction \"simplest\": one \\((x-1)\\) cancels.",
+        "(b) \\(\\log_{(x+1)}5\\) is the RECIPROCAL of \\(\\log_5(x+1)\\) (change of base). Let \\(u = \\log_5(x+1)\\): the equation becomes \\(4u = \\dfrac9u\\).",
+        "(b) \\(u^2 = \\tfrac94 \\Rightarrow u = \\pm\\tfrac32\\) — do NOT forget the negative root: it gives the second answer. Undo with \\(x+1 = 5^{u}\\) and use \\(5^{3/2} = 5\\sqrt5\\), \\(5^{-3/2} = \\tfrac{1}{5\\sqrt5} = \\tfrac{\\sqrt5}{25}\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(1 + \\lg(x^2-1) - 2\\lg(x-1) = \\lg 10 + \\lg\\big((x-1)(x+1)\\big) - \\lg(x-1)^2\\)</p>",
+        "<p>\\(= \\lg\\dfrac{10(x-1)(x+1)}{(x-1)^2} = \\lg\\dfrac{10(x+1)}{x-1}\\).</p>",
+        "<p><b>(b)</b> Change of base: \\(\\log_{(x+1)}5 = \\dfrac{1}{\\log_5(x+1)}\\). With \\(u = \\log_5(x+1)\\): \\(4u = \\dfrac9u \\Rightarrow u^2 = \\dfrac94 \\Rightarrow u = \\pm\\dfrac32\\).</p>",
+        "<p>\\(u = \\tfrac32:\\; x+1 = 5^{3/2} = 5\\sqrt5 \\Rightarrow x = -1 + 5\\sqrt5\\).</p>",
+        "<p>\\(u = -\\tfrac32:\\; x+1 = 5^{-3/2} = \\dfrac{1}{5\\sqrt5} = \\dfrac{\\sqrt5}{25} \\Rightarrow x = -1 + \\dfrac{1}{25}\\sqrt5\\).</p>",
+        "<p>(Both are valid: \\(x+1>0\\) and \\(x+1\\neq1\\) in each case.)</p>"
+      ],
+      "answer": "(a) \\(\\lg\\dfrac{10(x+1)}{x-1}\\); (b) \\(x = -1+5\\sqrt5\\) and \\(x = -1+\\tfrac{1}{25}\\sqrt5\\)",
+      "markScheme": [
+        "(a) B1 — \\(1=\\lg10\\) soi; M1 — correct use of a log rule; DM1 — factorises \\(x^2-1\\) and simplifies; A1 — \\(\\lg\\frac{10(x+1)}{x-1}\\)",
+        "(b) B1 — change of base: \\(4\\log_5(x+1) = \\frac{9}{\\log_5(x+1)}\\) oe",
+        "(b) M1 — \\((\\log_5(x+1))^2 = \\frac94\\) (dep)",
+        "(b) M1 — \\(x+1 = 5^{\\pm3/2}\\) (dep; allow if ± missing)",
+        "(b) A1 — \\(x=-1+5\\sqrt5\\), \\(-1+\\frac{1}{25}\\sqrt5\\)"
+      ]
+    },
+    {
+      "id": "w24-p13-q4",
+      "group": "laws",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/13", "question": "4"},
+      "calc": false,
+      "outcomes": ["6.2"],
+      "topics": ["single logarithm", "reciprocal change of base"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Write \\(3 + 4\\log_2 a - \\log_2 b\\) as a single base 2 logarithm.", "marks": 3},
+        {"label": "(b)", "text": "Solve the equation \\(\\lg x = 4\\log_x 10\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Write \\(\\;3 + 4\\log_2 a - \\log_2 b\\;\\) as a single base 2 logarithm.&emsp;<b>[3]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\lg x = 4\\log_x 10\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) Convert the number to a log in the right base: \\(3 = \\log_2 8\\). Power rule: \\(4\\log_2 a = \\log_2 a^4\\).",
+        "(b) \\(\\log_x 10 = \\dfrac{1}{\\lg x}\\) (reciprocal — change of base with the roles swapped).",
+        "(b) So \\((\\lg x)^2 = 4 \\Rightarrow \\lg x = \\pm2\\). TWO answers: \\(x = 10^2\\) and \\(x = 10^{-2}\\).",
+        "Keep the ± — dropping the negative square root is the classic mark-loser in this question type."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(3 + 4\\log_2 a - \\log_2 b = \\log_2 8 + \\log_2 a^4 - \\log_2 b = \\log_2\\dfrac{8a^4}{b}\\).</p>",
+        "<p><b>(b)</b> \\(\\log_x 10 = \\dfrac{1}{\\lg x}\\), so \\(\\lg x = \\dfrac{4}{\\lg x} \\Rightarrow (\\lg x)^2 = 4 \\Rightarrow \\lg x = \\pm 2\\).</p>",
+        "<p>\\(\\lg x = 2 \\Rightarrow x = 100\\); \\(\\lg x = -2 \\Rightarrow x = \\dfrac{1}{100}\\). (Both valid: positive and \\(\\neq 1\\).)</p>"
+      ],
+      "answer": "(a) \\(\\log_2\\dfrac{8a^4}{b}\\); (b) \\(x = 100\\) or \\(x = \\tfrac{1}{100}\\)",
+      "markScheme": [
+        "(a) B1 — \\(3=\\log_2 8\\); M1 — correct use of two log operations; A1 — \\(\\log_2\\frac{8a^4}{b}\\)",
+        "(b) B1 — change of base: \\(\\lg x = \\frac{4}{\\lg x}\\) oe",
+        "(b) B1 — \\((\\lg x)^2 = 4\\) (dep; must work with \\((\\lg x)^2\\), not \\(\\lg x^2\\))",
+        "(b) B1 — \\(x=100\\);  B1 — \\(x=\\frac{1}{100}\\) or 0.01"
+      ]
+    },
+    {
+      "id": "w25-p12-q5",
+      "group": "laws",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/12", "question": "5"},
+      "calc": false,
+      "outcomes": ["6.2"],
+      "topics": ["single logarithm", "reciprocal equation"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Write \\(5\\lg a - 4\\lg b - 3\\) as a single base 10 logarithm.", "marks": 3},
+        {"label": "(b)", "text": "Solve the equation \\(\\log_5(x+1) - \\log_{(x+1)}5 = 0\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Write \\(\\;5\\lg a - 4\\lg b - 3\\;\\) as a single base 10 logarithm.&emsp;<b>[3]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\log_5(x+1) - \\log_{(x+1)}5 = 0\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) \\(-3 = -\\lg 1000\\): subtracting a log divides — the 1000 goes to the denominator.",
+        "(b) Reciprocal trick again: \\(\\log_{(x+1)}5 = \\dfrac{1}{\\log_5(x+1)}\\), so \\((\\log_5(x+1))^2 = 1\\).",
+        "(b) \\(\\log_5(x+1) = \\pm1\\): \\(x+1 = 5\\) or \\(x+1 = \\tfrac15\\). The mark scheme explicitly penalises rejecting \\(x = -\\tfrac45\\) — it IS valid because \\(x+1 = \\tfrac15 > 0\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(5\\lg a - 4\\lg b - 3 = \\lg a^5 - \\lg b^4 - \\lg 1000 = \\lg\\dfrac{a^5}{1000\\,b^4}\\).</p>",
+        "<p><b>(b)</b> With \\(u = \\log_5(x+1)\\): \\(u - \\dfrac1u = 0 \\Rightarrow u^2 = 1 \\Rightarrow u = \\pm1\\).</p>",
+        "<p>\\(u=1:\\; x+1 = 5 \\Rightarrow x = 4\\). &ensp; \\(u=-1:\\; x+1 = \\tfrac15 \\Rightarrow x = -\\tfrac45\\).</p>",
+        "<p>Check validity: both give \\(x+1>0\\), \\(x+1\\neq1\\) — <b>both kept</b>.</p>"
+      ],
+      "answer": "(a) \\(\\lg\\dfrac{a^5}{1000b^4}\\); (b) \\(x = 4\\) and \\(x = -\\tfrac45\\)",
+      "markScheme": [
+        "(a) B2 — \\(\\lg(a^5 \\div b^4 \\div 1000)\\) partial forms (B1 for \\(3=\\lg1000\\) soi and B1 power rule); final \\(\\lg\\frac{a^5}{1000b^4}\\)",
+        "(b) B1 — change of base seen: \\(\\log_5(x+1)-\\frac{1}{\\log_5(x+1)}=0\\)",
+        "(b) M1 — \\((\\log_5(x+1))^2 = 1\\) leading to \\(\\log_5(x+1) = \\pm1\\)",
+        "(b) A1 — \\(x=4\\);  A1 — \\(x=-\\frac45\\) (A0 if rejected or crossed out)"
+      ]
+    },
+    {
+      "id": "s26-p12-q9",
+      "group": "laws",
+      "source": {"session": "May/June 2026", "paper": "4037/12", "question": "9"},
+      "calc": false,
+      "outcomes": ["6.2"],
+      "topics": ["single ln", "log equation → quadratic"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Write \\(\\dfrac{1}{\\log_x e} - \\ln(x-1)\\) as a single logarithm to base e.", "marks": 2},
+        {"label": "(b)", "text": "Solve the equation \\(2\\log_5 2x = 1 + \\log_5(9x-10)\\).", "marks": 5}
+      ],
+      "statement": "<p><b>(a)</b> Write \\(\\;\\dfrac{1}{\\log_x \\mathrm{e}} - \\ln(x-1)\\;\\) as a single logarithm to base e.&emsp;<b>[2]</b></p><p><b>(b)</b> Solve the equation \\(\\;2\\log_5 2x = 1 + \\log_5(9x-10)\\).&emsp;<b>[5]</b></p>",
+      "tips": [
+        "(a) The reciprocal rule in reverse: \\(\\dfrac{1}{\\log_x e} = \\ln x\\). Then subtract: \\(\\ln x - \\ln(x-1) = \\ln\\dfrac{x}{x-1}\\).",
+        "(b) Power rule first: \\(2\\log_5 2x = \\log_5(2x)^2 = \\log_5 4x^2\\) — square the WHOLE \\(2x\\), not just \\(x\\)!",
+        "(b) Replace \\(1 = \\log_5 5\\), combine the right side, then equate arguments: \\(4x^2 = 5(9x-10)\\).",
+        "(b) Solve the quadratic and CHECK both answers in the original logs (arguments must be positive)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\dfrac{1}{\\log_x e} = \\ln x\\) (change of base), so the expression is \\(\\ln x - \\ln(x-1) = \\ln\\dfrac{x}{x-1}\\).</p>",
+        "<p><b>(b)</b> \\(\\log_5 4x^2 = \\log_5 5 + \\log_5(9x-10) = \\log_5 5(9x-10)\\).</p>",
+        "<p>Equate arguments: \\(4x^2 = 45x - 50 \\Rightarrow 4x^2 - 45x + 50 = 0 \\Rightarrow (4x-5)(x-10) = 0 \\Rightarrow x = \\tfrac54, 10\\).</p>",
+        "<p>Check: \\(x=\\tfrac54\\): \\(2x=2.5>0\\), \\(9x-10=1.25>0\\) ✓. \\(x=10\\): both positive ✓. <b>Both valid.</b></p>"
+      ],
+      "answer": "(a) \\(\\ln\\dfrac{x}{x-1}\\); (b) \\(x = \\tfrac54\\) and \\(x = 10\\)",
+      "markScheme": [
+        "(a) B1 — \\(\\frac{1}{\\log_x e} = \\ln x\\) oe seen; (final) \\(\\ln\\frac{x}{x-1}\\) [2]",
+        "(b) B1 — \\(2\\log_5 2x = \\log_5 4x^2\\) (or \\(1=\\log_5 5\\) soi)",
+        "(b) M1 — \\((2x)^2 = 5(9x-10)\\) nfww",
+        "(b) A1 — \\(4x^2 - 45x + 50 [=0]\\) nfww",
+        "(b) M1 — solves their 3-term quadratic \\((4x-5)(x-10)=0\\); A1 — \\(x=\\frac54\\), \\(x=10\\)"
+      ]
+    },
+    {
+      "id": "w24-p22-q5a",
+      "group": "eqns",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/22", "question": "5(a)"},
+      "calc": true,
+      "outcomes": ["6.2", "6.3"],
+      "topics": ["change of base", "same-base combination"],
+      "marks": 4,
+      "targetMinutes": 6,
+      "difficulty": 2,
+      "statement": "<p>Solve the equation \\(\\;\\log_2 x^2 + \\log_{16} x = 18\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "Bases 2 and 16 — link them: \\(16 = 2^4\\), so \\(\\log_{16}x = \\dfrac{\\log_2 x}{4}\\).",
+        "\\(\\log_2 x^2 = 2\\log_2 x\\). The equation becomes \\(\\left(2 + \\tfrac14\\right)\\log_2 x = 18\\), i.e. \\(\\tfrac94\\log_2 x = 18\\).",
+        "Finish with the definition: \\(\\log_2 x = 8 \\Rightarrow x = 2^8\\)."
+      ],
+      "solution": [
+        "<p>Change base: \\(\\log_{16}x = \\dfrac{\\log_2 x}{\\log_2 16} = \\dfrac{\\log_2 x}{4}\\), and \\(\\log_2 x^2 = 2\\log_2 x\\).</p>",
+        "<p>So \\(2\\log_2 x + \\dfrac{\\log_2 x}{4} = 18 \\Rightarrow \\dfrac94\\log_2 x = 18 \\Rightarrow \\log_2 x = 8\\).</p>",
+        "<p>\\(x = 2^8 = 256\\).</p>"
+      ],
+      "answer": "\\(x = 256\\)",
+      "markScheme": [
+        "M3 — correctly derives an equation free of logarithms, e.g. \\(x^9 = 16^{18}\\) or \\(x^{9/4} = 2^{18}\\) (M2 for consistent bases + one correct log law in a correct equation; M1 for one of these steps)",
+        "A1 — \\(x = 256\\) nfww"
+      ]
+    },
+    {
+      "id": "s25-p11-q8",
+      "group": "eqns",
+      "source": {"session": "May/June 2025", "paper": "4037/11", "question": "8"},
+      "calc": false,
+      "outcomes": ["6.2", "6.3"],
+      "topics": ["existence condition", "change of base", "log → quadratic"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Write down the set of values of \\(x\\) for which \\(\\log_5(12x-4)\\) exists.", "marks": 1},
+        {"label": "(b)", "text": "Solve the equation \\(\\log_5(12x-4) = \\dfrac{6}{\\log_x 125} + 1\\).", "marks": 6}
+      ],
+      "statement": "<p><b>(a)</b> Write down the set of values of \\(x\\) for which \\(\\log_5(12x-4)\\) exists.&emsp;<b>[1]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\log_5(12x-4) = \\dfrac{6}{\\log_x 125} + 1\\).&emsp;<b>[6]</b></p>",
+      "tips": [
+        "(a) A logarithm exists only for a POSITIVE argument: \\(12x-4>0\\).",
+        "(b) \\(\\log_x 125 = 3\\log_x 5 = \\dfrac{3}{\\log_5 x}\\), so \\(\\dfrac{6}{\\log_x 125} = 2\\log_5 x = \\log_5 x^2\\).",
+        "(b) Replace \\(1 = \\log_5 5\\), combine: \\(\\log_5(12x-4) = \\log_5 5x^2\\) → drop the logs.",
+        "(b) The quadratic gives \\(x = \\tfrac25\\) and \\(x = 2\\) — both survive the checks (both exceed \\(\\tfrac13\\), both valid bases). Part (a) is your checking tool!"
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(12x - 4 > 0 \\Rightarrow x > \\tfrac13\\).</p>",
+        "<p><b>(b)</b> \\(\\log_x 125 = \\dfrac{3}{\\log_5 x}\\), so \\(\\dfrac{6}{\\log_x 125} = 2\\log_5 x\\). The equation becomes</p>",
+        "<p>\\(\\log_5(12x-4) = \\log_5 x^2 + \\log_5 5 = \\log_5 (5x^2)\\).</p>",
+        "<p>So \\(12x - 4 = 5x^2 \\Rightarrow 5x^2 - 12x + 4 = 0 \\Rightarrow (5x-2)(x-2) = 0 \\Rightarrow x = \\tfrac25, 2\\).</p>",
+        "<p>Both are \\(> \\tfrac13\\) (part (a)) and are valid bases (\\(>0, \\neq 1\\)): <b>both solutions stand</b>.</p>"
+      ],
+      "answer": "(a) \\(x > \\tfrac13\\); (b) \\(x = \\tfrac25\\) and \\(x = 2\\)",
+      "markScheme": [
+        "(a) B1 — \\(x > \\tfrac13\\) oe",
+        "(b) B1 — change of base: \\(\\frac{6}{\\log_x 125} = 2\\log_5 x\\) oe",
+        "(b) B1 — \\(\\log_5(12x-4) = 2\\log_5 x + 1\\) (dep)",
+        "(b) B1 — \\(\\log_5\\frac{12x-4}{x^2} = 1\\) oe;  B1 — \\(5x^2-12x+4=0\\)",
+        "(b) M1 — factorises \\((5x-2)(x-2)=0\\);  A1 — \\(x = 0.4,\\ 2\\)"
+      ]
+    },
+    {
+      "id": "s26-p11-q8",
+      "group": "eqns",
+      "source": {"session": "May/June 2026", "paper": "4037/11", "question": "8"},
+      "calc": false,
+      "outcomes": ["6.2", "6.3"],
+      "topics": ["nested logs", "reciprocal change of base"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Write down the value of \\(\\lg(10\\,000)\\).", "marks": 1},
+        {"label": "(b)", "text": "Solve the equation \\(\\log_2(\\log_3 x) = 2\\).", "marks": 3},
+        {"label": "(c)", "text": "Solve the equation \\(\\log_x 5 = \\log_5 x^4\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Write down the value of \\(\\lg(10\\,000)\\).&emsp;<b>[1]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\log_2(\\log_3 x) = 2\\).&emsp;<b>[3]</b></p><p><b>(c)</b> Solve the equation \\(\\;\\log_x 5 = \\log_5 x^4\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(b) Unwrap nested logs from the OUTSIDE in: \\(\\log_2(\\square)=2 \\Rightarrow \\square = 2^2 = 4\\), then \\(\\log_3 x = 4\\).",
+        "(c) \\(\\log_x 5 = \\dfrac{1}{\\log_5 x}\\) and \\(\\log_5 x^4 = 4\\log_5 x\\): a quadratic in \\(u=\\log_5 x\\): \\(\\dfrac1u = 4u\\).",
+        "(c) \\(u^2 = \\tfrac14 \\Rightarrow u = \\pm\\tfrac12\\) — both roots give valid answers: \\(x = 5^{1/2} = \\sqrt5\\) and \\(x = 5^{-1/2} = \\tfrac{1}{\\sqrt5}\\). Keep both!"
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\lg 10\\,000 = \\lg 10^4 = 4\\).</p>",
+        "<p><b>(b)</b> \\(\\log_3 x = 2^2 = 4 \\Rightarrow x = 3^4 = 81\\).</p>",
+        "<p><b>(c)</b> \\(\\dfrac{1}{\\log_5 x} = 4\\log_5 x \\Rightarrow (\\log_5 x)^2 = \\dfrac14 \\Rightarrow \\log_5 x = \\pm\\dfrac12\\).</p>",
+        "<p>\\(x = 5^{1/2} = \\sqrt5\\) or \\(x = 5^{-1/2} = \\dfrac{1}{\\sqrt5}\\). Both are positive and \\(\\neq 1\\): both valid.</p>"
+      ],
+      "answer": "(a) 4; (b) \\(x=81\\); (c) \\(x=\\sqrt5\\) and \\(x=\\tfrac{1}{\\sqrt5}\\)",
+      "markScheme": [
+        "(a) B1 — 4",
+        "(b) M1 — solves \\(\\log_3 x = k\\); A1 — \\(\\log_3 x = 4\\); A1 — \\(x = 3^4\\) or 81",
+        "(c) B1 — \\(\\log_x 5 = \\frac{1}{\\log_5 x}\\) (or both sides to a common base) soi",
+        "(c) B1 — \\((\\log_5 x)^2 = \\frac14\\); B1 — \\(x=\\sqrt5\\); B1 — \\(x=\\frac{1}{\\sqrt5}\\) oe (do not reject either)"
+      ]
+    },
+    {
+      "id": "w25-p13-q9",
+      "group": "eqns",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/13", "question": "9"},
+      "calc": false,
+      "outcomes": ["6.2", "6.3"],
+      "alsoChapters": [4],
+      "topics": ["change of base", "reject invalid root", "exponential quadratic"],
+      "marks": 11,
+      "targetMinutes": 17,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Solve the equation \\(\\log_5(5x-2) - \\log_{25} x = \\dfrac12\\).", "marks": 5},
+        {"label": "(b)", "text": "Solve the equation \\(\\mathrm{e}^{3y-7} + \\dfrac{4}{\\mathrm{e}^3} = \\dfrac{5}{\\mathrm{e}^{3y-1}}\\).", "marks": 6}
+      ],
+      "statement": "<p><b>(a)</b> Solve the equation \\(\\;\\log_5(5x-2) - \\log_{25} x = \\dfrac12\\).&emsp;<b>[5]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\mathrm{e}^{3y-7} + \\dfrac{4}{\\mathrm{e}^3} = \\dfrac{5}{\\mathrm{e}^{3y-1}}\\).&emsp;<b>[6]</b></p>",
+      "tips": [
+        "(a) \\(\\log_{25}x = \\dfrac{\\log_5 x}{2}\\). Double everything (or write \\(\\tfrac12 = \\log_5\\sqrt5\\)) and combine into one log each side.",
+        "(a) The resulting quadratic \\(25x^2-25x+4=0\\) has roots \\(\\tfrac45\\) AND \\(\\tfrac15\\) — but \\(x=\\tfrac15\\) makes \\(5x-2 = -1 < 0\\): <b>reject it</b>. Answer: \\(x=\\tfrac45\\) only. Always test log arguments!",
+        "(b) Multiply through by \\(e^{3y-1}\\) (or spot the quadratic in \\(e^{3y-4}\\)): you get \\(e^{6y-8} + 4e^{3y-4} - 5 = 0\\).",
+        "(b) Factorise as \\((e^{3y-4}-1)(e^{3y-4}+5) = 0\\); the exponential can't equal \\(-5\\), so \\(e^{3y-4}=1 \\Rightarrow 3y-4=0\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(2\\log_5(5x-2) - \\log_5 x = 1 \\Rightarrow \\log_5\\dfrac{(5x-2)^2}{x} = 1 \\Rightarrow (5x-2)^2 = 5x\\).</p>",
+        "<p>\\(25x^2 - 25x + 4 = 0 \\Rightarrow (5x-4)(5x-1) = 0 \\Rightarrow x = \\tfrac45\\) or \\(x = \\tfrac15\\).</p>",
+        "<p>Check: \\(x=\\tfrac15 \\Rightarrow 5x-2 = -1 < 0\\) — the original log does not exist. <b>Reject.</b> So \\(x = \\tfrac45\\) only.</p>",
+        "<p><b>(b)</b> Multiply by \\(\\mathrm{e}^{3y-1}\\): \\(\\mathrm{e}^{6y-8} + 4\\mathrm{e}^{3y-4} - 5 = 0\\) — a quadratic in \\(u = \\mathrm{e}^{3y-4}\\).</p>",
+        "<p>\\((u-1)(u+5) = 0 \\Rightarrow u = 1\\) (reject \\(u=-5<0\\)).</p>",
+        "<p>\\(\\mathrm{e}^{3y-4} = 1 \\Rightarrow 3y - 4 = 0 \\Rightarrow y = \\tfrac43\\).</p>"
+      ],
+      "answer": "(a) \\(x = \\tfrac45\\) only; (b) \\(y = \\tfrac43\\)",
+      "markScheme": [
+        "(a) B1 — change of base \\(\\log_{25}x=\\frac{\\log_5 x}{2}\\); B1 — \\(2\\log_5(5x-2)=\\log_5(5x-2)^2\\)",
+        "(a) M1 — \\(\\log_5\\frac{(5x-2)^2}{x}=1\\) (dep); M1 — \\(25x^2-25x+4=0\\) with attempt to solve (dep)",
+        "(a) A1 — \\(x=\\frac45\\) ONLY (the root \\(\\frac15\\) must be rejected)",
+        "(b) B1 — combined equation oe; B1 — 3-term quadratic \\(e^{6y-8}+4e^{3y-4}-5[=0]\\) (dep)",
+        "(b) M1 — factorises \\((e^{3y-4}-1)(e^{3y-4}+5)=0\\); A1 — \\(e^{3y-4}=1\\); A1 — \\(3y-4=\\ln 1\\) oe; A1 — \\(y=\\frac43\\)"
+      ]
+    },
+    {
+      "id": "w25-p12-q8",
+      "group": "graphs",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/12", "question": "8"},
+      "calc": false,
+      "outcomes": ["6.1"],
+      "topics": ["sketch k·ln(ax+b)", "asymptote"],
+      "marks": 4,
+      "targetMinutes": 6,
+      "difficulty": 2,
+      "statement": "<p>On the axes, sketch the graph of \\(\\;y = 5\\ln(4x+3)\\).<br>State the intercepts with the axes.<br>State the equation of any asymptote.&emsp;<b>[4]</b></p>",
+      "tips": [
+        "Three things earn the marks: shape, intercepts, asymptote — compute all three BEFORE drawing.",
+        "Vertical asymptote where the inside hits zero: \\(4x+3=0 \\Rightarrow x=-\\tfrac34\\). The curve dives to \\(-\\infty\\) there.",
+        "\\(x\\)-intercept where the inside equals 1 (since \\(\\ln 1 = 0\\)): \\(4x+3=1 \\Rightarrow x=-\\tfrac12\\).",
+        "\\(y\\)-intercept at \\(x=0\\): \\(y = 5\\ln 3\\) — leave it exact.",
+        "Shape: an increasing ln curve, steep near the asymptote, flattening as \\(x\\) grows — no maximum, no second branch."
+      ],
+      "solution": [
+        "<p>Asymptote: \\(4x+3=0 \\Rightarrow x = -\\tfrac34\\) (vertical, dashed line).</p>",
+        "<p>\\(x\\)-intercept: \\(5\\ln(4x+3)=0 \\Rightarrow 4x+3=1 \\Rightarrow x=-\\tfrac12\\): point \\((-\\tfrac12, 0)\\).</p>",
+        "<p>\\(y\\)-intercept: \\(x=0 \\Rightarrow y = 5\\ln 3 \\approx 5.49\\): point \\((0, 5\\ln 3)\\).</p>",
+        {"figure": {"x": [-1.5, 6], "y": [-10, 12], "xTicks": 1, "yTicks": 2, "curves": [{"fn": {"type": "log", "k": 5, "a": 4, "b": 3}}], "vlines": [{"x": -0.75, "label": "x = −¾"}], "points": [[-0.5, 0, "(−½, 0)"], [0, 5.493, "(0, 5ln3)"]]}},
+        "<p>The curve rises through \\((-\\tfrac12,0)\\) and \\((0, 5\\ln3)\\), hugging the asymptote \\(x=-\\tfrac34\\) as \\(y\\to-\\infty\\).</p>"
+      ],
+      "answer": "Intercepts \\((-\\tfrac12,0)\\) and \\((0, 5\\ln3)\\); asymptote \\(x=-\\tfrac34\\)",
+      "markScheme": [
+        "B1 — correct shape in the first three quadrants, tending to a vertical asymptote",
+        "Dep B1 — curve passing through \\(-0.5\\) on the x-axis and no other x-axis point",
+        "Dep B1 — curve passing through \\(5\\ln 3\\) oe on the y-axis and no other y-axis point",
+        "B1 — asymptote \\(x=-\\tfrac34\\) oe stated or shown (independent mark)"
+      ]
+    },
+    {
+      "id": "w25-p22-q9",
+      "group": "funcs",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/22", "question": "9"},
+      "calc": true,
+      "outcomes": ["6.1", "6.3"],
+      "alsoChapters": [1],
+      "topics": ["ln domain/range", "solve via e", "exact form"],
+      "marks": 5,
+      "targetMinutes": 8,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "It is given that \\(f(x) = \\ln(2x+5)\\) for \\(x > a\\), where \\(a\\) is a constant. Write down the least possible value of \\(a\\).", "marks": 1},
+        {"label": "(b)", "text": "Using your value of \\(a\\), write down the range of f.", "marks": 1},
+        {"label": "(c)", "text": "It is also given that \\(g(x) = x^2+1\\) for \\(x \\in \\mathbb{R}\\). Using your value of \\(a\\), solve the equation \\(fg(x) = 4\\), giving your answers in exact form.", "marks": 3}
+      ],
+      "statement": "<p>It is given that \\(\\;f(x) = \\ln(2x+5)\\) for \\(x > a\\), where \\(a\\) is a constant.</p><p><b>(a)</b> Write down the least possible value of \\(a\\).&emsp;<b>[1]</b></p><p><b>(b)</b> Using your value of \\(a\\), write down the range of f.&emsp;<b>[1]</b></p><p>It is also given that \\(g(x) = x^2+1\\) for \\(x\\in\\mathbb{R}\\).</p><p><b>(c)</b> Using your value of \\(a\\), solve the equation \\(fg(x) = 4\\). Give your answers in exact form.&emsp;<b>[3]</b></p>",
+      "tips": [
+        "(a) \\(\\ln\\) needs a positive input: \\(2x+5>0 \\Rightarrow x>-\\tfrac52\\), so the least \\(a\\) is \\(-\\tfrac52\\).",
+        "(b) Over its full domain a ln function takes ALL real values: range \\(f\\in\\mathbb{R}\\).",
+        "(c) Build the composite: \\(fg(x) = \\ln(2(x^2+1)+5) = \\ln(2x^2+7)\\). Undo ln with e: \\(2x^2+7 = e^4\\).",
+        "(c) \"Exact form\" → \\(x = \\pm\\sqrt{\\dfrac{e^4-7}{2}}\\) — keep the ±, both work since \\(g\\) is even."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(2x+5 > 0 \\Rightarrow x > -\\tfrac52\\), so least \\(a = -\\tfrac52\\).</p>",
+        "<p><b>(b)</b> Range: \\(f \\in \\mathbb{R}\\) (all real values).</p>",
+        "<p><b>(c)</b> \\(fg(x) = \\ln\\big(2(x^2+1)+5\\big) = \\ln(2x^2+7) = 4 \\Rightarrow 2x^2+7 = \\mathrm{e}^4\\).</p>",
+        "<p>\\(x^2 = \\dfrac{\\mathrm{e}^4 - 7}{2} \\Rightarrow x = \\pm\\sqrt{\\dfrac{\\mathrm{e}^4-7}{2}}\\).</p>"
+      ],
+      "answer": "(a) \\(-\\tfrac52\\); (b) \\(f\\in\\mathbb{R}\\); (c) \\(x = \\pm\\sqrt{\\dfrac{e^4-7}{2}}\\)",
+      "markScheme": [
+        "(a) B1 — \\(-\\frac52\\) oe",
+        "(b) B1 — \\(f \\in \\mathbb{R}\\) oe",
+        "(c) B1 — \\(\\ln(2(x^2+1)+5) [= 4]\\) oe soi; M1 — \\(2(x^2+1)+5 = e^4\\); A1 — \\(x=\\pm\\sqrt{\\frac{e^4-7}{2}}\\) or exact equivalent"
+      ]
+    }
+  ]
+}

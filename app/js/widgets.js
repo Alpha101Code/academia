@@ -220,6 +220,100 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: graphs of k·e^(nx)+a and k·ln(ax+b) =============== */
+  function logExpGraph(host) {
+    const st = { fam: "log", k: 5, a: 4, b: 3, n: 1, c: -2 };
+    host.innerHTML = `
+      <div class="w-title">Explore: the exam graphs \\(y = k\\ln(ax+b)\\) and \\(y = k\\mathrm{e}^{nx}+a\\)</div>
+      <div class="w-sub">These are exactly the two families the syllabus names (6.1). Watch the asymptote and both intercepts update — those three facts are the marks.</div>
+      <div class="w-controls">
+        <label>family
+          <select data-k="fam">
+            <option value="log">y = k ln(ax+b)</option>
+            <option value="exp">y = k e^(nx) + a</option>
+          </select></label>
+        ${slider("k", -5, 5, 1, st.k, "k =")}
+        <span data-show="log">${slider("a", 1, 6, 1, st.a, "a =")}${slider("b", -6, 6, 1, st.b, "b =")}</span>
+        <span data-show="exp" hidden>${slider("n", -3, 3, 0.5, st.n, "n =")}${slider("c", -6, 6, 1, st.c, "shift a =")}</span>
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      if (st.k === 0) st.k = 1;
+      host.querySelectorAll("[data-show]").forEach(el => { el.hidden = el.dataset.show !== st.fam; });
+      let curves, vlines = [], hlines = [], pts = [], read;
+      if (st.fam === "log") {
+        if (st.a === 0) st.a = 1;
+        const asym = -st.b / st.a;
+        const xi = (1 - st.b) / st.a;                 // ln(inside)=0
+        curves = [{ fn: { type: "log", k: st.k, a: st.a, b: st.b } }];
+        vlines = [{ x: asym, label: "x = " + fmt(asym) }];
+        pts = [[xi, 0, "(" + fmt(xi) + ", 0)"]];
+        let yi = null;
+        if (st.b > 0) { yi = st.k * Math.log(st.b); pts.push([0, yi, "(0, " + fmt(yi) + ")"]); }
+        read = `<b>y = ${fmt(st.k)} ln(${fmt(st.a)}x ${st.b < 0 ? "− " + fmt(-st.b) : "+ " + fmt(st.b)})</b><br>
+          Vertical asymptote: <b>x = ${fmt(asym)}</b> (inside = 0)<br>
+          x-intercept: inside = 1 → <b>x = ${fmt(xi)}</b><br>
+          y-intercept: ${st.b > 0 ? "<b>y = " + fmt(st.k) + " ln " + fmt(st.b) + " ≈ " + fmt(st.k * Math.log(st.b)) + "</b>" : "none (x = 0 is outside the domain)"}<br>
+          <span class="hint">${st.k > 0 ? "k > 0: increasing" : "k < 0: decreasing"} · domain: inside > 0</span>`;
+      } else {
+        const asym = st.c;
+        curves = [{ fn: { type: "exp", k: st.k, n: st.n || 0.5, a: st.c } }];
+        hlines = [asym];
+        const yi = st.k + st.c;
+        pts = [[0, yi, "(0, " + fmt(yi) + ")"]];
+        let xi = null;
+        if (st.k !== 0 && -st.c / st.k > 0) {
+          xi = Math.log(-st.c / st.k) / (st.n || 0.5);
+          pts.push([xi, 0, "(" + fmt(xi) + ", 0)"]);
+        }
+        read = `<b>y = ${fmt(st.k)} e<sup>${fmt(st.n)}x</sup> ${st.c < 0 ? "− " + fmt(-st.c) : "+ " + fmt(st.c)}</b><br>
+          Horizontal asymptote: <b>y = ${fmt(st.c)}</b> (the shift)<br>
+          y-intercept: k + a = <b>${fmt(yi)}</b><br>
+          x-intercept: ${xi === null ? "none (curve never reaches 0)" : "<b>x = " + fmt(xi) + "</b>"}<br>
+          <span class="hint">sign of k → above/below the asymptote · sign of n → growth/decay</span>`;
+      }
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: [-6, 6], y: [-10, 12], xTicks: 1, yTicks: 2,
+        curves, vlines, hlines, points: pts
+      }, { height: 300 });
+      host.querySelector("[data-read]").innerHTML = read;
+    }
+    draw();
+  }
+
+  /* =============== widget: e^x and ln x are mirror images =============== */
+  function inverseMirror(host) {
+    const st = { t: 1 };
+    host.innerHTML = `
+      <div class="w-title">Explore: \\(\\mathrm{e}^x\\) and \\(\\ln x\\) are inverses</div>
+      <div class="w-sub">Each is the reflection of the other in the line \\(y = x\\). Slide the point along \\(y=\\mathrm{e}^x\\) and watch its mirror image on \\(y=\\ln x\\): the coordinates swap.</div>
+      <div class="w-controls">${slider("t", -2, 2, 0.1, st.t, "point at x =")}</div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      const t = st.t, ex = Math.exp(t);
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: [-4, 8], y: [-4, 8], xTicks: 2, yTicks: 2,
+        curves: [
+          { fn: { type: "exp", k: 1, n: 1, a: 0 } },
+          { fn: { type: "log", k: 1, a: 1, b: 0 }, cls: "c2" },
+          { poly: [1, 0], dashed: true }
+        ],
+        points: [[t, ex, "(" + fmt(t) + ", " + fmt(ex) + ")"], [ex, t, "(" + fmt(ex) + ", " + fmt(t) + ")"]]
+      }, { height: 320 });
+      host.querySelector("[data-read]").innerHTML =
+        `On \\(y=e^x\\): (${fmt(t)}, ${fmt(ex)}).&ensp;Mirrored on \\(y=\\ln x\\): (${fmt(ex)}, ${fmt(t)}).<br>
+         <b>ln undoes e</b>: \\(\\ln(e^{${fmt(t)}}) = ${fmt(t)}\\) — that is why solving \\(e^{u}=c\\) means \\(u=\\ln c\\),
+         and solving \\(\\ln u = c\\) means \\(u = e^{c}\\).<br>
+         <span class="hint">Domains mirror too: e^x outputs only positives ⇒ ln x accepts only positives.</span>`;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -236,7 +330,8 @@ window.A.widgets = (function () {
       sel.addEventListener("change", () => { st[sel.dataset.k] = sel.value; draw(); }));
   }
 
-  const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW };
+  const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
+    "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {
