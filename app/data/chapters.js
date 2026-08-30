@@ -17,7 +17,10 @@ window.A.registerChapters([
     n: 8, title: "Coordinate geometry of the circle",
     blurb: "Both circle equation forms, line-circle intersection via the discriminant, tangents by the perpendicular radius (no calculus), building circles from conditions, and two-circle problems. New topic in this syllabus. Outcomes 8.1–8.4."
   },
-  { n: 9, title: "Circular measure" },
+  {
+    n: 9, title: "Circular measure",
+    blurb: "Radians, arc length s = rθ and sector area ½r²θ (not given in the exam!), segments, and the slicing method for compound shaded regions — plus tangent and cone applications. Outcome 9.1."
+  },
   { n: 10, title: "Trigonometry" },
   { n: 11, title: "Permutations and combinations" },
   { n: 12, title: "Series" },

@@ -368,6 +368,58 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: sector & segment explorer =============== */
+  function sectorW(host) {
+    const st = { r: 4, th: 1.2, mode: "sector" };
+    host.innerHTML = `
+      <div class="w-title">Explore: arc length, sector and segment</div>
+      <div class="w-sub">Drag the angle (in radians!) and the radius. Every formula in this chapter is on display — none of them are given in the exam.</div>
+      <div class="w-controls">
+        ${slider("r", 1, 8, 0.5, st.r, "radius r =")}
+        ${slider("th", 0.1, 6.2, 0.05, st.th, "angle θ (rad) =")}
+        <label>region
+          <select data-k="mode"><option value="sector">sector</option><option value="segment">segment</option></select></label>
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      const { r, th } = st;
+      const a0 = -th / 2, a1 = th / 2;      // symmetric about +x axis
+      const A = [r * Math.cos(a0), r * Math.sin(a0)];
+      const B = [r * Math.cos(a1), r * Math.sin(a1)];
+      const region = st.mode === "sector"
+        ? { path: [["M", 0, 0], ["L", A[0], A[1]], ["A", 0, 0, r, a0, a1]] }
+        : { path: [["M", A[0], A[1]], ["A", 0, 0, r, a0, a1], ["L", A[0], A[1]]] };
+      const curves = [
+        { circle: [0, 0, r], cls: "thin", dashed: true },
+        { seg: [0, 0, A[0], A[1]], cls: "ink" },
+        { seg: [0, 0, B[0], B[1]], cls: "ink" },
+        { arc: [0, 0, r, a0, a1], cls: "c0" }
+      ];
+      if (st.mode === "segment") curves.push({ seg: [A[0], A[1], B[0], B[1]], cls: "c1" });
+      host.querySelector("[data-plot]").innerHTML = A_.plot({
+        bare: true, x: [-9, 9], y: [-9, 9], curves, regions: [region],
+        points: [[0, 0, "O"]]
+      }, { height: 300 });
+      const deg = th * 180 / Math.PI;
+      const arc = r * th, chord = 2 * r * Math.sin(th / 2);
+      let read = `θ = ${fmt(th)} rad = ${fmt(Math.round(deg * 10) / 10)}°&ensp;·&ensp;<b>arc s = rθ = ${fmt(Math.round(arc * 100) / 100)}</b><br>`;
+      if (st.mode === "sector") {
+        read += `Sector area = ½r²θ = <b>${fmt(Math.round(0.5 * r * r * th * 100) / 100)}</b><br>
+          Sector perimeter = 2r + rθ = <b>${fmt(Math.round((2 * r + arc) * 100) / 100)}</b> (don't forget the two radii!)`;
+      } else {
+        read += `Chord = 2r sin(θ/2) = <b>${fmt(Math.round(chord * 100) / 100)}</b><br>
+          Segment area = ½r²(θ − sin θ) = <b>${fmt(Math.round(0.5 * r * r * (th - Math.sin(th)) * 100) / 100)}</b><br>
+          Segment perimeter = arc + chord = <b>${fmt(Math.round((arc + chord) * 100) / 100)}</b>`;
+      }
+      read += `<div class="hint" style="margin-top:6px">Radians make s = rθ work. In degrees it fails — convert first (π rad = 180°).</div>`;
+      host.querySelector("[data-read]").innerHTML = read;
+    }
+    const A_ = A;
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -385,7 +437,8 @@ window.A.widgets = (function () {
   }
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
-    "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine };
+    "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
+    "sector": sectorW };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {

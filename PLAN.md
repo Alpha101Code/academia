@@ -143,7 +143,16 @@ hosted app private (or strip verbatim questions) if it ever goes public.
   - **Chapter 8 done (2026-08-30):** 6 questions / 36 marks (the new-to-syllabus circle topic
     has fewer past questions; all four outcomes 8.1–8.4 covered incl. the two-circles common
     chord question). 7-section lesson; circle-line discriminant widget; plot engine draws circles.
-  - Next: chapter 9 (Circular measure — diagram-heavy), then 11, 12, 13.
+  - **Gaps filled (2026-08-30):** downloaded 4037_w24_ms_12, 4037_s25_ms_22, 4037_s26_qp_22
+    from PapaCambridge — the bank is now 20/20 complete QP+MS pairs. The new s26 P22 paper
+    contributed s26-p22-q4 to ch4 (now 22 q / 105 marks) and s26-p22-q11 to ch8 (now 7 q / 45 marks);
+    the s25-p22-q1 mark scheme was backfilled with the official allocation.
+  - **Chapter 9 done (2026-08-30):** 8 questions / 68 marks, every one verified vs its mark
+    scheme, with all diagrams recreated as data-driven SVG (plot engine gained bare-diagram
+    mode: arcs, segments, filled compound regions, labels). 6-section lesson (radians, the
+    six formulas — s = rθ and ½r²θ are NOT given in the exam — slicing method, tangents,
+    sector→cone); sector/segment explorer widget.
+  - Next: chapter 11 (Permutations and combinations), then 12, 13.
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 

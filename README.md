@@ -7,8 +7,9 @@ Revision platform for Cambridge School Certificate subjects, built as a static w
 Planned next: Mathematics D 4024, Physics 5054, and other SC subjects.
 
 **▶ To revise: open [`app/index.html`](app/index.html) in a browser** — no install, no server needed.
-Chapter 4 (Equations, inequalities and graphs) is live: 21 past-paper questions (98 marks) with
-tips, worked solutions, mark schemes, exam-pace timers, plus a full interactive lesson.
+Live so far: Chapter 4 (22 questions), Chapter 6 (11), Chapter 8 (7) and Chapter 9 (8) —
+**48 past-paper questions, 290 marks**, each with tips, worked solutions, official mark schemes,
+exam-pace timers, plus full interactive lessons with simulations. Paper bank: 20/20 complete QP+MS pairs.
 
 | Where | What |
 |---|---|

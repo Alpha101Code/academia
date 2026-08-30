@@ -1,7 +1,7 @@
 {
   "subject": "add-math-4037",
   "syllabus_code": "4037",
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "sessions": {
     "s24": {
       "label": "May/June 2024",
@@ -32,6 +32,10 @@
       "year": 2024,
       "order": 2,
       "variants": {
+        "12": {
+          "ms": "papers/2024-octnov/4037_w24_ms_12.pdf",
+          "qp": "papers/2024-octnov/4037_w24_qp_12.pdf"
+        },
         "13": {
           "ms": "papers/2024-octnov/4037_w24_ms_13.pdf",
           "qp": "papers/2024-octnov/4037_w24_qp_13.pdf"
@@ -43,9 +47,6 @@
         "23": {
           "ms": "papers/2024-octnov/4037_w24_ms_23.pdf",
           "qp": "papers/2024-octnov/4037_w24_qp_23.pdf"
-        },
-        "12": {
-          "qp": "papers/2024-octnov/4037_w24_qp_12.pdf"
         }
       },
       "other": {}
@@ -68,6 +69,7 @@
           "qp": "papers/2025-mayjune/4037_s25_qp_21.pdf"
         },
         "22": {
+          "ms": "papers/2025-mayjune/4037_s25_ms_22.pdf",
           "qp": "papers/2025-mayjune/4037_s25_qp_22.pdf"
         }
       },
@@ -115,7 +117,8 @@
           "qp": "papers/2026-mayjune/4037_s26_qp_21.pdf"
         },
         "22": {
-          "ms": "papers/2026-mayjune/4037_s26_ms_22.pdf"
+          "ms": "papers/2026-mayjune/4037_s26_ms_22.pdf",
+          "qp": "papers/2026-mayjune/4037_s26_qp_22.pdf"
         }
       },
       "other": {}

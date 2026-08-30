@@ -44,8 +44,26 @@ window.A.plot = (function () {
     let s = `<svg class="plot" viewBox="0 0 ${W} ${H}" role="img">`;
     s += `<defs><clipPath id="${id}"><rect x="${pad.l}" y="${pad.t}" width="${W - pad.l - pad.r}" height="${H - pad.t - pad.b}"/></clipPath></defs>`;
 
+    /* filled regions (compound shapes for circular-measure figures) */
+    for (const reg of (spec.regions || [])) {
+      let d = "";
+      for (const op of reg.path) {
+        if (op[0] === "M") d += "M" + sx(op[1]).toFixed(2) + "," + sy(op[2]).toFixed(2);
+        else if (op[0] === "L") d += "L" + sx(op[1]).toFixed(2) + "," + sy(op[2]).toFixed(2);
+        else if (op[0] === "A") {           // ["A", cx, cy, r, a0, a1] sampled polyline
+          const [, ccx, ccy, r, a0, a1] = op;
+          const n = Math.max(8, Math.ceil(Math.abs(a1 - a0) * 24));
+          for (let k = 1; k <= n; k++) {
+            const t = a0 + (a1 - a0) * k / n;
+            d += "L" + sx(ccx + r * Math.cos(t)).toFixed(2) + "," + sy(ccy + r * Math.sin(t)).toFixed(2);
+          }
+        }
+      }
+      s += `<path class="${reg.cls || "shade"}" d="${d}Z"/>`;
+    }
+
     /* fine grid (exam-paper style) */
-    if (spec.grid) {
+    if (spec.grid && !spec.bare) {
       const gx = (spec.xTicks || 1) / 2, gy = (spec.yTicks || 1) / 2;
       s += `<g class="grid">`;
       for (let x = Math.ceil(x0 / gx) * gx; x <= x1 + 1e-9; x += gx)
@@ -66,6 +84,7 @@ window.A.plot = (function () {
     /* axes with ticks */
     const axY = (y0 <= 0 && y1 >= 0) ? sy(0) : sy(y0);
     const axX = (x0 <= 0 && x1 >= 0) ? sx(0) : sx(x0);
+    if (!spec.bare) {
     s += `<g class="axis">`;
     s += `<line x1="${pad.l}" y1="${axY}" x2="${W - pad.r + 6}" y2="${axY}"/>`;
     s += `<path d="M${W - pad.r + 6},${axY} l-7,-3.4 v6.8 z" class="arrow"/>`;
@@ -85,6 +104,7 @@ window.A.plot = (function () {
     s += `<text x="${W - pad.r - 2}" y="${axY - 6}" class="axlab">x</text>`;
     s += `<text x="${axX + 8}" y="${pad.t + 4}" class="axlab">y</text>`;
     s += `</g>`;
+    }
 
     /* horizontal reference lines */
     for (const hl of (spec.hlines || [])) {
@@ -115,6 +135,22 @@ window.A.plot = (function () {
         s += `<path class="${cls}" d="${d}Z" clip-path="url(#${id})"/>`;
         return;
       }
+      if (c.arc) {                          // [cx, cy, r, a0, a1] — open arc
+        const [ccx, ccy, r, a0, a1] = c.arc;
+        const n = Math.max(12, Math.ceil(Math.abs(a1 - a0) * 24));
+        let d = "";
+        for (let k = 0; k <= n; k++) {
+          const t = a0 + (a1 - a0) * k / n;
+          d += (k ? "L" : "M") + sx(ccx + r * Math.cos(t)).toFixed(2) + "," + sy(ccy + r * Math.sin(t)).toFixed(2);
+        }
+        s += `<path class="${cls}" d="${d}" clip-path="url(#${id})"/>`;
+        return;
+      }
+      if (c.seg) {                          // [x1, y1, x2, y2] — line segment
+        const [ax_, ay_, bx_, by_] = c.seg;
+        s += `<line class="${cls}" x1="${sx(ax_)}" y1="${sy(ay_)}" x2="${sx(bx_)}" y2="${sy(by_)}" clip-path="url(#${id})"/>`;
+        return;
+      }
       const n = 420;
       let d = "", pen = false;
       for (let k = 0; k <= n; k++) {
@@ -126,6 +162,12 @@ window.A.plot = (function () {
       }
       s += `<path class="${cls}" d="${d}" clip-path="url(#${id})"/>`;
     });
+
+    /* free-standing labels (no dot) */
+    for (const lb of (spec.labels || [])) {
+      const anch = lb[3] || "middle";
+      s += `<text class="ptlab" text-anchor="${anch}" x="${sx(lb[0])}" y="${sy(lb[1])}">${lb[2]}</text>`;
+    }
 
     /* labelled points */
     for (const p of (spec.points || [])) {

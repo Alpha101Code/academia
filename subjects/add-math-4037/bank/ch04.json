@@ -223,7 +223,6 @@
       "marks": 4,
       "targetMinutes": 6,
       "difficulty": 1,
-      "msMissing": true,
       "statement": "<p>Solve the inequality \\(\\;|5x+2| \\geqslant 3\\).&emsp;<b>[4]</b></p>",
       "tips": [
         "\\(|A| \\geqslant c\\) means \\(A\\) is at distance \\(\\geqslant c\\) from 0: \\(A \\geqslant c\\) <b>or</b> \\(A \\leqslant -c\\). Two separate intervals — connect them with \"or\", never \"and\".",
@@ -237,9 +236,46 @@
       ],
       "answer": "\\(x \\leqslant -1\\) or \\(x \\geqslant \\tfrac15\\)",
       "markScheme": [
-        "M1 — \\(5x+2 \\geqslant 3\\) and \\(5x+2 \\leqslant -3\\) (or squares: \\(25x^2+20x-5\\geqslant 0\\) with critical values \\(-1, \\tfrac15\\))",
-        "A1 — \\(x \\geqslant \\tfrac15\\);  A1 — \\(x \\leqslant -1\\);  A1 — both stated as the final answer (or-combined)",
-        "(Official mark scheme for this paper not yet in the bank — allocation reconstructed; answers verified.)"
+        "M1 — \\(5x+2 * 3\\) and \\(5x+2 * -3\\) oe, where * is any inequality sign or = (or squares: \\((5x+2)^2 * 3^2\\))",
+        "A2 — critical values \\(\\tfrac15\\) and \\(-1\\) soi (A1 for one correct value)",
+        "A1 — \\(x \\leqslant -1\\), \\(x \\geqslant \\tfrac15\\) oe — mark the final answer"
+      ]
+    },
+    {
+      "id": "s26-p22-q4",
+      "group": "mod-quad-graph",
+      "source": {"session": "May/June 2026", "paper": "4037/22", "question": "4"},
+      "calc": true,
+      "outcomes": ["4.1"],
+      "topics": ["|quadratic| sketch", "reverse-engineer f from |f(x)|=4"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "On the axes, sketch the graph of \\(y = |x^2-5|\\). State the intercepts with the coordinate axes.", "marks": 3},
+        {"label": "(b)", "text": "It is given that \\(f(x) = ax+b\\), where \\(a\\) and \\(b\\) are non-zero integers. The solutions of the equation \\(|f(x)| = 4\\) are \\(x = 2.5\\) and \\(x = -1.5\\). Find the possible expressions for \\(f(x)\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> On the axes, sketch the graph of \\(\\;y = |x^2-5|\\). State the intercepts with the coordinate axes.&emsp;<b>[3]</b></p><p><b>(b)</b> It is given that \\(f(x) = ax+b\\), where \\(a\\) and \\(b\\) are non-zero integers. The solutions of the equation \\(\\;|f(x)| = 4\\) are \\(x = 2.5\\) and \\(x = -1.5\\).<br>Find the possible expressions for \\(f(x)\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) \\(x^2-5\\) dips below the axis between the roots \\(\\pm\\sqrt5\\) — fold that arch up: cusps at \\((\\pm\\sqrt5, 0)\\), local max \\((0, 5)\\) (the y-intercept made positive).",
+        "(b) A linear function hits each value once — so one solution comes from \\(f(x)=4\\) and the other from \\(f(x)=-4\\) (they cannot both give the same value).",
+        "Two pairings → two equations each: \\(2.5a+b=4,\\ -1.5a+b=-4\\) (gives \\(a=2, b=-1\\)) or the signs swapped (gives \\(a=-2, b=1\\)).",
+        "Answer BOTH expressions: \\(f(x) = 2x-1\\) and \\(f(x) = -2x+1\\) — and note they are negatives of each other (same modulus!)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Roots of \\(x^2-5\\): \\(x=\\pm\\sqrt5\\); \\(y\\)-intercept \\(|{-5}| = 5\\). Fold the arch between the roots up: cusps at \\(\\pm\\sqrt5\\), local maximum \\((0,5)\\), outer branches rising.</p>",
+        {"figure": {"x": [-4, 4], "y": [-1, 8], "xTicks": 1, "yTicks": 1, "curves": [{"poly": [1, 0, -5], "abs": true}], "points": [[-2.2361, 0, "−√5"], [2.2361, 0, "√5"], [0, 5, "(0, 5)"]]}},
+        "<p><b>(b)</b> Since f is linear, the two solutions must give opposite signs of f:</p>",
+        "<p>Case 1: \\(f(2.5) = 4\\) and \\(f(-1.5) = -4\\): subtracting, \\(4a = 8 \\Rightarrow a = 2\\), then \\(b = 4 - 5 = -1\\): \\(f(x) = 2x-1\\).</p>",
+        "<p>Case 2: \\(f(2.5) = -4\\) and \\(f(-1.5) = 4\\): \\(a = -2\\), \\(b = 1\\): \\(f(x) = -2x+1\\).</p>",
+        "<p>Check: \\(|2(2.5)-1| = 4\\;✓\\), \\(|2(-1.5)-1| = |-4| = 4\\;✓\\). Both expressions valid (each is the negative of the other).</p>"
+      ],
+      "answer": "(a) cusps \\((\\pm\\sqrt5,0)\\), max \\((0,5)\\); (b) \\(f(x) = 2x-1\\) and \\(f(x) = -2x+1\\)",
+      "markScheme": [
+        "(a) B2 — correct smooth curve: two cusps on the x-axis equidistant from O, local max on the y-axis, correct curvatures (B1 for three of the four properties); B1 — intercepts 5, \\(-\\sqrt5\\), \\(\\sqrt5\\) indicated",
+        "(b) B1 — a valid pair of linear equations, e.g. \\(2.5a+b=4\\) and \\(-1.5a+b=-4\\) oe",
+        "(b) M1 — eliminates one unknown from two valid equations; A1 — \\(a=2, b=-1\\) or \\(a=-2, b=1\\) soi",
+        "(b) A1 — \\(2x-1\\) AND \\(-2x+1\\), and no others"
       ]
     },
     {

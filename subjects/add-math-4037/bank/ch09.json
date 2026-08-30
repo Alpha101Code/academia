@@ -1,0 +1,310 @@
+{
+  "chapter": 9,
+  "title": "Circular measure",
+  "syllabusOutcomes": {
+    "9.1": "Solve problems involving arc length and sector area, using radian measure, including compound shapes. The formulas s = rθ and A = ½r²θ are NOT given in the exam."
+  },
+  "groups": [
+    {"key": "sector", "label": "Sectors: exact and reverse problems", "outcomes": ["9.1"]},
+    {"key": "chords", "label": "Chords, segments & shaded regions", "outcomes": ["9.1"]},
+    {"key": "compound", "label": "Compound shapes", "outcomes": ["9.1"]},
+    {"key": "applied", "label": "Applications (tangents, cones)", "outcomes": ["9.1"]}
+  ],
+  "questions": [
+    {
+      "id": "s26-p12-q6",
+      "group": "sector",
+      "source": {"session": "May/June 2026", "paper": "4037/12", "question": "6"},
+      "calc": false,
+      "outcomes": ["9.1"],
+      "topics": ["perimeter = arc condition", "exact area", "surd radius"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "The diagram shows a circle centre O, radius r. Points A, B and C are on the circumference. Angle AOB = α radians (the shaded sector). The perimeter of the shaded sector is equal to the length of the major arc ACB. Find the exact value of α.", "marks": 4},
+        {"label": "(b)", "text": "The area of the shaded sector is 18(π²−1). Find the exact value of r. Simplify your answer.", "marks": 4}
+      ],
+      "statement": "<p>The diagram shows a circle with centre \\(O\\) and radius \\(r\\). Points \\(A\\), \\(B\\) and \\(C\\) are on the circumference. Angle \\(AOB = \\alpha\\) radians.</p><p><b>(a)</b> The perimeter of the shaded sector is equal to the length of the major arc \\(ACB\\). Find the exact value of \\(\\alpha\\).&emsp;<b>[4]</b></p><p><b>(b)</b> The area of the shaded sector is \\(18(\\pi^2-1)\\). Find the exact value of \\(r\\). Simplify your answer.&emsp;<b>[4]</b></p>",
+      "figure": {"bare": true, "x": [-4.4, 4.4], "y": [-4.2, 4.2], "curves": [{"circle": [0, 0, 3], "cls": "ink"}, {"seg": [0, 0, -2.4029, 1.7954], "cls": "ink"}, {"seg": [0, 0, -0.2249, -2.9916], "cls": "ink"}], "regions": [{"path": [["M", 0, 0], ["L", -2.4029, 1.7954], ["A", 0, 0, 3, 2.5, 4.6416]]}], "points": [[-2.4029, 1.7954, "A"], [-0.2249, -2.9916, "B"], [2.9, 0.77, "C"], [0, 0, "O"]], "labels": [[-1.05, 1.15, "r"], [-0.55, -0.3, "α"]]},
+      "tips": [
+        "Perimeter of a sector = TWO radii + the arc: \\(2r + r\\alpha\\). Forgetting the \\(2r\\) is the classic error.",
+        "Major arc \\(ACB\\) subtends the reflex angle: \\(r(2\\pi - \\alpha)\\).",
+        "The \\(r\\)'s cancel from the equation — that is why \\(\\alpha\\) comes out exact, no numbers needed.",
+        "(b) \"Exact… simplify\": factorise \\(\\pi^2-1 = (\\pi-1)(\\pi+1)\\) so \\((\\pi-1)\\) cancels — then \\(r = 6\\sqrt{\\pi+1}\\), not an unsimplified surd of fractions."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Perimeter of shaded sector \\(= 2r + r\\alpha\\). Major arc \\(= r(2\\pi - \\alpha)\\).</p>",
+        "<p>\\(2r + r\\alpha = r(2\\pi-\\alpha) \\Rightarrow 2 + \\alpha = 2\\pi - \\alpha \\Rightarrow 2\\alpha = 2\\pi - 2 \\Rightarrow \\alpha = \\pi - 1\\).</p>",
+        "<p><b>(b)</b> \\(\\tfrac12 r^2 \\alpha = 18(\\pi^2-1) \\Rightarrow \\tfrac12 r^2(\\pi-1) = 18(\\pi-1)(\\pi+1)\\).</p>",
+        "<p>\\(r^2 = 36(\\pi+1) \\Rightarrow r = 6\\sqrt{\\pi+1}\\) (positive root only).</p>"
+      ],
+      "answer": "(a) \\(\\alpha = \\pi - 1\\); (b) \\(r = 6\\sqrt{\\pi+1}\\)",
+      "markScheme": [
+        "(a) B1 — perimeter \\(2r + r\\alpha\\) (radians); B1 — major arc \\(r(2\\pi-\\alpha)\\); M1 — equates arc lengths (no areas involved); A1 — \\(\\alpha = \\pi-1\\)",
+        "(b) M1 — \\(\\tfrac12 r^2(\\pi-1) = 18(\\pi^2-1)\\) with their α; A1 — \\(r^2 = 36(\\pi+1)\\) oe; M1 — square roots correctly (dep); A1 — \\(r = 6\\sqrt{\\pi+1}\\) only"
+      ]
+    },
+    {
+      "id": "s24-p12-q6",
+      "group": "chords",
+      "source": {"session": "May/June 2024", "paper": "4037/12", "question": "6"},
+      "calc": false,
+      "outcomes": ["9.1"],
+      "topics": ["arc → angle", "chords via trig", "region between chords"],
+      "marks": 9,
+      "targetMinutes": 14,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A circle centre O has radius 5. Points A, B, C, D lie on the circumference. Angle DOC = θ, angle AOD = angle COB = 0.5. The minor arc DC has length 3.75. Show that θ = 0.75.", "marks": 1},
+        {"label": "(b)", "text": "Find the perimeter of the shaded region ABCD (bounded by chords AB and DC and arcs AD and CB).", "marks": 5},
+        {"label": "(c)", "text": "Find the area of the shaded region.", "marks": 3}
+      ],
+      "statement": "<p>The diagram shows a circle with centre \\(O\\) and radius 5 (lengths in metres, angles in radians). The points \\(A, B, C, D\\) lie on the circumference. Angle \\(DOC = \\theta\\); angle \\(AOD =\\) angle \\(COB = 0.5\\). The minor arc \\(DC\\) has length 3.75.</p><p><b>(a)</b> Show that \\(\\theta = 0.75\\).&emsp;<b>[1]</b></p><p><b>(b)</b> Find the perimeter of the shaded region \\(ABCD\\).&emsp;<b>[5]</b></p><p><b>(c)</b> Find the area of the shaded region.&emsp;<b>[3]</b></p>",
+      "figure": {"bare": true, "x": [-5.8, 5.8], "y": [-6.6, 5.6], "curves": [{"circle": [0, 0, 5], "cls": "ink"}, {"seg": [0, 0, -3.834, -3.209], "cls": "thin"}, {"seg": [0, 0, 3.834, -3.209], "cls": "thin"}, {"seg": [0, 0, -1.832, -4.652], "cls": "thin"}, {"seg": [0, 0, 1.832, -4.652], "cls": "thin"}, {"seg": [-3.834, -3.209, 3.834, -3.209], "cls": "ink"}, {"seg": [-1.832, -4.652, 1.832, -4.652], "cls": "ink"}], "regions": [{"path": [["M", -3.834, -3.209], ["L", 3.834, -3.209], ["A", 0, 0, 5, -0.6958, -1.1958], ["L", -1.832, -4.652], ["A", 0, 0, 5, -1.9458, -2.4458]]}], "points": [[-3.834, -3.209, "A"], [3.834, -3.209, "B"], [1.832, -4.652, "C"], [-1.832, -4.652, "D"], [0, 0, "O"]], "labels": [[-1.6, -1.3, "5"], [0, 0.6, "θ between OD and OC"]]},
+      "tips": [
+        "(a) Arc = radius × angle: \\(3.75 = 5\\theta\\). One line.",
+        "Chord length from the centre: \\(= 2r\\sin\\left(\\frac{\\text{angle}}{2}\\right)\\) — or use the cosine rule. Total angle \\(AOB = 0.5+0.75+0.5 = 1.75\\).",
+        "(b) Read the boundary off the diagram before computing: chords \\(AB\\) and \\(DC\\), plus arcs \\(AD\\) and \\(CB\\) (each \\(5\\times0.5\\)).",
+        "(c) The region between two chords = (segment cut by AB) − (segment cut by DC): use \\(\\tfrac12 r^2(\\theta - \\sin\\theta)\\) for each."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(5\\theta = 3.75 \\Rightarrow \\theta = 0.75\\). ✓</p>",
+        "<p><b>(b)</b> Angle \\(AOB = 0.5+0.75+0.5 = 1.75\\). Chords: \\(AB = 2(5)\\sin(0.875) = 7.675\\); \\(DC = 2(5)\\sin(0.375) = 3.663\\).</p>",
+        "<p>Arcs \\(AD = CB = 5\\times0.5 = 2.5\\) each.</p>",
+        "<p>Perimeter \\(= 7.675 + 3.663 + 2.5 + 2.5 = 16.3\\) m (3 s.f.).</p>",
+        "<p><b>(c)</b> Area \\(=\\) segment(AB) − segment(DC) \\(= \\tfrac12(25)(1.75-\\sin 1.75) - \\tfrac12(25)(0.75-\\sin 0.75)\\)</p>",
+        "<p>\\(= 12.5(1.75-0.9839) - 12.5(0.75-0.6816) = 9.576 - 0.855 = 8.7\\) m² (2 s.f. per MS).</p>"
+      ],
+      "answer": "(b) 16.3 m; (c) 8.7 m²",
+      "markScheme": [
+        "(a) B1 — \\(5\\theta = 3.75\\) so \\(\\theta=0.75\\) AG",
+        "(b) M1 — attempt at one chord (cosine rule or \\(2r\\sin(\\text{half-angle})\\)); A1 — \\(AB = 7.67(5)\\); A1 — \\(DC = 3.66(3)\\); B1 — arc \\(AD\\) or \\(BC = 5\\times0.5\\); A1 — 16.3",
+        "(c) M2 — \\(\\tfrac12 5^2(1.75-\\sin1.75) - \\tfrac12 5^2(0.75-\\sin0.75)\\) oe (M1 for one segment); A1 — 8.7"
+      ]
+    },
+    {
+      "id": "w25-p22-q2",
+      "group": "chords",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/22", "question": "2"},
+      "calc": true,
+      "outcomes": ["9.1"],
+      "topics": ["angle from chord geometry", "perimeter", "sectors + triangles"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "The shaded region ABCD is shown: AC and BD each have length 12 cm and bisect each other at O; AD and BC are parallel, each of length 4 cm; arcs AB and DC are parts of a circle centre O. Find the obtuse angle AOB in radians.", "marks": 3},
+        {"label": "(b)(i)", "text": "Use your answer to part (a) to find the perimeter of the shaded region.", "marks": 2},
+        {"label": "(b)(ii)", "text": "Use your answer to part (a) to find the area of the shaded region.", "marks": 3}
+      ],
+      "statement": "<p>The diagram shows the shaded region \\(ABCD\\). The lines \\(AC\\) and \\(BD\\) each have length 12 cm and bisect each other at \\(O\\). The lines \\(AD\\) and \\(BC\\) are parallel and each have length 4 cm. The arcs \\(AB\\) and \\(DC\\) are part of a circle centre \\(O\\).</p><p><b>(a)</b> Find the obtuse angle \\(AOB\\) in radians.&emsp;<b>[3]</b></p><p><b>(b)</b> Use your answer to part (a) to find <b>(i)</b> the perimeter of the shaded region&emsp;<b>[2]</b>, <b>(ii)</b> the area of the shaded region.&emsp;<b>[3]</b></p>",
+      "figure": {"bare": true, "x": [-7, 7], "y": [-3.6, 3.6], "curves": [{"arc": [0, 0, 6, 0.3398, 2.8018], "cls": "ink"}, {"arc": [0, 0, 6, -2.8018, -0.3398], "cls": "ink"}, {"seg": [-5.657, 2, -5.657, -2], "cls": "ink"}, {"seg": [5.657, 2, 5.657, -2], "cls": "ink"}, {"seg": [-5.657, 2, 5.657, -2], "cls": "thin", "dashed": true}, {"seg": [5.657, 2, -5.657, -2], "cls": "thin", "dashed": true}], "regions": [{"path": [["M", -5.657, 2], ["A", 0, 0, 6, 2.8018, 0.3398], ["L", 5.657, -2], ["A", 0, 0, 6, -0.3398, -2.8018], ["L", -5.657, 2]]}], "points": [[-5.657, 2, "A"], [5.657, 2, "B"], [5.657, -2, "C"], [-5.657, -2, "D"], [0, 0, "O"]]},
+      "tips": [
+        "Halved diagonals → \\(OA=OB=OC=OD=6\\): the four points sit on a circle of radius 6.",
+        "Triangle \\(AOD\\) is isosceles (6, 6, base 4): angle \\(AOD = 2\\sin^{-1}\\!\\big(\\tfrac{2}{6}\\big)\\) (or cosine rule). Then the obtuse \\(AOB = \\pi - AOD\\) (angles on the line \\(BD\\)).",
+        "Keep 4+ decimals of the angle in your calculator — the perimeter and area FT from it.",
+        "(b) Perimeter = 2 arcs + AD + BC. Area = 2 sectors (angle AOB) + 2 triangles (angle AOD)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(OA=OD=6\\), \\(AD=4\\): angle \\(AOD = 2\\sin^{-1}(\\tfrac13) = 0.6797\\).</p>",
+        "<p>Obtuse \\(AOB = \\pi - 0.6797 = 2.4619 \\approx 2.46\\) rad.</p>",
+        "<p><b>(b)(i)</b> Arcs \\(AB = DC = 6\\times2.4619 = 14.77\\) each. Perimeter \\(= 2(14.77) + 4 + 4 = 37.5\\) cm.</p>",
+        "<p><b>(b)(ii)</b> Two sectors \\(+\\) two triangles: \\(2\\times\\tfrac12(36)(2.4619) + 2\\times\\tfrac12(36)\\sin(0.6797)\\)</p>",
+        "<p>\\(= 88.63 + 22.63 = 111\\) cm² (3 s.f.).</p>"
+      ],
+      "answer": "(a) 2.46 rad; (b)(i) 37.5 cm; (ii) 111 cm²",
+      "markScheme": [
+        "(a) M2 — complete method, e.g. \\(\\pi - 2\\sin^{-1}\\frac13\\) or \\(2\\cos^{-1}\\frac26\\) or cosine rule with 36+36−128 (M1 for a correct useful angle, e.g. \\(BOC = 2\\sin^{-1}\\frac13\\)); A1 — 2.46 (accept 2.461–2.462)",
+        "(b)(i) M1 — \\(6\\times\\)their 2.46 soi (FT if < 2π); A1 — 37.5 (37.52–37.55)",
+        "(b)(ii) M1 — a sector area \\(\\tfrac12 6^2\\times\\)their 2.46; M1 dep — correct plan (2 sectors + 2 triangles oe); A1 — 111 (111.2–111.3)"
+      ]
+    },
+    {
+      "id": "w25-p23-q8",
+      "group": "chords",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/23", "question": "8"},
+      "calc": true,
+      "outcomes": ["9.1"],
+      "topics": ["inscribed angle", "two-circle crescent", "exact answer in π"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A circle centre O has radius 2 (metres). The chord AB has length 2√3. The point Q lies on the circle such that AQ = BQ. The arc APB is part of a circle centre Q. Find the exact value of angle AQB in radians.", "marks": 2},
+        {"label": "(b)", "text": "Hence find the area of the shaded region (between the circle's upper arc AB and the arc APB). Give your answer in terms of π.", "marks": 6}
+      ],
+      "statement": "<p>The diagram shows a circle, centre \\(O\\), radius 2 m. The chord \\(AB\\) has length \\(2\\sqrt3\\). The point \\(Q\\) lies on the circle such that \\(AQ = BQ\\). The arc \\(APB\\) is part of a circle, centre \\(Q\\).</p><p><b>(a)</b> Find the exact value of angle \\(AQB\\) in radians.&emsp;<b>[2]</b></p><p><b>(b)</b> Hence find the area of the shaded region. Give your answer in terms of \\(\\pi\\).&emsp;<b>[6]</b></p>",
+      "figure": {"bare": true, "x": [-3, 3], "y": [-2.9, 2.4], "curves": [{"circle": [0, 0, 2], "cls": "ink"}, {"arc": [0, -2, 3.4641, 1.0472, 2.0944], "cls": "ink"}, {"seg": [-1.7321, 1, 1.7321, 1], "cls": "thin", "dashed": true}, {"seg": [0, -2, -1.7321, 1], "cls": "thin", "dashed": true}, {"seg": [0, -2, 1.7321, 1], "cls": "thin", "dashed": true}], "regions": [{"path": [["M", -1.7321, 1], ["A", 0, 0, 2, 2.618, 0.5236], ["A", 0, -2, 3.4641, 1.0472, 2.0944]]}], "points": [[-1.7321, 1, "A"], [1.7321, 1, "B"], [0, 1.4641, "P"], [0, 0, "O"], [0, -2, "Q"]], "labels": [[-0.55, 0.4, "2√3 chord"], [-0.75, -0.9, "2"]]},
+      "tips": [
+        "(a) Find the CENTRAL angle first: \\(\\sin(\\tfrac12 AOB) = \\tfrac{\\sqrt3}{2} \\Rightarrow AOB = \\tfrac{2\\pi}{3}\\). The inscribed angle at Q on the major arc is HALF of it: \\(AQB = \\tfrac{\\pi}{3}\\).",
+        "Triangle \\(AQB\\) has apex angle \\(\\tfrac{\\pi}{3}\\) and \\(AQ = BQ\\) — it is equilateral: \\(QA = QB = AB = 2\\sqrt3\\). That is the radius of arc \\(APB\\).",
+        "(b) The crescent = (segment of circle O beyond chord AB) − (segment of circle Q beyond the same chord): each segment \\(= \\tfrac12 r^2(\\theta - \\sin\\theta)\\).",
+        "Stay exact throughout: \\(\\sin\\tfrac{2\\pi}{3} = \\tfrac{\\sqrt3}{2}\\), \\(\\sin\\tfrac{\\pi}{3} = \\tfrac{\\sqrt3}{2}\\). No decimals — the answer is in terms of π."
+      ],
+      "solution": [
+        "<p><b>(a)</b> For chord \\(AB = 2\\sqrt3\\) in circle O: \\(\\sin\\big(\\tfrac{AOB}{2}\\big) = \\tfrac{\\sqrt3}{2}\\), so \\(AOB = \\tfrac{2\\pi}{3}\\). Inscribed angle: \\(AQB = \\tfrac12\\cdot\\tfrac{2\\pi}{3} = \\tfrac{\\pi}{3}\\).</p>",
+        "<p><b>(b)</b> \\(QA = QB = 2\\sqrt3\\) (equilateral triangle \\(AQB\\), or by trig).</p>",
+        "<p>Segment of circle O above \\(AB\\): \\(\\tfrac12(2)^2\\big(\\tfrac{2\\pi}{3} - \\sin\\tfrac{2\\pi}{3}\\big) = \\tfrac{4\\pi}{3} - \\sqrt3\\).</p>",
+        "<p>Segment of circle Q above \\(AB\\): \\(\\tfrac12(2\\sqrt3)^2\\big(\\tfrac{\\pi}{3} - \\sin\\tfrac{\\pi}{3}\\big) = 2\\pi - 3\\sqrt3\\).</p>",
+        "<p>Shaded \\(= \\big(\\tfrac{4\\pi}{3} - \\sqrt3\\big) - \\big(2\\pi - 3\\sqrt3\\big) = 2\\sqrt3 - \\tfrac{2\\pi}{3}\\) m².</p>"
+      ],
+      "answer": "(a) \\(\\tfrac{\\pi}{3}\\); (b) \\(2\\sqrt3 - \\tfrac{2\\pi}{3}\\) m² \\(\\big(= \\tfrac{6\\sqrt3-2\\pi}{3}\\big)\\)",
+      "markScheme": [
+        "(a) M1 — \\(AOB = \\tfrac{2\\pi}{3}\\) (or \\(AQO = \\tfrac{\\pi}{6}\\), or \\(AQ=2\\sqrt3\\), or cos AOB = −½); A1 — \\(\\tfrac{\\pi}{3}\\) (SC1 for 1.047)",
+        "(b) B1 — sector AOB \\(= \\tfrac12\\cdot4\\cdot\\tfrac{2\\pi}{3}\\); B1 — triangle AOB \\(= \\tfrac12\\cdot4\\sin\\tfrac{2\\pi}{3}\\); B1 — sector AQB \\(= \\tfrac12(2\\sqrt3)^2\\tfrac{\\pi}{3}\\); B1 — triangle AQB \\(= \\tfrac12(2\\sqrt3)^2\\sin\\tfrac{\\pi}{3}\\); B5 route: correct full calculation; final — \\(2\\sqrt3-\\tfrac{2\\pi}{3}\\) oe nfww [6]"
+      ]
+    },
+    {
+      "id": "s25-p12-q10",
+      "group": "compound",
+      "source": {"session": "May/June 2025", "paper": "4037/12", "question": "10"},
+      "calc": false,
+      "outcomes": ["9.1"],
+      "topics": ["areas in terms of r and θ", "perimeter in terms of r and θ"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "The shape OABCDEF is shown: AOF is a straight line; OAB and OEF are sectors of radius r with angle BOA = angle EOF; OCD is a sector centre O radius 4r/3 with angle COD = θ radians; B lies on OC, E lies on OD; BE is parallel to AOF. Find, in terms of r and θ, the area of the shaded region BCDE.", "marks": 3},
+        {"label": "(b)", "text": "The region OABEF (the two small sectors and the triangle OBE) is shaded instead. Find, in terms of r and θ, the perimeter of this shaded region.", "marks": 5}
+      ],
+      "statement": "<p>The diagram shows the shape \\(OABCDEF\\). \\(AOF\\) is a straight line. \\(OAB\\) and \\(OEF\\) are sectors of a circle with centre \\(O\\) and radius \\(r\\), with angle \\(BOA =\\) angle \\(EOF\\). \\(OCD\\) is a sector of a circle with centre \\(O\\) and radius \\(\\tfrac{4r}{3}\\). Angle \\(COD = \\theta\\) radians. The point \\(B\\) lies on \\(OC\\), the point \\(E\\) lies on \\(OD\\), and \\(BE\\) is parallel to \\(AOF\\).</p><p><b>(a)</b> Find, in terms of \\(r\\) and \\(\\theta\\), the area of the shaded region \\(BCDE\\).&emsp;<b>[3]</b></p><p><b>(b)</b> For the region \\(OABEF\\), find, in terms of \\(r\\) and \\(\\theta\\), the perimeter of the region.&emsp;<b>[5]</b></p>",
+      "figure": {"bare": true, "x": [-4.6, 4.6], "y": [-0.8, 4.4], "curves": [{"seg": [-3, 0, 3, 0], "cls": "ink"}, {"arc": [0, 0, 3, 2.0208, 3.1416], "cls": "ink"}, {"arc": [0, 0, 3, 0, 1.1208], "cls": "ink"}, {"arc": [0, 0, 4, 1.1208, 2.0208], "cls": "ink"}, {"seg": [-1.2915, 2.7078, -1.722, 3.6104], "cls": "ink"}, {"seg": [1.2915, 2.7078, 1.722, 3.6104], "cls": "ink"}, {"seg": [0, 0, -1.2915, 2.7078], "cls": "thin", "dashed": true}, {"seg": [0, 0, 1.2915, 2.7078], "cls": "thin", "dashed": true}, {"seg": [-1.2915, 2.7078, 1.2915, 2.7078], "cls": "thin", "dashed": true}], "regions": [{"path": [["M", -1.2915, 2.7078], ["L", -1.722, 3.6104], ["A", 0, 0, 4, 2.0208, 1.1208], ["L", 1.2915, 2.7078], ["A", 0, 0, 3, 1.1208, 2.0208]]}], "points": [[-3, 0, "A"], [3, 0, "F"], [-1.2915, 2.7078, "B"], [1.2915, 2.7078, "E"], [-1.722, 3.6104, "C"], [1.722, 3.6104, "D"], [0, 0, "O"]], "labels": [[-1.7, -0.35, "r"], [1.7, -0.35, "r"], [0, 1.1, "θ"]]},
+      "tips": [
+        "Angles on the straight line \\(AOF\\): \\(BOA = EOF = \\frac{\\pi-\\theta}{2}\\) each (they flank the middle angle θ). Everything follows from this.",
+        "(a) Shaded \\(BCDE\\) = big sector \\(OCD\\) (radius \\(\\tfrac{4r}{3}\\), angle θ) − triangle \\(OBE\\) (sides r, r, angle θ): \\(\\tfrac12\\big(\\tfrac{4r}{3}\\big)^2\\theta - \\tfrac12 r^2\\sin\\theta\\).",
+        "(b) Walk the boundary and name each piece: \\(OA\\) (r) + arc \\(AB\\) + chord \\(BE\\) + arc \\(EF\\) + \\(FO\\) (r).",
+        "Chord of an isosceles triangle: \\(BE = 2r\\sin\\frac{\\theta}{2}\\) (or cosine rule \\(\\sqrt{2r^2(1-\\cos\\theta)}\\) — both accepted)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Area \\(= \\tfrac12\\left(\\tfrac{4r}{3}\\right)^2\\theta - \\tfrac12 r^2\\sin\\theta = \\dfrac{8r^2\\theta}{9} - \\dfrac{r^2\\sin\\theta}{2}\\).</p>",
+        "<p><b>(b)</b> Each end sector has angle \\(\\dfrac{\\pi-\\theta}{2}\\), so each arc is \\(r\\cdot\\dfrac{\\pi-\\theta}{2}\\); the two arcs together give \\(r(\\pi-\\theta)\\).</p>",
+        "<p>\\(BE = 2r\\sin\\dfrac{\\theta}{2}\\) (isosceles triangle \\(OBE\\), or cosine rule \\(\\sqrt{2r^2(1-\\cos\\theta)}\\)).</p>",
+        "<p>Perimeter \\(= OA + \\text{arc } AB + BE + \\text{arc } EF + FO = r(\\pi-\\theta) + 2r + 2r\\sin\\dfrac{\\theta}{2}\\).</p>"
+      ],
+      "answer": "(a) \\(\\dfrac{8r^2\\theta}{9} - \\dfrac{r^2\\sin\\theta}{2}\\); (b) \\(r(\\pi-\\theta) + 2r + 2r\\sin\\dfrac{\\theta}{2}\\) oe",
+      "markScheme": [
+        "(a) B1 — \\(\\tfrac12(\\tfrac{4r}{3})^2\\theta\\); B1 — \\(\\tfrac12 r^2\\sin\\theta\\) (or the half-angle product form); final answer allowed unsimplified [3]",
+        "(b) B1 — arc length \\(= r\\cdot\\tfrac{\\pi-\\theta}{2}\\); M1+A — \\(BE = 2r\\sin\\tfrac{\\theta}{2}\\) or \\(\\sqrt{2r^2(1-\\cos\\theta)}\\) by a complete method; M1 — correct plan: 2 arcs + 2r + their BE; A1 — \\(r(\\pi-\\theta)+2r+\\sqrt{2r^2(1-\\cos\\theta)}\\) oe"
+      ]
+    },
+    {
+      "id": "w24-p12-q3",
+      "group": "applied",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/12", "question": "3"},
+      "calc": true,
+      "outcomes": ["9.1"],
+      "topics": ["tangents to a circle", "kite − sector", "show angle to 2 dp"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "A circle centre O has radius 12 and a circle centre C has radius 5; they intersect at A and B, and OA and OB are tangents to the circle centre C. Show that the obtuse angle ACB is 2.35 radians, correct to 2 decimal places.", "marks": 2},
+        {"label": "(b)", "text": "Find the perimeter of the shaded region (bounded by OA, OB and the arc AB of circle centre C).", "marks": 2},
+        {"label": "(c)", "text": "Find the area of the shaded region.", "marks": 3}
+      ],
+      "statement": "<p>The diagram shows a circle with centre \\(O\\) and radius 12, and a circle with centre \\(C\\) and radius 5 (lengths in cm, angles in radians). The circles intersect at the points \\(A\\) and \\(B\\), such that \\(OA\\) and \\(OB\\) are tangents to the circle with centre \\(C\\).</p><p><b>(a)</b> Show that the obtuse angle \\(ACB\\) is 2.35 radians, correct to 2 decimal places.&emsp;<b>[2]</b></p><p><b>(b)</b> Find the perimeter of the shaded region.&emsp;<b>[2]</b></p><p><b>(c)</b> Find the area of the shaded region.&emsp;<b>[3]</b></p>",
+      "figure": {"bare": true, "x": [-13.5, 19.5], "y": [-12.8, 12.8], "curves": [{"circle": [0, 0, 12], "cls": "ink"}, {"circle": [13, 0, 5], "cls": "ink"}, {"seg": [0, 0, 11.077, 4.615], "cls": "ink"}, {"seg": [0, 0, 11.077, -4.615], "cls": "ink"}, {"seg": [13, 0, 11.077, 4.615], "cls": "thin", "dashed": true}, {"seg": [13, 0, 11.077, -4.615], "cls": "thin", "dashed": true}], "regions": [{"path": [["M", 0, 0], ["L", 11.077, 4.615], ["A", 13, 0, 5, 1.9656, 4.3176]]}], "points": [[0, 0, "O"], [13, 0, "C"], [11.077, 4.615, "A"], [11.077, -4.615, "B"]], "labels": [[5.2, 3.1, "12"], [12.6, 2.9, "5"]]},
+      "tips": [
+        "Tangent ⟂ radius: triangle \\(OAC\\) is right-angled at \\(A\\), with \\(OA=12\\), \\(CA=5\\) → \\(OC=13\\) (5-12-13!).",
+        "Half the angle: \\(\\tan(ACO) = \\tfrac{12}{5}\\) → \\(ACB = 2\\tan^{-1}\\tfrac{12}{5}\\). A \"show that … 2 dp\" needs the more precise value written down first (2.353…).",
+        "(b) The boundary is \\(OA + OB +\\) arc \\(AB\\) of the SMALL circle: \\(12+12+5(2.35)\\).",
+        "(c) Shaded = kite \\(OACB\\) − sector \\(ACB\\): kite = two right triangles = \\(12\\times5\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(OA\\) tangent → angle \\(OAC = 90°\\). \\(\\tan(ACO) = \\tfrac{12}{5} \\Rightarrow ACO = 1.1760\\). So \\(ACB = 2\\times1.1760 = 2.3521 = 2.35\\) (2 dp). ✓</p>",
+        "<p><b>(b)</b> Arc \\(AB = 5\\times2.35\\ (=11.76)\\). Perimeter \\(= 12+12+11.76 = 35.8\\) cm.</p>",
+        "<p><b>(c)</b> Kite \\(OACB = 2\\times\\tfrac12(12)(5) = 60\\). Sector \\(= \\tfrac12(5^2)(2.35) = 29.4\\).</p>",
+        "<p>Area \\(= 60 - 29.4 = 30.6\\) cm².</p>"
+      ],
+      "answer": "(b) 35.8 cm; (c) 30.6 cm²",
+      "markScheme": [
+        "(a) M1 — \\(ACB = 2\\tan^{-1}\\tfrac{12}{5}\\) oe; A1 — \\(= 2\\times1.176.. = 2.35\\) to 2 dp (justification to more dp must be seen)",
+        "(b) B1 — arc \\(= 5\\times ACB\\); B1 — perimeter \\(= 35.8\\) (awrt)",
+        "(c) M2 — \\((12\\times5) - \\tfrac12\\cdot5^2\\cdot2.35\\) (M1 kite or sector; M1 dep difference); A1 — 30.6"
+      ]
+    },
+    {
+      "id": "s25-p21-q9",
+      "group": "applied",
+      "source": {"session": "May/June 2025", "paper": "4037/21", "question": "9"},
+      "calc": true,
+      "outcomes": ["9.1"],
+      "alsoChapters": [14],
+      "topics": ["sector → cone", "curved surface area", "related rates"],
+      "marks": 12,
+      "targetMinutes": 18,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A sector AOB of a circle, centre O, radius 15 cm, has angle AOB = 6π/5. The sector is made into a cone with A and B touching. Find the curved surface area of the cone.", "marks": 2},
+        {"label": "(b)", "text": "Find the circumference of the circular top of the cone.", "marks": 2},
+        {"label": "(c)", "text": "Hence find the radius of the circular top and the perpendicular height of the cone.", "marks": 2},
+        {"label": "(d)(i)", "text": "Water is poured into the cone. When the depth of water is h, the radius of the water surface is r. Find an expression for r in terms of h.", "marks": 1},
+        {"label": "(d)(ii)", "text": "Water is poured in at a constant rate of 27 cm³ per second. Find the rate at which the depth is rising when the depth is 4.", "marks": 5}
+      ],
+      "statement": "<p>The diagram shows a sector \\(AOB\\) of a circle, centre \\(O\\), radius 15 cm, with angle \\(AOB = \\tfrac{6\\pi}{5}\\). The sector is made into a cone with the points \\(A\\) and \\(B\\) touching.</p><p><b>(a)</b> Find the curved surface area of the cone.&emsp;<b>[2]</b></p><p><b>(b)</b> Find the circumference of the circular top of the cone.&emsp;<b>[2]</b></p><p><b>(c)</b> Hence find the radius of the circular top and the perpendicular height of the cone.&emsp;<b>[2]</b></p><p><b>(d)</b> Water is poured into the cone. When the depth of the water is \\(h\\), the radius of the water surface is \\(r\\). <b>(i)</b> Find \\(r\\) in terms of \\(h\\).&emsp;<b>[1]</b> <b>(ii)</b> Water is poured in at 27 cm³ per second. Find the rate at which the depth is rising when the depth is 4.&emsp;<b>[5]</b></p>",
+      "figure": {"bare": true, "x": [-17, 17], "y": [-15, 6.5], "curves": [{"arc": [0, 0, 15, -0.9425, 2.8274], "cls": "ink"}, {"seg": [0, 0, 8.817, -12.135], "cls": "ink"}, {"seg": [0, 0, -14.266, 4.635], "cls": "ink"}], "points": [[0, 0, "O"], [8.817, -12.135, "A"], [-14.266, 4.635, "B"]], "labels": [[-7.5, -0.9, "15"], [1.3, -3.2, "6π/5"]]},
+      "tips": [
+        "Cone from a sector: curved surface area = SECTOR area (\\(\\tfrac12 R^2\\theta\\)); top circumference = ARC length (\\(R\\theta\\)); slant height = sector radius \\(R\\).",
+        "(c) \\(2\\pi r = \\text{arc} \\Rightarrow r = 9\\); height by Pythagoras: \\(\\sqrt{15^2-9^2} = 12\\).",
+        "(d)(i) Similar triangles inside the cone: \\(\\dfrac{r}{h} = \\dfrac{9}{12} \\Rightarrow r = \\tfrac34 h\\).",
+        "(d)(ii) Write \\(V\\) in \\(h\\) only, then chain rule: \\(\\dfrac{dh}{dt} = \\dfrac{dV}{dt} \\div \\dfrac{dV}{dh}\\). Keep π exact until the end."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Curved surface \\(=\\) sector area \\(= \\tfrac12(15^2)\\big(\\tfrac{6\\pi}{5}\\big) = 135\\pi \\approx 424\\) cm².</p>",
+        "<p><b>(b)</b> Circumference of top \\(=\\) arc \\(AB = 15\\times\\tfrac{6\\pi}{5} = 18\\pi \\approx 56.5\\) cm.</p>",
+        "<p><b>(c)</b> \\(2\\pi r = 18\\pi \\Rightarrow r = 9\\); height \\(= \\sqrt{15^2-9^2} = 12\\) cm.</p>",
+        "<p><b>(d)(i)</b> By similar triangles \\(\\dfrac{r}{h} = \\dfrac{9}{12}\\Rightarrow r = \\tfrac34 h\\).</p>",
+        "<p><b>(d)(ii)</b> \\(V = \\tfrac13\\pi r^2 h = \\tfrac13\\pi\\big(\\tfrac34 h\\big)^2 h = \\tfrac{3\\pi h^3}{16}\\), so \\(\\dfrac{dV}{dh} = \\dfrac{9\\pi h^2}{16}\\).</p>",
+        "<p>At \\(h=4\\): \\(\\dfrac{dV}{dh} = 9\\pi\\). Chain rule: \\(\\dfrac{dh}{dt} = \\dfrac{dV}{dt}\\div\\dfrac{dV}{dh} = \\dfrac{27}{9\\pi} = \\dfrac{3}{\\pi} \\approx 0.955\\) cm s⁻¹.</p>"
+      ],
+      "answer": "(a) \\(135\\pi\\) cm²; (b) \\(18\\pi\\) cm; (c) r = 9, h = 12; (d)(i) \\(r=\\tfrac34h\\); (ii) \\(\\tfrac{3}{\\pi} \\approx 0.955\\) cm/s",
+      "markScheme": [
+        "(a) M1 — \\(\\tfrac12\\times15^2\\times\\tfrac{6\\pi}{5}\\); A1 — 135π or 424",
+        "(b) M1 — \\(15\\times\\tfrac{6\\pi}{5}\\); A1 — 18π or 56.5–56.6",
+        "(c) B1 — radius 9 (or M1 Pythagoras statement); B1 — height 12",
+        "(d)(i) B1 — \\(r = \\tfrac34 h\\) oe",
+        "(d)(ii) B1 — \\(V=\\tfrac13\\pi(\\tfrac34h)^2h\\) oe FT; B1 — \\(\\tfrac{dV}{dh} = \\tfrac{9\\pi h^2}{16}\\) FT; B1 — correct chain rule including \\(\\tfrac{dh}{dt}\\) soi; M1 — \\(27\\times\\tfrac{16}{9\\pi\\times16}\\) oe; A1 — 0.955 or \\(\\tfrac{3}{\\pi}\\)"
+      ]
+    },
+    {
+      "id": "s26-p21-q8",
+      "group": "applied",
+      "source": {"session": "May/June 2026", "paper": "4037/21", "question": "8"},
+      "calc": true,
+      "outcomes": ["9.1"],
+      "topics": ["tangent triangle", "perimeter equation", "show θ to 3 dp"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A circle centre C has radius 10. A and B lie on the circle; CBP is a straight line; BP = x; AP is a tangent at A; angle ACB = θ; the perimeter of triangle APC is 38. Show that θ = 0.885 radians correct to 3 decimal places.", "marks": 6},
+        {"label": "(b)", "text": "Find the length of the arc AB.", "marks": 1},
+        {"label": "(c)", "text": "Find the area of the sector ACB.", "marks": 1}
+      ],
+      "statement": "<p>The diagram shows a circle, centre \\(C\\), radius 10 cm. The points \\(A\\) and \\(B\\) lie on the circle. The point \\(P\\) is such that \\(CBP\\) is a straight line, with \\(BP = x\\). The line \\(AP\\) is a tangent to the circle at \\(A\\). Angle \\(ACB = \\theta\\) radians. The perimeter of the triangle \\(APC\\) is 38 cm.</p><p><b>(a)</b> Show that the value of \\(\\theta\\) is 0.885 radians, correct to 3 decimal places.&emsp;<b>[6]</b></p><p><b>(b)</b> Find the length of the arc \\(AB\\).&emsp;<b>[1]</b></p><p><b>(c)</b> Find the area of the sector \\(ACB\\).&emsp;<b>[1]</b></p>",
+      "figure": {"bare": true, "x": [-11.5, 18.5], "y": [-11, 11], "curves": [{"circle": [0, 0, 10], "cls": "ink"}, {"seg": [0, 0, 6.335, 7.739], "cls": "ink"}, {"seg": [0, 0, 15.786, 0], "cls": "ink"}, {"seg": [6.335, 7.739, 15.786, 0], "cls": "ink"}], "points": [[0, 0, "C"], [6.335, 7.739, "A"], [10, 0, "B"], [15.786, 0, "P"]], "labels": [[3.4, 4.6, "10"], [5, -0.55, "10"], [12.9, -0.55, "x"], [1.5, 1.05, "θ"]]},
+      "tips": [
+        "Tangent ⟂ radius at A: triangle \\(CAP\\) is right-angled at A, with \\(CA = 10\\) and \\(CP = 10 + x\\).",
+        "Pythagoras gives \\(AP = \\sqrt{(10+x)^2 - 100} = \\sqrt{20x + x^2}\\). Perimeter: \\(10 + (10+x) + AP = 38\\).",
+        "Solve for x by isolating the square root and squaring: \\(x = \\tfrac{81}{14} = 5.7857…\\) Keep the fraction!",
+        "Then \\(\\cos\\theta = \\dfrac{CA}{CP} = \\dfrac{10}{10+x}\\) — a 'show that' to 3 dp must display 4+ dp first (0.8847…)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(AP = \\sqrt{(10+x)^2 - 10^2} = \\sqrt{20x+x^2}\\) (right angle at A).</p>",
+        "<p>Perimeter: \\(10 + 10 + x + \\sqrt{20x+x^2} = 38 \\Rightarrow \\sqrt{20x+x^2} = 18 - x\\).</p>",
+        "<p>Square: \\(20x + x^2 = 324 - 36x + x^2 \\Rightarrow 56x = 324 \\Rightarrow x = \\tfrac{81}{14} = 5.786\\).</p>",
+        "<p>\\(\\cos\\theta = \\dfrac{10}{10+x} = \\dfrac{10}{15.786} = \\dfrac{140}{221} \\Rightarrow \\theta = 0.8847\\ldots = 0.885\\) (3 dp). ✓</p>",
+        "<p><b>(b)</b> Arc \\(AB = 10\\times0.885 = 8.85\\) cm.</p>",
+        "<p><b>(c)</b> Sector \\(ACB = \\tfrac12(10^2)(0.885) = 44.2\\) cm².</p>"
+      ],
+      "answer": "(a) θ = 0.885 (shown); (b) 8.85 cm; (c) 44.2 cm²",
+      "markScheme": [
+        "(a) B1 — \\(AP = \\sqrt{20x+x^2}\\) oe or \\(AP = 18-x\\) soi; M1 — perimeter equation (valid AP); M1 dep — correct solution of their equation; A1 soi — \\(x = \\tfrac{81}{14} = 5.7857\\); M1 dep — \\(\\cos\\theta = \\tfrac{10}{10+their\\,x}\\) oe (must be seen — 'show that'); A1 — θ = 0.8847… = 0.885 to 3 dp (4 dp or better seen first)",
+        "(b) B1 — 8.85 or 8.847[48…]",
+        "(c) B1 — 44.2 or 44.3 or 44.23[74…] (accept 44.25)"
+      ]
+    }
+  ]
+}

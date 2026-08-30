@@ -228,6 +228,41 @@
         "M1 — forms circle equation with their \\((k,k)\\) centre and \\(r^2=25\\)",
         "A1 — \\(x^2+y^2-8\\sqrt2x-8\\sqrt2y+39=0\\) (must be exact)"
       ]
+    },
+    {
+      "id": "s26-p22-q11",
+      "group": "two",
+      "source": {"session": "May/June 2026", "paper": "4037/22", "question": "11"},
+      "calc": true,
+      "outcomes": ["8.1", "8.4"],
+      "topics": ["circle through a point", "common chord", "intersection of circles"],
+      "marks": 9,
+      "targetMinutes": 14,
+      "difficulty": 3,
+      "statement": "<p><i>Solutions to this question by accurate drawing will not be accepted.</i></p><p>A circle \\(C_1\\) has centre \\((3, 5)\\). The point \\(P(1, 4)\\) lies on circle \\(C_1\\).</p><p>A circle \\(C_2\\) has centre \\((12, 8)\\). The line with equation \\(y = 19-3x\\) is the common chord of circles \\(C_1\\) and \\(C_2\\).</p><p>Find the radius of circle \\(C_2\\).&emsp;<b>[9]</b></p>",
+      "figure": {"x": [-3, 22], "y": [-2, 18], "xTicks": 5, "yTicks": 5, "curves": [{"circle": [3, 5, 2.2361]}, {"circle": [12, 8, 8.0623], "cls": "c2"}, {"poly": [-3, 19], "cls": "c1", "dashed": true}], "points": [[3, 5, "(3,5)"], [12, 8, "(12,8)"], [1, 4, "P"], [4, 7, ""], [5, 4, ""]]},
+      "tips": [
+        "Build \\(C_1\\) first: \\(r_1^2 = (3-1)^2+(5-4)^2 = 5\\), so \\(C_1: (x-3)^2+(y-5)^2 = 5\\).",
+        "The common chord is a real line through BOTH intersection points: substitute \\(y = 19-3x\\) into \\(C_1\\) and solve — you get the two points A and B where the circles cross.",
+        "\\(10x^2 - 90x + 200 = 0 \\Rightarrow x = 4, 5\\): intersection points \\((4, 7)\\) and \\((5, 4)\\).",
+        "\\(C_2\\) passes through those same points: \\(r_2^2 = (12-4)^2+(8-7)^2 = 65\\). Final answer \\(\\sqrt{65}\\) — NOT ±√65 (a radius is positive; the scheme gives A0 for ±)."
+      ],
+      "solution": [
+        "<p>\\(C_1\\): radius² \\(= (3-1)^2+(5-4)^2 = 5\\), so \\((x-3)^2+(y-5)^2 = 5\\).</p>",
+        "<p>Substitute the chord \\(y = 19-3x\\): \\((x-3)^2 + (14-3x)^2 = 5\\)</p>",
+        "<p>\\(x^2-6x+9 + 9x^2-84x+196 = 5 \\Rightarrow 10x^2 - 90x + 200 = 0 \\Rightarrow x^2-9x+20 = 0 \\Rightarrow (x-4)(x-5) = 0\\).</p>",
+        "<p>Intersection points: \\(A(4, 7)\\) and \\(B(5, 4)\\) (using the chord equation for y).</p>",
+        "<p>These points lie on \\(C_2\\) too: \\(r_2^2 = (12-4)^2 + (8-7)^2 = 64+1 = 65\\) (same from \\((5,4)\\): \\(49+16=65\\)).</p>",
+        "<p>Radius of \\(C_2\\) \\(= \\sqrt{65}\\) \\((\\approx 8.06)\\).</p>"
+      ],
+      "answer": "\\(r = \\sqrt{65}\\)",
+      "markScheme": [
+        "B2 — forms \\(C_1\\): \\((x-3)^2+(y-5)^2=5\\) oe soi (B1 for \\((x-3)^2+(y-5)^2=k\\) or \\(r^2=5\\) soi)",
+        "M1 — uses \\(y=19-3x\\) with their \\(C_1\\) to eliminate one unknown; A1 — correct unsimplified equation",
+        "A1 — 3-term quadratic \\(10x^2-90x+200[=0]\\) oe; M1 — solves their quadratic",
+        "A1 — \\(x=4, x=5\\); A1 — at least one intersection point \\((4,7)\\) or \\((5,4)\\)",
+        "A1 — \\(r=\\sqrt{65}\\) oe nfww (A0 for final answer ±\\(\\sqrt{65}\\))"
+      ]
     }
   ]
 }
