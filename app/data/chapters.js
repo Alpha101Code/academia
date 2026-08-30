@@ -22,7 +22,10 @@ window.A.registerChapters([
     blurb: "Radians, arc length s = rθ and sector area ½r²θ (not given in the exam!), segments, and the slicing method for compound shaded regions — plus tangent and cone applications. Outcome 9.1."
   },
   { n: 10, title: "Trigonometry" },
-  { n: 11, title: "Permutations and combinations" },
+  {
+    n: 11, title: "Permutations and combinations",
+    blurb: "The multiplication principle, nPr vs nCr, arrangements with restrictions (blocks, gaps, fixed ends), quota selections, digit-number problems, and the algebraic nCr equations and proofs that now end Paper 1. Outcomes 11.1–11.3."
+  },
   { n: 12, title: "Series" },
   { n: 13, title: "Vectors in two dimensions" },
   { n: 14, title: "Calculus" }

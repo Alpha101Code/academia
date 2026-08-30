@@ -420,6 +420,44 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: permutations vs combinations =============== */
+  function permComb(host) {
+    const st = { n: 7, r: 3 };
+    host.innerHTML = `
+      <div class="w-title">Explore: \\(^nP_r\\) versus \\(^nC_r\\)</div>
+      <div class="w-sub">Slots fill with shrinking choices. Order matters → permutation; order ignored → divide by r! → combination.</div>
+      <div class="w-controls">
+        ${slider("n", 1, 12, 1, st.n, "n (items) =")}
+        ${slider("r", 0, 12, 1, st.r, "r (chosen) =")}
+      </div>
+      <div class="w-flex"><div class="plotbox" data-slots style="font-size:15px"></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function fact(k) { let v = 1; for (let i = 2; i <= k; i++) v *= i; return v; }
+    function draw() {
+      if (st.r > st.n) st.r = st.n;
+      const { n, r } = st;
+      const nPr = fact(n) / fact(n - r);
+      const nCr = nPr / fact(r);
+      let slots = "";
+      for (let i = 0; i < r; i++) {
+        slots += `<span style="display:inline-block;border:2px solid var(--accent);border-radius:8px;
+          padding:8px 12px;margin:4px;font-weight:700">${n - i}</span>${i < r - 1 ? "×" : ""}`;
+      }
+      if (r === 0) slots = `<span class="hint">r = 0: one way — choose nothing (0! = 1)</span>`;
+      host.querySelector("[data-slots]").innerHTML =
+        `<div class="hint" style="margin-bottom:6px">choices per slot:</div>${slots}
+         <div class="hint" style="margin-top:10px">…then ÷ r! = ${fact(r).toLocaleString()} if order doesn't matter</div>`;
+      host.querySelector("[data-read]").innerHTML =
+        `<b>Arrangements</b> (order matters):<br>\\(^{${n}}P_{${r}}\\) = ${nPr.toLocaleString()}<br><br>
+         <b>Selections</b> (order ignored):<br>\\(^{${n}}C_{${r}}\\) = ${nCr.toLocaleString()}<br><br>
+         Relationship: \\(^nP_r = {}^nC_r \\times r!\\)<br>
+         <span class="hint">${nCr.toLocaleString()} × ${fact(r).toLocaleString()} = ${nPr.toLocaleString()}</span>`;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -438,7 +476,7 @@ window.A.widgets = (function () {
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
     "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
-    "sector": sectorW };
+    "sector": sectorW, "perm-comb": permComb };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {

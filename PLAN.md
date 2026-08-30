@@ -152,7 +152,11 @@ hosted app private (or strip verbatim questions) if it ever goes public.
     mode: arcs, segments, filled compound regions, labels). 6-section lesson (radians, the
     six formulas — s = rθ and ½r²θ are NOT given in the exam — slicing method, tangents,
     sector→cone); sector/segment explorer widget.
-  - Next: chapter 11 (Permutations and combinations), then 12, 13.
+  - **Chapter 11 done (2026-08-30):** 13 questions / 69 marks verified vs mark schemes —
+    arrangements with restrictions (blocks/gaps/fixed spacing), quota selections, digit
+    numbers & passwords, and the four algebraic nCr equations/proofs (n=40, n=65, n=69,
+    two identities). 8-section lesson; nPr-vs-nCr slots widget.
+  - Next: chapter 12 (Series), then 13 (Vectors in two dimensions).
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 
