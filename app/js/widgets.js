@@ -514,6 +514,63 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: vector addition, magnitude, unit vector =============== */
+  function vectorW(host) {
+    const st = { ax: 4, ay: 3, bx: -2, by: 4, show: "sum" };
+    host.innerHTML = `
+      <div class="w-title">Explore: adding vectors, magnitude and unit vectors</div>
+      <div class="w-sub">Change the components. The triangle rule, the magnitude \\(\\sqrt{x^2+y^2}\\) and the unit vector \\(\\frac{\\mathbf{a}}{|\\mathbf{a}|}\\) all update together.</div>
+      <div class="w-controls">
+        ${slider("ax", -8, 8, 1, st.ax, "a: x =")}${slider("ay", -8, 8, 1, st.ay, "a: y =")}
+        ${slider("bx", -8, 8, 1, st.bx, "b: x =")}${slider("by", -8, 8, 1, st.by, "b: y =")}
+        <label>show
+          <select data-k="show">
+            <option value="sum">a + b</option><option value="diff">a − b</option>
+            <option value="unit">unit vector of a</option>
+          </select></label>
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      const { ax, ay, bx, by } = st;
+      const magA = Math.sqrt(ax * ax + ay * ay);
+      const curves = [{ seg: [0, 0, ax, ay], cls: "c0" }];
+      const pts = [[ax, ay, "a"]];
+      let read = `<b>a</b> = \\(\\begin{pmatrix}${fmt(ax)}\\\\${fmt(ay)}\\end{pmatrix}\\),
+        |<b>a</b>| = \\(\\sqrt{${ax * ax}+${ay * ay}} = ${fmt(Math.round(magA * 1000) / 1000)}\\)<br>`;
+      if (st.show === "unit") {
+        if (magA > 0) {
+          const ux = ax / magA, uy = ay / magA;
+          curves.push({ seg: [0, 0, ux, uy], cls: "c2" });
+          pts.push([ux, uy, "â"]);
+          read += `<br>Unit vector \\(\\hat{\\mathbf{a}} = \\dfrac{\\mathbf{a}}{|\\mathbf{a}|}
+            = \\begin{pmatrix}${fmt(Math.round(ux * 1000) / 1000)}\\\\${fmt(Math.round(uy * 1000) / 1000)}\\end{pmatrix}\\)
+            <br><span class="hint">Same direction, length exactly 1. Multiply it by any speed to build a velocity vector — that is outcome 13.4 in one line.</span>`;
+        }
+      } else {
+        const sgn = st.show === "sum" ? 1 : -1;
+        const rx = ax + sgn * bx, ry = ay + sgn * by;
+        curves.push({ seg: [0, 0, bx, by], cls: "c1" });
+        curves.push({ seg: [ax, ay, rx, ry], cls: "c1", dashed: true });
+        curves.push({ seg: [0, 0, rx, ry], cls: "c2" });
+        pts.push([bx, by, "b"], [rx, ry, st.show === "sum" ? "a+b" : "a−b"]);
+        const magR = Math.sqrt(rx * rx + ry * ry);
+        read += `<b>b</b> = \\(\\begin{pmatrix}${fmt(bx)}\\\\${fmt(by)}\\end{pmatrix}\\)<br><br>
+          <b>a ${sgn > 0 ? "+" : "−"} b</b> = \\(\\begin{pmatrix}${fmt(rx)}\\\\${fmt(ry)}\\end{pmatrix}\\),
+          magnitude ${fmt(Math.round(magR * 1000) / 1000)}<br>
+          <span class="hint">Add or subtract component by component. The dashed arrow shows the triangle rule:
+          travel along a, then along ${sgn > 0 ? "b" : "−b"}, and you land on the resultant.</span>`;
+      }
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: [-10, 10], y: [-10, 10], xTicks: 2, yTicks: 2, curves, points: pts
+      }, { height: 320 });
+      host.querySelector("[data-read]").innerHTML = read;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -532,7 +589,7 @@ window.A.widgets = (function () {
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
     "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
-    "sector": sectorW, "perm-comb": permComb, "series": seriesW };
+    "sector": sectorW, "perm-comb": permComb, "series": seriesW, "vector": vectorW };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {

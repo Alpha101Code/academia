@@ -1,0 +1,323 @@
+{
+  "chapter": 13,
+  "title": "Vectors in two dimensions",
+  "syllabusOutcomes": {
+    "13.1": "Understand and use vector notation in any form: column vectors, AB with an arrow, bold p, ai − bj. Correct notation is expected",
+    "13.2": "Know and use position vectors and unit vectors (the unit vector in the direction of a is a/|a|)",
+    "13.3": "Find the magnitude of a vector; add and subtract vectors and multiply by scalars; equate like vectors; solve vector-geometry problems",
+    "13.4": "Compose and resolve velocities; find a resultant; use a velocity vector to find position and solve problems in context such as particles colliding"
+  },
+  "groups": [
+    {"key": "algebra", "label": "Vector algebra & equating components", "outcomes": ["13.1", "13.3"]},
+    {"key": "motion", "label": "Velocity, position and collisions", "outcomes": ["13.2", "13.4"]},
+    {"key": "bearings", "label": "Bearings, resolving & real contexts", "outcomes": ["13.4"]},
+    {"key": "geometry", "label": "Vector geometry with scalars", "outcomes": ["13.3"]}
+  ],
+  "questions": [
+    {
+      "id": "s25-p11-q1",
+      "group": "algebra",
+      "source": {"session": "May/June 2025", "paper": "4037/11", "question": "1"},
+      "calc": false,
+      "outcomes": ["13.1", "13.3"],
+      "topics": ["route around a triangle", "equating i and j components"],
+      "marks": 5,
+      "targetMinutes": 8,
+      "difficulty": 1,
+      "parts": [
+        {"label": "(a)", "text": "Given that \\(\\overrightarrow{PQ} = \\begin{pmatrix}-3\\\\7\\end{pmatrix}\\) and \\(4\\overrightarrow{PR} = \\begin{pmatrix}-2\\\\8\\end{pmatrix}\\), find \\(\\overrightarrow{RQ}\\).", "marks": 2},
+        {"label": "(b)", "text": "The vectors a, b and c are such that \\(\\mathbf{a} = \\alpha\\mathbf{i}+6\\mathbf{j}\\), \\(\\mathbf{b} = 4\\mathbf{i}+\\beta\\mathbf{j}\\) and \\(\\mathbf{c} = (2\\alpha+5\\beta)\\mathbf{i}+20\\mathbf{j}\\). Given that \\(\\mathbf{c} = 3\\mathbf{a}-2\\mathbf{b}\\), find the values of α and β.", "marks": 3}
+      ],
+      "statement": "<p><b>(a)</b> Given that \\(\\;\\overrightarrow{PQ} = \\begin{pmatrix}-3\\\\7\\end{pmatrix}\\;\\) and \\(\\;4\\overrightarrow{PR} = \\begin{pmatrix}-2\\\\8\\end{pmatrix}\\), find \\(\\overrightarrow{RQ}\\).&emsp;<b>[2]</b></p><p><b>(b)</b> The vectors \\(\\mathbf{a}\\), \\(\\mathbf{b}\\) and \\(\\mathbf{c}\\) are such that \\(\\;\\mathbf{a} = \\alpha\\mathbf{i}+6\\mathbf{j}\\), \\(\\;\\mathbf{b} = 4\\mathbf{i}+\\beta\\mathbf{j}\\;\\) and \\(\\;\\mathbf{c} = (2\\alpha+5\\beta)\\mathbf{i}+20\\mathbf{j}\\), where α and β are scalars.</p><p>Given that \\(\\;\\mathbf{c} = 3\\mathbf{a}-2\\mathbf{b}\\), find the values of α and β.&emsp;<b>[3]</b></p>",
+      "tips": [
+        "(a) Careful — you are given \\(4\\overrightarrow{PR}\\), not \\(\\overrightarrow{PR}\\). Divide by 4 FIRST: \\(\\overrightarrow{PR} = \\begin{pmatrix}-0.5\\\\2\\end{pmatrix}\\).",
+        "(a) Route rule: \\(\\overrightarrow{RQ} = \\overrightarrow{RP} + \\overrightarrow{PQ} = -\\overrightarrow{PR} + \\overrightarrow{PQ}\\). Reversing an arrow flips the sign.",
+        "(b) <b>Equate like components</b> — the i's with the i's and the j's with the j's. That gives two equations in α and β.",
+        "The j-equation \\(20 = 18 - 2\\beta\\) has only β in it — solve that one first, then substitute."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\overrightarrow{PR} = \\tfrac14\\begin{pmatrix}-2\\\\8\\end{pmatrix} = \\begin{pmatrix}-0.5\\\\2\\end{pmatrix}\\).</p>",
+        "<p>\\(\\overrightarrow{RQ} = \\overrightarrow{PQ} - \\overrightarrow{PR} = \\begin{pmatrix}-3\\\\7\\end{pmatrix} - \\begin{pmatrix}-0.5\\\\2\\end{pmatrix} = \\begin{pmatrix}-2.5\\\\5\\end{pmatrix}\\).</p>",
+        "<p><b>(b)</b> \\(3\\mathbf{a}-2\\mathbf{b} = (3\\alpha - 8)\\mathbf{i} + (18 - 2\\beta)\\mathbf{j}\\).</p>",
+        "<p>Equating \\(\\mathbf{j}\\): \\(20 = 18-2\\beta \\Rightarrow \\beta = -1\\).</p>",
+        "<p>Equating \\(\\mathbf{i}\\): \\(2\\alpha + 5(-1) = 3\\alpha - 8 \\Rightarrow 2\\alpha - 5 = 3\\alpha - 8 \\Rightarrow \\alpha = 3\\).</p>"
+      ],
+      "answer": "(a) \\(\\begin{pmatrix}-2.5\\\\5\\end{pmatrix}\\); (b) \\(\\alpha = 3,\\ \\beta = -1\\)",
+      "markScheme": [
+        "(a) B2 — \\(\\begin{pmatrix}-2.5\\\\5\\end{pmatrix}\\) oe (B1 for \\(-\\frac14\\begin{pmatrix}-2\\\\8\\end{pmatrix} + \\begin{pmatrix}-3\\\\7\\end{pmatrix}\\) oe soi)",
+        "(b) M1 — equates like vectors at least once: \\(3\\alpha - 8 = 2\\alpha+5\\beta\\) or \\(18-2\\beta = 20\\)",
+        "(b) A2 — \\(\\alpha = 3\\), \\(\\beta = -1\\) (A1 for either value correct)"
+      ]
+    },
+    {
+      "id": "s24-p12-q9",
+      "group": "motion",
+      "source": {"session": "May/June 2024", "paper": "4037/12", "question": "9"},
+      "calc": false,
+      "outcomes": ["13.2", "13.3", "13.4"],
+      "topics": ["velocity from speed & direction", "position at time t", "distance apart", "discriminant proves no collision"],
+      "marks": 10,
+      "targetMinutes": 15,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A particle P moves with a speed of 14.5 parallel to the vector \\(\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\). Find the velocity vector of P.", "marks": 2},
+        {"label": "(b)", "text": "Initially, P has position vector \\(\\begin{pmatrix}3\\\\5\\end{pmatrix}\\). Write down the position vector of P at time t.", "marks": 2},
+        {"label": "(c)", "text": "A second particle Q has position vector \\(\\begin{pmatrix}-1\\\\3\\end{pmatrix} + \\begin{pmatrix}-5\\\\7.5\\end{pmatrix}t\\) at time t. Find, in terms of t, the distance between P and Q at time t. Simplify your answer.", "marks": 4},
+        {"label": "(d)", "text": "Hence show that P and Q never collide.", "marks": 2}
+      ],
+      "statement": "<p>In this question, all distances are in metres and time, \\(t\\), is in seconds.</p><p>A particle \\(P\\) moves with a speed of 14.5 parallel to the vector \\(\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\).</p><p><b>(a)</b> Find the velocity vector of \\(P\\).&emsp;<b>[2]</b></p><p>Initially, \\(P\\) has position vector \\(\\begin{pmatrix}3\\\\5\\end{pmatrix}\\).</p><p><b>(b)</b> Write down the position vector of \\(P\\) at time \\(t\\).&emsp;<b>[2]</b></p><p>A second particle \\(Q\\) has position vector \\(\\;\\begin{pmatrix}-1\\\\3\\end{pmatrix} + \\begin{pmatrix}-5\\\\7.5\\end{pmatrix}t\\;\\) at time \\(t\\).</p><p><b>(c)</b> Find, in terms of \\(t\\), the distance between \\(P\\) and \\(Q\\) at time \\(t\\). Simplify your answer.&emsp;<b>[4]</b></p><p><b>(d)</b> <i>Hence</i> show that \\(P\\) and \\(Q\\) never collide.&emsp;<b>[2]</b></p>",
+      "tips": [
+        "(a) <b>Velocity = speed × unit vector.</b> Find \\(\\left|\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\right| = \\sqrt{400+441} = 29\\) (a 20-21-29 triple), then multiply the direction by \\(\\tfrac{14.5}{29} = \\tfrac12\\).",
+        "(b) Position at time t = start + velocity × t. Write it as a single column vector or as \\(\\mathbf{r}_0 + \\mathbf{v}t\\).",
+        "(c) The vector between them is \\(\\overrightarrow{PQ} = \\mathbf{r}_Q - \\mathbf{r}_P\\); the distance is its magnitude \\(\\sqrt{x^2+y^2}\\). Expand and collect under the root — do NOT try to simplify \\(\\sqrt{\\ }\\) further.",
+        "(d) <b>Collision means distance = 0.</b> Set the quadratic inside the root to zero and show its discriminant is negative — so no real \\(t\\) exists. (Discriminant \\(= -1936\\).) A negative discriminant is the whole argument."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\left|\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\right| = \\sqrt{400+441} = \\sqrt{841} = 29\\). Scale factor \\(= \\dfrac{14.5}{29} = \\dfrac12\\).</p>",
+        "<p>Velocity \\(= \\tfrac12\\begin{pmatrix}-20\\\\21\\end{pmatrix} = \\begin{pmatrix}-10\\\\10.5\\end{pmatrix}\\).</p>",
+        "<p><b>(b)</b> \\(\\mathbf{r}_P = \\begin{pmatrix}3\\\\5\\end{pmatrix} + \\begin{pmatrix}-10\\\\10.5\\end{pmatrix}t\\).</p>",
+        "<p><b>(c)</b> \\(\\overrightarrow{PQ} = \\mathbf{r}_Q-\\mathbf{r}_P = \\begin{pmatrix}-1-3\\\\3-5\\end{pmatrix} + \\begin{pmatrix}-5+10\\\\7.5-10.5\\end{pmatrix}t = \\begin{pmatrix}5t-4\\\\-3t-2\\end{pmatrix}\\).</p>",
+        "<p>\\(PQ = \\sqrt{(5t-4)^2 + (-3t-2)^2} = \\sqrt{25t^2-40t+16+9t^2+12t+4} = \\sqrt{34t^2-28t+20}\\).</p>",
+        "<p><b>(d)</b> Collision needs \\(PQ = 0\\), i.e. \\(34t^2-28t+20 = 0\\).</p>",
+        "<p>Discriminant \\(= (-28)^2 - 4(34)(20) = 784 - 2720 = -1936 < 0\\): no real roots, so there is no time at which the distance is zero — they never collide. ✓</p>"
+      ],
+      "answer": "(a) \\(\\begin{pmatrix}-10\\\\10.5\\end{pmatrix}\\); (b) \\(\\begin{pmatrix}3\\\\5\\end{pmatrix}+\\begin{pmatrix}-10\\\\10.5\\end{pmatrix}t\\); (c) \\(\\sqrt{34t^2-28t+20}\\); (d) discriminant \\(=-1936<0\\)",
+      "markScheme": [
+        "(a) B2 — \\(\\begin{pmatrix}-10\\\\10.5\\end{pmatrix}\\) or \\(\\frac12\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\) (B1 for \\(\\left|\\begin{pmatrix}-20\\\\21\\end{pmatrix}\\right| = 29\\) soi, or one correct element)",
+        "(b) 2 — \\(\\begin{pmatrix}3\\\\5\\end{pmatrix}+\\begin{pmatrix}-10\\\\10.5\\end{pmatrix}t\\) oe (M1 FT on their velocity vector)",
+        "(c) 2 — \\(\\overrightarrow{PQ} = \\begin{pmatrix}5t-4\\\\-3t-2\\end{pmatrix}\\) oe (dep M1 on M1 in (b)); M1 dep — \\(PQ = \\sqrt{(5t-4)^2+(-3t-2)^2}\\); A1 — \\(\\sqrt{34t^2-28t+20}\\)",
+        "(d) M1 — for collision \\(34t^2-28t+20 = 0\\) soi (using their quadratic from (c)); A1 — discriminant \\(= -1936\\), so no real roots so no collision oe"
+      ]
+    },
+    {
+      "id": "w25-p22-q6",
+      "group": "motion",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/22", "question": "6"},
+      "calc": true,
+      "outcomes": ["13.2", "13.3", "13.4"],
+      "topics": ["velocity from speed & direction", "show that d² = mt²+nt+r", "rejecting a negative time"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "A particle P is moving in a straight line with a speed of 26 in the direction of the vector \\(\\begin{pmatrix}5\\\\-12\\end{pmatrix}\\). Find the velocity vector of P.", "marks": 2},
+        {"label": "(b)", "text": "When t = 0, P passes through a point A which has position vector \\(\\begin{pmatrix}3\\\\6\\end{pmatrix}\\). Write down the position vector of P at time t.", "marks": 2},
+        {"label": "(c)", "text": "At the same time that P passes through A, a particle Q passes through a point B. The position vector of Q at time t is \\(\\begin{pmatrix}8t-5\\\\2-25t\\end{pmatrix}\\). The distance between P and Q at time t is d. Show that \\(d^2 = mt^2+nt+r\\), where m, n and r are integers to be found.", "marks": 3},
+        {"label": "(d)", "text": "Hence show that P and Q do not collide.", "marks": 1}
+      ],
+      "statement": "<p>In this question lengths are in centimetres and time, \\(t\\), is in seconds.</p><p>A particle \\(P\\) is moving in a straight line with a speed of 26 in the direction of the vector \\(\\begin{pmatrix}5\\\\-12\\end{pmatrix}\\).</p><p><b>(a)</b> Find the velocity vector of \\(P\\).&emsp;<b>[2]</b></p><p>When \\(t=0\\), \\(P\\) passes through a point \\(A\\) which has position vector \\(\\begin{pmatrix}3\\\\6\\end{pmatrix}\\).</p><p><b>(b)</b> Write down the position vector of \\(P\\) at time \\(t\\).&emsp;<b>[2]</b></p><p>At the same time that \\(P\\) passes through \\(A\\), a particle \\(Q\\) passes through a point \\(B\\). The position vector of \\(Q\\) at time \\(t\\) is \\(\\begin{pmatrix}8t-5\\\\2-25t\\end{pmatrix}\\). The distance between \\(P\\) and \\(Q\\) at time \\(t\\) is \\(d\\).</p><p><b>(c)</b> Show that \\(\\;d^2 = mt^2+nt+r\\), where \\(m\\), \\(n\\) and \\(r\\) are integers to be found.&emsp;<b>[3]</b></p><p><b>(d)</b> <i>Hence</i> show that \\(P\\) and \\(Q\\) do <b>not</b> collide.&emsp;<b>[1]</b></p>",
+      "tips": [
+        "(a) \\(\\left|\\begin{pmatrix}5\\\\-12\\end{pmatrix}\\right| = 13\\) (the 5-12-13 triple). Scale factor \\(\\tfrac{26}{13} = 2\\), so velocity \\(= \\begin{pmatrix}10\\\\-24\\end{pmatrix}\\).",
+        "(c) Subtract the position vectors (either order — squaring removes the sign), then use \\(d^2 = x^2+y^2\\). Here \\(d^2\\) is asked for, so no square root is needed at all.",
+        "(d) This one factorises: \\(d^2 = 5t^2+40t+80 = 5(t+4)^2\\). So \\(d = 0\\) only when \\(t = -4\\).",
+        "The killer argument: <b>time cannot be negative</b> (\\(t \\geqslant 0\\)), so \\(d\\) is never zero in the real motion — they do not collide. Say this explicitly."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\left|\\begin{pmatrix}5\\\\-12\\end{pmatrix}\\right| = \\sqrt{25+144} = 13\\); scale \\(= \\tfrac{26}{13} = 2\\), so velocity \\(= \\begin{pmatrix}10\\\\-24\\end{pmatrix}\\).</p>",
+        "<p><b>(b)</b> \\(\\mathbf{r}_P = \\begin{pmatrix}3\\\\6\\end{pmatrix} + t\\begin{pmatrix}10\\\\-24\\end{pmatrix} = \\begin{pmatrix}3+10t\\\\6-24t\\end{pmatrix}\\).</p>",
+        "<p><b>(c)</b> \\(\\mathbf{r}_P - \\mathbf{r}_Q = \\begin{pmatrix}3+10t-(8t-5)\\\\6-24t-(2-25t)\\end{pmatrix} = \\begin{pmatrix}2t+8\\\\t+4\\end{pmatrix}\\).</p>",
+        "<p>\\(d^2 = (2t+8)^2 + (t+4)^2 = 4t^2+32t+64 + t^2+8t+16 = 5t^2+40t+80\\).</p>",
+        "<p>So \\(m=5\\), \\(n=40\\), \\(r=80\\). ✓</p>",
+        "<p><b>(d)</b> \\(d = 0 \\Rightarrow 5t^2+40t+80 = 5(t+4)^2 = 0 \\Rightarrow t = -4\\). But \\(t \\geqslant 0\\), so this never happens: \\(P\\) and \\(Q\\) do not collide. ✓</p>"
+      ],
+      "answer": "(a) \\(\\begin{pmatrix}10\\\\-24\\end{pmatrix}\\); (c) \\(d^2 = 5t^2+40t+80\\); (d) \\(d=0\\) only at \\(t=-4\\), impossible since \\(t\\geqslant0\\)",
+      "markScheme": [
+        "(a) 2 — \\(\\begin{pmatrix}10\\\\-24\\end{pmatrix}\\) oe isw (B1 for the magnitude of the direction vector = 13 soi, or M1 for \\(\\sqrt{5^2+(-12)^2}\\))",
+        "(b) 2 — \\(\\begin{pmatrix}3\\\\6\\end{pmatrix}+t\\begin{pmatrix}10\\\\-24\\end{pmatrix}\\) oe isw (M1 FT their velocity vector)",
+        "(c) B1 — the difference of the two position vectors, e.g. \\(\\begin{pmatrix}8+2t\\\\4+t\\end{pmatrix}\\) oe soi; M1 — finds \\(d^2\\) or \\(d\\) from it (FT their (b)); A1 — \\(d^2 = 5t^2+40t+80\\) (mark final answer)",
+        "(d) B1 dep on (c) correct — a correct argument including d, e.g. when \\(d=0\\), \\(t=-4\\) but \\(t\\geqslant0\\) [so no collision]"
+      ]
+    },
+    {
+      "id": "w24-p22-q11",
+      "group": "motion",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/22", "question": "11"},
+      "calc": true,
+      "outcomes": ["13.2", "13.4"],
+      "topics": ["resolving a speed at an angle", "position vectors", "proving a collision"],
+      "marks": 9,
+      "targetMinutes": 14,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Particle A starts from the origin O at time t = 0. It moves with constant speed 10 ms⁻¹ in the direction 60° above the x-axis. Find the exact values of the components of the velocity of particle A in the x-direction and the y-direction.", "marks": 2},
+        {"label": "(b)", "text": "Find, in terms of t, the position vector of particle A at time t.", "marks": 1},
+        {"label": "(c)", "text": "Particle B starts from the point \\((2\\sqrt3, 9)\\) at time t = 0. It moves with constant speed \\(\\tfrac53\\) ms⁻¹ parallel to the positive x-axis. Find, in terms of t, the position vector of particle B at time t.", "marks": 2},
+        {"label": "(d)", "text": "Hence show that the particles collide.", "marks": 4}
+      ],
+      "statement": "<p>In this question \\(\\mathbf{i}\\) is a unit vector in the positive \\(x\\)-direction and \\(\\mathbf{j}\\) is a unit vector in the positive \\(y\\)-direction. Time is in seconds and distances are in metres.</p><p>Particle \\(A\\) starts from the origin \\(O\\) at time \\(t=0\\). It moves with constant speed 10 ms⁻¹ in the direction 60° above the \\(x\\)-axis.</p><p><b>(a)</b> Find the <b>exact</b> values of the components of the velocity of particle \\(A\\) in the \\(x\\)-direction and the \\(y\\)-direction.&emsp;<b>[2]</b></p><p><b>(b)</b> Find, in terms of \\(t\\), the position vector of particle \\(A\\) at time \\(t\\).&emsp;<b>[1]</b></p><p>Particle \\(B\\) starts from the point \\((2\\sqrt3, 9)\\) at time \\(t=0\\). It moves with constant speed \\(\\dfrac53\\) ms⁻¹ parallel to the positive \\(x\\)-axis.</p><p><b>(c)</b> Find, in terms of \\(t\\), the position vector of particle \\(B\\) at time \\(t\\).&emsp;<b>[2]</b></p><p><b>(d)</b> <i>Hence</i> show that the particles collide.&emsp;<b>[4]</b></p>",
+      "figure": {"bare": true, "x": [-1.5, 8], "y": [-1, 11], "curves": [{"seg": [0, 0, 0, 10.5], "cls": "thin"}, {"seg": [0, 0, 8, 0], "cls": "thin"}, {"seg": [0, 0, 2.5, 4.33], "cls": "ink"}, {"seg": [3.46, 9, 6, 9], "cls": "ink"}], "points": [[0, 0, "O (A)"], [3.46, 9, "B (2√3, 9)"]], "labels": [[2.9, 4.6, "10 m/s"], [6.6, 9.4, "5/3 m/s"], [1.15, 0.75, "60°"]]},
+      "tips": [
+        "(a) <b>Resolving:</b> a speed \\(v\\) at angle θ to the x-axis has components \\(v\\cos\\theta\\) (horizontal) and \\(v\\sin\\theta\\) (vertical).",
+        "(a) \"Exact values\" → use the special angles: \\(\\cos60° = \\tfrac12\\) and \\(\\sin60° = \\tfrac{\\sqrt3}{2}\\), giving 5 and \\(5\\sqrt3\\). No decimals.",
+        "(c) \"Parallel to the positive x-axis\" means the y-component of the velocity is ZERO — B moves horizontally only, so its \\(y\\) stays 9.",
+        "(d) <b>Collision = both coordinates match at the SAME time.</b> Set the \\(y\\)'s equal to find \\(t\\), then check that this same \\(t\\) also makes the \\(x\\)'s equal. Finding one \\(t\\) is not enough — the second check is where the marks are."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(v_x = 10\\cos60° = 5\\); \\(v_y = 10\\sin60° = 5\\sqrt3\\).</p>",
+        "<p><b>(b)</b> \\(\\mathbf{r}_A = t\\begin{pmatrix}5\\\\5\\sqrt3\\end{pmatrix}\\) (it starts at the origin).</p>",
+        "<p><b>(c)</b> \\(\\mathbf{r}_B = \\begin{pmatrix}2\\sqrt3\\\\9\\end{pmatrix} + t\\begin{pmatrix}\\tfrac53\\\\0\\end{pmatrix}\\).</p>",
+        "<p><b>(d)</b> Equate \\(y\\): \\(5\\sqrt3\\,t = 9 \\Rightarrow t = \\dfrac{9}{5\\sqrt3} = \\dfrac{3\\sqrt3}{5}\\).</p>",
+        "<p>Equate \\(x\\): \\(5t = 2\\sqrt3 + \\tfrac53 t \\Rightarrow \\tfrac{10}{3}t = 2\\sqrt3 \\Rightarrow t = \\dfrac{6\\sqrt3}{10} = \\dfrac{3\\sqrt3}{5}\\).</p>",
+        "<p>The two times are identical, so both coordinates agree at \\(t = \\dfrac{3\\sqrt3}{5}\\) — the particles collide (at the point \\(\\left(3\\sqrt3, 9\\right)\\)). ✓</p>"
+      ],
+      "answer": "(a) \\(5\\) and \\(5\\sqrt3\\); (b) \\(t\\begin{pmatrix}5\\\\5\\sqrt3\\end{pmatrix}\\); (c) \\(\\begin{pmatrix}2\\sqrt3\\\\9\\end{pmatrix}+t\\begin{pmatrix}5/3\\\\0\\end{pmatrix}\\); (d) both give \\(t = \\tfrac{3\\sqrt3}{5}\\)",
+      "markScheme": [
+        "(a) B2 — \\(x = 5\\), \\(y = 5\\sqrt3\\) (B1 for either component correct)",
+        "(b) B1 — \\(\\left[\\begin{pmatrix}0\\\\0\\end{pmatrix}+\\right] t\\begin{pmatrix}5\\\\5\\sqrt3\\end{pmatrix}\\) oe isw (FT their velocity, which must have at least one non-zero component)",
+        "(c) B2 — \\(\\begin{pmatrix}2\\sqrt3\\\\9\\end{pmatrix}+t\\begin{pmatrix}\\frac53\\\\0\\end{pmatrix}\\) oe isw (B1 for the x-component \\(2\\sqrt3+\\frac53t\\) or the y-component 9 seen)",
+        "(d) M1 — \\(5t\\sqrt3 = 9\\) or \\(5t = 2\\sqrt3+\\frac53t\\) (FT their position vectors, both in terms of t); A1 — both equations stated correctly",
+        "(d) A2 — shows the exact times are the same, e.g. \\(t = \\frac{9}{5\\sqrt3} = \\frac{3\\sqrt3}{5}\\) AND \\(\\frac{10}{3}t = 2\\sqrt3 \\to t = \\frac{3\\sqrt3}{5}\\) (A1 for one correct value of t; alternatively find t and show it satisfies the other equation, or show both particles are at \\(\\left(\\frac{9}{\\sqrt3}, 9\\right)\\))"
+      ]
+    },
+    {
+      "id": "s26-p22-q7",
+      "group": "bearings",
+      "source": {"session": "May/June 2026", "paper": "4037/22", "question": "7"},
+      "calc": true,
+      "outcomes": ["13.2", "13.4"],
+      "topics": ["boats & clock times", "bearing to components", "distance between two objects"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Point P has position vector 2i + 5j relative to an origin O. At 1300, boat A sails from point P with velocity vector 8i + 8j. Find the position vector of A at the end of 2 hours of sailing.", "marks": 1},
+        {"label": "(b)", "text": "Write down the position vector of A at the end of t hours of sailing.", "marks": 1},
+        {"label": "(c)", "text": "Point Q has position vector 20i + 8j relative to the origin O. At 1500, boat B sails from point Q on a bearing of 300° with a constant speed of 5√3. Find the position vector of B at 1700.", "marks": 3},
+        {"label": "(d)", "text": "Find the distance between the two boats at 1700.", "marks": 3}
+      ],
+      "statement": "<p>In this question, \\(\\mathbf{i}\\) is a unit vector due <b>east</b> and \\(\\mathbf{j}\\) is a unit vector due <b>north</b>. Distances are measured in kilometres and time is measured in hours.</p><p>Point \\(P\\) has position vector \\(2\\mathbf{i}+5\\mathbf{j}\\) relative to an origin \\(O\\).<br>At 13 00, boat \\(A\\) sails from point \\(P\\) with velocity vector \\(8\\mathbf{i}+8\\mathbf{j}\\).</p><p><b>(a)</b> Find the position vector of \\(A\\) at the end of 2 hours of sailing.&emsp;<b>[1]</b></p><p><b>(b)</b> Write down the position vector of \\(A\\) at the end of \\(t\\) hours of sailing.&emsp;<b>[1]</b></p><p><b>(c)</b> Point \\(Q\\) has position vector \\(20\\mathbf{i}+8\\mathbf{j}\\) relative to the origin \\(O\\). At 15 00, boat \\(B\\) sails from point \\(Q\\) on a bearing of 300° with a constant speed of \\(5\\sqrt3\\).</p><p>Find the position vector of \\(B\\) at 17 00.&emsp;<b>[3]</b></p><p><b>(d)</b> Find the distance between the two boats at 17 00.&emsp;<b>[3]</b></p>",
+      "tips": [
+        "<b>Track the clock carefully:</b> A sails from 1300, so at 1700 it has sailed 4 hours. B sails from 1500, so at 1700 it has sailed only 2 hours. Mismatched times are the number-one error here.",
+        "(c) <b>Bearings are measured clockwise from NORTH</b>, so with i = east and j = north: \\(v_x = v\\sin(\\text{bearing})\\), \\(v_y = v\\cos(\\text{bearing})\\).",
+        "(c) Bearing 300°: \\(\\sin300° = -\\tfrac{\\sqrt3}{2}\\), \\(\\cos300° = \\tfrac12\\). So velocity \\(= 5\\sqrt3\\left(-\\tfrac{\\sqrt3}{2}\\right)\\mathbf{i} + 5\\sqrt3\\left(\\tfrac12\\right)\\mathbf{j} = -7.5\\mathbf{i} + \\tfrac{5\\sqrt3}{2}\\mathbf{j}\\) — north-west, which matches a bearing of 300°. Sanity-check the signs against the compass.",
+        "(d) Distance = magnitude of the difference of the two 1700 position vectors."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(2\\mathbf{i}+5\\mathbf{j} + 2(8\\mathbf{i}+8\\mathbf{j}) = 18\\mathbf{i}+21\\mathbf{j}\\).</p>",
+        "<p><b>(b)</b> \\(2\\mathbf{i}+5\\mathbf{j} + t(8\\mathbf{i}+8\\mathbf{j})\\).</p>",
+        "<p><b>(c)</b> Bearing 300°, speed \\(5\\sqrt3\\): velocity \\(= 5\\sqrt3\\sin300°\\,\\mathbf{i} + 5\\sqrt3\\cos300°\\,\\mathbf{j} = -7.5\\mathbf{i} + \\dfrac{5\\sqrt3}{2}\\mathbf{j}\\).</p>",
+        "<p>B sails for 2 hours (1500 → 1700): \\(\\mathbf{r}_B = 20\\mathbf{i}+8\\mathbf{j} + 2\\left(-7.5\\mathbf{i}+\\tfrac{5\\sqrt3}{2}\\mathbf{j}\\right) = 5\\mathbf{i} + \\left(8+5\\sqrt3\\right)\\mathbf{j}\\).</p>",
+        "<p><b>(d)</b> A has sailed 4 hours: \\(\\mathbf{r}_A = 2\\mathbf{i}+5\\mathbf{j}+4(8\\mathbf{i}+8\\mathbf{j}) = 34\\mathbf{i}+37\\mathbf{j}\\).</p>",
+        "<p>Difference \\(= (34-5)\\mathbf{i} + \\big(37-8-5\\sqrt3\\big)\\mathbf{j} = 29\\mathbf{i} + \\big(29-5\\sqrt3\\big)\\mathbf{j}\\).</p>",
+        "<p>Distance \\(= \\sqrt{29^2 + (29-5\\sqrt3)^2} = \\sqrt{841 + 413.7} = 35.4\\) km (3 s.f.).</p>"
+      ],
+      "answer": "(a) \\(18\\mathbf{i}+21\\mathbf{j}\\); (b) \\(2\\mathbf{i}+5\\mathbf{j}+t(8\\mathbf{i}+8\\mathbf{j})\\); (c) \\(5\\mathbf{i}+(8+5\\sqrt3)\\mathbf{j}\\); (d) 35.4 km",
+      "markScheme": [
+        "(a) B1 — \\(18\\mathbf{i}+21\\mathbf{j}\\) oe isw (allow unsimplified \\(2\\mathbf{i}+5\\mathbf{j}+2(8\\mathbf{i}+8\\mathbf{j})\\))",
+        "(b) B1 — \\(2\\mathbf{i}+5\\mathbf{j}+t(8\\mathbf{i}+8\\mathbf{j})\\) oe isw",
+        "(c) B3 — \\(5\\mathbf{i}+(8+5\\sqrt3)\\mathbf{j}\\) oe isw (B2 for both velocity components \\(x=-7.5\\), \\(y=\\frac{5\\sqrt3}{2}\\) or 4.33[01…] soi; B1 for each correct component; SC1 for reversed components)",
+        "(d) 3 — 35.4[21…] (marks for a correct distance calculation using their 1700 position vectors)"
+      ]
+    },
+    {
+      "id": "s26-p12-q11",
+      "group": "geometry",
+      "source": {"session": "May/June 2026", "paper": "4037/12", "question": "11"},
+      "calc": false,
+      "outcomes": ["13.2", "13.3"],
+      "topics": ["dividing a line in a ratio", "position vector of a point on a segment"],
+      "marks": 6,
+      "targetMinutes": 9,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "The position vectors of A and B relative to an origin O are \\(\\overrightarrow{OA}=\\begin{pmatrix}4\\\\-2\\end{pmatrix}\\) and \\(\\overrightarrow{OB}=\\begin{pmatrix}-4\\\\6\\end{pmatrix}\\). The point C lies on AB with AC : CB = 3 : 1. The point D lies on OA such that \\(\\overrightarrow{OD}=\\lambda\\overrightarrow{OA}\\) and \\(\\overrightarrow{CD}=\\begin{pmatrix}5\\\\-5.5\\end{pmatrix}\\). Find \\(\\overrightarrow{OD}\\).", "marks": 5},
+        {"label": "(b)", "text": "Hence find the value of λ.", "marks": 1}
+      ],
+      "statement": "<p>The position vectors of points \\(A\\) and \\(B\\) relative to an origin \\(O\\) are</p><p style=\"text-align:center\">\\(\\overrightarrow{OA} = \\begin{pmatrix}4\\\\-2\\end{pmatrix}\\) and \\(\\overrightarrow{OB} = \\begin{pmatrix}-4\\\\6\\end{pmatrix}\\).</p><p>The point \\(C\\) lies on \\(AB\\) and is such that \\(AC : CB = 3 : 1\\).</p><p>The point \\(D\\) lies on \\(OA\\) such that \\(\\;\\overrightarrow{OD} = \\lambda\\overrightarrow{OA}\\;\\) and \\(\\;\\overrightarrow{CD} = \\begin{pmatrix}5\\\\-5.5\\end{pmatrix}\\).</p><p><b>(a)</b> Find \\(\\overrightarrow{OD}\\).&emsp;<b>[5]</b></p><p><b>(b)</b> <i>Hence</i> find the value of \\(\\lambda\\).&emsp;<b>[1]</b></p>",
+      "figure": {"x": [-6, 6], "y": [-4, 8], "xTicks": 2, "yTicks": 2, "curves": [{"seg": [0, 0, 4, -2], "cls": "thin"}, {"seg": [0, 0, -4, 6], "cls": "thin"}, {"seg": [4, -2, -4, 6], "cls": "ink"}, {"seg": [-2, 4, 3, -1.5], "cls": "c1", "dashed": true}], "points": [[0, 0, "O"], [4, -2, "A"], [-4, 6, "B"], [-2, 4, "C"], [3, -1.5, "D"]]},
+      "tips": [
+        "<b>Ratio on a line:</b> \\(AC:CB = 3:1\\) means \\(\\overrightarrow{AC} = \\tfrac34\\overrightarrow{AB}\\) — the 3 is out of a total of 4 parts, not out of 1.",
+        "\\(\\overrightarrow{AB} = \\overrightarrow{OB}-\\overrightarrow{OA} = \\begin{pmatrix}-8\\\\8\\end{pmatrix}\\), so \\(\\overrightarrow{OC} = \\overrightarrow{OA} + \\tfrac34\\overrightarrow{AB}\\).",
+        "Then walk the route: \\(\\overrightarrow{OD} = \\overrightarrow{OC} + \\overrightarrow{CD}\\).",
+        "(b) \\(\\overrightarrow{OD} = \\lambda\\overrightarrow{OA}\\): compare either component — \\(3 = 4\\lambda\\) gives \\(\\lambda = 0.75\\). Check the other component agrees (\\(-1.5 = 0.75\\times-2\\) ✓)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\overrightarrow{AB} = \\begin{pmatrix}-4\\\\6\\end{pmatrix} - \\begin{pmatrix}4\\\\-2\\end{pmatrix} = \\begin{pmatrix}-8\\\\8\\end{pmatrix}\\).</p>",
+        "<p>\\(AC:CB = 3:1 \\Rightarrow \\overrightarrow{AC} = \\tfrac34\\begin{pmatrix}-8\\\\8\\end{pmatrix} = \\begin{pmatrix}-6\\\\6\\end{pmatrix}\\).</p>",
+        "<p>\\(\\overrightarrow{OC} = \\begin{pmatrix}4\\\\-2\\end{pmatrix} + \\begin{pmatrix}-6\\\\6\\end{pmatrix} = \\begin{pmatrix}-2\\\\4\\end{pmatrix}\\).</p>",
+        "<p>\\(\\overrightarrow{OD} = \\overrightarrow{OC} + \\overrightarrow{CD} = \\begin{pmatrix}-2\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\-5.5\\end{pmatrix} = \\begin{pmatrix}3\\\\-1.5\\end{pmatrix}\\).</p>",
+        "<p><b>(b)</b> \\(\\begin{pmatrix}3\\\\-1.5\\end{pmatrix} = \\lambda\\begin{pmatrix}4\\\\-2\\end{pmatrix} \\Rightarrow \\lambda = \\tfrac34 = 0.75\\) (both components agree).</p>"
+      ],
+      "answer": "(a) \\(\\overrightarrow{OD} = \\begin{pmatrix}3\\\\-1.5\\end{pmatrix}\\); (b) \\(\\lambda = 0.75\\)",
+      "markScheme": [
+        "(a) B1 — \\(\\overrightarrow{AB} = \\begin{pmatrix}-8\\\\8\\end{pmatrix}\\) oe soi (allow component vectors throughout)",
+        "(a) 2 — \\(\\overrightarrow{OC} = \\begin{pmatrix}-2\\\\4\\end{pmatrix}\\) (M1 for \\(\\overrightarrow{OC} = \\begin{pmatrix}4\\\\-2\\end{pmatrix}+\\frac34\\overrightarrow{AB}\\) oe, or \\(\\begin{pmatrix}-4\\\\6\\end{pmatrix}-\\frac14\\overrightarrow{AB}\\))",
+        "(a) 2 — \\(\\overrightarrow{OD} = \\begin{pmatrix}3\\\\-1.5\\end{pmatrix}\\) (M1FT for \\(\\begin{pmatrix}5\\\\-5.5\\end{pmatrix}+\\)their \\(\\overrightarrow{OC}\\); mark final answer, must be a vector)",
+        "(b) B1 — \\(\\lambda = 0.75\\) or \\(\\frac34\\) (must have full marks in part (a))"
+      ]
+    },
+    {
+      "id": "s25-p12-q11",
+      "group": "geometry",
+      "source": {"session": "May/June 2025", "paper": "4037/12", "question": "11"},
+      "calc": false,
+      "outcomes": ["13.3"],
+      "topics": ["triangle with two scalars", "route-building", "equating coefficients of a and b"],
+      "marks": 9,
+      "targetMinutes": 14,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "The diagram shows triangle OAB where OA = a and OB = b. P lies on OA with \\(\\overrightarrow{OP}=\\tfrac34\\overrightarrow{OA}\\); Q lies on AB with \\(\\overrightarrow{AQ}=\\tfrac13\\overrightarrow{AB}\\). The line through P and Q meets the line through O and B at R, where \\(\\overrightarrow{OR}=\\lambda\\mathbf{b}\\) and \\(\\overrightarrow{PR}=\\mu\\overrightarrow{PQ}\\). Find \\(\\overrightarrow{OR}\\) in terms of a, b and μ.", "marks": 6},
+        {"label": "(b)", "text": "Hence find the values of λ and μ.", "marks": 3}
+      ],
+      "statement": "<p>The diagram shows the triangle \\(OAB\\), where \\(\\overrightarrow{OA} = \\mathbf{a}\\) and \\(\\overrightarrow{OB} = \\mathbf{b}\\).</p><p>The point \\(P\\) lies on \\(OA\\) such that \\(\\;\\overrightarrow{OP} = \\tfrac34\\overrightarrow{OA}\\).<br>The point \\(Q\\) lies on \\(AB\\) such that \\(\\;\\overrightarrow{AQ} = \\tfrac13\\overrightarrow{AB}\\).</p><p>The straight line through \\(P\\) and \\(Q\\) meets the straight line through \\(O\\) and \\(B\\) at the point \\(R\\). It is given that \\(\\;\\overrightarrow{OR} = \\lambda\\mathbf{b}\\;\\) and \\(\\;\\overrightarrow{PR} = \\mu\\overrightarrow{PQ}\\), where λ and μ are constants.</p><p><b>(a)</b> Find \\(\\overrightarrow{OR}\\) in terms of \\(\\mathbf{a}\\), \\(\\mathbf{b}\\) and \\(\\mu\\).&emsp;<b>[6]</b></p><p><b>(b)</b> <i>Hence</i> find the values of \\(\\lambda\\) and \\(\\mu\\).&emsp;<b>[3]</b></p>",
+      "figure": {"bare": true, "x": [-1, 13], "y": [-1, 7], "curves": [{"seg": [0, 0, 2.2, 6], "cls": "ink"}, {"seg": [0, 0, 12, 0], "cls": "ink"}, {"seg": [2.2, 6, 4.4, 0], "cls": "ink"}, {"seg": [1.65, 4.5, 12, 0], "cls": "ink"}], "points": [[0, 0, "O"], [2.2, 6, "A"], [4.4, 0, "B"], [1.65, 4.5, "P"], [2.93, 4, "Q"], [12, 0, "R"]]},
+      "tips": [
+        "<b>Route-building is the whole method:</b> express everything in terms of \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) by walking along the arrows.",
+        "\\(\\overrightarrow{OQ} = \\mathbf{a} + \\tfrac13(\\mathbf{b}-\\mathbf{a}) = \\tfrac23\\mathbf{a}+\\tfrac13\\mathbf{b}\\), and \\(\\overrightarrow{OP} = \\tfrac34\\mathbf{a}\\).",
+        "\\(\\overrightarrow{PQ} = \\overrightarrow{OQ}-\\overrightarrow{OP} = \\tfrac13\\mathbf{b} - \\tfrac{1}{12}\\mathbf{a}\\). Then \\(\\overrightarrow{OR} = \\overrightarrow{OP} + \\mu\\overrightarrow{PQ}\\).",
+        "(b) \\(R\\) is on \\(OB\\), so \\(\\overrightarrow{OR}\\) has <b>no \\(\\mathbf{a}\\) component</b>: set the coefficient of \\(\\mathbf{a}\\) to zero to get μ, then read λ off the \\(\\mathbf{b}\\) coefficient. This 'coefficient must be zero' step is the exam's favourite idea."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\overrightarrow{OQ} = \\mathbf{a} + \\tfrac13(\\mathbf{b}-\\mathbf{a}) = \\tfrac23\\mathbf{a} + \\tfrac13\\mathbf{b}\\); \\(\\overrightarrow{OP} = \\tfrac34\\mathbf{a}\\).</p>",
+        "<p>\\(\\overrightarrow{PQ} = \\overrightarrow{OQ} - \\overrightarrow{OP} = \\left(\\tfrac23-\\tfrac34\\right)\\mathbf{a} + \\tfrac13\\mathbf{b} = -\\tfrac{1}{12}\\mathbf{a} + \\tfrac13\\mathbf{b}\\).</p>",
+        "<p>\\(\\overrightarrow{OR} = \\overrightarrow{OP} + \\overrightarrow{PR} = \\tfrac34\\mathbf{a} + \\mu\\left(\\tfrac13\\mathbf{b} - \\tfrac{1}{12}\\mathbf{a}\\right)\\).</p>",
+        "<p><b>(b)</b> Since \\(\\overrightarrow{OR} = \\lambda\\mathbf{b}\\), the \\(\\mathbf{a}\\)-coefficient must vanish:</p>",
+        "<p>\\(\\tfrac34 - \\tfrac{1}{12}\\mu = 0 \\Rightarrow \\mu = 9\\).</p>",
+        "<p>Comparing \\(\\mathbf{b}\\): \\(\\lambda = \\tfrac13\\mu = \\tfrac13(9) = 3\\).</p>"
+      ],
+      "answer": "(a) \\(\\overrightarrow{OR} = \\tfrac34\\mathbf{a} + \\mu\\left(\\tfrac13\\mathbf{b}-\\tfrac{1}{12}\\mathbf{a}\\right)\\); (b) \\(\\mu = 9,\\ \\lambda = 3\\)",
+      "markScheme": [
+        "(a) 2 — \\(\\overrightarrow{OQ} = \\mathbf{a}+\\frac13(\\mathbf{b}-\\mathbf{a})\\) oe (M1 for an attempt \\(\\overrightarrow{OQ} = \\mathbf{a}+k(\\mathbf{b}-\\mathbf{a})\\), k any sign; allow unsimplified)",
+        "(a) M1 — \\(\\overrightarrow{PQ} = -\\frac34\\mathbf{a} + their\\ \\overrightarrow{OQ}\\); A1 — \\(\\overrightarrow{PQ} = \\frac13\\mathbf{b}-\\frac{1}{12}\\mathbf{a}\\) (allow unsimplified)",
+        "(a) B1 — \\(\\overrightarrow{OP} = \\frac34\\mathbf{a}\\) (allow anywhere); B1 — \\(\\overrightarrow{OR} = \\frac34\\mathbf{a}+\\mu\\left(\\frac13\\mathbf{b}-\\frac{1}{12}\\mathbf{a}\\right)\\) oe, must be simplified",
+        "(b) B1 — \\(\\lambda = \\frac13\\mu\\) (equating b vectors); B1 — \\(\\frac34-\\frac{1}{12}\\mu = 0\\) oe (equating a vectors to zero); B1 — \\(\\mu = 9\\), \\(\\lambda = 3\\)"
+      ]
+    },
+    {
+      "id": "s26-p11-q11",
+      "group": "geometry",
+      "source": {"session": "May/June 2026", "paper": "4037/11", "question": "11"},
+      "calc": false,
+      "outcomes": ["13.3"],
+      "topics": ["two scalars m and n", "multi-step route", "equating coefficients"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "statement": "<p>A triangle \\(OAB\\) is such that \\(\\overrightarrow{OA} = \\mathbf{a}\\) and \\(\\overrightarrow{OB} = \\mathbf{b}\\).</p><p>The point \\(X\\) lies on \\(OA\\) such that \\(\\;\\overrightarrow{OA} = 3\\overrightarrow{OX}\\).<br>The point \\(Y\\) lies on \\(XB\\) such that \\(\\;\\overrightarrow{XB} = 5\\overrightarrow{XY}\\).<br>The point \\(Z\\) lies on \\(OB\\) such that \\(\\;\\overrightarrow{OB} = m\\overrightarrow{OZ}\\), where \\(m\\) is a scalar.<br>\\(\\overrightarrow{OX} = n\\overrightarrow{ZY}\\), where \\(n\\) is a scalar.</p><p>Use a vector method to find the values of \\(m\\) and \\(n\\).&emsp;<b>[8]</b></p>",
+      "figure": {"bare": true, "x": [-1, 9], "y": [-1, 7], "curves": [{"seg": [0, 0, 2, 6], "cls": "ink"}, {"seg": [0, 0, 8, 0], "cls": "ink"}, {"seg": [2, 6, 8, 0], "cls": "ink"}, {"seg": [0.667, 2, 8, 0], "cls": "thin"}, {"seg": [2.4, 0, 2.133, 1.6], "cls": "c1", "dashed": true}], "points": [[0, 0, "O"], [2, 6, "A"], [8, 0, "B"], [0.667, 2, "X"], [2.133, 1.6, "Y"], [2.4, 0, "Z"]]},
+      "tips": [
+        "Read each condition the right way round: \\(\\overrightarrow{OA}=3\\overrightarrow{OX}\\) means \\(\\overrightarrow{OX} = \\tfrac13\\mathbf{a}\\) (X is a THIRD of the way, not three times).",
+        "Likewise \\(\\overrightarrow{XB}=5\\overrightarrow{XY}\\Rightarrow \\overrightarrow{XY}=\\tfrac15\\overrightarrow{XB}\\), and \\(\\overrightarrow{OB}=m\\overrightarrow{OZ}\\Rightarrow\\overrightarrow{OZ}=\\tfrac1m\\mathbf{b}\\).",
+        "Build \\(\\overrightarrow{ZY}\\) by a route: \\(\\overrightarrow{ZY} = \\overrightarrow{ZO}+\\overrightarrow{OX}+\\overrightarrow{XY} = -\\tfrac1m\\mathbf{b} + \\tfrac13\\mathbf{a} + \\tfrac15\\left(\\mathbf{b}-\\tfrac13\\mathbf{a}\\right)\\).",
+        "Then \\(\\overrightarrow{OX} = n\\overrightarrow{ZY}\\) gives TWO equations by comparing \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) coefficients. The \\(\\mathbf{b}\\) one has no left-hand side, so it equals zero — that gives \\(m\\)."
+      ],
+      "solution": [
+        "<p>\\(\\overrightarrow{OX} = \\tfrac13\\mathbf{a}\\); \\(\\overrightarrow{XB} = \\mathbf{b} - \\tfrac13\\mathbf{a}\\); \\(\\overrightarrow{XY} = \\tfrac15\\left(\\mathbf{b}-\\tfrac13\\mathbf{a}\\right)\\); \\(\\overrightarrow{OZ} = \\tfrac1m\\mathbf{b}\\).</p>",
+        "<p>\\(\\overrightarrow{ZY} = -\\tfrac1m\\mathbf{b} + \\tfrac13\\mathbf{a} + \\tfrac15\\left(\\mathbf{b}-\\tfrac13\\mathbf{a}\\right) = \\left(\\tfrac13-\\tfrac{1}{15}\\right)\\mathbf{a} + \\left(\\tfrac15-\\tfrac1m\\right)\\mathbf{b} = \\tfrac{4}{15}\\mathbf{a} + \\left(\\tfrac15-\\tfrac1m\\right)\\mathbf{b}\\).</p>",
+        "<p>\\(\\overrightarrow{OX} = n\\overrightarrow{ZY}\\): \\(\\tfrac13\\mathbf{a} + 0\\mathbf{b} = n\\left[\\tfrac{4}{15}\\mathbf{a} + \\left(\\tfrac15-\\tfrac1m\\right)\\mathbf{b}\\right]\\).</p>",
+        "<p>Comparing \\(\\mathbf{a}\\): \\(\\tfrac13 = \\tfrac{4n}{15} \\Rightarrow n = \\tfrac{15}{12} = \\tfrac54\\).</p>",
+        "<p>Comparing \\(\\mathbf{b}\\): \\(0 = n\\left(\\tfrac15-\\tfrac1m\\right)\\), and \\(n \\neq 0\\), so \\(\\tfrac1m = \\tfrac15 \\Rightarrow m = 5\\).</p>"
+      ],
+      "answer": "\\(m = 5,\\quad n = \\tfrac54\\)",
+      "markScheme": [
+        "B1 — \\(\\overrightarrow{OX} = \\frac13\\mathbf{a}\\) (allow on a diagram if the direction is clear)",
+        "B1 — \\(\\overrightarrow{XB} = \\mathbf{b}-\\frac13\\mathbf{a}\\);  B1 — \\(\\overrightarrow{XY} = \\frac15\\left(\\mathbf{b}-\\frac13\\mathbf{a}\\right)\\) oe",
+        "B1 — \\(\\overrightarrow{OZ} = \\frac1m\\mathbf{b}\\) (do not accept \\(m\\overrightarrow{OZ}=\\mathbf{b}\\) unless recovered)",
+        "M1 — \\(\\overrightarrow{ZY} = -\\frac1m\\mathbf{b}+\\frac13\\mathbf{a}+\\frac15\\left(\\mathbf{b}-\\frac13\\mathbf{a}\\right)\\) oe, in a and b (FT their \\(-\\overrightarrow{OZ}+\\overrightarrow{OX}+\\overrightarrow{XY}\\))",
+        "M1 dep — uses \\(\\frac13\\mathbf{a}\\) equated to their \\(n\\overrightarrow{ZY}\\) oe",
+        "A2 — \\(m = 5\\), \\(n = \\frac54\\) (A1 for each)"
+      ]
+    }
+  ]
+}

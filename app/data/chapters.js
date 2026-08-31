@@ -30,6 +30,9 @@ window.A.registerChapters([
     n: 12, title: "Series",
     blurb: "The binomial theorem and the general term (finding the term independent of x), plus arithmetic and geometric progressions: nth terms, sums, threshold problems, convergence and the sum to infinity. The most heavily examined chapter. Outcomes 12.1–12.5."
   },
-  { n: 13, title: "Vectors in two dimensions" },
+  {
+    n: 13, title: "Vectors in two dimensions",
+    blurb: "Components, magnitude and unit vectors; velocity from speed and direction; position vectors at time t; proving and disproving collisions; bearings; and vector geometry with unknown scalars. Outcomes 13.1–13.4."
+  },
   { n: 14, title: "Calculus" }
 ]);

@@ -163,8 +163,18 @@ hosted app private (or strip verbatim questions) if it ever goes public.
     problems. 8-section lesson; AP-vs-GP convergence widget.
     Note: the published 4037/22 M/J 2024 mark scheme PDF ends at Q10, so s24-p22-q11
     carries a reconstructed allocation (answers verified by substitution).
-  - Next: chapter 13 (Vectors in two dimensions) — the last red-dot chapter.
-- **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
+  - **Chapter 13 done (2026-08-31):** 8 questions / 63 marks — vector algebra and equating
+    components, velocity from speed x unit vector, position at time t, proving a collision
+    (both components must give the same t) and disproving one (negative discriminant, or a
+    negative-only root with t >= 0), bearings vs angles, and vector geometry with unknown
+    scalars (the zero-a-coefficient trick). 6-section lesson; vector addition/unit-vector widget.
+- **P2 COMPLETE (2026-08-31): all seven priority (red-dot) chapters are live — 4, 6, 8, 9, 11,
+  12, 13 = 86 questions / 541 marks**, every one verified against its official mark scheme,
+  with 11 interactive widgets. Smoke test: 63 checks.
+- **P3 — next:** the remaining 7 chapters (1 Functions, 2 Quadratic functions, 3 Factors of
+  polynomials, 5 Simultaneous equations, 7 Straight-line graphs, 10 Trigonometry, 14 Calculus —
+  note 14 is large and 10 is diagram-heavy), then mock-exam mode (assemble a fresh 80-mark paper
+  from unseen questions), per-topic time analytics, and examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 
 ## 7. Workflows (recurring)
