@@ -156,7 +156,14 @@ hosted app private (or strip verbatim questions) if it ever goes public.
     arrangements with restrictions (blocks/gaps/fixed spacing), quota selections, digit
     numbers & passwords, and the four algebraic nCr equations/proofs (n=40, n=65, n=69,
     two identities). 8-section lesson; nPr-vs-nCr slots widget.
-  - Next: chapter 12 (Series), then 13 (Vectors in two dimensions).
+  - **Chapter 12 done (2026-08-31):** 17 questions / 119 marks — the biggest chapter.
+    Binomial expansions & unknown constants (incl. the ratio trick), general term / term
+    independent of x (incl. a product of two expansions = 1 537 024), AP, GP, sum to
+    infinity & convergence (log, trig and bracket-disguised ratios) and AP/GP linked
+    problems. 8-section lesson; AP-vs-GP convergence widget.
+    Note: the published 4037/22 M/J 2024 mark scheme PDF ends at Q10, so s24-p22-q11
+    carries a reconstructed allocation (answers verified by substitution).
+  - Next: chapter 13 (Vectors in two dimensions) — the last red-dot chapter.
 - **P3:** all 14 chapters, mock-exam mode, time analytics, examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 

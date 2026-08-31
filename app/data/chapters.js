@@ -26,7 +26,10 @@ window.A.registerChapters([
     n: 11, title: "Permutations and combinations",
     blurb: "The multiplication principle, nPr vs nCr, arrangements with restrictions (blocks, gaps, fixed ends), quota selections, digit-number problems, and the algebraic nCr equations and proofs that now end Paper 1. Outcomes 11.1–11.3."
   },
-  { n: 12, title: "Series" },
+  {
+    n: 12, title: "Series",
+    blurb: "The binomial theorem and the general term (finding the term independent of x), plus arithmetic and geometric progressions: nth terms, sums, threshold problems, convergence and the sum to infinity. The most heavily examined chapter. Outcomes 12.1–12.5."
+  },
   { n: 13, title: "Vectors in two dimensions" },
   { n: 14, title: "Calculus" }
 ]);

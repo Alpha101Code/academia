@@ -458,6 +458,62 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: AP vs GP and convergence =============== */
+  function seriesW(host) {
+    const st = { type: "gp", a: 8, d: 3, r: 0.6, n: 8 };
+    host.innerHTML = `
+      <div class="w-title">Explore: arithmetic vs geometric progressions</div>
+      <div class="w-sub">Terms are plotted against their position. Watch how an AP marches in a straight line while a GP curves — and how a GP only has a sum to infinity when \\(|r| < 1\\).</div>
+      <div class="w-controls">
+        <label>type
+          <select data-k="type"><option value="gp">geometric</option><option value="ap">arithmetic</option></select></label>
+        ${slider("a", -10, 12, 1, st.a, "first term a =")}
+        <span data-show="ap" hidden>${slider("d", -5, 5, 0.5, st.d, "difference d =")}</span>
+        <span data-show="gp">${slider("r", -2, 2, 0.1, st.r, "ratio r =")}</span>
+        ${slider("n", 3, 12, 1, st.n, "terms shown n =")}
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      host.querySelectorAll("[data-show]").forEach(el => { el.hidden = el.dataset.show !== st.type; });
+      const isAP = st.type === "ap";
+      const terms = [], pts = [];
+      let sum = 0;
+      for (let k = 1; k <= st.n; k++) {
+        const v = isAP ? st.a + (k - 1) * st.d : st.a * Math.pow(st.r, k - 1);
+        terms.push(v); sum += v;
+        pts.push([k, v, ""]);
+      }
+      const finite = terms.filter(v => isFinite(v));
+      const lo = Math.min(-2, ...finite), hi = Math.max(4, ...finite);
+      const curves = isAP ? [{ poly: [st.d, st.a - st.d], dashed: true }] : [];
+      let read = `<b>${isAP ? "AP" : "GP"}:</b> ` +
+        terms.slice(0, 6).map(v => fmt(Math.round(v * 100) / 100)).join(", ") + (st.n > 6 ? ", …" : "") + "<br><br>";
+      if (isAP) {
+        read += `\\(u_n = a + (n-1)d = ${fmt(st.a)} ${st.d < 0 ? "−" : "+"} ${fmt(Math.abs(st.d))}(n-1)\\)<br>
+          \\(S_{${st.n}} = \\tfrac{n}{2}[2a+(n-1)d] = ${fmt(Math.round(sum * 100) / 100)}\\)<br>
+          <span class="hint">An AP never has a sum to infinity — the terms don't shrink to zero.</span>`;
+      } else {
+        read += `\\(u_n = ar^{\\,n-1}\\)<br>\\(S_{${st.n}} = ${fmt(Math.round(sum * 1000) / 1000)}\\)<br><br>`;
+        const conv = Math.abs(st.r) < 1 && st.r !== 0;
+        read += conv
+          ? `\\(|r| = ${fmt(Math.abs(Math.round(st.r * 100) / 100))} < 1\\) → <b>converges</b><br>
+             \\(S_\\infty = \\dfrac{a}{1-r} = ${fmt(Math.round(st.a / (1 - st.r) * 1000) / 1000)}\\)`
+          : `\\(|r| = ${fmt(Math.abs(Math.round(st.r * 100) / 100))} \\geqslant 1\\) → <b>diverges</b><br>
+             No sum to infinity: the terms do not tend to zero.`;
+      }
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: [0, st.n + 1], y: [Math.max(lo - 1, -30), Math.min(hi + 1, 40)],
+        xTicks: 1, yTicks: Math.max(1, Math.round((hi - lo) / 6)),
+        curves, points: pts
+      }, { height: 300 });
+      host.querySelector("[data-read]").innerHTML = read;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -476,7 +532,7 @@ window.A.widgets = (function () {
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
     "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
-    "sector": sectorW, "perm-comb": permComb };
+    "sector": sectorW, "perm-comb": permComb, "series": seriesW };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {
