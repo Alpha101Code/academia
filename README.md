@@ -7,10 +7,10 @@ Revision platform for Cambridge School Certificate subjects, built as a static w
 Planned next: Mathematics D 4024, Physics 5054, and other SC subjects.
 
 **▶ To revise: open [`app/index.html`](app/index.html) in a browser** — no install, no server needed.
-**All seven priority chapters are live** — 4, 6, 8, 9, 11, 12 and 13 — **plus Chapter 14
-(Calculus)**: **102 past-paper questions, 636 marks**, each with tips, worked solutions, official
-mark schemes and exam-pace timers, plus full interactive lessons with 12 simulations.
-Paper bank: 20/20 complete QP+MS pairs.
+**All seven priority chapters are live** — 4, 6, 8, 9, 11, 12 and 13 — **plus Chapters 10
+(Trigonometry) and 14 (Calculus)**: **113 past-paper questions, 702 marks**, each with tips,
+worked solutions, official mark schemes and exam-pace timers, plus full interactive lessons with
+13 simulations. Paper bank: 20/20 complete QP+MS pairs.
 
 | Where | What |
 |---|---|

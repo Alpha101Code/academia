@@ -21,7 +21,10 @@ window.A.registerChapters([
     n: 9, title: "Circular measure",
     blurb: "Radians, arc length s = rθ and sector area ½r²θ (not given in the exam!), segments, and the slicing method for compound shaded regions — plus tangent and cone applications. Outcome 9.1."
   },
-  { n: 10, title: "Trigonometry" },
+  {
+    n: 10, title: "Trigonometry",
+    blurb: "The six trigonometric functions, amplitude and period, graphs of a sin bx + c (with asymptotes for tan), the three Pythagorean identities, proving relationships, and solving equations over a given domain in degrees or radians. Outcomes 10.1–10.6."
+  },
   {
     n: 11, title: "Permutations and combinations",
     blurb: "The multiplication principle, nPr vs nCr, arrangements with restrictions (blocks, gaps, fixed ends), quota selections, digit-number problems, and the algebraic nCr equations and proofs that now end Paper 1. Outcomes 11.1–11.3."

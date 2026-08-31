@@ -644,6 +644,76 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: y = a sin/cos/tan(bx) + c =============== */
+  function trigW(host) {
+    const st = { fn: "sin", a: 2, b: 2, c: 0, deg: 1, line: 0 };
+    host.innerHTML = `
+      <div class="w-title">Explore: \\(y = a\\sin bx + c\\) and friends</div>
+      <div class="w-sub">Change a, b and c and watch the amplitude, period and shift respond. Drop in a horizontal line to see how many solutions an equation has in the domain.</div>
+      <div class="w-controls">
+        <label>function
+          <select data-k="fn"><option value="sin">a sin bx + c</option><option value="cos">a cos bx + c</option><option value="tan">a tan bx + c</option></select></label>
+        ${slider("a", 1, 5, 1, st.a, "a =")}
+        ${slider("b", 0.25, 4, 0.25, st.b, "b =")}
+        ${slider("c", -4, 4, 1, st.c, "c =")}
+        ${slider("line", -6, 6, 0.5, st.line, "line y =")}
+        <label>units <select data-k="deg"><option value="1">degrees</option><option value="0">radians</option></select></label>
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    host.querySelector('select[data-k="deg"]').addEventListener("change", function () {
+      st.deg = Number(this.value); draw();
+    });
+    function draw() {
+      const deg = Number(st.deg) === 1;
+      const { a, b, c } = st;
+      const xMax = deg ? 360 / (b < 1 ? b : 1) * (b < 1 ? 1 : 1) : 2 * Math.PI;
+      const hi = deg ? Math.min(1440, 720 / b * (b < 1 ? 1 : 1)) : Math.min(4 * Math.PI, 4 * Math.PI / b);
+      const xr = deg ? [0, Math.min(1440, 360 / b * 2)] : [0, Math.min(4 * Math.PI, 2 * (2 * Math.PI / b))];
+      const type = st.fn + (deg ? "deg" : "mult");
+      const period = deg ? 360 / b : 2 * Math.PI / b;
+      const tanPeriod = period / 2;
+      const curves = [{ fn: { type, a, b, c } }];
+      /* count intersections with the line by sampling sign changes */
+      const f = x => {
+        const t = deg ? b * x * Math.PI / 180 : b * x;
+        const v = st.fn === "sin" ? Math.sin(t) : st.fn === "cos" ? Math.cos(t) : Math.tan(t);
+        return a * v + c;
+      };
+      let count = 0, prev = null;
+      for (let k = 0; k <= 2000; k++) {
+        const x = xr[0] + (xr[1] - xr[0]) * k / 2000;
+        const d = f(x) - st.line;
+        if (isFinite(d) && Math.abs(d) < 50) {
+          if (prev !== null && Math.sign(d) !== Math.sign(prev) && Math.abs(d - prev) < 5) count++;
+          prev = d;
+        } else prev = null;
+      }
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: xr, y: st.fn === "tan" ? [-10, 10] : [-(a + Math.abs(c)) - 1, a + Math.abs(c) + 1],
+        xTicks: deg ? (xr[1] > 720 ? 360 : 180) : Math.PI / 2,
+        yTicks: st.fn === "tan" ? 2 : Math.max(1, Math.round((a + Math.abs(c)) / 3)),
+        curves, hlines: [st.line]
+      }, { height: 300 });
+      let read = `\\(y = ${fmt(a)}\\${st.fn} ${fmt(b)}x ${c < 0 ? "−" : "+"} ${fmt(Math.abs(c))}\\)<br><br>`;
+      if (st.fn === "tan") {
+        read += `<b>Amplitude:</b> none — tan is unbounded<br>
+          <b>Period</b> = ${deg ? "180°" : "π"} ÷ b = <b>${fmt(Math.round(tanPeriod * 100) / 100)}${deg ? "°" : " rad"}</b><br>
+          <span class="hint">Asymptotes every period, where the inside reaches ${deg ? "90°" : "π/2"}. Label them — the syllabus requires it for tan graphs.</span>`;
+      } else {
+        read += `<b>Amplitude</b> = |a| = <b>${fmt(a)}</b> (the +c shift does NOT change it)<br>
+          <b>Period</b> = ${deg ? "360°" : "2π"} ÷ b = <b>${fmt(Math.round(period * 100) / 100)}${deg ? "°" : " rad"}</b><br>
+          <b>Range:</b> ${fmt(c - a)} to ${fmt(c + a)}<br>`;
+      }
+      read += `<br>Line \\(y = ${fmt(st.line)}\\) crosses <b>${count}</b> time${count === 1 ? "" : "s"} in the window shown.
+        <div class="hint">That count is exactly how many solutions the equation has in that domain — always convert the domain for the INSIDE (bx) before solving.</div>`;
+      host.querySelector("[data-read]").innerHTML = read;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -663,7 +733,7 @@ window.A.widgets = (function () {
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
     "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
     "sector": sectorW, "perm-comb": permComb, "series": seriesW, "vector": vectorW,
-    "calculus": calcW };
+    "calculus": calcW, "trig": trigW };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {

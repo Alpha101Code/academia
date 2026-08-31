@@ -178,7 +178,14 @@ hosted app private (or strip verbatim questions) if it ever goes public.
     vs small increments, the standard integrals, areas between curves and line-minus-curve
     (exact log answers), and kinematics. 9-section lesson; interactive gradient/tangent/normal/
     area explorer; plot.js gained reciprocal curves.
-  - Next: 10 Trigonometry (diagram-heavy), then 1, 2, 3, 5, 7.
+  - **Chapter 10 (Trigonometry) done (2026-09-01):** 11 questions / 66 marks — amplitude,
+    period and graphs (incl. the 2880-degree period case), the three Pythagorean identities,
+    proving relationships (convert to sin/cos, combine fractions, work down one side only),
+    solving over a domain (factorise never divide; transform the domain for multiple angles),
+    and the trig-calculus crossover. 7-section lesson; a sin/cos/tan grapher widget with a
+    live solution counter; plot.js gained degree/radian trig curves.
+  - Next: 1 Functions, 2 Quadratic functions, 3 Factors of polynomials, 5 Simultaneous
+    equations, 7 Straight-line graphs (all shorter, more routine chapters).
 - **P3 (cont.):** mock-exam mode (assemble a fresh 80-mark paper from unseen questions),
   per-topic time analytics, and examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.

@@ -28,6 +28,18 @@ window.A.plot = (function () {
         const den = f.a * x + f.b;
         if (Math.abs(den) < 1e-9) return NaN;
         y = f.k / den + (f.c0 || 0);
+      } else if (f.type === "sinmult") {      // a·sin(bx) + c   (radians)
+        y = f.a * Math.sin(f.b * x) + (f.c || 0);
+      } else if (f.type === "cosmult") {      // a·cos(bx) + c   (radians)
+        y = f.a * Math.cos(f.b * x) + (f.c || 0);
+      } else if (f.type === "tanmult") {      // a·tan(bx) + c   (radians)
+        const t = f.b * x;
+        if (Math.abs(Math.cos(t)) < 0.04) return NaN;   // break at asymptotes
+        y = f.a * Math.tan(t) + (f.c || 0);
+      } else if (f.type === "sindeg") {       // a·sin(bx°) + c   (degrees)
+        y = f.a * Math.sin(f.b * x * Math.PI / 180) + (f.c || 0);
+      } else if (f.type === "cosdeg") {       // a·cos(bx°) + c   (degrees)
+        y = f.a * Math.cos(f.b * x * Math.PI / 180) + (f.c || 0);
       } else return NaN;
     } else {
       y = evalPoly(c.poly, x);

@@ -1,0 +1,420 @@
+{
+  "chapter": 10,
+  "title": "Trigonometry",
+  "syllabusOutcomes": {
+    "10.1": "Know and use the six trigonometric functions of angles of any magnitude (sine, cosine, tangent, secant, cosecant, cotangent)",
+    "10.2": "Understand and use the amplitude and period of a trigonometric function, including relationships between related graphs",
+    "10.3": "Draw and use the graphs of y = a sin bx + c, y = a cos bx + c, y = a tan bx + c (a positive integer, b a simple fraction or integer, c an integer). For y = a tan bx + c, asymptotes must be clearly labelled",
+    "10.4": "Use sin²A + cos²A = 1, sec²A = 1 + tan²A, cosec²A = 1 + cot²A. These identities ARE given in the List of formulas",
+    "10.5": "Solve, for a given domain, trigonometric equations involving the six functions",
+    "10.6": "Prove trigonometric relationships involving the six functions"
+  },
+  "groups": [
+    {"key": "graphs", "label": "Amplitude, period & graphs", "outcomes": ["10.2", "10.3"]},
+    {"key": "identities", "label": "Proving identities", "outcomes": ["10.4", "10.6"]},
+    {"key": "equations", "label": "Solving equations in a domain", "outcomes": ["10.5"]},
+    {"key": "calculus", "label": "Trigonometry with calculus", "outcomes": ["10.4", "10.5"]}
+  ],
+  "questions": [
+    {
+      "id": "s26-p21-q2",
+      "group": "graphs",
+      "source": {"session": "May/June 2026", "paper": "4037/21", "question": "2"},
+      "calc": true,
+      "outcomes": ["10.2", "10.3", "10.5"],
+      "topics": ["amplitude", "period with a fractional b", "solve over a wide domain", "sketch"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Write down the amplitude of \\(4\\cos\\left(\\frac{x}{8}\\right)+2\\).", "marks": 1},
+        {"label": "(b)", "text": "Write down the period, in degrees, of \\(4\\cos\\left(\\frac{x}{8}\\right)+2\\).", "marks": 1},
+        {"label": "(c)", "text": "Solve the equation \\(4\\cos\\left(\\frac{x}{8}\\right)+2 = 0\\) for \\(-1080° \\leqslant x \\leqslant 1080°\\).", "marks": 3},
+        {"label": "(d)", "text": "On the axes sketch the graph of \\(y = 4\\cos\\left(\\frac{x}{8}\\right)+2\\) for \\(-1080° \\leqslant x \\leqslant 1080°\\).", "marks": 2}
+      ],
+      "statement": "<p><b>(a)</b> Write down the amplitude of \\(\\;4\\cos\\left(\\dfrac{x}{8}\\right)+2\\).&emsp;<b>[1]</b></p><p><b>(b)</b> Write down the period, in degrees, of \\(\\;4\\cos\\left(\\dfrac{x}{8}\\right)+2\\).&emsp;<b>[1]</b></p><p><b>(c)</b> Solve the equation \\(\\;4\\cos\\left(\\dfrac{x}{8}\\right)+2 = 0\\;\\) for \\(-1080° \\leqslant x \\leqslant 1080°\\).&emsp;<b>[3]</b></p><p><b>(d)</b> On the axes sketch the graph of \\(\\;y = 4\\cos\\left(\\dfrac{x}{8}\\right)+2\\;\\) for \\(-1080° \\leqslant x \\leqslant 1080°\\).&emsp;<b>[2]</b></p>",
+      "figure": {"x": [-1080, 1080], "y": [-3, 7], "xTicks": 360, "yTicks": 2, "grid": true, "curves": [{"fn": {"type": "cosdeg", "a": 4, "b": 0.125, "c": 2}}], "points": [[0, 6, "(0, 6)"], [-960, 0, ""], [960, 0, ""]]},
+      "tips": [
+        "<b>Amplitude</b> = |a|, the coefficient in front — the \\(+2\\) shifts the curve but does not change how far it swings. So amplitude 4 (NOT 6).",
+        "<b>Period</b> = \\(\\dfrac{360°}{b}\\). Here \\(b = \\tfrac18\\), so period \\(= 360 \\div \\tfrac18 = 2880°\\). A small \\(b\\) means a STRETCHED graph.",
+        "(c) Isolate first: \\(\\cos\\tfrac{x}{8} = -\\tfrac12\\), so \\(\\tfrac{x}{8} = 120°\\) (and \\(-120°\\) by symmetry). Multiply back up by 8.",
+        "<b>Check the domain reach:</b> \\(x = \\pm960\\) both lie inside \\(\\pm1080\\); the next solutions (\\(\\tfrac{x}{8} = 240°\\) → \\(x = 1920\\)) are outside, so there are exactly two.",
+        "(d) Sketch: max \\(4+2 = 6\\) at \\(x=0\\), min \\(-4+2 = -2\\), one full wave over 2880° — so within ±1080 you see only the central hump crossing zero at ±960."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Amplitude \\(= 4\\).</p>",
+        "<p><b>(b)</b> Period \\(= \\dfrac{360°}{1/8} = 2880°\\).</p>",
+        "<p><b>(c)</b> \\(4\\cos\\dfrac{x}{8} = -2 \\Rightarrow \\cos\\dfrac{x}{8} = -\\dfrac12 \\Rightarrow \\dfrac{x}{8} = \\pm120°\\).</p>",
+        "<p>\\(x = \\pm960°\\). (The next values, \\(\\tfrac{x}{8} = \\pm240°\\), give \\(x = \\pm1920°\\) — outside the domain.)</p>",
+        "<p><b>(d)</b> A single cosine hump: maximum \\((0, 6)\\), falling to cross the \\(x\\)-axis at \\(\\pm960°\\), reaching \\(y \\approx -1.5\\) at the domain ends.</p>"
+      ],
+      "answer": "(a) 4; (b) 2880°; (c) \\(x = \\pm960°\\)",
+      "markScheme": [
+        "(a) B1 — 4",
+        "(b) B1 — 2880",
+        "(c) M1 — \\(\\frac{x}{8} = 120\\) (allow \\(\\frac x8 = -120\\)); A2 — \\(x = \\pm960\\) and no other solutions in \\(-1080\\leqslant x\\leqslant1080\\) (A1 for each, ignoring extras; one correct answer implies M1)",
+        "(d) B2 — correct cosine curve, maximum 6 on the y-axis, crossing the x-axis at their \\(\\pm960\\) (B1 for a correct shape with the right period)"
+      ]
+    },
+    {
+      "id": "w25-p13-q6",
+      "group": "identities",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/13", "question": "6"},
+      "calc": false,
+      "outcomes": ["10.1", "10.4", "10.6"],
+      "topics": ["exact value from a triangle", "combining algebraic fractions", "difference of two squares"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "The diagram shows an equilateral triangle ABC with side a. M is the midpoint of AC and angle AMB = 90°. Use the diagram to find sec 30°.", "marks": 3},
+        {"label": "(b)", "text": "Show that \\(\\dfrac{1}{\\sec x-1}+\\dfrac{1}{\\sec x+1}\\) can be written as \\(2\\operatorname{cosec}x\\cot x\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> The diagram shows an equilateral triangle \\(ABC\\) with side \\(a\\). \\(M\\) is the midpoint of \\(AC\\) and angle \\(AMB = 90°\\).</p><p>Use the diagram to find \\(\\sec30°\\).&emsp;<b>[3]</b></p><p><b>(b)</b> Show that \\(\\;\\dfrac{1}{\\sec x-1}+\\dfrac{1}{\\sec x+1}\\;\\) can be written as \\(\\;2\\operatorname{cosec}x\\cot x\\).&emsp;<b>[4]</b></p>",
+      "figure": {"bare": true, "x": [-0.6, 4.6], "y": [-0.6, 4.2], "curves": [{"seg": [0, 0, 4, 0], "cls": "ink"}, {"seg": [0, 0, 2, 3.464], "cls": "ink"}, {"seg": [4, 0, 2, 3.464], "cls": "ink"}, {"seg": [2, 0, 2, 3.464], "cls": "thin", "dashed": true}], "points": [[0, 0, "A"], [4, 0, "C"], [2, 3.464, "B"], [2, 0, "M"]], "labels": [[0.75, 2.0, "a"]]},
+      "tips": [
+        "(a) In triangle \\(ABM\\): \\(AB = a\\) (a side), \\(AM = \\tfrac{a}{2}\\) (M is the midpoint), and by Pythagoras \\(BM = \\sqrt{a^2 - \\tfrac{a^2}{4}} = \\dfrac{\\sqrt3\\,a}{2}\\).",
+        "(a) Angle \\(ABM = 30°\\) (half of the 60° apex). <b>\\(\\sec = \\dfrac{1}{\\cos} = \\dfrac{\\text{hypotenuse}}{\\text{adjacent}}\\)</b>, so \\(\\sec30° = \\dfrac{AB}{BM} = \\dfrac{a}{\\sqrt3a/2} = \\dfrac{2}{\\sqrt3}\\).",
+        "(a) Rationalise if you like: \\(\\dfrac{2}{\\sqrt3} = \\dfrac{2\\sqrt3}{3}\\). The \\(a\\)'s must cancel — a useful check.",
+        "(b) <b>Add the fractions first:</b> common denominator \\((\\sec x-1)(\\sec x+1) = \\sec^2x - 1\\) (difference of two squares), and the numerators give \\(2\\sec x\\).",
+        "(b) Now the identity: \\(\\sec^2x - 1 = \\tan^2 x\\). So you have \\(\\dfrac{2\\sec x}{\\tan^2x}\\); convert to sines and cosines and reassemble as \\(2\\cdot\\dfrac1{\\sin x}\\cdot\\dfrac{\\cos x}{\\sin x}\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(AB = a\\), \\(AM = \\tfrac{a}{2}\\), so \\(BM^2 = a^2 - \\dfrac{a^2}{4} = \\dfrac{3a^2}{4}\\), giving \\(BM = \\dfrac{\\sqrt3\\,a}{2}\\).</p>",
+        "<p>Angle \\(ABM = 30°\\), with adjacent \\(BM\\) and hypotenuse \\(AB\\):</p>",
+        "<p>\\(\\sec30° = \\dfrac{1}{\\cos30°} = \\dfrac{AB}{BM} = \\dfrac{a}{\\frac{\\sqrt3 a}{2}} = \\dfrac{2}{\\sqrt3} = \\dfrac{2\\sqrt3}{3}\\).</p>",
+        "<p><b>(b)</b> \\(\\dfrac{1}{\\sec x-1}+\\dfrac{1}{\\sec x+1} = \\dfrac{(\\sec x+1)+(\\sec x-1)}{(\\sec x-1)(\\sec x+1)} = \\dfrac{2\\sec x}{\\sec^2x-1}\\).</p>",
+        "<p>Using \\(\\sec^2x = 1+\\tan^2x\\): \\(= \\dfrac{2\\sec x}{\\tan^2 x}\\).</p>",
+        "<p>\\(= 2\\cdot\\dfrac{1}{\\cos x}\\cdot\\dfrac{\\cos^2x}{\\sin^2x} = \\dfrac{2\\cos x}{\\sin^2 x} = 2\\cdot\\dfrac{1}{\\sin x}\\cdot\\dfrac{\\cos x}{\\sin x} = 2\\operatorname{cosec}x\\cot x\\). ✓</p>"
+      ],
+      "answer": "(a) \\(\\dfrac{2}{\\sqrt3} = \\dfrac{2\\sqrt3}{3}\\); (b) shown",
+      "markScheme": [
+        "(a) 3 — \\(\\frac{2}{\\sqrt3}\\) or \\(\\frac{2\\sqrt3}{3}\\) (B2 for \\([BM=]\\frac{\\sqrt3a}{2}\\) or \\(\\sec^230 = 1+\\left(\\frac{1}{\\sqrt3}\\right)^2\\) or \\(\\cos^230 = 1-\\left(\\frac{a/2}{a}\\right)^2\\) oe; B1 for \\([BM^2=]a^2-\\frac{a^2}{4}\\) soi)",
+        "(b) M1 — combines the two fractions over a common denominator",
+        "(b) A1 — \\(\\frac{2\\sec x}{\\sec^2x-1}\\) oe;  M1 — uses \\(\\sec^2x-1 = \\tan^2x\\)",
+        "(b) A1 — completes to \\(2\\operatorname{cosec}x\\cot x\\) AG, e.g. via \\(2\\operatorname{cosec}x\\times\\frac{\\cos x}{\\sin x}\\)"
+      ]
+    },
+    {
+      "id": "s26-p12-q7",
+      "group": "identities",
+      "source": {"session": "May/June 2026", "paper": "4037/12", "question": "7"},
+      "calc": false,
+      "outcomes": ["10.4", "10.6"],
+      "topics": ["convert to sin and cos", "Pythagorean identity"],
+      "marks": 3,
+      "targetMinutes": 5,
+      "difficulty": 1,
+      "statement": "<p>Show that \\(\\;\\operatorname{cosec}x - \\sin x\\;\\) can be written as \\(\\;\\dfrac{\\cos x}{\\tan x}\\).&emsp;<b>[3]</b></p>",
+      "tips": [
+        "<b>Default strategy for any proof: convert everything to \\(\\sin\\) and \\(\\cos\\).</b> Here \\(\\operatorname{cosec}x = \\dfrac{1}{\\sin x}\\).",
+        "Combine over the common denominator \\(\\sin x\\): \\(\\dfrac{1}{\\sin x} - \\sin x = \\dfrac{1-\\sin^2x}{\\sin x}\\).",
+        "Now spot the identity: \\(1 - \\sin^2x = \\cos^2 x\\). That gives \\(\\dfrac{\\cos^2x}{\\sin x}\\).",
+        "Finally check the target: \\(\\dfrac{\\cos x}{\\tan x} = \\cos x \\div \\dfrac{\\sin x}{\\cos x} = \\dfrac{\\cos^2x}{\\sin x}\\) ✓ — the same thing. Work one side down to the other; never manipulate both sides at once."
+      ],
+      "solution": [
+        "<p>\\(\\operatorname{cosec}x - \\sin x = \\dfrac{1}{\\sin x} - \\sin x = \\dfrac{1 - \\sin^2 x}{\\sin x}\\).</p>",
+        "<p>Using \\(\\sin^2x + \\cos^2x = 1\\): \\(1-\\sin^2x = \\cos^2x\\), so this is \\(\\dfrac{\\cos^2x}{\\sin x}\\).</p>",
+        "<p>And \\(\\dfrac{\\cos x}{\\tan x} = \\dfrac{\\cos x}{\\frac{\\sin x}{\\cos x}} = \\dfrac{\\cos^2 x}{\\sin x}\\).</p>",
+        "<p>The two agree, so \\(\\operatorname{cosec}x-\\sin x = \\dfrac{\\cos x}{\\tan x}\\). ✓</p>"
+      ],
+      "answer": "Shown: both sides equal \\(\\dfrac{\\cos^2x}{\\sin x}\\)",
+      "markScheme": [
+        "B1 — \\(\\operatorname{cosec}x = \\frac{1}{\\sin x}\\) used and the terms combined over a common denominator",
+        "B1 — \\(\\frac{1-\\sin^2x}{\\sin x}\\) leading to \\(\\frac{\\cos^2x}{\\sin x}\\) (correct use of the Pythagorean identity)",
+        "B1 — completes the argument by showing \\(\\frac{\\cos x}{\\tan x} = \\frac{\\cos^2x}{\\sin x}\\) AG"
+      ]
+    },
+    {
+      "id": "s26-p11-q3",
+      "group": "identities",
+      "source": {"session": "May/June 2026", "paper": "4037/11", "question": "3"},
+      "calc": false,
+      "outcomes": ["10.4", "10.6"],
+      "topics": ["expanding squared brackets", "cot/cosec identity", "show it is constant"],
+      "marks": 4,
+      "targetMinutes": 6,
+      "difficulty": 2,
+      "statement": "<p>Show that \\(\\;(3+5\\cot\\theta)^2 + (3-5\\cot\\theta)^2 - 50\\operatorname{cosec}^2\\theta\\), where \\(0 < \\theta < \\dfrac{\\pi}{2}\\), can be simplified to a constant.&emsp;<b>[4]</b></p>",
+      "tips": [
+        "Expand both squares in full. The <b>cross terms cancel</b>: \\(+30\\cot\\theta\\) and \\(-30\\cot\\theta\\) — that is the point of the \\(\\pm\\) pairing.",
+        "You are left with \\(9 + 25\\cot^2\\theta + 9 + 25\\cot^2\\theta - 50\\operatorname{cosec}^2\\theta = 18 + 50\\cot^2\\theta - 50\\operatorname{cosec}^2\\theta\\).",
+        "<b>Factor the 50</b> and use the given identity \\(\\operatorname{cosec}^2\\theta = 1+\\cot^2\\theta\\), so \\(\\cot^2\\theta - \\operatorname{cosec}^2\\theta = -1\\).",
+        "That leaves \\(18 + 50(-1) = -32\\). A negative constant is fine — don't 'fix' it. Keep writing \\(\\theta\\) throughout: the scheme withholds the final mark for persistently dropping it."
+      ],
+      "solution": [
+        "<p>Expand: \\((3+5\\cot\\theta)^2 = 9 + 30\\cot\\theta + 25\\cot^2\\theta\\); \\((3-5\\cot\\theta)^2 = 9 - 30\\cot\\theta + 25\\cot^2\\theta\\).</p>",
+        "<p>Sum: \\(18 + 50\\cot^2\\theta\\) (the \\(\\cot\\theta\\) terms cancel).</p>",
+        "<p>So the expression is \\(18 + 50\\cot^2\\theta - 50\\operatorname{cosec}^2\\theta = 18 + 50\\left(\\cot^2\\theta - \\operatorname{cosec}^2\\theta\\right)\\).</p>",
+        "<p>Since \\(\\operatorname{cosec}^2\\theta = 1 + \\cot^2\\theta\\), we have \\(\\cot^2\\theta - \\operatorname{cosec}^2\\theta = -1\\).</p>",
+        "<p>Value \\(= 18 + 50(-1) = -32\\), a constant. ✓</p>"
+      ],
+      "answer": "\\(-32\\)",
+      "markScheme": [
+        "M1 — expansion of the two brackets, allow one slip in each; allow the form \\(\\left(9\\pm k\\cot\\theta\\pm25\\cot^2\\theta\\right)\\) with \\(k\\neq0\\); allow unsimplified",
+        "A1 — \\(18 + 50\\cot^2\\theta - 50\\operatorname{cosec}^2\\theta\\) soi nfww",
+        "2 — \\(-32\\) nfww (M1 dep for correct use of \\(\\cot^2\\theta - \\operatorname{cosec}^2\\theta = -1\\) oe; withhold the final A1 for persistent omission of θ)"
+      ]
+    },
+    {
+      "id": "s25-p12-q4",
+      "group": "identities",
+      "source": {"session": "May/June 2025", "paper": "4037/12", "question": "4"},
+      "calc": false,
+      "outcomes": ["10.4", "10.6"],
+      "alsoChapters": [14],
+      "topics": ["definite integral of sin", "compound fraction proof"],
+      "marks": 5,
+      "targetMinutes": 8,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Find \\(\\displaystyle\\int_0^{\\pi}\\sin\\theta\\,d\\theta\\).", "marks": 2},
+        {"label": "(b)", "text": "Given that \\(0<\\alpha<\\frac{\\pi}{2}\\), show that \\(\\dfrac{\\sec\\alpha}{\\cot\\alpha+\\tan\\alpha}\\) can be written as \\(\\sin\\alpha\\).", "marks": 3}
+      ],
+      "statement": "<p><b>(a)</b> Find \\(\\;\\displaystyle\\int_{0}^{\\pi}\\sin\\theta\\;\\mathrm{d}\\theta\\).&emsp;<b>[2]</b></p><p><b>(b)</b> Given that \\(0 < \\alpha < \\dfrac{\\pi}{2}\\), show that \\(\\;\\dfrac{\\sec\\alpha}{\\cot\\alpha+\\tan\\alpha}\\;\\) can be written as \\(\\;\\sin\\alpha\\).&emsp;<b>[3]</b></p>",
+      "tips": [
+        "(a) \\(\\displaystyle\\int\\sin\\theta\\,d\\theta = -\\cos\\theta\\) — the minus sign is the classic slip. Then \\([-\\cos\\theta]_0^\\pi = -(-1) - (-1) = 2\\).",
+        "(b) Convert everything to \\(\\sin\\) and \\(\\cos\\): numerator \\(\\dfrac{1}{\\cos\\alpha}\\), denominator \\(\\dfrac{\\cos\\alpha}{\\sin\\alpha}+\\dfrac{\\sin\\alpha}{\\cos\\alpha}\\).",
+        "<b>Simplify the denominator to a single fraction first:</b> \\(\\dfrac{\\cos^2\\alpha+\\sin^2\\alpha}{\\sin\\alpha\\cos\\alpha} = \\dfrac{1}{\\sin\\alpha\\cos\\alpha}\\) — the Pythagorean identity collapses the numerator to 1.",
+        "Then dividing gives \\(\\dfrac{1}{\\cos\\alpha}\\times\\sin\\alpha\\cos\\alpha = \\sin\\alpha\\). Show enough detail — \"must show sufficient correct detail\" is in the scheme."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\displaystyle\\int_0^\\pi\\sin\\theta\\,d\\theta = \\big[-\\cos\\theta\\big]_0^{\\pi} = (-\\cos\\pi) - (-\\cos0) = 1 + 1 = 2\\).</p>",
+        "<p><b>(b)</b> \\(\\dfrac{\\sec\\alpha}{\\cot\\alpha+\\tan\\alpha} = \\dfrac{\\dfrac{1}{\\cos\\alpha}}{\\dfrac{\\cos\\alpha}{\\sin\\alpha}+\\dfrac{\\sin\\alpha}{\\cos\\alpha}}\\).</p>",
+        "<p>Denominator: \\(\\dfrac{\\cos^2\\alpha+\\sin^2\\alpha}{\\sin\\alpha\\cos\\alpha} = \\dfrac{1}{\\sin\\alpha\\cos\\alpha}\\).</p>",
+        "<p>So the expression \\(= \\dfrac{1}{\\cos\\alpha}\\times\\sin\\alpha\\cos\\alpha = \\sin\\alpha\\). ✓</p>"
+      ],
+      "answer": "(a) 2; (b) shown",
+      "markScheme": [
+        "(a) B1 — \\([-\\cos\\theta]_0^\\pi\\) (may be implied by \\((-\\cos\\pi)-(-\\cos0)\\));  B1 — 2",
+        "(b) B1 — writes the ratios in terms of sine and cosine",
+        "(b) B1 — simplifies the denominator to one term \\(\\frac{\\cos^2\\alpha+\\sin^2\\alpha}{\\sin\\alpha\\cos\\alpha}\\)",
+        "(b) B1 — completes to \\(\\sin\\alpha\\); must show sufficient correct detail (alternative via \\(\\frac{\\tan\\alpha}{\\sec\\alpha}\\) also accepted)"
+      ]
+    },
+    {
+      "id": "s24-p21-q10",
+      "group": "equations",
+      "source": {"session": "May/June 2024", "paper": "4037/21", "question": "10"},
+      "calc": true,
+      "outcomes": ["10.4", "10.5", "10.6"],
+      "topics": ["squaring a sum of trig terms", "difference-of-squares denominator", "hence solve with a multiple angle"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Show that \\((\\tan x+\\sec x)^2\\) can be written as \\(\\dfrac{1+\\sin x}{1-\\sin x}\\).", "marks": 4},
+        {"label": "(b)", "text": "Hence solve the equation \\((\\tan3\\theta+\\sec3\\theta)^2 = 6\\) for \\(0° \\leqslant \\theta \\leqslant 180°\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Show that \\(\\;(\\tan x+\\sec x)^2\\;\\) can be written as \\(\\;\\dfrac{1+\\sin x}{1-\\sin x}\\).&emsp;<b>[4]</b></p><p><b>(b)</b> <i>Hence</i> solve the equation \\(\\;(\\tan3\\theta+\\sec3\\theta)^2 = 6\\;\\) for \\(0° \\leqslant \\theta \\leqslant 180°\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) Convert to sin/cos first: \\(\\left(\\dfrac{\\sin x}{\\cos x}+\\dfrac{1}{\\cos x}\\right)^2 = \\dfrac{(1+\\sin x)^2}{\\cos^2x}\\) — everything lands over one denominator.",
+        "(a) Replace \\(\\cos^2x = 1-\\sin^2x = (1-\\sin x)(1+\\sin x)\\), then <b>cancel one factor of \\((1+\\sin x)\\)</b> top and bottom.",
+        "(b) \"Hence\" — use (a): \\(\\dfrac{1+\\sin3\\theta}{1-\\sin3\\theta} = 6\\). Cross-multiply: \\(1+\\sin3\\theta = 6-6\\sin3\\theta \\Rightarrow 7\\sin3\\theta = 5\\).",
+        "<b>Multiple-angle domains:</b> \\(0°\\leqslant\\theta\\leqslant180°\\) means \\(0°\\leqslant3\\theta\\leqslant540°\\) — work in \\(3\\theta\\) across that WIDER range, find all four values (45.6°, 134.4°, 405.6°, 494.4°), then divide each by 3."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\((\\tan x+\\sec x)^2 = \\left(\\dfrac{\\sin x+1}{\\cos x}\\right)^2 = \\dfrac{(1+\\sin x)^2}{\\cos^2 x}\\).</p>",
+        "<p>\\(\\cos^2x = 1-\\sin^2x = (1-\\sin x)(1+\\sin x)\\), so</p>",
+        "<p>\\(= \\dfrac{(1+\\sin x)(1+\\sin x)}{(1-\\sin x)(1+\\sin x)} = \\dfrac{1+\\sin x}{1-\\sin x}\\). ✓</p>",
+        "<p><b>(b)</b> \\(\\dfrac{1+\\sin3\\theta}{1-\\sin3\\theta} = 6 \\Rightarrow 1+\\sin3\\theta = 6 - 6\\sin3\\theta \\Rightarrow 7\\sin3\\theta = 5 \\Rightarrow \\sin3\\theta = \\dfrac57\\).</p>",
+        "<p>Domain for \\(3\\theta\\): \\(0°\\) to \\(540°\\). Solutions: \\(3\\theta = 45.58°,\\ 134.4°,\\ 405.5°,\\ 494.4°\\).</p>",
+        "<p>\\(\\theta = 15.2°,\\ 44.8°,\\ 135.2°,\\ 164.8°\\).</p>"
+      ],
+      "answer": "(b) \\(\\theta = 15.2°,\\ 44.8°,\\ 135.2°,\\ 164.8°\\)",
+      "markScheme": [
+        "(a) M1 — \\(\\tan^2x + 2\\tan x\\sec x + \\sec^2x\\) or \\(\\left(\\frac{\\sin x}{\\cos x}+\\frac{1}{\\cos x}\\right)^2\\)",
+        "(a) A1 — in terms of sin and cos over a common denominator, or factorises \\(\\frac{1}{\\cos^2x}(\\sin x+1)^2\\) oe",
+        "(a) A1 — \\(\\frac{(1+\\sin x)^2}{1-\\sin^2x}\\);  A1 — cancels correctly to \\(\\frac{1+\\sin x}{1-\\sin x}\\), must be fully justified",
+        "(b) B1 — \\(7\\sin3\\theta = 5\\);  M1 — one correct value for \\(3\\theta\\) soi, e.g. 45.58, 134.4, 405.5, 494.4",
+        "(b) A2 — 15.2, 44.8, 135.2, 164.8 with no extras in range (A1 for any 2 correct, ignoring extras)"
+      ]
+    },
+    {
+      "id": "w24-p23-q3",
+      "group": "equations",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/23", "question": "3"},
+      "calc": true,
+      "outcomes": ["10.4", "10.5", "10.6"],
+      "topics": ["difference of two squares", "sec/tan identity", "solve for tan"],
+      "marks": 6,
+      "targetMinutes": 9,
+      "difficulty": 2,
+      "parts": [
+        {"label": "(a)", "text": "Show that \\((2\\tan\\theta+\\sec\\theta)(2\\tan\\theta-\\sec\\theta) = 3\\tan^2\\theta - 1\\).", "marks": 2},
+        {"label": "(b)", "text": "Hence solve the equation \\((2\\tan\\theta+\\sec\\theta)(2\\tan\\theta-\\sec\\theta) = 1\\) for \\(0° \\leqslant \\theta \\leqslant 180°\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Show that \\(\\;(2\\tan\\theta+\\sec\\theta)(2\\tan\\theta-\\sec\\theta) = 3\\tan^2\\theta - 1\\).&emsp;<b>[2]</b></p><p><b>(b)</b> <i>Hence</i> solve the equation \\(\\;(2\\tan\\theta+\\sec\\theta)(2\\tan\\theta-\\sec\\theta) = 1\\;\\) for \\(0° \\leqslant \\theta \\leqslant 180°\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) Spot the <b>difference of two squares</b>: \\((A+B)(A-B) = A^2-B^2 = 4\\tan^2\\theta - \\sec^2\\theta\\). No need to expand term by term.",
+        "(a) Then use the given identity \\(\\sec^2\\theta = 1+\\tan^2\\theta\\): \\(4\\tan^2\\theta - (1+\\tan^2\\theta) = 3\\tan^2\\theta - 1\\). ✓",
+        "(b) \"Hence\": \\(3\\tan^2\\theta - 1 = 1 \\Rightarrow \\tan^2\\theta = \\tfrac23 \\Rightarrow \\tan\\theta = \\pm\\sqrt{\\tfrac23}\\).",
+        "<b>Keep BOTH signs.</b> The positive root gives \\(\\theta = 39.2°\\) (1st quadrant); the negative root gives \\(\\theta = 180° - 39.2° = 140.8°\\) (2nd quadrant). Squaring always hides a second family of solutions."
+      ],
+      "solution": [
+        "<p><b>(a)</b> Difference of two squares: \\((2\\tan\\theta)^2 - (\\sec\\theta)^2 = 4\\tan^2\\theta - \\sec^2\\theta\\).</p>",
+        "<p>Using \\(\\sec^2\\theta = 1+\\tan^2\\theta\\): \\(= 4\\tan^2\\theta - 1 - \\tan^2\\theta = 3\\tan^2\\theta - 1\\). ✓</p>",
+        "<p><b>(b)</b> \\(3\\tan^2\\theta - 1 = 1 \\Rightarrow \\tan^2\\theta = \\dfrac23 \\Rightarrow \\tan\\theta = \\pm\\sqrt{\\dfrac23} = \\pm0.8165\\).</p>",
+        "<p>\\(\\tan\\theta = 0.8165 \\Rightarrow \\theta = 39.2°\\).</p>",
+        "<p>\\(\\tan\\theta = -0.8165 \\Rightarrow \\theta = 180° - 39.2° = 140.8°\\).</p>"
+      ],
+      "answer": "(b) \\(\\theta = 39.2°\\) and \\(140.8°\\)",
+      "markScheme": [
+        "(a) M1 — \\(4\\tan^2\\theta - \\sec^2\\theta\\) soi (difference of two squares or full expansion)",
+        "(a) A1 — uses \\(\\sec^2\\theta = 1+\\tan^2\\theta\\) to reach \\(3\\tan^2\\theta - 1\\) AG",
+        "(b) M1 — \\(3\\tan^2\\theta = 2\\) oe;  A1 — \\(\\tan\\theta = \\pm\\sqrt{\\frac23}\\) oe (both signs)",
+        "(b) A1 — \\(\\theta = 39.2\\) (39.23 to 39.232);  A1 — \\(\\theta = 140.8\\) (140.76 to 140.77), no extras in range"
+      ]
+    },
+    {
+      "id": "s24-p22-q6",
+      "group": "equations",
+      "source": {"session": "May/June 2024", "paper": "4037/22", "question": "6"},
+      "calc": true,
+      "outcomes": ["10.4", "10.5", "10.6"],
+      "topics": ["simplifying a product of reciprocal functions", "factorising a trig equation", "radian domain including negatives"],
+      "marks": 8,
+      "targetMinutes": 12,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Show that \\(\\sin^3x\\left(\\dfrac{\\operatorname{cosec}x}{\\cot x}\\right)\\) can be written as \\(\\sin^2x\\tan x\\).", "marks": 3},
+        {"label": "(b)", "text": "Solve the equation \\(\\cos^2x\\tan x - \\dfrac12\\tan x = 0\\) for \\(-\\pi < x < \\pi\\).", "marks": 5}
+      ],
+      "statement": "<p><b>(a)</b> Show that \\(\\;\\sin^3x\\left(\\dfrac{\\operatorname{cosec}x}{\\cot x}\\right)\\;\\) can be written as \\(\\;\\sin^2x\\tan x\\).&emsp;<b>[3]</b></p><p><b>(b)</b> Solve the equation \\(\\;\\cos^2x\\tan x - \\dfrac12\\tan x = 0\\;\\) for \\(-\\pi < x < \\pi\\).&emsp;<b>[5]</b></p>",
+      "tips": [
+        "(a) \\(\\dfrac{\\operatorname{cosec}x}{\\cot x} = \\dfrac{1/\\sin x}{\\cos x/\\sin x} = \\dfrac{1}{\\cos x} = \\sec x\\). So the whole thing is \\(\\sin^3x\\sec x = \\dfrac{\\sin^3x}{\\cos x} = \\sin^2x\\tan x\\). ✓",
+        "(b) <b>FACTORISE — never divide by \\(\\tan x\\).</b> Dividing loses the \\(\\tan x = 0\\) solutions and the mark scheme explicitly gives M0 for it.",
+        "(b) \\(\\tan x\\left(\\cos^2x - \\tfrac12\\right) = 0\\) gives two families: \\(\\tan x = 0 \\Rightarrow x = 0\\) (within \\(-\\pi<x<\\pi\\), and \\(\\pm\\pi\\) are excluded by the strict inequality), and \\(\\cos x = \\pm\\tfrac{1}{\\sqrt2}\\).",
+        "(b) \\(\\cos x = \\pm\\tfrac{1}{\\sqrt2}\\) gives the four values \\(\\pm\\tfrac{\\pi}{4}, \\pm\\tfrac{3\\pi}{4}\\). <b>Radian domain includes negatives</b> — sketch the interval and collect all five answers."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(\\dfrac{\\operatorname{cosec}x}{\\cot x} = \\dfrac{\\frac{1}{\\sin x}}{\\frac{\\cos x}{\\sin x}} = \\dfrac{1}{\\sin x}\\times\\dfrac{\\sin x}{\\cos x} = \\dfrac{1}{\\cos x}\\).</p>",
+        "<p>So \\(\\sin^3x\\times\\dfrac{1}{\\cos x} = \\sin^2x\\times\\dfrac{\\sin x}{\\cos x} = \\sin^2x\\tan x\\). ✓</p>",
+        "<p><b>(b)</b> Factorise: \\(\\tan x\\left(\\cos^2x - \\dfrac12\\right) = 0\\).</p>",
+        "<p><b>Case 1:</b> \\(\\tan x = 0 \\Rightarrow x = 0\\) (the values \\(\\pm\\pi\\) are excluded by the strict inequality).</p>",
+        "<p><b>Case 2:</b> \\(\\cos^2 x = \\dfrac12 \\Rightarrow \\cos x = \\pm\\dfrac{1}{\\sqrt2}\\), giving \\(x = \\pm\\dfrac{\\pi}{4},\\ \\pm\\dfrac{3\\pi}{4}\\).</p>",
+        "<p>All solutions: \\(x = 0,\\ \\pm\\dfrac{\\pi}{4},\\ \\pm\\dfrac{3\\pi}{4}\\).</p>"
+      ],
+      "answer": "(b) \\(x = 0,\\ \\pm\\tfrac{\\pi}{4},\\ \\pm\\tfrac{3\\pi}{4}\\) (\\(\\pm0.785, \\pm2.36\\))",
+      "markScheme": [
+        "(a) 3 — correct simplification to \\(\\sin^2x\\tan x\\) via \\(\\frac{\\operatorname{cosec}x}{\\cot x} = \\sec x\\) oe AG",
+        "(b) M1 — factorises, e.g. \\(\\tan x\\left(\\cos^2x-\\frac12\\right)=0\\) oe (<b>division by \\(\\tan x\\) or \\(\\sin x\\) is M0</b>)",
+        "(b) A1 — \\([\\tan x = 0\\) or \\(\\sin x = 0]\\), \\(x = 0\\)",
+        "(b) M1 — \\(\\cos x = [\\pm]\\sqrt{\\frac12}\\) oe or \\(\\tan x = [\\pm]1\\) nfww",
+        "(b) A2 — \\(\\pm\\frac{\\pi}{4}\\) and \\(\\pm\\frac{3\\pi}{4}\\) (or ±0.785, ±2.36) with no extras in range, nfww (A1 for any two of the four)"
+      ]
+    },
+    {
+      "id": "w24-p12-q5",
+      "group": "calculus",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/12", "question": "5"},
+      "calc": false,
+      "outcomes": ["10.4", "10.6"],
+      "alsoChapters": [14],
+      "topics": ["identity simplifies an integrand", "integral of sec² and sin", "exact value"],
+      "marks": 6,
+      "targetMinutes": 9,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Show that \\(\\dfrac{1+\\cot^2\\theta}{\\cot^2\\theta} = \\sec^2\\theta\\).", "marks": 1},
+        {"label": "(b)", "text": "Write down the derivative of \\(\\tan\\theta\\) with respect to \\(\\theta\\).", "marks": 1},
+        {"label": "(c)", "text": "Using part (a) and part (b), find the exact value of \\(\\displaystyle\\int_0^{\\pi/3}\\left(\\dfrac{1+\\cot^2\\theta}{\\cot^2\\theta} - \\sin\\theta\\right)d\\theta\\).", "marks": 4}
+      ],
+      "statement": "<p><b>(a)</b> Show that \\(\\;\\dfrac{1+\\cot^2\\theta}{\\cot^2\\theta} = \\sec^2\\theta\\).&emsp;<b>[1]</b></p><p><b>(b)</b> Write down the derivative of \\(\\tan\\theta\\) with respect to \\(\\theta\\).&emsp;<b>[1]</b></p><p><b>(c)</b> Using <b>part (a)</b> and <b>part (b)</b>, find the exact value of \\(\\;\\displaystyle\\int_{0}^{\\frac{\\pi}{3}}\\left(\\dfrac{1+\\cot^2\\theta}{\\cot^2\\theta} - \\sin\\theta\\right)\\mathrm{d}\\theta\\).&emsp;<b>[4]</b></p>",
+      "tips": [
+        "(a) The numerator IS an identity: \\(1+\\cot^2\\theta = \\operatorname{cosec}^2\\theta\\). So the fraction is \\(\\dfrac{\\operatorname{cosec}^2\\theta}{\\cot^2\\theta} = \\dfrac{1/\\sin^2\\theta}{\\cos^2\\theta/\\sin^2\\theta} = \\dfrac{1}{\\cos^2\\theta} = \\sec^2\\theta\\). ✓",
+        "<b>The whole point of parts (a) and (b)</b> is to turn an unintegrable-looking fraction into \\(\\sec^2\\theta\\), whose integral you know from (b): since \\(\\frac{d}{d\\theta}\\tan\\theta = \\sec^2\\theta\\), \\(\\int\\sec^2\\theta\\,d\\theta = \\tan\\theta\\).",
+        "(c) So the integral becomes \\(\\displaystyle\\int_0^{\\pi/3}(\\sec^2\\theta - \\sin\\theta)d\\theta = \\big[\\tan\\theta + \\cos\\theta\\big]_0^{\\pi/3}\\) (remember \\(\\int-\\sin = +\\cos\\)).",
+        "(c) \"Exact\": \\(\\tan\\tfrac\\pi3 = \\sqrt3\\), \\(\\cos\\tfrac\\pi3 = \\tfrac12\\), and at 0 you get \\(0+1\\). So \\(\\left(\\sqrt3+\\tfrac12\\right) - 1 = \\sqrt3 - \\tfrac12\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(1+\\cot^2\\theta = \\operatorname{cosec}^2\\theta\\), so \\(\\dfrac{1+\\cot^2\\theta}{\\cot^2\\theta} = \\dfrac{\\operatorname{cosec}^2\\theta}{\\cot^2\\theta} = \\dfrac{1/\\sin^2\\theta}{\\cos^2\\theta/\\sin^2\\theta} = \\dfrac{1}{\\cos^2\\theta} = \\sec^2\\theta\\). ✓</p>",
+        "<p><b>(b)</b> \\(\\dfrac{d}{d\\theta}(\\tan\\theta) = \\sec^2\\theta\\).</p>",
+        "<p><b>(c)</b> Using (a), the integral is \\(\\displaystyle\\int_0^{\\pi/3}\\left(\\sec^2\\theta - \\sin\\theta\\right)d\\theta = \\big[\\tan\\theta + \\cos\\theta\\big]_0^{\\pi/3}\\) (by (b), \\(\\int\\sec^2 = \\tan\\)).</p>",
+        "<p>At \\(\\dfrac{\\pi}{3}\\): \\(\\sqrt3 + \\dfrac12\\). &ensp;At \\(0\\): \\(0 + 1 = 1\\).</p>",
+        "<p>Value \\(= \\sqrt3 + \\dfrac12 - 1 = \\sqrt3 - \\dfrac12\\).</p>"
+      ],
+      "answer": "(a) shown; (b) \\(\\sec^2\\theta\\); (c) \\(\\sqrt3 - \\tfrac12\\)",
+      "markScheme": [
+        "(a) B1 — uses \\(1+\\cot^2\\theta = \\operatorname{cosec}^2\\theta\\) and simplifies to \\(\\sec^2\\theta\\) AG",
+        "(b) B1 — \\(\\sec^2\\theta\\)",
+        "(c) M1 — \\(\\int\\sec^2\\theta\\,d\\theta = \\tan\\theta\\) soi (FT their (b));  A1 — \\([\\tan\\theta + \\cos\\theta]\\) correct",
+        "(c) M1 — substitutes the exact limits into their integral;  A1 — \\(\\sqrt3 - \\frac12\\) exact"
+      ]
+    },
+    {
+      "id": "w24-p23-q8",
+      "group": "calculus",
+      "source": {"session": "Oct/Nov 2024", "paper": "4037/23", "question": "8"},
+      "calc": true,
+      "outcomes": ["10.5"],
+      "alsoChapters": [14],
+      "topics": ["solve sin(bx) = k in radians", "area between a curve and a horizontal line", "integrate sin(4x)"],
+      "marks": 7,
+      "targetMinutes": 11,
+      "difficulty": 3,
+      "parts": [
+        {"label": "(a)", "text": "Solve the equation \\(\\sin4x = \\frac12\\) for \\(0 \\leqslant x \\leqslant \\frac{\\pi}{4}\\), giving your answers in terms of π.", "marks": 2},
+        {"label": "(b)", "text": "The diagram shows parts of the graphs of \\(y = \\sin4x\\) and \\(y = \\frac12\\). Find the exact area of the shaded region enclosed by the curve and the line.", "marks": 5}
+      ],
+      "statement": "<p><b>(a)</b> Solve the equation \\(\\;\\sin4x = \\dfrac12\\;\\) for \\(0 \\leqslant x \\leqslant \\dfrac{\\pi}{4}\\), giving your answers in terms of \\(\\pi\\).&emsp;<b>[2]</b></p><p><b>(b)</b> The diagram shows parts of the graphs of \\(\\;y = \\sin4x\\;\\) and \\(\\;y = \\dfrac12\\).</p><p>Find the <b>exact</b> area of the shaded region enclosed by the curve and the line.&emsp;<b>[5]</b></p>",
+      "figure": {"x": [-0.05, 0.85], "y": [-0.15, 1.25], "xTicks": 0.2, "yTicks": 0.5, "curves": [{"fn": {"type": "sinmult", "a": 1, "b": 4}}], "hlines": [0.5], "regions": [{"path": [["M", 0.1309, 0.5], ["L", 0.6545, 0.5]]}], "points": [[0.1309, 0.5, "π/24"], [0.6545, 0.5, "5π/24"]]},
+      "tips": [
+        "(a) <b>Transform the domain:</b> \\(0\\leqslant x\\leqslant\\tfrac{\\pi}{4}\\) means \\(0\\leqslant 4x\\leqslant\\pi\\). Solve \\(\\sin(4x)=\\tfrac12\\) over THAT range: \\(4x = \\tfrac{\\pi}{6}\\) and \\(\\pi - \\tfrac{\\pi}{6} = \\tfrac{5\\pi}{6}\\).",
+        "(a) Then divide by 4: \\(x = \\tfrac{\\pi}{24}, \\tfrac{5\\pi}{24}\\). These are your integration limits in (b) — part (a) exists to give them to you.",
+        "(b) The curve is ABOVE the line in the shaded region, so area \\(= \\displaystyle\\int_{\\pi/24}^{5\\pi/24}\\left(\\sin4x - \\tfrac12\\right)dx\\).",
+        "(b) \\(\\displaystyle\\int\\sin4x\\,dx = -\\tfrac14\\cos4x\\) — divide by the 4, and keep the minus sign. Then substitute the exact limits; \\(\\cos\\tfrac{5\\pi}{6} = -\\tfrac{\\sqrt3}{2}\\) and \\(\\cos\\tfrac{\\pi}{6} = \\tfrac{\\sqrt3}{2}\\)."
+      ],
+      "solution": [
+        "<p><b>(a)</b> \\(0\\leqslant x\\leqslant\\dfrac{\\pi}{4} \\Rightarrow 0\\leqslant4x\\leqslant\\pi\\). \\(\\sin4x = \\tfrac12 \\Rightarrow 4x = \\dfrac{\\pi}{6},\\ \\dfrac{5\\pi}{6}\\).</p>",
+        "<p>\\(x = \\dfrac{\\pi}{24},\\ \\dfrac{5\\pi}{24}\\).</p>",
+        "<p><b>(b)</b> Area \\(= \\displaystyle\\int_{\\pi/24}^{5\\pi/24}\\left(\\sin4x - \\dfrac12\\right)dx = \\left[-\\dfrac{\\cos4x}{4} - \\dfrac{x}{2}\\right]_{\\pi/24}^{5\\pi/24}\\).</p>",
+        "<p>\\(= \\left(-\\dfrac14\\cos\\dfrac{5\\pi}{6} - \\dfrac{5\\pi}{48}\\right) - \\left(-\\dfrac14\\cos\\dfrac{\\pi}{6} - \\dfrac{\\pi}{48}\\right)\\)</p>",
+        "<p>\\(= \\left(\\dfrac{\\sqrt3}{8} - \\dfrac{5\\pi}{48}\\right) - \\left(-\\dfrac{\\sqrt3}{8} - \\dfrac{\\pi}{48}\\right) = \\dfrac{\\sqrt3}{4} - \\dfrac{4\\pi}{48} = \\dfrac{\\sqrt3}{4} - \\dfrac{\\pi}{12}\\).</p>"
+      ],
+      "answer": "(a) \\(x = \\tfrac{\\pi}{24},\\ \\tfrac{5\\pi}{24}\\); (b) \\(\\dfrac{\\sqrt3}{4} - \\dfrac{\\pi}{12}\\)",
+      "markScheme": [
+        "(a) 2 — \\(x = \\frac{\\pi}{24}, \\frac{5\\pi}{24}\\) and no extras in range (B1 for either, or for \\(4x = \\frac{\\pi}{6}\\) AND \\(\\frac{5\\pi}{6}\\) soi)",
+        "(b) M1 — correct and complete plan soi, e.g. \\(\\int_{\\pi/24}^{5\\pi/24}\\left(\\sin4x-\\frac12\\right)dx\\) (FT their limits in radians from (a))",
+        "(b) B2 — integrates \\(\\sin4x\\) to \\(-\\frac14\\cos4x\\) (B1 for \\(k\\cos4x\\) where \\(k<0\\) or \\(k=\\frac14\\))",
+        "(b) M1 — substitutes exact limits in the correct order (FT their limits and their \\(-\\frac14\\cos4x\\), providing at least B1 awarded)",
+        "(b) A1 — \\(\\frac{\\sqrt3}{4} - \\frac{\\pi}{12}\\) or exact equivalent"
+      ]
+    },
+    {
+      "id": "w25-p12-q10",
+      "group": "calculus",
+      "source": {"session": "Oct/Nov 2025", "paper": "4037/12", "question": "10"},
+      "calc": false,
+      "outcomes": ["10.4"],
+      "alsoChapters": [14],
+      "topics": ["expand and cancel cross terms", "integrand collapses to a constant"],
+      "marks": 5,
+      "targetMinutes": 8,
+      "difficulty": 2,
+      "statement": "<p>Show that \\(\\;\\displaystyle\\int_{\\frac{\\pi}{2}}^{\\frac{3\\pi}{2}}\\Big(\\left(\\sin\\theta+\\cos\\theta\\right)^2 + \\left(\\sin\\theta-\\cos\\theta\\right)^2\\Big)\\,\\mathrm{d}\\theta = k\\pi\\), where \\(k\\) is an integer to be found.&emsp;<b>[5]</b></p>",
+      "tips": [
+        "<b>Simplify BEFORE integrating</b> — never try to integrate \\((\\sin\\theta+\\cos\\theta)^2\\) directly.",
+        "Expand both: \\((\\sin^2\\theta + 2\\sin\\theta\\cos\\theta + \\cos^2\\theta) + (\\sin^2\\theta - 2\\sin\\theta\\cos\\theta + \\cos^2\\theta)\\). The \\(2\\sin\\theta\\cos\\theta\\) terms cancel (that is why the question pairs \\(+\\) and \\(-\\)).",
+        "Each bracket's \\(\\sin^2+\\cos^2\\) becomes 1, so the whole integrand is just \\(1+1 = 2\\) — a constant.",
+        "\\(\\displaystyle\\int_{\\pi/2}^{3\\pi/2}2\\,d\\theta = 2\\left[\\theta\\right]_{\\pi/2}^{3\\pi/2} = 2\\left(\\dfrac{3\\pi}{2}-\\dfrac{\\pi}{2}\\right) = 2\\pi\\), so \\(k = 2\\)."
+      ],
+      "solution": [
+        "<p>Expand both squares:</p>",
+        "<p>\\((\\sin\\theta+\\cos\\theta)^2 = \\sin^2\\theta + 2\\sin\\theta\\cos\\theta + \\cos^2\\theta\\)</p>",
+        "<p>\\((\\sin\\theta-\\cos\\theta)^2 = \\sin^2\\theta - 2\\sin\\theta\\cos\\theta + \\cos^2\\theta\\)</p>",
+        "<p>Adding, the \\(2\\sin\\theta\\cos\\theta\\) terms cancel: sum \\(= 2\\left(\\sin^2\\theta+\\cos^2\\theta\\right) = 2\\).</p>",
+        "<p>\\(\\displaystyle\\int_{\\pi/2}^{3\\pi/2}2\\,d\\theta = \\big[2\\theta\\big]_{\\pi/2}^{3\\pi/2} = 3\\pi - \\pi = 2\\pi\\).</p>",
+        "<p>So \\(k = 2\\). ✓</p>"
+      ],
+      "answer": "\\(k = 2\\)",
+      "markScheme": [
+        "M1 — expands both brackets (allow one slip)",
+        "A1 — eliminates the terms in \\(2\\sin\\theta\\cos\\theta\\) and uses the correct identity",
+        "A1 — integrand simplifies to 2",
+        "M1 — integrates their constant and substitutes the limits \\(\\frac{3\\pi}{2}\\) and \\(\\frac{\\pi}{2}\\)",
+        "A1 — \\(= 2\\pi\\), so \\(k = 2\\)"
+      ]
+    }
+  ]
+}
