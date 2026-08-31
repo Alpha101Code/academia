@@ -171,10 +171,16 @@ hosted app private (or strip verbatim questions) if it ever goes public.
 - **P2 COMPLETE (2026-08-31): all seven priority (red-dot) chapters are live — 4, 6, 8, 9, 11,
   12, 13 = 86 questions / 541 marks**, every one verified against its official mark scheme,
   with 11 interactive widgets. Smoke test: 63 checks.
-- **P3 — next:** the remaining 7 chapters (1 Functions, 2 Quadratic functions, 3 Factors of
-  polynomials, 5 Simultaneous equations, 7 Straight-line graphs, 10 Trigonometry, 14 Calculus —
-  note 14 is large and 10 is diagram-heavy), then mock-exam mode (assemble a fresh 80-mark paper
-  from unseen questions), per-topic time analytics, and examiner-report-driven tips.
+- **P3 — in progress:** the remaining 7 chapters.
+  - **Chapter 14 (Calculus) done (2026-08-31):** 16 questions / 95 marks — the biggest chapter
+    (15 outcomes, and NO formulas given in the exam). Chain/product/quotient rules incl. layered
+    cases, tangents & normals, stationary points and the "for all x" identity, connected rates
+    vs small increments, the standard integrals, areas between curves and line-minus-curve
+    (exact log answers), and kinematics. 9-section lesson; interactive gradient/tangent/normal/
+    area explorer; plot.js gained reciprocal curves.
+  - Next: 10 Trigonometry (diagram-heavy), then 1, 2, 3, 5, 7.
+- **P3 (cont.):** mock-exam mode (assemble a fresh 80-mark paper from unseen questions),
+  per-topic time analytics, and examiner-report-driven tips.
 - **P4:** next subjects (math-4024, physics-5054) using the same skeleton.
 
 ## 7. Workflows (recurring)

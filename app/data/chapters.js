@@ -34,5 +34,8 @@ window.A.registerChapters([
     n: 13, title: "Vectors in two dimensions",
     blurb: "Components, magnitude and unit vectors; velocity from speed and direction; position vectors at time t; proving and disproving collisions; bearings; and vector geometry with unknown scalars. Outcomes 13.1–13.4."
   },
-  { n: 14, title: "Calculus" }
+  {
+    n: 14, title: "Calculus",
+    blurb: "The biggest chapter: chain/product/quotient rules, tangents and normals, stationary points, rates of change and small increments, the standard integrals, areas between curves, and kinematics. No formulas are given for calculus in the exam. Outcomes 14.1–14.15."
+  }
 ]);

@@ -24,6 +24,10 @@ window.A.plot = (function () {
         y = f.k * Math.log(inside) + (f.c0 || 0);
       } else if (f.type === "exp") {     // k·e^(nx) + a
         y = f.k * Math.exp(f.n * x) + (f.a || 0);
+      } else if (f.type === "recip") {   // k/(ax+b) + (c0 || 0)
+        const den = f.a * x + f.b;
+        if (Math.abs(den) < 1e-9) return NaN;
+        y = f.k / den + (f.c0 || 0);
       } else return NaN;
     } else {
       y = evalPoly(c.poly, x);

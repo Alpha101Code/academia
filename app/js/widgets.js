@@ -571,6 +571,79 @@ window.A.widgets = (function () {
     draw();
   }
 
+  /* =============== widget: gradient, tangent and stationary points =============== */
+  function calcW(host) {
+    const st = { a: 1, b: -3, c: 0, d: 4, x0: 3, show: "tangent" };
+    host.innerHTML = `
+      <div class="w-title">Explore: the derivative as a gradient</div>
+      <div class="w-sub">Slide the point along a cubic. The tangent's slope IS the value of \\(\\frac{dy}{dx}\\) there — and it flattens to zero exactly at the stationary points.</div>
+      <div class="w-controls">
+        ${slider("a", -2, 2, 0.5, st.a, "cubic a =")}
+        ${slider("b", -6, 6, 0.5, st.b, "b =")}
+        ${slider("c", -8, 8, 0.5, st.c, "c =")}
+        ${slider("x0", -5, 5, 0.1, st.x0, "point at x =")}
+        <label>show
+          <select data-k="show">
+            <option value="tangent">tangent</option><option value="normal">normal</option>
+            <option value="area">area under curve</option>
+          </select></label>
+      </div>
+      <div class="w-flex"><div class="plotbox" data-plot></div>
+        <div class="sidebox"><div class="w-readout" data-read></div></div></div>`;
+    wireSliders(host, st, draw);
+    function draw() {
+      if (st.a === 0) st.a = 0.5;
+      const { a, b, c, d, x0 } = st;
+      const f = x => a * x * x * x + b * x * x + c * x + d;
+      const fp = x => 3 * a * x * x + 2 * b * x + c;            // derivative
+      const y0 = f(x0), m = fp(x0);
+      const curves = [{ poly: [a, b, c, d] }];
+      const pts = [[x0, y0, "(" + fmt(Math.round(x0 * 10) / 10) + ", " + fmt(Math.round(y0 * 10) / 10) + ")"]];
+      let read = `\\(y = ${fmt(a)}x^3 ${b < 0 ? "−" : "+"} ${fmt(Math.abs(b))}x^2 ${c < 0 ? "−" : "+"} ${fmt(Math.abs(c))}x + ${fmt(d)}\\)<br>
+        \\(\\frac{dy}{dx} = ${fmt(3 * a)}x^2 ${2 * b < 0 ? "−" : "+"} ${fmt(Math.abs(2 * b))}x ${c < 0 ? "−" : "+"} ${fmt(Math.abs(c))}\\)<br><br>
+        At \\(x = ${fmt(Math.round(x0 * 10) / 10)}\\): gradient <b>${fmt(Math.round(m * 100) / 100)}</b><br>`;
+      let regions;
+      if (st.show === "area") {
+        const lo = Math.min(0, x0), hi = Math.max(0, x0);
+        const path = [["M", lo, 0]];
+        const N = 60;
+        for (let k = 0; k <= N; k++) { const x = lo + (hi - lo) * k / N; path.push(["L", x, f(x)]); }
+        path.push(["L", hi, 0]);
+        regions = [{ path }];
+        // exact integral of the cubic from 0 to x0
+        const F = x => a * x ** 4 / 4 + b * x ** 3 / 3 + c * x * x / 2 + d * x;
+        read += `<br><b>Area (signed) from 0 to ${fmt(Math.round(x0 * 10) / 10)}:</b><br>
+          \\(\\int_0^{${fmt(Math.round(x0 * 10) / 10)}} y\\,dx = ${fmt(Math.round((F(x0) - F(0)) * 100) / 100)}\\)
+          <div class="hint">Integration undoes differentiation: the shaded signed area is \\(F(x_0)-F(0)\\). Parts below the axis count as negative.</div>`;
+      } else {
+        const grad = st.show === "tangent" ? m : (Math.abs(m) < 1e-9 ? 1e6 : -1 / m);
+        curves.push({ poly: [grad, y0 - grad * x0], cls: "c1" });
+        read += st.show === "tangent"
+          ? `<b>Tangent:</b> \\(y ${y0 < 0 ? "+" : "−"} ${fmt(Math.abs(Math.round(y0 * 100) / 100))} = ${fmt(Math.round(m * 100) / 100)}(x ${x0 < 0 ? "+" : "−"} ${fmt(Math.abs(Math.round(x0 * 10) / 10))})\\)`
+          : `<b>Normal</b> gradient \\(= -1 \\div ${fmt(Math.round(m * 100) / 100)} = ${fmt(Math.round(grad * 100) / 100)}\\)
+             <div class="hint">The normal is perpendicular to the tangent: multiply the gradients and you get −1.</div>`;
+      }
+      /* stationary points */
+      const disc = 4 * b * b - 12 * a * c;
+      if (disc >= 0 && st.show !== "area") {
+        const r1 = (-2 * b + Math.sqrt(disc)) / (6 * a), r2 = (-2 * b - Math.sqrt(disc)) / (6 * a);
+        for (const r of [r1, r2]) pts.push([r, f(r), ""]);
+        const sp = [r1, r2].sort((p, q) => p - q).map(r => {
+          const second = 6 * a * r + 2 * b;
+          return `\\(x=${fmt(Math.round(r * 100) / 100)}\\) (${second > 0 ? "min" : "max"})`;
+        }).join(", ");
+        read += `<br><br><b>Stationary points</b> where \\(\\frac{dy}{dx}=0\\): ${sp}
+          <div class="hint">Second derivative test: \\(\\frac{d^2y}{dx^2} > 0\\) → minimum, \\(< 0\\) → maximum.</div>`;
+      }
+      host.querySelector("[data-plot]").innerHTML = A.plot({
+        x: [-6, 6], y: [-20, 20], xTicks: 2, yTicks: 5, curves, regions, points: pts
+      }, { height: 320 });
+      host.querySelector("[data-read]").innerHTML = read;
+      A.typeset(host.querySelector("[data-read]"));
+    }
+    draw();
+  }
+
   /* ---------- plumbing ---------- */
   function wireSliders(host, st, draw) {
     host.querySelectorAll("input[type=range]").forEach(inp => {
@@ -589,7 +662,8 @@ window.A.widgets = (function () {
 
   const REG = { "mod-linear": modLinear, "mod-eq": modEq, "mod-quad": modQuad, "cubic": cubicW,
     "log-exp-graph": logExpGraph, "inverse-mirror": inverseMirror, "circle-line": circleLine,
-    "sector": sectorW, "perm-comb": permComb, "series": seriesW, "vector": vectorW };
+    "sector": sectorW, "perm-comb": permComb, "series": seriesW, "vector": vectorW,
+    "calculus": calcW };
 
   function mountAll(root) {
     root.querySelectorAll(".widget[data-widget]").forEach(host => {
